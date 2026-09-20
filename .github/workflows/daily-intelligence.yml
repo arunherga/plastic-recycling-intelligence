@@ -1,0 +1,73 @@
+name: Daily Intelligence
+
+# Runs once a day and commits the generated report back to this repository.
+#
+# Schedule note: GitHub Actions cron is always UTC. 02:30 UTC == 08:00 IST.
+# India does not observe daylight saving, so this stays put all year.
+on:
+  schedule:
+    - cron: "30 2 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Print the report without committing anything"
+        type: boolean
+        default: false
+
+# Least privilege: the job needs to push the report, and nothing else.
+permissions:
+  contents: write
+
+# Never let a manual run and the scheduled run fight over the same branch.
+concurrency:
+  group: daily-intelligence
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Collect, analyse and publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run the intelligence agent
+        # A source being down must not fail the workflow; src/main.py isolates
+        # per-source failures and still produces a report.
+        run: python -m src.main ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain reports data)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git status --short reports data
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new report or data changes."
+          fi
+
+      - name: Commit and push report
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          # Bot identity for automated commits only. Never a personal or
+          # corporate address.
+          git config user.name "plastic-recycling-intelligence-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports data
+          git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')"
+          git push
