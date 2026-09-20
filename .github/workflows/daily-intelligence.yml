@@ -16,7 +16,7 @@ on:
       backfill_days:
         description: "Historical survey instead of a daily run: days to look back (e.g. 730 for two years). Leave 0 for the normal run."
         type: string
-        default: "700"
+        default: "0"
 
 # Least privilege: the job needs to push the report, and nothing else.
 permissions:
