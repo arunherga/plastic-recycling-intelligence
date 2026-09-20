@@ -44,6 +44,43 @@ def configure_logging(verbose: bool = False) -> None:
     )
 
 
+def merge_previous_run(path: Path, articles: list[Article]) -> tuple[list[Article], int]:
+    """Fold in articles already reported for this date, newest run last.
+
+    The seen-article store deliberately hides anything reported before, so a
+    second run on the same day finds nothing new. Without this merge that empty
+    result would be written over the morning's report and delete it — which is
+    exactly what happened on 2026-09-20, when a re-run replaced fifteen
+    articles with none.
+
+    Returns the merged list and how many of them came from the earlier run.
+    """
+    if not path.exists():
+        return articles, 0
+    try:
+        previous = json.loads(path.read_text(encoding="utf-8")).get("articles", [])
+    except (json.JSONDecodeError, OSError, UnicodeDecodeError):
+        LOG.warning("could not read %s; writing a fresh report for the day", path)
+        return articles, 0
+
+    known = {a.article_id for a in articles}
+    known_titles = {a.normalized_title for a in articles if a.normalized_title}
+    carried: list[Article] = []
+    for raw in previous:
+        try:
+            article = Article.from_dict(raw)
+        except TypeError:
+            continue
+        if article.article_id in known:
+            continue
+        if article.normalized_title and article.normalized_title in known_titles:
+            continue
+        carried.append(article)
+    if carried:
+        LOG.info("carrying %d article(s) forward from an earlier run today", len(carried))
+    return articles + carried, len(carried)
+
+
 def prune_daily_files(directory: Path, retention_days: int, now: datetime | None = None) -> int:
     """Delete day files older than the retention window. Returns count removed."""
     if not directory.exists() or retention_days <= 0:
@@ -222,6 +259,28 @@ def run(
         articles = summarizer.summarize(articles)
 
     # -- 7. report --------------------------------------------------------
+    # A re-run must add to the day, never replace it.
+    daily_dir = config.path(
+        str(
+            config.get("backfill.data_dir", "data/backfill")
+            if backfill
+            else config.get("report.daily_json_dir", "data/daily")
+        )
+    )
+    if not backfill:
+        articles, carried = merge_previous_run(
+            daily_dir / f"{report_date.isoformat()}.json", articles
+        )
+        if carried:
+            stats.source_notes.append(
+                f"merged {carried} article(s) already reported earlier today; "
+                "a re-run adds to the day's report rather than replacing it"
+            )
+            stats.unique = len(articles)
+            stats.relevant = sum(1 for a in articles if a.relevance_score >= relevant_threshold)
+            stats.high_priority = sum(1 for a in articles if a.relevance_score >= high_threshold)
+            stats.opportunities = sum(1 for a in articles if a.business_opportunity)
+
     scope = "backfill" if backfill else "report"
     content = build_report(
         articles,
@@ -256,13 +315,6 @@ def run(
 
     # -- 8. persist normalized data and the seen record -------------------
     if bool(config.get("report.write_daily_json", True)):
-        daily_dir = config.path(
-            str(
-                config.get("backfill.data_dir", "data/backfill")
-                if backfill
-                else config.get("report.daily_json_dir", "data/daily")
-            )
-        )
         daily_dir.mkdir(parents=True, exist_ok=True)
         payload = {
             "date": report_date.isoformat(),

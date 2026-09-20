@@ -210,6 +210,11 @@ rewrites of it — then by richer description, then by earlier publication. The
 survivor inherits any fields the discarded copies had and it did not, and
 records how many copies were folded in.
 
+Running twice in one day adds to that day's report rather than replacing it.
+The seen-article store hides everything already reported, so a second run finds
+nothing new; without merging, that empty result would be written over the
+morning's report and delete it.
+
 **Across runs**, `src/seen.py` maintains `data/seen_articles.json`, keyed by a
 SHA-256 hash of the normalized URL and also storing the normalized title, so a
 story that resurfaces at a different URL is still recognised. The file is

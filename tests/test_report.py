@@ -120,3 +120,92 @@ class TestWriting:
         path = write_report("# hello", tmp_path / "reports", date(2026, 9, 20))
         assert path.name == "2026-09-20.md"
         assert path.read_text(encoding="utf-8") == "# hello"
+
+
+class TestSameDayRerun:
+    """A second run on the same day must add to the report, not erase it.
+
+    On 2026-09-20 a re-run found nothing new — the seen-article store had
+    already recorded everything that morning — and wrote an empty report over
+    one containing fifteen articles.
+    """
+
+    def _write_day(self, tmp_path, articles):
+        import json
+
+        path = tmp_path / "2026-09-20.json"
+        path.write_text(
+            json.dumps({"articles": [a.to_dict() for a in articles]}), encoding="utf-8"
+        )
+        return path
+
+    def test_earlier_articles_are_carried_forward(self, tmp_path):
+        from src.main import merge_previous_run
+        from tests.conftest import make_article
+
+        earlier = [
+            make_article("Udupi tender floated", "https://a.example/1"),
+            make_article("Bengaluru recycler expands", "https://a.example/2"),
+        ]
+        path = self._write_day(tmp_path, earlier)
+        merged, carried = merge_previous_run(path, [])
+        assert carried == 2
+        assert len(merged) == 2
+
+    def test_a_rerun_with_nothing_new_keeps_the_day_intact(self, tmp_path):
+        from src.main import merge_previous_run
+        from src.models import RunStats
+        from src.report import build_report
+        from tests.conftest import make_article
+
+        earlier = [make_article("Udupi tender floated", "https://a.example/1")]
+        earlier[0].relevance_score = 9
+        earlier[0].category = ["TENDER"]
+        path = self._write_day(tmp_path, earlier)
+
+        merged, _ = merge_previous_run(path, [])
+        content = build_report(merged, RunStats(), __import__("datetime").date(2026, 9, 20))
+        assert "Udupi tender floated" in content
+
+    def test_new_articles_are_added_to_the_earlier_ones(self, tmp_path):
+        from src.main import merge_previous_run
+        from tests.conftest import make_article
+
+        path = self._write_day(tmp_path, [make_article("Morning story", "https://a.example/1")])
+        merged, carried = merge_previous_run(
+            path, [make_article("Afternoon story", "https://a.example/2")]
+        )
+        assert carried == 1
+        assert {a.title for a in merged} == {"Morning story", "Afternoon story"}
+
+    def test_the_same_story_is_not_duplicated(self, tmp_path):
+        from src.main import merge_previous_run
+        from tests.conftest import make_article
+
+        same = make_article("Udupi tender floated", "https://a.example/1")
+        path = self._write_day(tmp_path, [same])
+        merged, carried = merge_previous_run(path, [make_article("Udupi tender floated", "https://a.example/1")])
+        assert carried == 0
+        assert len(merged) == 1
+
+    def test_a_syndicated_retitle_is_not_duplicated(self, tmp_path):
+        from src.main import merge_previous_run
+        from tests.conftest import make_article
+
+        path = self._write_day(tmp_path, [make_article("Udupi tender floated", "https://a.example/1")])
+        merged, carried = merge_previous_run(
+            path, [make_article("Udupi tender floated - Herald", "https://b.example/2")]
+        )
+        assert carried == 0
+        assert len(merged) == 1
+
+    def test_a_missing_or_corrupt_day_file_is_harmless(self, tmp_path):
+        from src.main import merge_previous_run
+        from tests.conftest import make_article
+
+        fresh = [make_article("Today", "https://a.example/1")]
+        assert merge_previous_run(tmp_path / "nope.json", fresh) == (fresh, 0)
+
+        bad = tmp_path / "bad.json"
+        bad.write_text("{not json", encoding="utf-8")
+        assert merge_previous_run(bad, fresh) == (fresh, 0)
