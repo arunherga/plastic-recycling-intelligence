@@ -341,12 +341,42 @@ report:
   daily_json_dir: "data/daily"
 
 # ---------------------------------------------------------------------------
+# Historical backfill (on demand only — never on the daily schedule).
+#
+#   python -m src.main --backfill-days 730
+#
+# Only the search source is consulted: RSS and government pages carry days of
+# history, not years. Each query is asked once per time slice, so cost is
+# queries x slices. With 28 queries and 30-day slices, two years is ~700
+# requests and roughly ten minutes.
+# ---------------------------------------------------------------------------
+backfill:
+  slice_days: 30
+  # Google News returns a bounded result set per query; asking for more per
+  # slice than it will give costs nothing.
+  max_items_per_slice: 100
+  max_items_total: 20000
+  # Slightly brisker than the daily run, which is one request per second.
+  request_delay_seconds: 0.6
+  output_dir: "reports/backfill"
+  data_dir: "data/backfill"
+  # Record backfilled articles as seen, so the daily run does not re-report
+  # something the survey already covered.
+  update_seen: true
+  # A survey covers far more ground than a day, so the sections are far longer.
+  max_top_opportunities: 40
+  max_items_per_section: 60
+  max_investigate_items: 40
+
+# ---------------------------------------------------------------------------
 # Duplicate-tracking store and retention
 # ---------------------------------------------------------------------------
 storage:
   seen_articles_path: "data/seen_articles.json"
   seen_retention_days: 60
-  seen_max_entries: 8000
+  # Sized for a two-year backfill, which can record several thousand
+  # articles in a single run.
+  seen_max_entries: 25000
   daily_json_retention_days: 120
 
 # ---------------------------------------------------------------------------

@@ -17,6 +17,7 @@ import sys
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
+from .backfill import build_windows, preamble
 from .classify import classify_all
 from .config import Config, load_config
 from .deduplicate import deduplicate
@@ -29,6 +30,7 @@ from .score import score_all
 from .seen import SeenStore
 from .sources import build_sources, collect
 from .sources.base import HttpClient
+from .sources.google_news import GoogleNewsSource
 
 LOG = logging.getLogger("plastic_recycling_intelligence")
 
@@ -60,23 +62,64 @@ def prune_daily_files(directory: Path, retention_days: int, now: datetime | None
     return removed
 
 
-def run(config: Config, report_date: date | None = None, dry_run: bool = False) -> int:
-    """Execute one full daily cycle. Returns the number of reported articles."""
+def run(
+    config: Config,
+    report_date: date | None = None,
+    dry_run: bool = False,
+    backfill_days: int = 0,
+    slice_days: int = 0,
+) -> int:
+    """Execute one cycle. Returns the number of reported articles.
+
+    With ``backfill_days`` set this becomes a historical survey instead of a
+    daily run: only the search source is consulted (nothing else has an
+    archive), each query is asked once per slice of time, and the output goes
+    to a separate backfill report so the daily series stays untouched.
+    """
     report_date = report_date or datetime.now(timezone.utc).date()
     stats = RunStats()
+    backfill = backfill_days > 0
+    windows = []
+    if backfill:
+        slice_days = slice_days or int(config.get("backfill.slice_days", 30))
+        windows = build_windows(backfill_days, slice_days, report_date)
+        LOG.info(
+            "backfill over %d days in %d slice(s) of %d days; %d queries = %d requests",
+            backfill_days, len(windows), slice_days, len(config.queries),
+            len(windows) * len(config.queries),
+        )
 
     # -- 1. collect -------------------------------------------------------
+    delay = float(config.get("app.request_delay_seconds", 1.0))
+    if backfill:
+        delay = float(config.get("backfill.request_delay_seconds", delay))
     client = HttpClient(
         user_agent=config.user_agent,
         timeout=config.http_timeout,
         retries=int(config.get("app.http_retries", 2)),
-        delay=float(config.get("app.request_delay_seconds", 1.0)),
+        delay=delay,
     )
-    sources = build_sources(config, client)
+    if backfill:
+        # RSS and government pages carry days of history, not years. Asking
+        # them during a backfill would add today's news to a survey of 2024.
+        sources = [
+            GoogleNewsSource(
+                config.source_config("google_news"),
+                client,
+                config.queries,
+                int(config.get("backfill.max_items_per_slice", 100)),
+                windows,
+            )
+        ]
+    else:
+        sources = build_sources(config, client)
     LOG.info("collecting from %d enabled source(s)", len(sources))
-    raw_items, errors, notes, ok = collect(
-        sources, int(config.get("collection.max_items_total", 600))
+    item_cap = int(
+        config.get("backfill.max_items_total", 20000)
+        if backfill
+        else config.get("collection.max_items_total", 600)
     )
+    raw_items, errors, notes, ok = collect(sources, item_cap)
     stats.collected = len(raw_items)
     stats.source_errors = errors
     stats.source_notes = notes
@@ -89,6 +132,9 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
     lookback = int(config.get("collection.lookback_hours", 48))
     gov_lookback = int(config.get("sources.government.lookback_hours", lookback))
     query_lookback = int(config.get("collection.lookback_hours_news_queries", lookback))
+    if backfill:
+        # The slices already bound the period; the local filter must not undo it.
+        lookback = query_lookback = gov_lookback = backfill_days * 24 + 24
     include_undated = bool(config.get("collection.include_undated", True))
 
     articles: list[Article] = []
@@ -176,31 +222,47 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
         articles = summarizer.summarize(articles)
 
     # -- 7. report --------------------------------------------------------
+    scope = "backfill" if backfill else "report"
     content = build_report(
         articles,
         stats,
         report_date=report_date,
-        max_top_opportunities=int(config.get("report.max_top_opportunities", 10)),
-        max_items_per_section=int(config.get("report.max_items_per_section", 12)),
-        max_investigate_items=int(config.get("report.max_investigate_items", 10)),
+        max_top_opportunities=int(config.get(f"{scope}.max_top_opportunities", 10)),
+        max_items_per_section=int(config.get(f"{scope}.max_items_per_section", 12)),
+        max_investigate_items=int(config.get(f"{scope}.max_investigate_items", 10)),
         relevant_threshold=relevant_threshold,
         high_priority_threshold=high_threshold,
         section_floor=section_floor,
     )
+    if backfill:
+        content = preamble(backfill_days, windows, len(config.queries)) + content
 
     if dry_run:
         LOG.info("dry run: report not written, seen store not updated")
         print(content)
         return len(articles)
 
-    report_path = write_report(
-        content, config.path(str(config.get("report.output_dir", "reports"))), report_date
-    )
+    if backfill:
+        directory = config.path(str(config.get("backfill.output_dir", "reports/backfill")))
+        directory.mkdir(parents=True, exist_ok=True)
+        oldest = windows[-1].start.isoformat() if windows else report_date.isoformat()
+        report_path = directory / f"{oldest}_to_{report_date.isoformat()}.md"
+        report_path.write_text(content, encoding="utf-8")
+    else:
+        report_path = write_report(
+            content, config.path(str(config.get("report.output_dir", "reports"))), report_date
+        )
     LOG.info("wrote %s", report_path)
 
     # -- 8. persist normalized data and the seen record -------------------
     if bool(config.get("report.write_daily_json", True)):
-        daily_dir = config.path(str(config.get("report.daily_json_dir", "data/daily")))
+        daily_dir = config.path(
+            str(
+                config.get("backfill.data_dir", "data/backfill")
+                if backfill
+                else config.get("report.daily_json_dir", "data/daily")
+            )
+        )
         daily_dir.mkdir(parents=True, exist_ok=True)
         payload = {
             "date": report_date.isoformat(),
@@ -208,17 +270,29 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
             "stats": stats.to_dict(),
             "articles": [a.to_dict() for a in articles],
         }
-        daily_path = daily_dir / f"{report_date.isoformat()}.json"
+        stem = (
+            f"{windows[-1].start.isoformat()}_to_{report_date.isoformat()}"
+            if backfill and windows
+            else report_date.isoformat()
+        )
+        daily_path = daily_dir / f"{stem}.json"
         daily_path.write_text(
             json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
-        removed = prune_daily_files(
-            daily_dir, int(config.get("storage.daily_json_retention_days", 120))
+        removed = (
+            0
+            if backfill
+            else prune_daily_files(
+                daily_dir, int(config.get("storage.daily_json_retention_days", 120))
+            )
         )
         LOG.info("wrote %s (pruned %d old day files)", daily_path, removed)
 
-    store.record(articles)
-    store.save()
+    if backfill and not bool(config.get("backfill.update_seen", True)):
+        LOG.info("backfill: leaving the seen-article store untouched")
+    else:
+        store.record(articles)
+        store.save()
     LOG.info("seen store now holds %d entries", len(store.entries))
 
     return len(articles)
@@ -235,6 +309,19 @@ def main(argv: list[str] | None = None) -> int:
         action="store_true",
         help="print the report instead of writing files or updating the seen store",
     )
+    parser.add_argument(
+        "--backfill-days",
+        type=int,
+        default=0,
+        help="survey this many days of history instead of running the daily cycle "
+             "(e.g. 730 for two years); search source only",
+    )
+    parser.add_argument(
+        "--slice-days",
+        type=int,
+        default=0,
+        help="size of each backfill time slice in days (default from config)",
+    )
     parser.add_argument("-v", "--verbose", action="store_true", help="debug logging")
     args = parser.parse_args(argv)
 
@@ -243,7 +330,13 @@ def main(argv: list[str] | None = None) -> int:
     report_date = date.fromisoformat(args.date) if args.date else None
 
     try:
-        run(config, report_date=report_date, dry_run=args.dry_run)
+        run(
+            config,
+            report_date=report_date,
+            dry_run=args.dry_run,
+            backfill_days=max(0, args.backfill_days),
+            slice_days=max(0, args.slice_days),
+        )
     except Exception:  # noqa: BLE001
         LOG.exception("run failed")
         return 1

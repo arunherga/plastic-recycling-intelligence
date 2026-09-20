@@ -156,6 +156,41 @@ and Run Diagnostics listing which sources responded and which failed.
 Normalized results for each day are also written to
 `data/daily/YYYY-MM-DD.json` — article records only, never raw HTML.
 
+## Historical backfill
+
+The daily run looks at the last day or two. To ask what has happened over a
+longer period, run a backfill:
+
+```bash
+python -m src.main --backfill-days 730     # two years
+python -m src.main --backfill-days 90 --slice-days 14
+```
+
+or from GitHub: **Actions → Daily Intelligence → Run workflow**, and put the
+number of days in the `backfill_days` box (leave it at `0` for a normal run).
+
+Output goes to `reports/backfill/<start>_to_<end>.md` and
+`data/backfill/<start>_to_<end>.json`, so the daily series is never disturbed.
+Backfilled articles are recorded as seen, which stops tomorrow's run
+re-reporting what the survey already covered.
+
+**What it can and cannot do.** Only the search source is consulted, because
+nothing else has an archive: an RSS feed carries whatever is on its current
+page, which is days of history, never years. Google News reaches backwards
+only if asked one slice of time at a time — a single query returns roughly a
+hundred results however wide the window, so "two years" asked in one request
+returns the hundred most relevant items, not two years of coverage. A backfill
+therefore walks the period in slices (30 days by default) and issues one query
+per slice. Twenty-eight queries over two years is about 700 requests and
+roughly ten minutes, which is why it runs on demand and never on the schedule.
+
+What comes back is genuinely historical but **partial and skewed toward what
+Google indexed and still ranks**. Older months look thinner than recent ones,
+and that reflects the index rather than the market. Every backfill report opens
+with this caveat so no one mistakes a survey for an archive. If every slice
+comes back empty the run says so explicitly, because that means the date
+filtering was ignored rather than that nothing happened for two years.
+
 ## How duplicate tracking works
 
 Two separate mechanisms, doing different jobs.
@@ -317,6 +352,7 @@ plastic-recycling-intelligence/
 │   ├── score.py                     # explainable relevance scoring
 │   ├── opportunity.py               # business-opportunity detection
 │   ├── seen.py                      # cross-run duplicate tracking
+│   ├── backfill.py                  # time slicing for historical surveys
 │   ├── matching.py                  # word-boundary term matching
 │   ├── resolve.py                   # aggregator link -> publisher URL
 │   ├── report.py                    # Markdown report generation
@@ -336,8 +372,10 @@ plastic-recycling-intelligence/
 │           └── openai_provider.py
 ├── data/
 │   ├── seen_articles.json           # cross-run duplicate record
-│   └── daily/                       # normalized results, YYYY-MM-DD.json
+│   ├── daily/                       # normalized results, YYYY-MM-DD.json
+│   └── backfill/                    # normalized survey results
 ├── reports/                         # daily briefings, YYYY-MM-DD.md
+│   └── backfill/                    # on-demand historical surveys
 ├── docs/
 │   ├── ollama.md                    # optional AI setup
 │   └── sample-report.md             # format example (fabricated, not news)
