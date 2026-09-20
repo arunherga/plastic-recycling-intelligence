@@ -55,10 +55,19 @@ classifier protocol (swap rules for an LLM, change nothing upstream).
 
 | Source | Module | Notes |
 | --- | --- | --- |
-| Google News RSS | `src/sources/google_news.py` | One request per configured query, locale `en-IN` / `IN`, restricted to the last two days at the source. |
-| News & trade RSS | `src/sources/rss.py` | The Hindu, Business Standard, Economic Times, Down To Earth, Mongabay India, Packaging South Asia, Plastics News, Recycling Today, Waste Management World. |
-| Government | `src/sources/government.py` | PIB press releases (RSS) plus CPCB and MoEFCC listing pages (HTML link extraction). Scanned over a wider 7-day window because they publish infrequently. |
+| Google News RSS | `src/sources/google_news.py` | One request per configured query, locale `en-IN` / `IN`, restricted to the last seven days at the source. Carries most of the coverage. |
+| News & trade RSS | `src/sources/rss.py` | The Hindu (Business and Karnataka), Economic Times Industry, Mongabay India, Packaging South Asia, Recycling Today. |
+| Government | `src/sources/government.py` | MoEFCC listing page (HTML link extraction), scanned over a wider 7-day window because it publishes infrequently. |
 | Bing News RSS | `src/sources/bing_news.py` | Included but disabled — it rate-limits hard. Flip `sources.bing_news.enabled` to try it. |
+
+Five sources were removed after two live runs showed they fail from GitHub's
+IP ranges every time: Down To Earth (empty feed, no alternate advertised),
+Business Standard, Waste Management World and PIB's RSS (403 — datacenter
+blocking that no User-Agent fixes), and Plastics News (404). CPCB went too:
+`cpcb.nic.in` redirects to `cpcb.gov.in`, which serves an expired TLS
+certificate, and the alternative would have been to disable verification.
+None of this costs coverage — Google News carries the same publishers, and
+CPCB and PIB material arrives through the search queries.
 
 Feeds are listed in `config.yaml`, not in code. Adding a paid API later means
 writing one module and registering it in `src/sources/__init__.py`; the
@@ -66,7 +75,7 @@ normalizer, deduplicator, classifier, scorer and reporter are unaffected.
 
 ## What it monitors
 
-Twenty-five configurable search queries cover plastic recycling in India,
+Twenty-eight configurable search queries cover plastic recycling in India,
 recycling plants and new capacity, recycled granules and the HDPE / PP / LDPE /
 PET grades, plastic scrap, recycled-polymer demand and pricing, buyers of
 recycled granules, FMCG recycled-content requirements, packaging and automotive
@@ -108,10 +117,11 @@ rule that fires contributes both its points and a human-readable reason, so
 
 | Points | Signal |
 | --- | --- |
+| +3 | Core topic: plastic recycling |
 | +3 | Karnataka |
 | +3 | Udupi / Mangaluru / Dakshina Kannada |
 | +2 | Bengaluru |
-| +2 | Nearby southern & western states (Kerala, Goa, Maharashtra, Tamil Nadu, …) |
+| +2 | Nearby southern / western states (Kerala, Goa, Maharashtra, Tamil Nadu, …) |
 | +3 | Recycled granules / pellets |
 | +3 | Target polymers — HDPE, PP, LDPE, PET |
 | +4 | Buyer / procurement / supplier requirement |
@@ -226,7 +236,8 @@ morning's report and delete it.
 SHA-256 hash of the normalized URL and also storing the normalized title, so a
 story that resurfaces at a different URL is still recognised. The file is
 pruned on every save: entries older than `storage.seen_retention_days` (60) are
-dropped, and a hard cap of `storage.seen_max_entries` (8000) keeps the most
+dropped, and a hard cap of `storage.seen_max_entries` (25,000, sized for a
+multi-year backfill) keeps the most
 recent. A corrupt or missing file is treated as empty rather than failing the
 run. Daily JSON files are pruned after 120 days.
 
@@ -306,9 +317,20 @@ normal week looks like for a district-level query.
 When a configured feed 404s or is blocked, the collector asks the site's
 homepage which feed it advertises now and uses that instead, rather than
 needing a config edit every time a publisher reorganises. Google News hands out
-opaque `news.google.com` redirect links; those are followed so the report
-carries the publisher's own URL, but only for the few dozen articles that can
-actually reach the report.
+opaque `news.google.com` redirect links, and answers them with a page that
+jumps via script rather than an HTTP redirect, so the response body is
+inspected for the destination. Only articles that can reach the report are
+resolved — a few dozen on a daily run, up to `backfill.max_resolve` (400) on a
+survey — and each run reports how many links it managed.
+
+Resolution is deliberately timid about what it accepts. A candidate must look
+like an article: no host containing "google", no asset extension, no share
+widget, no bare homepage, and a path with some substance. Two articles
+resolving to the same address is treated as a parse failure rather than two
+scoops, and only the first keeps it. This is not hypothetical — an earlier,
+looser version replaced 400 links in a backfill with the same 16-pixel Google
+News favicon. An unresolved aggregator link is awkward to read but still
+reaches the story; a wrong one reaches nothing and destroys the original.
 HTTP requests use a 20-second timeout, two retries with linear backoff, a
 one-second politeness delay between requests, and a descriptive User-Agent that
 identifies the bot and links back to this repository.
