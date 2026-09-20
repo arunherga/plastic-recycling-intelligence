@@ -7,7 +7,7 @@
 app:
   name: "India Plastic Recycling Intelligence"
   # Descriptive User-Agent so publishers can identify (and contact about) the bot.
-  user_agent: "plastic-recycling-intelligence/1.0 (+https://github.com/arunherga/plastic-recycling-intelligence)"
+  user_agent: "Mozilla/5.0 (compatible; plastic-recycling-intelligence/1.0; +https://github.com/arunherga/plastic-recycling-intelligence)"
   http_timeout_seconds: 20
   http_retries: 2
   # Politeness delay between requests to the same source, in seconds.
@@ -17,6 +17,11 @@ collection:
   # Primary collection window. Articles older than this are dropped unless
   # include_undated is true and the source gave us no timestamp at all.
   lookback_hours: 48
+  # Search-query sources get a wider window. Niche local queries ("plastic
+  # recycling Udupi") may produce one story a month, and missing it because it
+  # is 50 hours old would be a real loss. Repeats cost nothing: the seen-article
+  # store guarantees a story is only ever reported once.
+  lookback_hours_news_queries: 120
   # Keep items whose publication date could not be parsed. Google News
   # occasionally omits it; dropping them loses real signal.
   include_undated: true
@@ -24,6 +29,11 @@ collection:
   max_items_per_query: 30
   # Hard ceiling across the whole run.
   max_items_total: 600
+  # Google News hands out opaque news.google.com redirect links. Follow them so
+  # the report carries the publisher's own URL. Only articles that can reach
+  # the report are resolved, so this costs a few dozen requests, not hundreds.
+  resolve_redirect_urls: true
+  max_resolve: 40
 
 # ---------------------------------------------------------------------------
 # Sources. Each entry maps to a module in src/sources/.
@@ -37,7 +47,9 @@ sources:
     gl: "IN"
     ceid: "IN:en"
     # Restrict the query to a recent window at the source ("when:2d").
-    when: "2d"
+    # Widened from 2d: nine of twenty-five queries returned nothing on the
+    # first live run, including every Karnataka and coastal query.
+    when: "7d"
 
   bing_news:
     # Bing's news RSS endpoint is free but rate-limits aggressively and is
@@ -71,20 +83,20 @@ sources:
 
   government:
     enabled: true
-    # Official / regulatory sources. Some expose RSS, some only a landing page;
-    # the module handles both and fails soft when a site is down.
+    # Official sources. Verified against a live run on 2026-09-20:
+    #   * PIB RSS returned 403 to a bare bot User-Agent — now retried with the
+    #     conventional "Mozilla/5.0 (compatible; ...)" form.
+    #   * cpcb.nic.in redirects to cpcb.gov.in, which is serving an EXPIRED TLS
+    #     certificate. It is removed rather than fetched with verification
+    #     disabled; CPCB news still reaches us through the news queries below.
+    #   * moef.gov.in/en/press-release/ 404s; the homepage is scanned instead
+    #     and links are filtered for plastics/waste terms.
     feeds:
-      - name: "PIB — All Releases"
-        url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+      - name: "PIB — Press Releases"
+        url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
         kind: "rss"
-      - name: "PIB — Environment Ministry"
-        url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
-        kind: "rss"
-      - name: "CPCB — What's New"
-        url: "https://cpcb.nic.in/whats-new/"
-        kind: "html"
-      - name: "MoEFCC — Press Releases"
-        url: "https://moef.gov.in/en/press-release/"
+      - name: "MoEFCC"
+        url: "https://moef.gov.in/"
         kind: "html"
     # Government pages are low-volume; scan a wider window so nothing is missed.
     lookback_hours: 168
@@ -108,6 +120,9 @@ queries:
   - "plastic recycling Kerala"
   - "CPCB plastic waste"
   - "MoEFCC plastic waste"
+  - "Plastic Waste Management Rules"
+  - "extended producer responsibility plastic India"
+  - "CPCB EPR certificate"
   - "EPR plastic India"
   - "plastic recycling investment India"
   - "plastic recycling startup India"
@@ -124,27 +139,47 @@ queries:
 # AND about India before it is scored at all.
 # ---------------------------------------------------------------------------
 topic_gate:
+  # CORE subject vocabulary only. Generic words like "scrap", "waste
+  # management" and "circular economy" are deliberately absent: they admitted
+  # EU metal-scrap and municipal-transport stories. A genuine plastics story
+  # says "plastic", "polymer", a resin name, or a recycling word.
+  #
+  # All matching is whole-word (src/matching.py). Two-letter terms like "pp"
+  # are safe here only because of that; with substring matching "pp" alone
+  # matched "approves" and opened the gate to everything.
   subject_terms:
     - plastic
+    - plastics
     - polymer
+    - polymers
+    - recycle
+    - recycled
+    - recycling
+    - recycler
+    - recyclers
+    - recyclate
     - hdpe
     - ldpe
+    - lldpe
     - pp
     - pet
     - pvc
-    - ps
+    - rpet
     - polypropylene
     - polyethylene
     - polyester
+    - polystyrene
     - granule
+    - granules
     - pellet
+    - pellets
     - resin
-    - scrap
-    - recycl
-    - waste management
-    - circular economy
     - epr
+    - extended producer responsibility
     - pyrolysis
+    - single-use plastic
+    - plastic waste
+    - plastic scrap
   geo_terms:
     - india
     - indian
@@ -206,6 +241,9 @@ dedup:
 # ---------------------------------------------------------------------------
 scoring:
   rules:
+    - reason: "Core topic: plastic recycling"
+      points: 3
+      terms: ["plastic recycling", "plastic waste", "recycled plastic", "plastic recycler", "waste recycling", "recycling plant", "recycling facility", "plastic scrap", "recyclate", "single-use plastic", "circular economy"]
     - reason: "Karnataka"
       points: 3
       terms: ["karnataka", "kseb", "kspcb", "karnataka state pollution control"]
@@ -223,7 +261,7 @@ scoring:
       terms: ["granule", "pellet", "regranulate", "recompound", "recyclate", "rpet", "rhdpe", "rpp"]
     - reason: "Target polymers (HDPE / PP / LDPE / PET)"
       points: 3
-      terms: ["hdpe", "ldpe", "lldpe", "polypropylene", " pp ", "pet bottle", "r-pet", "polyethylene terephthalate", "high density polyethylene", "low density polyethylene"]
+      terms: ["hdpe", "ldpe", "lldpe", "polypropylene", "pp", "pet bottle", "r-pet", "polyethylene terephthalate", "high density polyethylene", "low density polyethylene"]
     - reason: "Buyer / procurement / supplier requirement"
       points: 4
       terms: ["procure", "procurement", "sourcing", "buyer", "buying", "to buy", "offtake", "off-take", "supply agreement", "supplier", "vendor registration", "purchase order", "rfq", "request for quotation", "seeking suppliers", "long-term supply"]

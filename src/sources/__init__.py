@@ -64,14 +64,17 @@ def build_sources(config: Config, client: HttpClient | None = None) -> list[Sour
     return sources
 
 
-def collect(sources: list[Source], max_items_total: int = 600) -> tuple[list[RawItem], list[str], list[str]]:
+def collect(
+    sources: list[Source], max_items_total: int = 600
+) -> tuple[list[RawItem], list[str], list[str], list[str]]:
     """Run every source, isolating failures.
 
-    Returns ``(items, errors, sources_ok)``. A source that raises is logged and
-    skipped; the run continues with whatever the others produced.
+    Returns ``(items, errors, notes, sources_ok)``. A source that raises is
+    logged and skipped; the run continues with whatever the others produced.
     """
     items: list[RawItem] = []
     errors: list[str] = []
+    notes: list[str] = []
     ok: list[str] = []
 
     for source in sources:
@@ -79,14 +82,16 @@ def collect(sources: list[Source], max_items_total: int = 600) -> tuple[list[Raw
             fetched = source.fetch()
             items.extend(fetched)
             errors.extend(source.errors)
+            notes.extend(source.notes)
             ok.append(f"{source.name} ({len(fetched)} items)")
             LOG.info("source %s returned %d items", source.name, len(fetched))
         except Exception as exc:  # noqa: BLE001 - total isolation is the point
             message = f"{source.name}: source unavailable: {exc}"
             errors.append(message)
+            notes.extend(source.notes)
             LOG.error(message)
 
     if len(items) > max_items_total:
         LOG.info("truncating %d collected items to %d", len(items), max_items_total)
         items = items[:max_items_total]
-    return items, errors, ok
+    return items, errors, notes, ok

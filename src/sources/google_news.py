@@ -49,7 +49,9 @@ class GoogleNewsSource(Source):
                 response = self.client.get(self.build_url(query))
                 entries = list(parse_feed_entries(response.content, "Google News", f"google_news:{query}"))
                 if not entries:
-                    self.record_error(f"query '{query}'", "feed returned no entries")
+                    # Narrow queries ("plastic recycling Udupi") often have no
+                    # news in a 48-hour window. That is a quiet day, not a fault.
+                    self.record_note(f"query '{query}'", "no results in the collection window")
                 items.extend(entries[: self.max_items_per_query])
             except SourceError as exc:
                 self.record_error(f"query '{query}'", exc)

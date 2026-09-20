@@ -108,7 +108,7 @@ class GovernmentSource(Source):
                 if kind == "html":
                     links = extract_relevant_links(response.text, url, self.max_items_per_feed)
                     if not links:
-                        self.record_error(name, "no relevant links found on page")
+                        self.record_note(name, "no plastics-related links on the page today")
                     for link, text in links:
                         items.append(
                             RawItem(
@@ -124,7 +124,7 @@ class GovernmentSource(Source):
                 else:
                     entries = list(parse_feed_entries(response.content, name, f"government:{name}"))
                     if not entries:
-                        self.record_error(name, "invalid or empty feed")
+                        self.record_note(name, "feed returned no entries")
                     items.extend(entries[: self.max_items_per_feed])
             except SourceError as exc:
                 self.record_error(name, exc)

@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from typing import Iterable, Protocol
 
+from .matching import contains_any
 from .models import Article
 
 # Canonical category vocabulary.
@@ -128,7 +129,7 @@ class KeywordClassifier:
         text = article.searchable_text
         labels: list[str] = []
         for label, terms in self.rules:
-            if any(term in text for term in terms):
+            if contains_any(text, terms):
                 labels.append(label)
         if not labels:
             labels.append("OTHER")

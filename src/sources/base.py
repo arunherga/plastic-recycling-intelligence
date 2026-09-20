@@ -10,6 +10,8 @@ from __future__ import annotations
 
 import logging
 import time
+from html.parser import HTMLParser
+from urllib.parse import urljoin, urlsplit
 from dataclasses import dataclass
 from typing import Any, Iterable
 
@@ -69,6 +71,9 @@ class Source:
         self.config = config or {}
         self.client = client
         self.errors: list[str] = []
+        # Notes are things worth printing but not failures — a query that
+        # legitimately had no news today is not a broken source.
+        self.notes: list[str] = []
 
     def fetch(self) -> list[RawItem]:  # pragma: no cover - interface
         raise NotImplementedError
@@ -79,6 +84,12 @@ class Source:
         message = f"{self.name}: {context}: {exc}"
         self.errors.append(message)
         LOG.warning(message)
+
+    def record_note(self, context: str, detail: str) -> None:
+        """Log something informational that is not a failure."""
+        message = f"{self.name}: {context}: {detail}"
+        self.notes.append(message)
+        LOG.info(message)
 
 
 def parse_feed_entries(content: bytes | str, feed_name: str, origin: str) -> Iterable[RawItem]:
@@ -116,3 +127,47 @@ def parse_feed_entries(content: bytes | str, feed_name: str, origin: str) -> Ite
             description=description,
             origin=origin,
         )
+
+
+class _FeedLinkExtractor(HTMLParser):
+    """Collect <link rel="alternate" type="...rss|atom..."> hrefs."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.hrefs: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag.lower() != "link":
+            return
+        a = {k.lower(): (v or "") for k, v in attrs}
+        rel = a.get("rel", "").lower()
+        ctype = a.get("type", "").lower()
+        href = a.get("href", "")
+        if href and "alternate" in rel and ("rss" in ctype or "atom" in ctype):
+            self.hrefs.append(href)
+
+
+def find_feed_links(html: str, base_url: str) -> list[str]:
+    """Absolute feed URLs advertised by a page's <head>.
+
+    Publishers move their feeds and leave the old path 404ing, so rather than
+    hard-coding a guess we ask the site where its feed lives now.
+    """
+    parser = _FeedLinkExtractor()
+    try:
+        parser.feed(html)
+    except Exception:  # noqa: BLE001 - malformed HTML is expected
+        pass
+    out: list[str] = []
+    for href in parser.hrefs:
+        absolute = urljoin(base_url, href)
+        if absolute.startswith(("http://", "https://")) and absolute not in out:
+            out.append(absolute)
+    return out
+
+
+def site_root(url: str) -> str:
+    parts = urlsplit(url)
+    if not parts.scheme or not parts.netloc:
+        return ""
+    return f"{parts.scheme}://{parts.netloc}/"

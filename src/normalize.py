@@ -19,6 +19,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 from dateutil import parser as date_parser
 
+from .matching import contains_any, contains_term
 from .models import Article, RawItem
 
 # Query parameters that never identify content.
@@ -114,6 +115,28 @@ def domain_of(url: str) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
+def strip_descriptionless_tail(description: str, title: str) -> str:
+    """Drop a "description" that is really just the headline plus a byline.
+
+    Google News RSS does not carry a summary. Its <description> is the headline
+    followed by the publisher's name, so a story from The Times of India ends
+    up with the word "India" in its text and one from insightsonindia.com does
+    not. Treating that as evidence of geography is how a story about Dubuque,
+    Iowa passed an India-only filter. If the description is the title plus a
+    short tail, there is no summary here and we say so.
+    """
+    if not description:
+        return ""
+    if description == title:
+        return ""
+    lowered, lowered_title = description.lower(), title.lower()
+    if lowered.startswith(lowered_title):
+        remainder = description[len(title):].strip(" -–—|·")
+        # A real summary continues the story; a byline is a few words.
+        return "" if len(remainder) < 80 else remainder
+    return description
+
+
 def normalize_title(title: str) -> str:
     """Collapse a headline to a comparable form.
 
@@ -176,8 +199,8 @@ LOCATION_TERMS: dict[str, tuple[str, ...]] = {
     "Mangaluru": ("mangalore", "mangaluru"),
     "Dakshina Kannada": ("dakshina kannada", "coastal karnataka"),
     "Bengaluru": ("bengaluru", "bangalore", "bbmp"),
-    "Karnataka": ("karnataka", "kspcb", "hubballi", "mysuru", "mysore", "belagavi"),
-    "Kerala": ("kerala", "kochi", "cochin", "thiruvananthapuram", "kozhikode"),
+    "Karnataka": ("karnataka", "kspcb", "hubballi", "hubli", "dharwad", "mysuru", "mysore", "belagavi", "shivamogga", "tumakuru", "ballari", "kalaburagi"),
+    "Kerala": ("kerala", "kochi", "cochin", "thiruvananthapuram", "kozhikode", "kollam", "thrissur", "kannur", "alappuzha", "palakkad"),
     "Goa": ("goa", "panaji", "vasco"),
     "Maharashtra": ("maharashtra", "mumbai", "pune", "nagpur", "nashik", "aurangabad"),
     "Tamil Nadu": ("tamil nadu", "chennai", "coimbatore", "tiruppur", "madurai"),
@@ -206,28 +229,27 @@ def detect_locations(text: str) -> list[str]:
     ``"India (national)"`` is only reported when nothing more specific matched,
     so a Udupi story is not also filed as a generic India story.
     """
-    lowered = f" {text.lower()} "
     found = [
         label
         for label, terms in LOCATION_TERMS.items()
-        if label != "India (national)" and any(term in lowered for term in terms)
+        if label != "India (national)" and contains_any(text, terms)
     ]
-    if not found and any(term in lowered for term in LOCATION_TERMS["India (national)"]):
+    if not found and contains_any(text, LOCATION_TERMS["India (national)"]):
         found.append("India (national)")
     return found
 
 
 def detect_keywords(text: str) -> list[str]:
-    lowered = f" {text.lower()} "
-    return [kw for kw in KEYWORD_TERMS if f" {kw}" in lowered or f"{kw} " in lowered]
+    return [kw for kw in KEYWORD_TERMS if contains_term(text, kw)]
 
 
 def passes_topic_gate(text: str, subject_terms: Iterable[str], geo_terms: Iterable[str]) -> bool:
-    """Reject items that are not about our subject *and* our geography."""
-    lowered = f" {text.lower()} "
-    has_subject = any(term.lower() in lowered for term in subject_terms)
-    has_geo = any(term.lower() in lowered for term in geo_terms)
-    return has_subject and has_geo
+    """Reject items that are not about our subject *and* our geography.
+
+    Both tests use whole-word matching. With plain substring matching this gate
+    was effectively open: "pp" alone admitted anything containing "approves".
+    """
+    return contains_any(text, subject_terms) and contains_any(text, geo_terms)
 
 
 def normalize_item(item: RawItem) -> Optional[Article]:
@@ -242,9 +264,7 @@ def normalize_item(item: RawItem) -> Optional[Article]:
         return None
 
     published = parse_date(item.published_at)
-    description = strip_html(item.description or "")
-    if description == title:
-        description = ""
+    description = strip_descriptionless_tail(strip_html(item.description or ""), title)
 
     haystack = f"{title} {description}"
     return Article(

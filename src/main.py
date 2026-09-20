@@ -24,9 +24,11 @@ from .models import Article, RunStats
 from .normalize import normalize_item, parse_date, passes_topic_gate, within_window
 from .opportunity import detect_all
 from .report import build_report, write_report
+from .resolve import resolve_article_urls
 from .score import score_all
 from .seen import SeenStore
 from .sources import build_sources, collect
+from .sources.base import HttpClient
 
 LOG = logging.getLogger("plastic_recycling_intelligence")
 
@@ -64,11 +66,20 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
     stats = RunStats()
 
     # -- 1. collect -------------------------------------------------------
-    sources = build_sources(config)
+    client = HttpClient(
+        user_agent=config.user_agent,
+        timeout=config.http_timeout,
+        retries=int(config.get("app.http_retries", 2)),
+        delay=float(config.get("app.request_delay_seconds", 1.0)),
+    )
+    sources = build_sources(config, client)
     LOG.info("collecting from %d enabled source(s)", len(sources))
-    raw_items, errors, ok = collect(sources, int(config.get("collection.max_items_total", 600)))
+    raw_items, errors, notes, ok = collect(
+        sources, int(config.get("collection.max_items_total", 600))
+    )
     stats.collected = len(raw_items)
     stats.source_errors = errors
+    stats.source_notes = notes
     stats.sources_ok = ok
     LOG.info("collected %d raw items (%d source issues)", len(raw_items), len(errors))
 
@@ -77,6 +88,7 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
     geo_terms = config.get("topic_gate.geo_terms", []) or []
     lookback = int(config.get("collection.lookback_hours", 48))
     gov_lookback = int(config.get("sources.government.lookback_hours", lookback))
+    query_lookback = int(config.get("collection.lookback_hours_news_queries", lookback))
     include_undated = bool(config.get("collection.include_undated", True))
 
     articles: list[Article] = []
@@ -88,7 +100,12 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
             f"{article.title} {article.description}", subject_terms, geo_terms
         ):
             continue
-        window = gov_lookback if item.origin.startswith("government:") else lookback
+        if item.origin.startswith("government:"):
+            window = gov_lookback
+        elif item.origin.startswith(("google_news:", "bing_news:")):
+            window = query_lookback
+        else:
+            window = lookback
         if not within_window(parse_date(article.published_at), window, include_undated):
             continue
         articles.append(article)
@@ -125,6 +142,16 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
         int(config.get("opportunities.min_score", 4)),
     )
 
+    # Aggregator links are resolved only for articles that can reach the
+    # report, so the cost stays at a few dozen requests rather than hundreds.
+    section_floor = int(config.get("scoring.thresholds.section_floor", 2))
+    if bool(config.get("collection.resolve_redirect_urls", True)):
+        resolvable = [a for a in articles if a.relevance_score >= section_floor]
+        LOG.info("resolving publisher URLs for %d article(s)", len(resolvable))
+        resolve_article_urls(
+            resolvable, client, int(config.get("collection.max_resolve", 40))
+        )
+
     relevant_threshold = int(config.get("scoring.thresholds.relevant", 4))
     high_threshold = int(config.get("scoring.thresholds.high_priority", 8))
     stats.relevant = sum(1 for a in articles if a.relevance_score >= relevant_threshold)
@@ -153,7 +180,7 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
         max_investigate_items=int(config.get("report.max_investigate_items", 10)),
         relevant_threshold=relevant_threshold,
         high_priority_threshold=high_threshold,
-        section_floor=int(config.get("scoring.thresholds.section_floor", 2)),
+        section_floor=section_floor,
     )
 
     if dry_run:

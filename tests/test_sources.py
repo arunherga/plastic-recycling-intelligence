@@ -70,7 +70,10 @@ class TestGoogleNews:
 
 class TestIndependentFailure:
     def test_a_failing_feed_is_recorded_not_raised(self):
-        source = RSSSource({"feeds": [{"name": "Dead", "url": "https://dead.example/feed"}]}, FailingClient())
+        source = RSSSource(
+            {"feeds": [{"name": "Dead", "url": "https://dead.example/feed", "discover": False}]},
+            FailingClient(),
+        )
         assert source.fetch() == []
         assert source.errors and "simulated timeout" in source.errors[0]
 
@@ -86,7 +89,7 @@ class TestIndependentFailure:
 
         source = RSSSource(
             {"feeds": [
-                {"name": "Dead", "url": "https://dead.example/feed"},
+                {"name": "Dead", "url": "https://dead.example/feed", "discover": False},
                 {"name": "Alive", "url": "https://alive.example/feed"},
             ]},
             MixedClient(),
@@ -108,7 +111,7 @@ class TestIndependentFailure:
             def fetch(self):
                 return list(parse_feed_entries(FEED, "Example", "rss:Example"))
 
-        items, errors, ok = collect([Exploding({}, WorkingClient()), Fine({}, WorkingClient())])
+        items, errors, _notes, ok = collect([Exploding({}, WorkingClient()), Fine({}, WorkingClient())])
         assert len(items) == 1
         assert any("source unavailable" in e for e in errors)
         assert ok == ["fine (1 items)"]
@@ -159,7 +162,7 @@ class TestBuildSources:
             def fetch(self):
                 return list(parse_feed_entries(FEED, "Example", "x")) * 50
 
-        items, _, _ = collect([Many({}, WorkingClient())], max_items_total=10)
+        items, _, _, _ = collect([Many({}, WorkingClient())], max_items_total=10)
         assert len(items) == 10
 
 
@@ -189,3 +192,83 @@ class TestHttpClient:
         with pytest.raises(SourceError):
             client.get("https://example.com/feed")
         assert calls["n"] == 3
+
+
+class TestFeedDiscovery:
+    """A moved feed should self-heal rather than need a config edit."""
+
+    PAGE = (
+        '<html><head>'
+        '<link rel="alternate" type="application/rss+xml" href="/rss/current.xml">'
+        '</head><body>hello</body></html>'
+    )
+
+    def test_advertised_feeds_are_found(self):
+        from src.sources.base import find_feed_links
+
+        links = find_feed_links(self.PAGE, "https://publisher.example/")
+        assert links == ["https://publisher.example/rss/current.xml"]
+
+    def test_a_404_feed_falls_back_to_the_advertised_one(self):
+        page = self.PAGE
+
+        class MovedFeedClient(HttpClient):
+            def get(self, url, **kwargs):
+                if url.endswith("/old/feed"):
+                    raise SourceError("404 Client Error: Not Found")
+                if url == "https://publisher.example/":
+                    return FakeResponse(page.encode())
+                return FakeResponse()
+
+            def sleep(self):
+                return None
+
+        source = RSSSource(
+            {"feeds": [{"name": "Moved", "url": "https://publisher.example/old/feed"}]},
+            MovedFeedClient(),
+        )
+        items = source.fetch()
+        assert len(items) == 1
+        assert any("using https://publisher.example/rss/current.xml" in n for n in source.notes)
+
+    def test_discovery_can_be_switched_off_per_feed(self):
+        class DeadClient(HttpClient):
+            def get(self, url, **kwargs):
+                raise SourceError("404 Client Error: Not Found")
+
+            def sleep(self):
+                return None
+
+        source = RSSSource(
+            {"feeds": [{"name": "Dead", "url": "https://x.example/feed", "discover": False}]},
+            DeadClient(),
+        )
+        assert source.fetch() == []
+        assert source.notes == []
+
+
+class TestNotesVersusErrors:
+    def test_an_empty_query_is_a_note_not_an_error(self):
+        class EmptyClient(HttpClient):
+            def get(self, url, **kwargs):
+                return FakeResponse(b'<?xml version="1.0"?><rss><channel></channel></rss>')
+
+            def sleep(self):
+                return None
+
+        source = GoogleNewsSource({}, EmptyClient(), ["plastic recycling Udupi"])
+        source.fetch()
+        assert source.errors == []
+        assert source.notes and "no results" in source.notes[0]
+
+    def test_collect_returns_notes_separately(self):
+        class Quiet(Source):
+            name = "quiet"
+
+            def fetch(self):
+                self.record_note("query 'x'", "no results in the collection window")
+                return []
+
+        items, errors, notes, ok = collect([Quiet({}, WorkingClient())])
+        assert items == [] and errors == []
+        assert len(notes) == 1

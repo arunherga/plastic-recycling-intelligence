@@ -9,6 +9,7 @@ from __future__ import annotations
 
 from typing import Any, Iterable, Sequence
 
+from .matching import contains_any
 from .models import Article
 
 OPPORTUNITY_TYPES = ("BUYER", "TENDER", "PARTNERSHIP", "SUPPLIER", "INVESTMENT", "MARKET_DEMAND")
@@ -47,7 +48,7 @@ def detect_opportunity(
         opp_type = str(rule.get("type", "")).upper()
         if opp_type not in OPPORTUNITY_TYPES:
             continue
-        if any(str(term).lower() in text for term in rule.get("terms") or []):
+        if contains_any(text, [str(term) for term in (rule.get("terms") or [])]):
             if opp_type not in types:
                 types.append(opp_type)
 

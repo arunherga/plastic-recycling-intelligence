@@ -85,6 +85,14 @@ Classification is deterministic keyword matching (`src/classify.py`). It is
 cheap, reviewable and produces the same answer twice. The `Classifier` protocol
 exists so an LLM classifier can replace it later without any other change.
 
+All term matching — the topic gate, the classifier, the scorer and the
+opportunity detector — goes through `src/matching.py`, which matches on word
+boundaries rather than substrings. This is not a detail. The first live run
+used plain substring matching, and `"pp"` matched *app*roves, `"ps"` matched
+to*ps*, `"pet"` matched com*pet*ition and `"ban"` matched ur*ban*, so railway,
+highway and pharmaceutical stories were filed as plastics intelligence. Those
+exact headlines are now regression tests in `tests/test_matching.py`.
+
 ## Relevance scoring
 
 Scores are additive, configured in `config.yaml`, and always explained. Every
@@ -151,6 +159,11 @@ Normalized results for each day are also written to
 ## How duplicate tracking works
 
 Two separate mechanisms, doing different jobs.
+
+Collection windows differ by source: 48 hours for direct feeds, 120 hours for
+search-query sources (a district-level query may produce one story a month, and
+the seen-article store means a wider window costs nothing), and 168 hours for
+government pages, which publish infrequently.
 
 **Within a run**, `src/deduplicate.py` collapses the same story arriving from
 several places using three signals in order: exact normalized URL, exact
@@ -238,6 +251,17 @@ Each source fetches independently and a failure is contained: a dead feed, an
 HTTP timeout, an invalid feed or an unreachable site is logged, recorded in the
 report's Run Diagnostics section, and the run continues with everything else. A
 source that raises an unexpected exception is isolated at the collector level.
+
+Diagnostics separate failures from quiet days. A narrow query such as "plastic
+recycling Udupi" returning nothing is a note, not an error — it is what a
+normal week looks like for a district-level query.
+
+When a configured feed 404s or is blocked, the collector asks the site's
+homepage which feed it advertises now and uses that instead, rather than
+needing a config edit every time a publisher reorganises. Google News hands out
+opaque `news.google.com` redirect links; those are followed so the report
+carries the publisher's own URL, but only for the few dozen articles that can
+actually reach the report.
 HTTP requests use a 20-second timeout, two retries with linear backoff, a
 one-second politeness delay between requests, and a descriptive User-Agent that
 identifies the bot and links back to this repository.
@@ -293,6 +317,8 @@ plastic-recycling-intelligence/
 │   ├── score.py                     # explainable relevance scoring
 │   ├── opportunity.py               # business-opportunity detection
 │   ├── seen.py                      # cross-run duplicate tracking
+│   ├── matching.py                  # word-boundary term matching
+│   ├── resolve.py                   # aggregator link -> publisher URL
 │   ├── report.py                    # Markdown report generation
 │   ├── sources/
 │   │   ├── __init__.py              # source registry + collector

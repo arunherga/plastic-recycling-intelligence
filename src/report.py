@@ -226,6 +226,12 @@ def build_report(
         lines.append("")
     else:
         lines += ["_All configured sources responded without error._", ""]
+    if stats.source_notes:
+        lines += ["**Source notes (not failures):**", ""]
+        lines += [f"- {note}" for note in stats.source_notes[:25]]
+        if len(stats.source_notes) > 25:
+            lines.append(f"- _…and {len(stats.source_notes) - 25} more._")
+        lines.append("")
 
     lines += [
         "---",

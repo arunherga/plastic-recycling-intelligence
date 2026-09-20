@@ -10,6 +10,7 @@ from __future__ import annotations
 
 from typing import Any, Iterable, Sequence
 
+from .matching import contains_any
 from .models import Article
 
 # Used only when no rules are supplied (e.g. in isolated unit tests).
@@ -49,8 +50,8 @@ def score_article(article: Article, rules: Sequence[dict[str, Any]] | None = Non
     total = 0
     reasons: list[str] = []
     for rule in active_rules:
-        terms = rule.get("terms") or []
-        if any(str(term).lower() in text for term in terms):
+        terms = [str(term) for term in (rule.get("terms") or [])]
+        if contains_any(text, terms):
             total += int(rule.get("points", 0))
             reason = str(rule.get("reason", "")).strip()
             if reason and reason not in reasons:

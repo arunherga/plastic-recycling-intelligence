@@ -97,6 +97,7 @@ class RunStats:
     high_priority: int = 0
     opportunities: int = 0
     source_errors: list[str] = field(default_factory=list)
+    source_notes: list[str] = field(default_factory=list)
     sources_ok: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
