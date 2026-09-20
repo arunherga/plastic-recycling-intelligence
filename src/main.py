@@ -243,7 +243,7 @@ def run(
             if backfill
             else config.get("collection.max_resolve", 40)
         )
-        _, resolved_n, attempted_n = resolve_article_urls(
+        _, resolved_n, attempted_n, resolve_notes = resolve_article_urls(
             resolvable, client, resolve_cap
         )
         if attempted_n:
@@ -251,6 +251,8 @@ def run(
                 f"url resolution: {resolved_n} of {attempted_n} aggregator links "
                 "resolved to the publisher's own address"
             )
+        for note in resolve_notes:
+            stats.source_notes.append(f"url resolution: {note}")
 
     relevant_threshold = int(config.get("scoring.thresholds.relevant", 4))
     high_threshold = int(config.get("scoring.thresholds.high_priority", 8))

@@ -27,6 +27,10 @@ LOG = logging.getLogger(__name__)
 # domain_of(), which has already stripped a leading "www.".
 AGGREGATOR_HOSTS = ("news.google.com", "news.bing.com", "bing.com")
 
+# Stop after this many failures in a row rather than spending the whole
+# budget discovering the same thing 400 times.
+GIVE_UP_AFTER = 20
+
 
 def needs_resolution(url: str) -> bool:
     host = domain_of(url)
@@ -127,26 +131,65 @@ def _from_body(html: str) -> str:
     return ""
 
 
-def resolve_one(url: str, client) -> str:
+def describe_page(html: str, final_url: str) -> str:
+    """A short fingerprint of a page we failed to resolve.
+
+    Two blind fixes have now been shipped for these links — one produced 400
+    favicons, the next produced nothing at all — because the page cannot be
+    fetched from the machines this agent is developed on. Rather than guess a
+    third time, a failed run reports what it actually received so the next
+    change can be made from evidence.
+    """
+    markers = []
+    for label, needle in (
+        ("data-n-au", "data-n-au"),
+        ("meta-refresh", "http-equiv=\"refresh\""),
+        ("canonical", 'rel="canonical"'),
+        ("consent", "consent"),
+        ("needs-js", "enable JavaScript"),
+        ("c-wiz", "<c-wiz"),
+        ("jslog", "jslog"),
+    ):
+        if needle.lower() in html.lower():
+            markers.append(label)
+    external = len(_ANY_LINK.findall(html[:200000]))
+    host = (urlsplit(final_url).hostname or "?") if final_url else "?"
+    return (
+        f"landed on {host}, {len(html)} bytes, {external} links, "
+        f"markers: {', '.join(markers) or 'none'}"
+    )
+
+
+def resolve_one(url: str, client, diagnostics: list[str] | None = None) -> str:
     """Follow ``url`` and return where it landed, or ``url`` unchanged."""
     try:
         response = client.get(url)
     except Exception as exc:  # noqa: BLE001 - never fail a run over a link
         LOG.info("could not resolve %s: %s", url[:80], exc)
+        if diagnostics is not None:
+            diagnostics.append(f"request failed: {exc}")
         return url
     final = str(getattr(response, "url", "") or "")
     if final and not needs_resolution(final):
         return final
-    return _from_body(str(getattr(response, "text", "") or "")) or url
+    html = str(getattr(response, "text", "") or "")
+    found = _from_body(html)
+    if not found and diagnostics is not None:
+        diagnostics.append(describe_page(html, final))
+    return found or url
 
 
 def resolve_article_urls(
     articles: Iterable[Article], client, limit: int = 40
-) -> tuple[list[Article], int, int]:
+) -> tuple[list[Article], int, int, list[str]]:
     """Resolve aggregator links in place, up to ``limit`` requests.
 
-    Returns ``(articles, resolved, attempted)`` so a run can report how well
-    resolution is working rather than silently handing back opaque links.
+    Returns ``(articles, resolved, attempted, diagnostics)`` so a run can report
+    how well resolution is working rather than silently handing back opaque
+    links, and say what it saw when it could not.
+
+    If the first :data:`GIVE_UP_AFTER` attempts all fail the rest are skipped:
+    on a survey that is four minutes of requests spent learning nothing twice.
 
     ``article_id`` is recomputed from the resolved URL so the seen-article
     store keys on the publisher's address, which is stable across days, rather
@@ -160,14 +203,21 @@ def resolve_article_urls(
     # something shared by every page — a logo, a masthead link — rather than
     # the story. The first such hit is kept; the rest keep their own links.
     assigned: set[str] = set()
+    diagnostics: list[str] = []
+    consecutive_failures = 0
     for article in items:
         if budget <= 0:
             break
         if not needs_resolution(article.url):
             continue
+        if consecutive_failures >= GIVE_UP_AFTER:
+            continue
         budget -= 1
         attempted += 1
-        resolved = normalize_url(resolve_one(article.url, client))
+        page_notes: list[str] = []
+        resolved = normalize_url(resolve_one(article.url, client, page_notes))
+        if page_notes and len(diagnostics) < 3:
+            diagnostics.append(page_notes[0])
         if resolved in assigned:
             LOG.warning("ignoring repeated resolution target %s", resolved[:80])
             resolved = article.url
@@ -183,5 +233,17 @@ def resolve_article_urls(
             if not article.source or "news.google" in article.source.lower():
                 article.source = domain_of(resolved)
             resolved_count += 1
+            consecutive_failures = 0
+        else:
+            consecutive_failures += 1
+            if consecutive_failures == GIVE_UP_AFTER:
+                LOG.warning(
+                    "%d consecutive resolution failures; skipping the rest of this run",
+                    GIVE_UP_AFTER,
+                )
+                diagnostics.append(
+                    f"gave up after {GIVE_UP_AFTER} consecutive failures; "
+                    "remaining links left as aggregator URLs"
+                )
         client.sleep()
-    return items, resolved_count, attempted
+    return items, resolved_count, attempted, diagnostics

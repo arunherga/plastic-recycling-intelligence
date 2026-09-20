@@ -147,13 +147,13 @@ class TestResolutionReporting:
         # Key on the stored URL: normalization reorders query parameters, so
         # the string passed to make_article is not what gets requested.
         client = FakeClient({articles[0].url: REAL})
-        _, resolved, attempted = resolve_article_urls(articles, client)
+        _, resolved, attempted, _notes = resolve_article_urls(articles, client)
         assert attempted == 2
         assert resolved == 1
 
     def test_an_unresolved_link_is_not_counted_as_resolved(self):
         article = make_article("A", GOOGLE)
-        _, resolved, attempted = resolve_article_urls([article], FakeClient({GOOGLE: GOOGLE}))
+        _, resolved, attempted, _notes = resolve_article_urls([article], FakeClient({GOOGLE: GOOGLE}))
         assert (resolved, attempted) == (0, 1)
         assert article.url == GOOGLE
 
@@ -237,7 +237,7 @@ class TestResolvedUrlMustLookLikeAnArticle:
 
     def test_an_unusable_link_keeps_its_original_url(self):
         article = make_article("A story", GOOGLE)
-        _, resolved, attempted = resolve_article_urls([article], FakeClient({GOOGLE: FAVICON}))
+        _, resolved, attempted, _notes = resolve_article_urls([article], FakeClient({GOOGLE: FAVICON}))
         assert (resolved, attempted) == (0, 1)
         assert article.url == GOOGLE
 
@@ -249,7 +249,7 @@ class TestRepeatedResolutionTarget:
         target = "https://publisher.example/news/some-story"
         articles = [make_article(f"Story {i}", f"{GOOGLE}&i={i}") for i in range(4)]
         mapping = {a.url: target for a in articles}
-        _, resolved, attempted = resolve_article_urls(articles, FakeClient(mapping))
+        _, resolved, attempted, _notes = resolve_article_urls(articles, FakeClient(mapping))
         assert attempted == 4
         assert resolved == 1
         assert sum(1 for a in articles if a.url == target) == 1
@@ -259,3 +259,62 @@ class TestRepeatedResolutionTarget:
         articles = [make_article(f"Story {i}", f"{GOOGLE}&i={i}") for i in range(3)]
         resolve_article_urls(articles, FakeClient({a.url: target for a in articles}))
         assert all("news.google.com" in a.url for a in articles[1:])
+
+
+class TestResolutionDiagnostics:
+    """Two blind fixes shipped for these links; the third change needs evidence.
+
+    The redirect page cannot be fetched from the machines this agent is written
+    on, so a failed run has to report what it actually received.
+    """
+
+    def test_a_failed_page_is_described(self):
+        from src.resolve import describe_page
+
+        html = '<c-wiz data-n-au="x"><a href="https://a.example/b">l</a></c-wiz>'
+        note = describe_page(html, "https://news.google.com/rss/articles/X")
+        assert "news.google.com" in note
+        assert "data-n-au" in note
+        assert "1 links" in note
+
+    def test_a_consent_wall_is_recognisable(self):
+        from src.resolve import describe_page
+
+        note = describe_page("Before you continue, enable JavaScript", "https://consent.google.com/x")
+        assert "consent.google.com" in note
+        assert "needs-js" in note
+
+    def test_diagnostics_reach_the_caller(self):
+        article = make_article("A story", GOOGLE)
+        _, _, _, notes = resolve_article_urls([article], FakeClient({GOOGLE: GOOGLE}))
+        assert notes and "landed on" in notes[0]
+
+    def test_only_a_few_pages_are_described(self):
+        articles = [make_article(f"S{i}", f"{GOOGLE}&i={i}") for i in range(10)]
+        _, _, _, notes = resolve_article_urls(articles, FakeClient())
+        page_notes = [n for n in notes if n.startswith("landed on")]
+        assert len(page_notes) <= 3
+
+
+class TestGivingUpEarly:
+    """400 failures cost four minutes and teach nothing the first twenty didn't."""
+
+    def test_resolution_stops_after_a_run_of_failures(self):
+        from src.resolve import GIVE_UP_AFTER
+
+        articles = [make_article(f"S{i}", f"{GOOGLE}&i={i}") for i in range(GIVE_UP_AFTER + 30)]
+        client = FakeClient()
+        _, resolved, attempted, notes = resolve_article_urls(articles, client, limit=500)
+        assert resolved == 0
+        assert attempted == GIVE_UP_AFTER
+        assert any("gave up after" in n for n in notes)
+
+    def test_a_success_resets_the_run_of_failures(self):
+        from src.resolve import GIVE_UP_AFTER
+
+        articles = [make_article(f"S{i}", f"{GOOGLE}&i={i}") for i in range(GIVE_UP_AFTER + 5)]
+        # The tenth article resolves; the counter restarts from there.
+        client = FakeClient({articles[9].url: "https://publisher.example/news/a-real-story"})
+        _, resolved, attempted, _ = resolve_article_urls(articles, client, limit=500)
+        assert resolved == 1
+        assert attempted > GIVE_UP_AFTER

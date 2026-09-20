@@ -331,6 +331,15 @@ scoops, and only the first keeps it. This is not hypothetical — an earlier,
 looser version replaced 400 links in a backfill with the same 16-pixel Google
 News favicon. An unresolved aggregator link is awkward to read but still
 reaches the story; a wrong one reaches nothing and destroys the original.
+
+As of the last run resolution succeeds **zero** times: the page Google returns
+carries no destination this parser can find. The links in reports are therefore
+`news.google.com` links, which redirect correctly in a browser but are unreadable
+on the page. Rather than guess at a third fix, a failed run now records what it
+received — final host, page size, link count and which markers were present —
+in the report's Run Diagnostics, and gives up after twenty consecutive failures
+instead of spending four minutes learning the same thing four hundred times.
+The next run's diagnostics are the input to fixing this properly.
 HTTP requests use a 20-second timeout, two retries with linear backoff, a
 one-second politeness delay between requests, and a descriptive User-Agent that
 identifies the bot and links back to this repository.
