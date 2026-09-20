@@ -1,0 +1,324 @@
+# ---------------------------------------------------------------------------
+# India Plastic Recycling Intelligence — configuration
+#
+# Everything tunable lives here. No API keys, no secrets, no paid services.
+# ---------------------------------------------------------------------------
+
+app:
+  name: "India Plastic Recycling Intelligence"
+  # Descriptive User-Agent so publishers can identify (and contact about) the bot.
+  user_agent: "plastic-recycling-intelligence/1.0 (+https://github.com/arunherga/plastic-recycling-intelligence)"
+  http_timeout_seconds: 20
+  http_retries: 2
+  # Politeness delay between requests to the same source, in seconds.
+  request_delay_seconds: 1.0
+
+collection:
+  # Primary collection window. Articles older than this are dropped unless
+  # include_undated is true and the source gave us no timestamp at all.
+  lookback_hours: 48
+  # Keep items whose publication date could not be parsed. Google News
+  # occasionally omits it; dropping them loses real signal.
+  include_undated: true
+  # Hard ceiling on items pulled from a single query/feed, to keep runs bounded.
+  max_items_per_query: 30
+  # Hard ceiling across the whole run.
+  max_items_total: 600
+
+# ---------------------------------------------------------------------------
+# Sources. Each entry maps to a module in src/sources/.
+# Adding a paid API later means adding a module here — nothing downstream changes.
+# ---------------------------------------------------------------------------
+sources:
+  google_news:
+    enabled: true
+    # Google News RSS locale parameters.
+    hl: "en-IN"
+    gl: "IN"
+    ceid: "IN:en"
+    # Restrict the query to a recent window at the source ("when:2d").
+    when: "2d"
+
+  bing_news:
+    # Bing's news RSS endpoint is free but rate-limits aggressively and is
+    # currently being retired in places. Off by default; flip to true to try it.
+    enabled: false
+    market: "en-IN"
+
+  rss:
+    enabled: true
+    feeds:
+      - name: "Down To Earth — Waste"
+        url: "https://www.downtoearth.org.in/rss/waste"
+      - name: "Mongabay India"
+        url: "https://india.mongabay.com/feed/"
+      - name: "The Hindu — Business"
+        url: "https://www.thehindu.com/business/feeder/default.rss"
+      - name: "The Hindu — Karnataka"
+        url: "https://www.thehindu.com/news/national/karnataka/feeder/default.rss"
+      - name: "Business Standard — Industry"
+        url: "https://www.business-standard.com/rss/industry-217.rss"
+      - name: "Economic Times — Industry"
+        url: "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms"
+      - name: "Packaging South Asia"
+        url: "https://packagingsouthasia.com/feed/"
+      - name: "Recycling Today"
+        url: "https://www.recyclingtoday.com/rss/"
+      - name: "Plastics News"
+        url: "https://www.plasticsnews.com/rss/news"
+      - name: "Waste Management World"
+        url: "https://waste-management-world.com/feed/"
+
+  government:
+    enabled: true
+    # Official / regulatory sources. Some expose RSS, some only a landing page;
+    # the module handles both and fails soft when a site is down.
+    feeds:
+      - name: "PIB — All Releases"
+        url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+        kind: "rss"
+      - name: "PIB — Environment Ministry"
+        url: "https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
+        kind: "rss"
+      - name: "CPCB — What's New"
+        url: "https://cpcb.nic.in/whats-new/"
+        kind: "html"
+      - name: "MoEFCC — Press Releases"
+        url: "https://moef.gov.in/en/press-release/"
+        kind: "html"
+    # Government pages are low-volume; scan a wider window so nothing is missed.
+    lookback_hours: 168
+
+# ---------------------------------------------------------------------------
+# Search queries (Google News / Bing News). Edit freely — nothing is hard-coded.
+# ---------------------------------------------------------------------------
+queries:
+  - "plastic recycling India"
+  - "plastic waste recycling India"
+  - "plastic recycling plant India"
+  - "recycled plastic granules India"
+  - "recycled HDPE India"
+  - "recycled PP India"
+  - "recycled LDPE India"
+  - "recycled PET India"
+  - "plastic recycling Karnataka"
+  - "plastic recycling Mangalore"
+  - "plastic recycling Udupi"
+  - "plastic recycling Bengaluru"
+  - "plastic recycling Kerala"
+  - "CPCB plastic waste"
+  - "MoEFCC plastic waste"
+  - "EPR plastic India"
+  - "plastic recycling investment India"
+  - "plastic recycling startup India"
+  - "plastic recycling tender India"
+  - "plastic waste tender Karnataka"
+  - "recycled polymer India"
+  - "plastic scrap India"
+  - "plastic recycling machinery India"
+  - "chemical recycling India"
+  - "plastic pyrolysis India"
+
+# ---------------------------------------------------------------------------
+# Relevance gate. An article must look like it is about plastics/recycling
+# AND about India before it is scored at all.
+# ---------------------------------------------------------------------------
+topic_gate:
+  subject_terms:
+    - plastic
+    - polymer
+    - hdpe
+    - ldpe
+    - pp
+    - pet
+    - pvc
+    - ps
+    - polypropylene
+    - polyethylene
+    - polyester
+    - granule
+    - pellet
+    - resin
+    - scrap
+    - recycl
+    - waste management
+    - circular economy
+    - epr
+    - pyrolysis
+  geo_terms:
+    - india
+    - indian
+    - bharat
+    - karnataka
+    - udupi
+    - mangalore
+    - mangaluru
+    - dakshina kannada
+    - bengaluru
+    - bangalore
+    - kerala
+    - goa
+    - maharashtra
+    - mumbai
+    - pune
+    - tamil nadu
+    - chennai
+    - hyderabad
+    - telangana
+    - andhra pradesh
+    - gujarat
+    - delhi
+    - noida
+    - cpcb
+    - moefcc
+    - crore
+    - lakh
+    - rupee
+
+# ---------------------------------------------------------------------------
+# Deduplication
+# ---------------------------------------------------------------------------
+dedup:
+  # Two headlines this similar (0-1, difflib ratio) are treated as the same story.
+  title_similarity_threshold: 0.85
+  # Only compare headlines that share at least this many significant tokens,
+  # to keep the comparison cheap and avoid false merges.
+  min_shared_tokens: 3
+  # When duplicates exist, keep the version from the highest-ranked domain.
+  preferred_domains:
+    - pib.gov.in
+    - cpcb.nic.in
+    - moef.gov.in
+    - thehindu.com
+    - business-standard.com
+    - economictimes.indiatimes.com
+    - livemint.com
+    - reuters.com
+    - downtoearth.org.in
+    - indianexpress.com
+    - deccanherald.com
+    - moneycontrol.com
+    - packagingsouthasia.com
+    - plasticsnews.com
+
+# ---------------------------------------------------------------------------
+# Transparent relevance scoring. Every rule contributes a named reason.
+# ---------------------------------------------------------------------------
+scoring:
+  rules:
+    - reason: "Karnataka"
+      points: 3
+      terms: ["karnataka", "kseb", "kspcb", "karnataka state pollution control"]
+    - reason: "Udupi / Mangaluru / Dakshina Kannada"
+      points: 3
+      terms: ["udupi", "manipal", "mangalore", "mangaluru", "dakshina kannada", "kundapur", "karkala", "coastal karnataka"]
+    - reason: "Bengaluru"
+      points: 2
+      terms: ["bengaluru", "bangalore", "bbmp"]
+    - reason: "Nearby southern / western states"
+      points: 2
+      terms: ["kerala", "goa", "maharashtra", "tamil nadu", "chennai", "kochi", "cochin", "mumbai", "pune", "hyderabad", "telangana", "andhra pradesh"]
+    - reason: "Recycled granules / pellets"
+      points: 3
+      terms: ["granule", "pellet", "regranulate", "recompound", "recyclate", "rpet", "rhdpe", "rpp"]
+    - reason: "Target polymers (HDPE / PP / LDPE / PET)"
+      points: 3
+      terms: ["hdpe", "ldpe", "lldpe", "polypropylene", " pp ", "pet bottle", "r-pet", "polyethylene terephthalate", "high density polyethylene", "low density polyethylene"]
+    - reason: "Buyer / procurement / supplier requirement"
+      points: 4
+      terms: ["procure", "procurement", "sourcing", "buyer", "buying", "to buy", "offtake", "off-take", "supply agreement", "supplier", "vendor registration", "purchase order", "rfq", "request for quotation", "seeking suppliers", "long-term supply"]
+    - reason: "Tender"
+      points: 4
+      terms: ["tender", "rfp", "request for proposal", "eoi", "expression of interest", "bid document", "e-tender", "gem portal"]
+    - reason: "Municipal / waste-management contract"
+      points: 3
+      terms: ["municipal contract", "waste-management contract", "waste management contract", "waste processing contract", "collection contract", "concession agreement", "awarded a contract", "contract awarded", "signs contract", "signs waste", "civic body"]
+    - reason: "New recycling plant"
+      points: 3
+      terms: ["new plant", "new recycling", "sets up", "set up a", "to set up", "commission", "commissioned", "inaugurat", "greenfield", "new facility", "opens plant", "ground-breaking", "foundation stone"]
+    - reason: "Capacity expansion"
+      points: 2
+      terms: ["expansion", "expand capacity", "capacity addition", "ramp up", "brownfield", "doubling capacity", "additional capacity", "tpa", "tonnes per annum", "kt per annum"]
+    - reason: "Investment / funding / acquisition"
+      points: 2
+      terms: ["investment", "invests", "funding", "raises", "series a", "series b", "acquisition", "acquires", "stake", "joint venture", "jv ", "crore", "million", "ipo"]
+    - reason: "Major regulatory change"
+      points: 2
+      terms: ["notification", "amendment", "rules 2", "gazette", "mandate", "mandatory", "compliance deadline", "draft rules", "policy", "guidelines", "plastic waste management rules", "epr", "extended producer responsibility", "cpcb", "moefcc", "pollution control board"]
+    - reason: "Recycling technology"
+      points: 1
+      terms: ["chemical recycling", "advanced recycling", "pyrolysis", "depolymeris", "depolymeriz", "glycolysis", "enzymatic", "ai sorting", "optical sorting", "near-infrared", "nir sorting", "solvent-based"]
+    - reason: "Machinery / equipment"
+      points: 1
+      terms: ["machinery", "extruder", "extrusion", "pelletiser", "pelletizer", "washing line", "shredder", "granulator", "baler", "sorting line", "equipment supplier"]
+    - reason: "FMCG / packaging / automotive recycled-content demand"
+      points: 3
+      terms: ["fmcg", "recycled content", "post-consumer recycled", "pcr content", "brand owner", "packaging company", "beverage", "automotive", "auto component", "oem"]
+    - reason: "Price / market data"
+      points: 2
+      terms: ["price", "prices", "pricing", "per kg", "per tonne", "rs/kg", "market rate", "spread", "premium over virgin"]
+  thresholds:
+    # Reported as "relevant" at or above this score. Drives the summary counts
+    # and the opportunity list.
+    relevant: 4
+    # Reported as "high priority" at or above this score.
+    high_priority: 8
+    # Thematic sections use a lower bar than the headline "relevant" count, so a
+    # genuinely on-topic item (a pyrolysis pilot, say) still shows up under
+    # Technology even when it scores no geography points.
+    section_floor: 2
+
+# ---------------------------------------------------------------------------
+# Opportunity detection
+# ---------------------------------------------------------------------------
+opportunities:
+  min_score: 4
+  rules:
+    - type: "TENDER"
+      terms: ["tender", "e-tender", "rfp", "request for proposal", "expression of interest", "eoi", "bid invited", "gem portal", "municipal contract", "waste-management contract", "waste management contract", "waste processing contract", "collection contract", "concession agreement", "contract awarded", "awarded a contract"]
+    - type: "BUYER"
+      terms: ["procure", "procurement", "buyer", "to buy", "sourcing", "offtake", "off-take", "purchase", "rfq", "seeking suppliers", "supply agreement", "vendor registration"]
+    - type: "MARKET_DEMAND"
+      terms: ["recycled content", "post-consumer recycled", "pcr", "demand for recycled", "recycled-content target", "commits to", "pledge", "sustainability target", "circular packaging"]
+    - type: "PARTNERSHIP"
+      terms: ["partner", "partnership", "tie-up", "mou", "collaborat", "joint venture", "looking for partners", "consortium"]
+    - type: "SUPPLIER"
+      terms: ["machinery supplier", "equipment supplier", "empanel", "registration of recyclers", "recycler registration", "vendor onboarding", "supplier requirement"]
+    - type: "INVESTMENT"
+      terms: ["invest", "funding", "raises", "acquire", "acquisition", "stake", "capex", "greenfield project"]
+
+# ---------------------------------------------------------------------------
+# Report
+# ---------------------------------------------------------------------------
+report:
+  output_dir: "reports"
+  max_top_opportunities: 10
+  max_items_per_section: 12
+  max_investigate_items: 10
+  # Also write the normalized article set for the day.
+  write_daily_json: true
+  daily_json_dir: "data/daily"
+
+# ---------------------------------------------------------------------------
+# Duplicate-tracking store and retention
+# ---------------------------------------------------------------------------
+storage:
+  seen_articles_path: "data/seen_articles.json"
+  seen_retention_days: 60
+  seen_max_entries: 8000
+  daily_json_retention_days: 120
+
+# ---------------------------------------------------------------------------
+# Optional AI layer. Version 1 runs fully without it.
+# ---------------------------------------------------------------------------
+ai:
+  enabled: false
+  provider: ollama        # ollama | openai | none
+  model: "qwen2.5:1.5b"
+  base_url: "http://localhost:11434"
+  # Only the highest-scoring articles are ever sent to an LLM.
+  max_articles: 8
+  timeout_seconds: 120
+  # Name of the environment variable holding the key, for providers that need
+  # one. The key itself is NEVER stored in this file.
+  api_key_env: "OPENAI_API_KEY"
