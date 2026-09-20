@@ -1,0 +1,10 @@
+# Normalize line endings so the repo stores LF regardless of the platform it
+# was cloned on. Without this, a Windows checkout reports every file as
+# modified when the same working tree is read from a Linux tool.
+* text=auto eol=lf
+
+# Binary-ish and generated files are left alone.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.bundle binary
