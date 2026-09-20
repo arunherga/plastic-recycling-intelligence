@@ -16,6 +16,7 @@ from __future__ import annotations
 import logging
 import re
 from typing import Iterable
+from urllib.parse import urlsplit
 
 from .models import Article
 from .normalize import article_id, domain_of, normalize_url
@@ -43,11 +44,70 @@ _BODY_PATTERNS = (
     re.compile(r'<link[^>]+rel=[\"\']?canonical[\"\']?[^>]+href=\"([^\"]+)\"', re.I),
 )
 
-# Hosts that appear on a redirect page but are never the article itself.
-_INFRASTRUCTURE = re.compile(
-    r"^https?://([a-z0-9.-]*\.)?(google\.[a-z.]+|gstatic\.com|googleapis\.com|"
-    r"youtube\.com|blogger\.com)",
-    re.I,
+# Anything Google serves as page furniture, plus the share widgets that sit on
+# every article. A first attempt blocked only "google.<tld>" and let
+# lh3.googleusercontent.com through, so all forty "resolved" links in the
+# 2026-06-22 backfill turned out to be the same 16-pixel favicon.
+_BLOCKED_SUFFIXES = (
+    "googleusercontent.com", "gstatic.com", "ggpht.com", "googleapis.com",
+    "googletagmanager.com", "google-analytics.com", "doubleclick.net",
+    "youtube.com", "youtu.be", "blogger.com", "schema.org", "w3.org",
+    "facebook.com", "twitter.com", "x.com", "linkedin.com", "whatsapp.com",
+    "pinterest.com", "reddit.com", "instagram.com", "t.me", "telegram.me",
+)
+
+# Files that are never an article.
+_ASSET_SUFFIXES = (
+    ".png", ".jpg", ".jpeg", ".gif", ".svg", ".webp", ".ico", ".bmp", ".avif",
+    ".css", ".js", ".mjs", ".json", ".xml", ".rss", ".atom",
+    ".woff", ".woff2", ".ttf", ".eot", ".mp4", ".mp3", ".wav",
+)
+
+# Google's image sizing suffix, e.g. the "=w16" that gave us a favicon.
+_IMAGE_SIZING = re.compile(r"=[wshc]\d+(-[a-z0-9]+)*$", re.I)
+
+
+def _blocked_host(host: str) -> bool:
+    host = (host or "").lower()
+    if not host:
+        return True
+    # No legitimate publisher has "google" in its hostname; this catches every
+    # Google asset domain at once, present and future.
+    if "google" in host:
+        return True
+    return any(host == s or host.endswith("." + s) for s in _BLOCKED_SUFFIXES)
+
+
+def looks_like_article(url: str) -> bool:
+    """Is this plausibly a link to a story, rather than an asset or a widget?
+
+    Deliberately strict. Keeping an unreadable aggregator link is a small
+    annoyance; replacing it with a favicon is worse, because the article is
+    then unrecoverable and every such link collapses to the same identity.
+    """
+    if not url or not url.startswith(("http://", "https://")):
+        return False
+    try:
+        parts = urlsplit(url)
+    except ValueError:
+        return False
+    if _blocked_host(parts.hostname or ""):
+        return False
+    path = (parts.path or "/").rstrip("/")
+    if not path or path == "/":
+        return False
+    if path.lower().endswith(_ASSET_SUFFIXES):
+        return False
+    if _IMAGE_SIZING.search(url):
+        return False
+    # An article path carries a slug or an id; a tracking pixel does not.
+    return len(path.strip("/")) >= 8
+
+
+_BODY_PATTERNS = (
+    re.compile(r'data-n-au="([^"]+)"'),
+    re.compile(r"""<meta[^>]+http-equiv=["']?refresh["']?[^>]+url=([^"'>\s]+)""", re.I),
+    re.compile(r'<link[^>]+rel=["\']?canonical["\']?[^>]+href="([^"]+)"', re.I),
 )
 _ANY_LINK = re.compile(r'href="(https?://[^"]+)"')
 
@@ -58,13 +118,11 @@ def _from_body(html: str) -> str:
         return ""
     for pattern in _BODY_PATTERNS:
         match = pattern.search(html)
-        if match:
-            candidate = match.group(1).strip()
-            if candidate.startswith("http") and not _INFRASTRUCTURE.match(candidate):
-                return candidate
+        if match and looks_like_article(match.group(1).strip()):
+            return match.group(1).strip()
     for match in _ANY_LINK.finditer(html[:200000]):
         candidate = match.group(1)
-        if not _INFRASTRUCTURE.match(candidate) and not needs_resolution(candidate):
+        if not needs_resolution(candidate) and looks_like_article(candidate):
             return candidate
     return ""
 
@@ -98,6 +156,10 @@ def resolve_article_urls(
     budget = limit
     resolved_count = 0
     attempted = 0
+    # Two articles resolving to the same address means the parse latched onto
+    # something shared by every page — a logo, a masthead link — rather than
+    # the story. The first such hit is kept; the rest keep their own links.
+    assigned: set[str] = set()
     for article in items:
         if budget <= 0:
             break
@@ -106,7 +168,16 @@ def resolve_article_urls(
         budget -= 1
         attempted += 1
         resolved = normalize_url(resolve_one(article.url, client))
-        if resolved and resolved != article.url and not needs_resolution(resolved):
+        if resolved in assigned:
+            LOG.warning("ignoring repeated resolution target %s", resolved[:80])
+            resolved = article.url
+        if (
+            resolved
+            and resolved != article.url
+            and not needs_resolution(resolved)
+            and looks_like_article(resolved)
+        ):
+            assigned.add(resolved)
             article.url = resolved
             article.article_id = article_id(resolved)
             if not article.source or "news.google" in article.source.lower():
