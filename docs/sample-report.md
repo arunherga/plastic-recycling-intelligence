@@ -1,4 +1,13 @@
-<!-- Generated from tests/fixtures/sample_items.json by scripts/generate_sample_report.py. The articles below are synthetic examples used to check report formatting — they are not real news. -->
+> **THIS IS NOT REAL NEWS.**
+>
+> Every article below is invented, written by fictional publications at
+> deliberately non-resolving `.example` addresses. Nothing here was
+> published anywhere and none of the links will open. This file exists
+> only to show the shape of the daily report, and is generated from
+> `tests/fixtures/sample_items.json` by
+> `scripts/generate_sample_report.py`.
+>
+> Real reports, built from real sources, are in [`reports/`](../reports/).
 
 # India Plastic Recycling Intelligence
 
@@ -24,8 +33,8 @@
 - **Opportunity Type:** BUYER, MARKET_DEMAND
 - **Relevance Score:** 18 (Karnataka; Nearby southern / western states; Recycled granules / pellets; Target polymers (HDPE / PP / LDPE / PET); Buyer / procurement / supplier requirement; FMCG / packaging / automotive recycled-content demand)
 - **Why it matters:** Possible buyer / market demand opening. Scored on karnataka; nearby southern / western states; recycled granules / pellets; target polymers (hdpe / pp / ldpe / pet).
-- **Source:** Economic Times, 19 Sep 2026
-- **URL:** https://economictimes.indiatimes.com/industry/cons-products/fmcg/recycled-hdpe-packaging/articleshow/778899.cms
+- **Source:** India Industry Wire (fictional), 19 Sep 2026
+- **URL:** https://industrywire.example/fmcg/recycled-hdpe-packaging-commitment
 
 ### Recycled PP granule prices firm up in western India on strong auto demand
 
@@ -34,8 +43,8 @@
 - **Opportunity Type:** BUYER, MARKET_DEMAND
 - **Relevance Score:** 17 (Nearby southern / western states; Recycled granules / pellets; Target polymers (HDPE / PP / LDPE / PET); Buyer / procurement / supplier requirement; FMCG / packaging / automotive recycled-content demand; Price / market data)
 - **Why it matters:** Possible buyer / market demand opening. Scored on nearby southern / western states; recycled granules / pellets; target polymers (hdpe / pp / ldpe / pet); buyer / procurement / supplier requirement.
-- **Source:** Moneycontrol, 19 Sep 2026
-- **URL:** https://moneycontrol.com/news/business/recycled-pp-prices-india-9911.html
+- **Source:** Markets Daily (fictional), 19 Sep 2026
+- **URL:** https://marketsdaily.example/commodities/recycled-pp-prices-india
 
 ### Bengaluru startup raises Rs 120 crore to expand PET recycling capacity
 
@@ -44,8 +53,8 @@
 - **Opportunity Type:** INVESTMENT
 - **Relevance Score:** 15 (Karnataka; Bengaluru; Recycled granules / pellets; New recycling plant; Capacity expansion; Investment / funding / acquisition)
 - **Why it matters:** Possible investment opening. Scored on karnataka; bengaluru; recycled granules / pellets; new recycling plant.
-- **Source:** Business Standard, 19 Sep 2026
-- **URL:** https://business-standard.com/industry/news/bengaluru-pet-recycling-funding-124091800456_1.html
+- **Source:** Business Review India (fictional), 19 Sep 2026
+- **URL:** https://businessreview.example/industry/bengaluru-pet-recycling-funding
 
 ### Udupi district to award tender for plastic waste processing facility
 
@@ -54,8 +63,8 @@
 - **Opportunity Type:** TENDER
 - **Relevance Score:** 10 (Karnataka; Udupi / Mangaluru / Dakshina Kannada; Tender)
 - **Why it matters:** Possible tender opening. Scored on karnataka; udupi / mangaluru / dakshina kannada; tender.
-- **Source:** The Hindu, 19 Sep 2026
-- **URL:** https://thehindu.com/news/national/karnataka/udupi-plastic-waste-tender/article12345.ece
+- **Source:** Coastal Karnataka Chronicle (fictional), 19 Sep 2026
+- **URL:** https://coastalchronicle.example/karnataka/udupi-plastic-waste-tender
 
 ### Mangaluru civic body signs waste-management contract for dry waste segregation
 
@@ -64,51 +73,51 @@
 - **Opportunity Type:** TENDER
 - **Relevance Score:** 6 (Udupi / Mangaluru / Dakshina Kannada; Municipal / waste-management contract)
 - **Why it matters:** Possible tender opening. Scored on udupi / mangaluru / dakshina kannada; municipal / waste-management contract.
-- **Source:** Deccan Herald, 19 Sep 2026
-- **URL:** https://deccanherald.com/india/karnataka/mangaluru-dry-waste-contract-7712.html
+- **Source:** Coastal Karnataka Chronicle (fictional), 19 Sep 2026
+- **URL:** https://coastalchronicle.example/karnataka/mangaluru-dry-waste-contract
 
-### CPCB notifies amendment to Plastic Waste Management Rules tightening EPR targets
+### Environment ministry notifies amendment to Plastic Waste Management Rules tightening EPR targets
 
 - **Location:** India (unspecified)
 - **Category:** REGULATION, EPR
 - **Opportunity Type:** MARKET_DEMAND
 - **Relevance Score:** 5 (Major regulatory change; FMCG / packaging / automotive recycled-content demand)
 - **Why it matters:** Possible market demand opening. Scored on major regulatory change; fmcg / packaging / automotive recycled-content demand.
-- **Source:** PIB, 18 Sep 2026
-- **URL:** https://pib.gov.in/PressReleasePage.aspx?PRID=2099887
+- **Source:** Government Press Service (fictional), 18 Sep 2026
+- **URL:** https://govpress.example/releases/plastic-waste-management-rules-amendment
 
 ## Major Industry Developments
 
-- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://economictimes.indiatimes.com/industry/cons-products/fmcg/recycled-hdpe-packaging/articleshow/778899.cms)** — Economic Times, 19 Sep 2026 (score 18; Karnataka, Maharashtra)
-- **[Recycled PP granule prices firm up in western India on strong auto demand](https://moneycontrol.com/news/business/recycled-pp-prices-india-9911.html)** — Moneycontrol, 19 Sep 2026 (score 17; Maharashtra)
-- **[Bengaluru startup raises Rs 120 crore to expand PET recycling capacity](https://business-standard.com/industry/news/bengaluru-pet-recycling-funding-124091800456_1.html)** — Business Standard, 19 Sep 2026 (score 15; Bengaluru, Karnataka)
-- **[Udupi district to award tender for plastic waste processing facility](https://thehindu.com/news/national/karnataka/udupi-plastic-waste-tender/article12345.ece)** — The Hindu, 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
-- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://deccanherald.com/india/karnataka/mangaluru-dry-waste-contract-7712.html)** — Deccan Herald, 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
+- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://industrywire.example/fmcg/recycled-hdpe-packaging-commitment)** — India Industry Wire (fictional), 19 Sep 2026 (score 18; Karnataka, Maharashtra)
+- **[Recycled PP granule prices firm up in western India on strong auto demand](https://marketsdaily.example/commodities/recycled-pp-prices-india)** — Markets Daily (fictional), 19 Sep 2026 (score 17; Maharashtra)
+- **[Bengaluru startup raises Rs 120 crore to expand PET recycling capacity](https://businessreview.example/industry/bengaluru-pet-recycling-funding)** — Business Review India (fictional), 19 Sep 2026 (score 15; Bengaluru, Karnataka)
+- **[Udupi district to award tender for plastic waste processing facility](https://coastalchronicle.example/karnataka/udupi-plastic-waste-tender)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
+- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://coastalchronicle.example/karnataka/mangaluru-dry-waste-contract)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
 
 ## Buyers & Market Demand
 
-- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://economictimes.indiatimes.com/industry/cons-products/fmcg/recycled-hdpe-packaging/articleshow/778899.cms)** — Economic Times, 19 Sep 2026 (score 18; Karnataka, Maharashtra)
-- **[Recycled PP granule prices firm up in western India on strong auto demand](https://moneycontrol.com/news/business/recycled-pp-prices-india-9911.html)** — Moneycontrol, 19 Sep 2026 (score 17; Maharashtra)
+- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://industrywire.example/fmcg/recycled-hdpe-packaging-commitment)** — India Industry Wire (fictional), 19 Sep 2026 (score 18; Karnataka, Maharashtra)
+- **[Recycled PP granule prices firm up in western India on strong auto demand](https://marketsdaily.example/commodities/recycled-pp-prices-india)** — Markets Daily (fictional), 19 Sep 2026 (score 17; Maharashtra)
 
 ## Regulation & EPR
 
-- **[CPCB notifies amendment to Plastic Waste Management Rules tightening EPR targets](https://pib.gov.in/PressReleasePage.aspx?PRID=2099887)** — PIB, 18 Sep 2026 (score 5; India (unspecified))
+- **[Environment ministry notifies amendment to Plastic Waste Management Rules tightening EPR targets](https://govpress.example/releases/plastic-waste-management-rules-amendment)** — Government Press Service (fictional), 18 Sep 2026 (score 5; India (unspecified))
 
 ## Tenders & Contracts
 
-- **[Udupi district to award tender for plastic waste processing facility](https://thehindu.com/news/national/karnataka/udupi-plastic-waste-tender/article12345.ece)** — The Hindu, 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
-- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://deccanherald.com/india/karnataka/mangaluru-dry-waste-contract-7712.html)** — Deccan Herald, 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
+- **[Udupi district to award tender for plastic waste processing facility](https://coastalchronicle.example/karnataka/udupi-plastic-waste-tender)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
+- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://coastalchronicle.example/karnataka/mangaluru-dry-waste-contract)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
 
 ## Technology & Machinery
 
-- **[Chemical recycling pilot using pyrolysis begins operations in Gujarat](https://plasticsnews.com/news/gujarat-pyrolysis-pilot-plant)** — Plastics News, 18 Sep 2026 (score 2; Gujarat)
+- **[Chemical recycling pilot using pyrolysis begins operations in Gujarat](https://polymertrade.example/news/gujarat-pyrolysis-pilot-plant)** — Polymer Trade Journal (fictional), 18 Sep 2026 (score 2; Gujarat)
 
 ## Karnataka / Coastal Karnataka Watch
 
-- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://economictimes.indiatimes.com/industry/cons-products/fmcg/recycled-hdpe-packaging/articleshow/778899.cms)** — Economic Times, 19 Sep 2026 (score 18; Karnataka, Maharashtra)
-- **[Bengaluru startup raises Rs 120 crore to expand PET recycling capacity](https://business-standard.com/industry/news/bengaluru-pet-recycling-funding-124091800456_1.html)** — Business Standard, 19 Sep 2026 (score 15; Bengaluru, Karnataka)
-- **[Udupi district to award tender for plastic waste processing facility](https://thehindu.com/news/national/karnataka/udupi-plastic-waste-tender/article12345.ece)** — The Hindu, 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
-- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://deccanherald.com/india/karnataka/mangaluru-dry-waste-contract-7712.html)** — Deccan Herald, 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
+- **[FMCG major commits to 30% recycled HDPE content in packaging by 2028](https://industrywire.example/fmcg/recycled-hdpe-packaging-commitment)** — India Industry Wire (fictional), 19 Sep 2026 (score 18; Karnataka, Maharashtra)
+- **[Bengaluru startup raises Rs 120 crore to expand PET recycling capacity](https://businessreview.example/industry/bengaluru-pet-recycling-funding)** — Business Review India (fictional), 19 Sep 2026 (score 15; Bengaluru, Karnataka)
+- **[Udupi district to award tender for plastic waste processing facility](https://coastalchronicle.example/karnataka/udupi-plastic-waste-tender)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 10; Udupi, Dakshina Kannada, Karnataka)
+- **[Mangaluru civic body signs waste-management contract for dry waste segregation](https://coastalchronicle.example/karnataka/mangaluru-dry-waste-contract)** — Coastal Karnataka Chronicle (fictional), 19 Sep 2026 (score 6; Mangaluru, Dakshina Kannada)
 
 ## Articles Worth Investigating
 

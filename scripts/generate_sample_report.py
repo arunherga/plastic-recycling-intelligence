@@ -74,7 +74,20 @@ def main() -> int:
     stats.opportunities = sum(1 for a in articles if a.business_opportunity)
     stats.sources_ok = ["google_news (7 items)", "rss (2 items)", "government (1 item)"]
 
-    content = build_report(
+    banner = (
+        "> **THIS IS NOT REAL NEWS.**\n"
+        ">\n"
+        "> Every article below is invented, written by fictional publications at\n"
+        "> deliberately non-resolving `.example` addresses. Nothing here was\n"
+        "> published anywhere and none of the links will open. This file exists\n"
+        "> only to show the shape of the daily report, and is generated from\n"
+        "> `tests/fixtures/sample_items.json` by\n"
+        "> `scripts/generate_sample_report.py`.\n"
+        ">\n"
+        "> Real reports, built from real sources, are in [`reports/`](../reports/).\n\n"
+    )
+
+    content = banner + build_report(
         articles,
         stats,
         date.fromisoformat(args.date),

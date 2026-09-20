@@ -14,7 +14,7 @@ feeds, government pages and deterministic Python. The optional AI layer is off
 by default and the agent is fully functional without it.
 
 - Latest briefing: [`reports/`](reports/)
-- Example output: [`docs/sample-report.md`](docs/sample-report.md)
+- Format example: [`docs/sample-report.md`](docs/sample-report.md) — **fabricated articles from fictional outlets**, used to show the report's shape. Not news.
 
 ## Architecture
 
@@ -314,7 +314,7 @@ plastic-recycling-intelligence/
 ├── reports/                         # daily briefings, YYYY-MM-DD.md
 ├── docs/
 │   ├── ollama.md                    # optional AI setup
-│   └── sample-report.md             # example output (from fixtures)
+│   └── sample-report.md             # format example (fabricated, not news)
 ├── scripts/
 │   └── generate_sample_report.py    # offline report preview
 ├── tests/                           # pytest suite (offline)

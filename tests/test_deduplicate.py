@@ -85,8 +85,8 @@ class TestSimilarity:
 
 class TestFixtureSet:
     def test_two_udupi_tender_versions_collapse(self, sample_articles):
-        result = deduplicate(sample_articles, preferred_domains=["thehindu.com"])
+        result = deduplicate(sample_articles, preferred_domains=["coastalchronicle.example"])
         udupi = [a for a in result if "udupi" in a.normalized_title]
         assert len(udupi) == 1
-        assert "thehindu.com" in udupi[0].url
+        assert "coastalchronicle.example" in udupi[0].url
         assert len(result) == len(sample_articles) - 1
