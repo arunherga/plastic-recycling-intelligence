@@ -13,6 +13,10 @@ on:
         description: "Print the report without committing anything"
         type: boolean
         default: false
+      backfill_days:
+        description: "Historical survey instead of a daily run: days to look back (e.g. 730 for two years). Leave 0 for the normal run."
+        type: string
+        default: "0"
 
 # Least privilege: the job needs to push the report, and nothing else.
 permissions:
@@ -27,7 +31,8 @@ jobs:
   collect:
     name: Collect, analyse and publish
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # A two-year backfill is ~700 requests and takes roughly ten minutes.
+    timeout-minutes: 60
 
     steps:
       - name: Checkout repository
@@ -48,7 +53,19 @@ jobs:
       - name: Run the intelligence agent
         # A source being down must not fail the workflow; src/main.py isolates
         # per-source failures and still produces a report.
-        run: python -m src.main ${{ inputs.dry_run && '--dry-run' || '' }}
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+          BACKFILL_DAYS: ${{ inputs.backfill_days }}
+        run: |
+          ARGS=""
+          if [ "$DRY_RUN" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ -n "$BACKFILL_DAYS" ] && [ "$BACKFILL_DAYS" != "0" ]; then
+            echo "Historical backfill over $BACKFILL_DAYS days."
+            ARGS="$ARGS --backfill-days $BACKFILL_DAYS"
+          fi
+          python -m src.main $ARGS
 
       - name: Check for changes
         id: changes
@@ -63,11 +80,18 @@ jobs:
 
       - name: Commit and push report
         if: steps.changes.outputs.changed == 'true'
+        env:
+          BACKFILL_DAYS: ${{ inputs.backfill_days }}
         run: |
           # Bot identity for automated commits only. Never a personal or
           # corporate address.
           git config user.name "plastic-recycling-intelligence-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$BACKFILL_DAYS" ] && [ "$BACKFILL_DAYS" != "0" ]; then
+            MESSAGE="Historical backfill over $BACKFILL_DAYS days"
+          else
+            MESSAGE="Daily intelligence report for $(date -u +'%Y-%m-%d')"
+          fi
           git add reports data
-          git commit -m "Daily intelligence report for $(date -u +'%Y-%m-%d')"
+          git commit -m "$MESSAGE"
           git push
