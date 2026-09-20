@@ -136,3 +136,50 @@ class TestOpportunityDetection:
         articles = [make_article("Tender for recycled PP", "https://example.com/a")]
         articles[0].relevance_score = 8
         assert detect_all(articles)[0].business_opportunity is True
+
+
+class TestEnforcementIsNotAnOpportunity:
+    """From the first backfill: a penalty was read as a procurement signal."""
+
+    def test_a_fine_for_buying_waste_is_not_a_buyer_lead(self):
+        article = make_article(
+            "Ahmedabad Civic Body Fines Scrap Dealer Rs 1 Lakh For Buying Plastic Waste From Garbage",
+            "https://example.com/a",
+        )
+        article.relevance_score = 10
+        detect_opportunity(article)
+        assert "BUYER" not in article.opportunity_type
+        assert article.business_opportunity is False
+
+    def test_a_genuine_procurement_story_is_still_flagged(self):
+        article = make_article(
+            "FMCG major begins procurement of recycled HDPE granules", "https://example.com/b"
+        )
+        article.relevance_score = 10
+        detect_opportunity(article)
+        assert "BUYER" in article.opportunity_type
+
+    def test_a_tender_survives_enforcement_language(self):
+        # An authority that fines polluters may also float a tender; the tender
+        # is still worth chasing.
+        article = make_article(
+            "After crackdown on violations, civic body floats tender for plastic waste processing",
+            "https://example.com/c",
+        )
+        article.relevance_score = 9
+        detect_opportunity(article)
+        assert "TENDER" in article.opportunity_type
+        assert article.business_opportunity is True
+
+    def test_suppression_terms_are_configurable(self):
+        # With suppression switched off the commercial label comes back.
+        title = "Firm raided during procurement of plastic scrap"
+        suppressed = make_article(title, "https://example.com/d")
+        suppressed.relevance_score = 9
+        detect_opportunity(suppressed)
+        assert "BUYER" not in suppressed.opportunity_type
+
+        allowed = make_article(title, "https://example.com/e")
+        allowed.relevance_score = 9
+        detect_opportunity(allowed, suppress_terms=[], suppress_types=[])
+        assert "BUYER" in allowed.opportunity_type

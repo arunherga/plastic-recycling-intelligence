@@ -183,6 +183,71 @@ topic_gate:
     - single-use plastic
     - plastic waste
     - plastic scrap
+  # A story is rejected when its headline names one of these and no Indian
+  # location at all. "A Costa Rican mother built her home with 7 tonnes of
+  # plastic" scored 8 in the first backfill; the word "India" came from the
+  # publisher's name, not the story.
+  foreign_markers:
+    - costa rica
+    - costa rican
+    - kenya
+    - kenyan
+    - united states
+    - usa
+    - u.s.
+    - america
+    - american
+    - britain
+    - british
+    - england
+    - scotland
+    - europe
+    - european union
+    - brussels
+    - rotterdam
+    - amsterdam
+    - netherlands
+    - germany
+    - german
+    - france
+    - french
+    - spain
+    - italy
+    - poland
+    - russia
+    - ukraine
+    - china
+    - chinese
+    - japan
+    - japanese
+    - korea
+    - taiwan
+    - vietnam
+    - thailand
+    - malaysia
+    - singapore
+    - indonesia
+    - philippines
+    - australia
+    - new zealand
+    - canada
+    - brazil
+    - mexico
+    - nigeria
+    - south africa
+    - egypt
+    - turkey
+    - israel
+    - saudi arabia
+    - iowa
+    - texas
+    - california
+    - massachusetts
+    - ohio
+    - michigan
+    - london
+    - new york
+    - geneva
   geo_terms:
     - india
     - indian
@@ -314,6 +379,14 @@ scoring:
 # ---------------------------------------------------------------------------
 opportunities:
   min_score: 4
+  # "Ahmedabad civic body fines scrap dealer Rs 1 lakh for buying plastic waste"
+  # was flagged as a BUYER opportunity on the word "buying". A penalty is not a
+  # procurement signal, so these terms strip the commercial labels while leaving
+  # tenders and regulatory reading intact.
+  # Whole-word matching means every inflection must be listed: "fined" does
+  # not match "Fines".
+  suppress_terms: ["fine", "fines", "fined", "penalty", "penalties", "penalised", "penalized", "seized", "seizure", "raid", "raided", "raids", "booked", "prosecuted", "prosecution", "crackdown", "violation", "violations", "illegal", "unauthorised", "unauthorized", "notice issued", "shut down", "sealed"]
+  suppress_types: ["BUYER", "SELLER", "MARKET_DEMAND"]
   rules:
     - type: "TENDER"
       terms: ["tender", "e-tender", "rfp", "request for proposal", "expression of interest", "eoi", "bid invited", "gem portal", "municipal contract", "waste-management contract", "waste management contract", "waste processing contract", "collection contract", "concession agreement", "contract awarded", "awarded a contract"]
@@ -358,6 +431,9 @@ backfill:
   max_items_total: 20000
   # Slightly brisker than the daily run, which is one request per second.
   request_delay_seconds: 0.6
+  # A survey carries hundreds of articles, not a dozen. The daily cap of 40
+  # left 153 of 193 links as unreadable aggregator tokens on the first run.
+  max_resolve: 400
   output_dir: "reports/backfill"
   data_dir: "data/backfill"
   # Record backfilled articles as seen, so the daily run does not re-report

@@ -142,3 +142,52 @@ class TestLocations:
 
     def test_no_location(self):
         assert detect_locations("A recycling plant somewhere") == []
+
+
+class TestForeignStories:
+    """Real headlines from the 2026-06-22..2026-09-20 backfill.
+
+    Google answers India-scoped queries with foreign stories, and its RSS
+    descriptions end in the publisher's name — so "The Times of India" was the
+    only reason a story about Costa Rica looked Indian, and it scored 8.
+    """
+
+    MARKERS = ["costa rica", "costa rican", "kenya", "rotterdam", "europe", "iowa", "massachusetts"]
+
+    def test_the_costa_rica_story_is_rejected(self):
+        from src.normalize import is_foreign_story
+
+        title = "A Costa Rican mother saved for 9 years to buy land, then built her home with 7 tonnes of plastic"
+        assert is_foreign_story(title, self.MARKERS) is True
+
+    def test_a_foreign_story_naming_an_indian_place_is_kept(self):
+        from src.normalize import is_foreign_story
+
+        title = "EU waste proposal would ban India from importing bloc's metal scrap"
+        assert is_foreign_story(title, ["europe", "eu"]) is False
+
+    def test_an_indian_story_is_never_foreign(self):
+        from src.normalize import is_foreign_story
+
+        title = "Mangaluru: Karnataka's first RDF pellet manufacturing unit launched at Kemral"
+        assert is_foreign_story(title, self.MARKERS) is False
+
+    def test_no_markers_configured_rejects_nothing(self):
+        from src.normalize import is_foreign_story
+
+        assert is_foreign_story("Anything at all in Kenya", []) is False
+
+    def test_the_gate_applies_the_foreign_test_to_the_headline_only(self):
+        subject, geo = ["plastic"], ["india"]
+        title = "A Costa Rican mother built her home with plastic"
+        # "India" appears only in the publisher tail of the description.
+        text = f"{title} The Times of India"
+        assert passes_topic_gate(text, subject, geo) is True
+        assert passes_topic_gate(text, subject, geo, title=title, foreign_markers=self.MARKERS) is False
+
+    def test_an_indian_story_still_passes_the_gate(self):
+        title = "Mangaluru gets Karnataka's first RDF pellet unit"
+        assert passes_topic_gate(
+            f"{title} plastic waste", ["plastic"], ["karnataka"],
+            title=title, foreign_markers=self.MARKERS,
+        ) is True

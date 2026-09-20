@@ -166,6 +166,7 @@ def run(
     # -- 2. normalize + gate ---------------------------------------------
     subject_terms = config.get("topic_gate.subject_terms", []) or []
     geo_terms = config.get("topic_gate.geo_terms", []) or []
+    foreign_markers = config.get("topic_gate.foreign_markers", []) or []
     lookback = int(config.get("collection.lookback_hours", 48))
     gov_lookback = int(config.get("sources.government.lookback_hours", lookback))
     query_lookback = int(config.get("collection.lookback_hours_news_queries", lookback))
@@ -180,7 +181,11 @@ def run(
         if article is None:
             continue
         if not passes_topic_gate(
-            f"{article.title} {article.description}", subject_terms, geo_terms
+            f"{article.title} {article.description}",
+            subject_terms,
+            geo_terms,
+            title=article.title,
+            foreign_markers=foreign_markers,
         ):
             continue
         if item.origin.startswith("government:"):
@@ -223,6 +228,8 @@ def run(
         articles,
         config.get("opportunities.rules", []) or [],
         int(config.get("opportunities.min_score", 4)),
+        config.get("opportunities.suppress_terms"),
+        config.get("opportunities.suppress_types"),
     )
 
     # Aggregator links are resolved only for articles that can reach the
@@ -231,8 +238,13 @@ def run(
     if bool(config.get("collection.resolve_redirect_urls", True)):
         resolvable = [a for a in articles if a.relevance_score >= section_floor]
         LOG.info("resolving publisher URLs for %d article(s)", len(resolvable))
+        resolve_cap = int(
+            config.get("backfill.max_resolve", 400)
+            if backfill
+            else config.get("collection.max_resolve", 40)
+        )
         _, resolved_n, attempted_n = resolve_article_urls(
-            resolvable, client, int(config.get("collection.max_resolve", 40))
+            resolvable, client, resolve_cap
         )
         if attempted_n:
             stats.source_notes.append(

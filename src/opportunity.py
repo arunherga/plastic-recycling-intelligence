@@ -30,10 +30,22 @@ IMPLIED_BY_CATEGORY = {
 }
 
 
+# An enforcement story uses commercial verbs without being a commercial signal.
+# Whole-word matching means each inflection has to be listed: "fined" does not
+# match "Fines", and "raid" does not match "raided".
+DEFAULT_SUPPRESS_TERMS = (
+    "fine", "fines", "fined", "penalty", "penalties", "penalised", "penalized",
+    "seized", "seizure", "raid", "raided", "crackdown", "violation", "violations",
+)
+DEFAULT_SUPPRESS_TYPES = ("BUYER", "SELLER", "MARKET_DEMAND")
+
+
 def detect_opportunity(
     article: Article,
     rules: Sequence[dict[str, Any]] | None = None,
     min_score: int = 4,
+    suppress_terms: Sequence[str] | None = None,
+    suppress_types: Sequence[str] | None = None,
 ) -> Article:
     """Set ``business_opportunity`` and ``opportunity_type`` in place.
 
@@ -56,6 +68,15 @@ def detect_opportunity(
         if category in article.category and opp_type not in types:
             types.append(opp_type)
 
+    # A fine for buying waste is not a procurement lead.
+    terms = list(suppress_terms) if suppress_terms is not None else list(DEFAULT_SUPPRESS_TERMS)
+    blocked = [
+        str(x).upper()
+        for x in (suppress_types if suppress_types is not None else DEFAULT_SUPPRESS_TYPES)
+    ]
+    if terms and blocked and contains_any(text, terms):
+        types = [t for t in types if t not in blocked]
+
     if types and article.relevance_score >= min_score:
         article.business_opportunity = True
         article.opportunity_type = types
@@ -69,5 +90,10 @@ def detect_all(
     articles: Iterable[Article],
     rules: Sequence[dict[str, Any]] | None = None,
     min_score: int = 4,
+    suppress_terms: Sequence[str] | None = None,
+    suppress_types: Sequence[str] | None = None,
 ) -> list[Article]:
-    return [detect_opportunity(a, rules, min_score) for a in articles]
+    return [
+        detect_opportunity(a, rules, min_score, suppress_terms, suppress_types)
+        for a in articles
+    ]

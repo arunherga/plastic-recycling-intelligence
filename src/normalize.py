@@ -243,13 +243,46 @@ def detect_keywords(text: str) -> list[str]:
     return [kw for kw in KEYWORD_TERMS if contains_term(text, kw)]
 
 
-def passes_topic_gate(text: str, subject_terms: Iterable[str], geo_terms: Iterable[str]) -> bool:
+def strip_publisher_suffix(title: str) -> str:
+    """Drop the " - Publisher" tail Google News appends to every headline."""
+    return TITLE_SUFFIX_RE.sub("", strip_html(title or "")).strip()
+
+
+def is_foreign_story(title: str, foreign_markers: Iterable[str]) -> bool:
+    """Is this headline about somewhere else entirely?
+
+    Google News answers India-scoped queries with foreign stories, and its RSS
+    descriptions end in the publisher's name — so "The Times of India" or
+    "insightsonindia.com" can be the only reason a story about Costa Rica looks
+    Indian. The test is therefore on the headline alone: a foreign place named
+    with no Indian location anywhere in it.
+    """
+    markers = list(foreign_markers or [])
+    if not markers:
+        return False
+    # Without this the test defeats itself: the Costa Rica story reads
+    # "... - The Times of India", and that byline alone made it look Indian.
+    headline = strip_publisher_suffix(title)
+    if not contains_any(headline, markers):
+        return False
+    return not detect_locations(headline)
+
+
+def passes_topic_gate(
+    text: str,
+    subject_terms: Iterable[str],
+    geo_terms: Iterable[str],
+    title: str = "",
+    foreign_markers: Iterable[str] | None = None,
+) -> bool:
     """Reject items that are not about our subject *and* our geography.
 
     Both tests use whole-word matching. With plain substring matching this gate
     was effectively open: "pp" alone admitted anything containing "approves".
     """
-    return contains_any(text, subject_terms) and contains_any(text, geo_terms)
+    if not contains_any(text, subject_terms) or not contains_any(text, geo_terms):
+        return False
+    return not is_foreign_story(title or text, foreign_markers or [])
 
 
 def normalize_item(item: RawItem) -> Optional[Article]:

@@ -85,6 +85,13 @@ Classification is deterministic keyword matching (`src/classify.py`). It is
 cheap, reviewable and produces the same answer twice. The `Classifier` protocol
 exists so an LLM classifier can replace it later without any other change.
 
+Two further filters keep an India-focused report focused. A headline that
+names a foreign place and no Indian one is rejected, because Google answers
+India-scoped queries with foreign stories and its byline tail ("— The Times of
+India") is not evidence of geography. And enforcement language strips the
+commercial labels off an article, so a fine for buying waste is not filed as a
+procurement lead.
+
 All term matching — the topic gate, the classifier, the scorer and the
 opportunity detector — goes through `src/matching.py`, which matches on word
 boundaries rather than substrings. This is not a detail. The first live run
