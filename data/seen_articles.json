@@ -1,6 +1,223 @@
 {
-  "updated_at": null,
+  "articles": {
+    "05e2569854d30b58": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "mumbai goa highway cost jumps 48 rs 16 909 crore one package 126 rs 11 577 crore spent yet parts remain unfinished rti reveals why konkan commuters still waiting",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/roadways/mumbai-goa-highway-cost-jumps-48-to-rs-16909-crore-one-package-up-126-rs-11577-crore-spent-yet-parts-remain-unfinished-rti-reveals-why-konkan-commuters-are-still-waiting/articleshow/134353611.cms"
+    },
+    "10e42999457c4fa0": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "circular public procurement ecolabels teri s wcef2026 session examines india s circular economy",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CbDdLMDFIaURmQkNIVV9DYlBPbzVTbGhmVjN3VXhHMS1XQ1R6REoyVER4VE82VU1UaGZSVjI2ZnVyWUVRQkRpcDF6TE00REk5VFNEbEE5ZGVqQ1NKVUtVRjdGanJBS2wteE5EY3g4bUJMckhVeEUyVzE5WTJtbDDSAYcBQVVfeXFMTVBjNUNPb3lVc0dLVEpIbzdNZ3RCQTFmQXktaFR3a0VwUnBYeXdoajZwY3NxeDRjaUtiRjZLWV9EVW9aZlJvN2xIVGJlT1E0aUp1Wnk1eElRT1J2dEJEYTM2d1cteUFuR2JFUWVnMG5ja3NMRXoyUVYzSmRLOHh4M3FEZWNsbnYw?oc=5"
+    },
+    "1bd716e4ebb26239": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "indian railways approves construction four lane road overbridge udhna",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/indian-railways-approves-construction-of-a-four-lane-road-overbridge-on-the-udhna-ukai-songadh-section-of-western-railway/articleshow/134354992.cms"
+    },
+    "27adabd284d0499f": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "bobst expands service network growing zone india installation base",
+      "url": "https://packagingsouthasia.com/events/bobst-service-network"
+    },
+    "2fd877902620de1e": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "entod pharmaceuticals secures patent insulin eye drop",
+      "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/entod-pharmaceuticals-secures-patent-for-its-insulin-eye-drop/articleshow/134359748.cms"
+    },
+    "37db61dfa18c54bb": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "bengaluru passengers welcome government move against advance tipping drivers seek fairer fares",
+      "url": "https://thehindu.com/news/national/karnataka/bengaluru-passengers-welcome-government-move-against-advance-tipping-drivers-seek-fairer-fares/article71480998.ece"
+    },
+    "41fb61e69006aebc": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "eu waste proposal would ban india importing bloc s metal scrap",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTXV2ME9RNDUzY3Nia0lCZ2lGM1FXTmN6NUpWNFF0S0YyV1g0TG92bF9MczcyQTZKSUt0S3V5WTNNWEdRSTJDMzk1MWpsYUc2dFZGZVZpdy1JWU1FTU5HTElNTW1TZjhfUHNCTm54X2YxN0dJQmluUUN2RHp3YzlKNzdnMmp0cnVqdjUwRXRPcjFzLVI4T0N4WTZwYVRXVkx1N0pPOWtpaG4tUzh4aVE?oc=5"
+    },
+    "45407ada9a3f11fe": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "kollam turns trash into treasure makes 29 crore waste recycling",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVYbktUbVpMSXRXZ0RJb3g1WGJhZHNhdS1PZFNYZjFQUWxnckJBLTVCSWRKLWdkYlZpMmh6b2pWM290enRLcmVwNTFqZUx6Z2NRUWxKZUxDUlhwTHBxVTRBSHZWSVV6cWJqd2Z1aXcya3FWYV9zQVVPYUxZVEk2b2VTWU1GSkJRWEVXX094cHNWeDR3dmJrdWNRUV85a1B5dmExUC1tYjNwY0E0NTFVdmdkRF9Sd9IBtgFBVV95cUxQMGVYbktUbVpMSXRXZ0RJb3g1WGJhZHNhdS1PZFNYZjFQUWxnckJBLTVCSWRKLWdkYlZpMmh6b2pWM290enRLcmVwNTFqZUx6Z2NRUWxKZUxDUlhwTHBxVTRBSHZWSVV6cWJqd2Z1aXcya3FWYV9zQVVPYUxZVEk2b2VTWU1GSkJRWEVXX094cHNWeDR3dmJrdWNRUV85a1B5dmExUC1tYjNwY0E0NTFVdmdkRF9Sdw?oc=5"
+    },
+    "4e597682a1c32de0": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "india s young consumers giving samsung s ai appliance bet big boost",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms"
+    },
+    "53ff9dae0f11400f": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "l oreal onboards two indian startups into second l accelerator cohort sustainability",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNY3M2OTgyMlgyMEppWncyb05QTU5rSmlmSW9DdVZZUHRsZlFSOU1yZ21xM1ZtbmNFYU1BRWE3Z3RBTGh5ak8tSkdNa2FMOUh6VlFtWkVSSG5yLTFTOWlwZEZQc2pVTFU0clRDRktfWWNnQW5MYWFQenh2LUFEQ3o2UzVCZVJaeG1FN1lydGFKU29JU1EwcFA5ZnFxeGxJTUlVR1Y0dWd6d3g1QkZKVmdkaGZvaWx3MEpBdDAyQ0JKa2NOMkRCU1ZJTVFBYnpxS3lRZWowSW9OT1gzYTBiTlFTODY2QnhxcjA?oc=5"
+    },
+    "6a5d50aeb10ce9df": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "flint group loupe india 2026",
+      "url": "https://packagingsouthasia.com/consumables/flint-group-at-loupe"
+    },
+    "6b1b1fbe0688bc62": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "plastic waste clean energy recycling pyrolysis hydrogen pathways",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzZiZkJWRnlqeGMteS1ISEFpVkg1UFE3cTVrbUZZZG1BcGRKSllOY2NGdXNMTkgxb3BHamxlcWR1VDI5R3dIQ0NRR2tnU3B4RFcxNlRIWHdoNERYNHRpNkJyNk4wa1lyR1NnREplUHM3eTlfcGl2UUs4WmFsbjUwZDZKdFZfZVctRlJ4aTR5ZXJmb3BSczJ4TVdYaGVuenA3cXBSM3Z6LU9rdkN5dWJ4MXN2bTNmd0h5U0UxSA?oc=5"
+    },
+    "6b327d683cbdb0ad": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "air india flight delhi kathmandu diverted back reporting technical issues",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-flight-from-delhi-to-kathmandu-diverted-back-after-reporting-technical-issues/articleshow/134353835.cms"
+    },
+    "6bb72562af9b2a81": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "apple pay eyes india rollout axis bank sources say",
+      "url": "https://thehindu.com/business/Industry/apple-pay-eyes-india-rollout-with-axis-bank-sources-say/article71479562.ece"
+    },
+    "85a7626706b7affe": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "karnataka ranks third niti aayog s electric mobility index tops charging readiness",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/karnataka-ranks-third-in-niti-aayogs-electric-mobility-index-tops-charging-readiness/articleshow/134353205.cms"
+    },
+    "8629f02f61aa68b4": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "india s scrap metal imports eu risk 2027",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY25Dc3lJSWxDRW5GMEpEeDVMVTFTSHB1b1Q0RExobTRpWkQtR3ZWMWtkSXgyTFRyelNhWnZLSGc4RTV2WUl3Y09xNDVleDdhTHNWV3JlSVJzOFpMcXBvb180a0RtSlROU0g5cUFRUUhnWmFXQlM5OUMxeWZiSVZacmRjUVlZeDRzeTVjd0pua0dXWjd3X29CbE9PN2hQeTNpZmNRSDBmazBYeFppdW5TazRnU2xHZ0hwbXVSZzJTaUpwVG05eHh3UU1fY9IB2AFBVV95cUxPVS11WmJMc1dZNWNyNjlxam9NTm1ON2hRYVBXUm5QQTRuano4bm5WUVZyMmxJZFc1QTM3aUhpeFE4S1JsdkdYbDJ1dGNpMklTX0xwYjJfUGRuc0pOODNobnZHdlN5VUFPRWhhdUxuOVJlTy1qTFNUaWd0bjZIMW9LUlRuMkRfbnBIckxXTWNNSnRWU1ZfcVZyY1BmZjd6XzYxOWV3SWh0bDFYU0xBaTlIZkRNYXNUOHg5c0ZiRmNnRENKZUhJdmZ6dzFFX3QxN2dhc1NsVGJBRkE?oc=5"
+    },
+    "8a7d514d3382d55f": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "icai prepares reforms creating larger accounting firm networks proposals expected two months",
+      "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-prepares-reforms-for-creating-larger-accounting-firm-networks-proposals-expected-in-two-months/articleshow/134364704.cms"
+    },
+    "8b3cad3e96a5f533": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "nlc india targets large scale pumped storage projects tamil nadu odisha",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/nlc-india-targets-large-scale-pumped-storage-projects-in-tamil-nadu-odisha/articleshow/134356358.cms"
+    },
+    "8eaf17c75e13a101": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "meet benjamin davis 16 year old student massachusetts who designed low cost machine recycle",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNTFoxYm55WE1GdVI5dWVicXZDT2RlNDRUcjdKU0pDMzJzWWZ4YzVhSGoya2FqVl9vZEF4X2FpNjBBczU2cXVObUxNbzJaX0xhbkowQUxUUjA3bW96R2VzUWtKMXQxNXNtRWNQTlIzdV8wOEF6Q2hFT3lJYm5Ra0Zaa3NWSENkUFRuYUtMQ2liUTdQcXdpaU03eVhHRUZTallvc3l6ME5jU1dHY0RYQW02UUFjVWdiMnl2X2JoUmF1ZXpvcXp4c0xSZDFvVWhWcTlOLTE4TEoxNE1qQXlhX1hhZGFjeUIzZThha3N3T0tpbjc3ajVXRnJfbDh6OURTTVNsME9PXzRIWDUxQzMtRERCOGZMaURmR3Z1V0gxTDc5SGFsbEFXMHpDdDdvZ1BUbmwzOERsQmh6c0l4UUlOZU8yeWRkeTRwbjVweURGdNIB0gJBVV95cUxNeWZpY2VzcXRiVEpzS2VCNWJfTUtTSXRmdGZDOVd3UGF4ZXVXY2JvNHFIcU1ROWxYbG9vcm4tRlJxTC0tQjE4RHNHOV9GVUR2Y2F5QllIQWw4ekxoaDFSY0xQZnFDRWx6ZXNTVmpPMlVXcU5YY2d4U1J5NWNGRnZ0MUpCX1NPam9MUnJDRFBvTDA1ejVfRG9INGNNWmVib0NjcGJRLTY2cnExdFBySEhuYWlJSDN0b0hkaW9BcGN5ZEdQRldwSG5uUk5JZ3VOYW5QLVFBNU8xNHVHSHpBWmlxbHhEQkFwUWlhaWpaNGlORjdSR0U1RFFJMktLWFFCMFp5ZkpTODRUcUNPVFFmeEtYcTJ3RUU3MGo1SmVRN0ExeW1BMGU4VE96QkxnUlRYWGRnWGR2OWhBMXB6ZTFSTkl0WVVnb0lrNHpSR1lXMWtjMGoxUQ?oc=5"
+    },
+    "8f3975541ff13cc1": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "talks held more than 20 companies semicon india investments state m b patil",
+      "url": "https://thehindu.com/news/national/karnataka/talks-held-with-more-than-20-companies-at-semicon-india-for-investments-in-state-says-mb-patil/article71484629.ece"
+    },
+    "921ac5a3f5669718": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "potential us tariffs threaten india s textile apparel exports russia sanctions law citi report",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/potential-us-tariffs-threaten-indias-textile-apparel-exports-after-russia-sanctions-law-citi-report/articleshow/134356360.cms"
+    },
+    "92495471fdb2bb98": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "karnataka ranks third niti aayog s electric mobility index 2025",
+      "url": "https://thehindu.com/news/national/karnataka/karnataka-ranks-third-in-niti-aayogs-electric-mobility-index-2025/article71485178.ece"
+    },
+    "9561e33dc4434bab": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "2 low debt stocks could benefit india s growing focus water recycling waste management",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOY1laM3hBSWhjOHprVHcwWGxuXzFWbGU3ZlZGdmxFb2h5amlXR0tXV3pGN0xwX292V0FpREYwZ2hSQXM3bUNod3BFUFh0a1lpalZVeHJDeVl6Ynp0Ujk3OTZHbmhiSml6VGpIN0NERDQzRlRJX0VUd1dnVEpSNDlRdEZkb3pLSElja2Z3MWNuczdZM1FRcDdsbW04cFJsWDJ6UUNtWG1laVE4VU5saGFXdS1JUjExMTdvQTF4aDFOaHV3dTRrX3daLTlDYU43emRDbVFPQWNCVmR6dHg0WkRCUTI4UQ?oc=5"
+    },
+    "a8f77d780f53bc62": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "2 stocks playing india s textile opportunity differently rs 33 000 crore market emerging",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNnB3RFI1emhsRjNnUjE0dUdvVDdMZ2pRbmxSel9fa0dFTEg2VmxFV1hVQW8xWWkwTmwzbVhRLU90NmJVWUFaNWs3SndIZy1PN0tZc3RZQjZFYnlOa3pDdnMwbmdvUWYwNWhEakNaYlFRT2VLZDFONDZ2RUQ2RUdURDduczNpdDZLQ2I4RVRFY1k5RjVETEJfNXY2WEY1VS04dTZydjc5WUVvMnJNZDN6ZWJfMndoUWItTEs3RndDdm45VmZ4UjhaNGpPdVJxNDBMMXJOaU0zcFV0ZjI3ekVvUGs2V1NvSy1ZTzVB0gHyAUFVX3lxTFBOZURCbXVwS2Z1LWFkUHBqRUZ2M25mWkJRTE0yZFNLNnN3cHEyTnlJNy12MHZLRjBaYTFOc1FJeGMwSXlDanl1R0M2WTZhUTdwUUVqNEFuT3g4UGxteE9ua3E4MXk2eC1qVnFuOGZDcG5VUHY5b3d1TU1CU0ItYTVHWWRELUxjakZROXlIeVV2VG9RamRZeXJZV25ZdnhqNEd0TzFjN0xOLWh1YUd1TUEwc2NoYzFDWlE0cGQzYWZobTBNdi1zZmdjdVBBVVRIQnp5NzFyLXhlN2pkX1Y2Sm1VclQ5MUozWmdDZnBKN09QWjJB?oc=5"
+    },
+    "aa52c455bf859b79": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "2017 dubuque turned recycled plastic equal about 67 000 water bottles into 14 floating islands th",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPcVZrc2NsQmpORjVFcHhNTDM1OTVFMjZvM0ZyRmE0a05kRmY0UWhNUTNPbzgtcVRWOFZYZmFHOExiTGtWTFJCRE0yTDBTQWxTVXBZMzdFRzNHeXJhVEd0M1B4QzIwM1dPbEdTQzBkNmJVRHFXcklXU2ZVb1VMdlNNSGU2UUNJYlQ5aHFrcDVGdmpxSXZnaURZRUVrUlVjb2E1Z19DaW1fcjNqOWhyVVd2aWJ5c2d1clFpQkpuVktmOWhUNkpETGR3LTZ5QkI0NGdDUC1DNTY3Unp5bXRJMDFGSHppQ01WT0JUS2NYdGt1dzlORDJNcDRqZVdmUHB6MWx4UWFmYXdyWWRZMV9KbUpMcjJ5TXBRdkJndFp6RXdDVHk0alk0UmpKSlZ1aHNQdlRNV3A3RTRjMkdDdUh3SmxkQjJmZ1VOQzlaUzJLRDlwZUYtUVIzbUZPYXNMc3M3a0hQdGoyMmhNMS3SAe4CQVVfeXFMUHBZTng3UEl2OV9kS2FwdzRJb3F3MGhwTlVReE1CdWVMRi1SXzctUkVmZFZtdmhlU2pHSjd0WXIxbGNMLUNDa0ZiR3hCMWtkcXpFaWI2UVZNOUtOOVBuaDZ2YnpKcnBGY3BmTURKN0ZLbVRMSUJ5WklpakNsTFNLa2pfY1ZkeWFKZ2M0M1VEdjlpZGVXeTVmUndhMmFCNEdYZHpyQnRvOHNwSzBJY2hLUEI1cFBDNVRBeDFXWDNidHlXYnpSSUo1bHU0S2ZRTGtoOWlKVmlGT3U2d2FGSHh4cklhSGtDTG5XU29CNWw1SGZncWdRU2dWY2hpV2hLVmJ3Z2RNZFdYZjdnX1MzbERVbFB2YmhiN2JzeVZOVDJzTWVFQzYtaGJZb3RQQ2p5OXd2Nzllck1XRXBhblJfNDhxVW44TUI0NDhGaUpTWVNRTlJqSVo5azktT2ZORG9KWjdXN0Vkel9pTFhBRlNkQXpn?oc=5"
+    },
+    "ac866fd31f145702": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "winning brands audiences hungry celebrities distinct dependable style",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/the-winning-brands-and-audiences-are-hungry-for-celebrities-with-distinct-dependable-style/articleshow/134362943.cms"
+    },
+    "b900a741fc344585": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "india pet weekly prices rise further higher feedstock costs repeated producer revisions",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2NnN2pRZWxCTEx1TEo1a0hXNlB6RF8yQmE2N0pvN18tWWRQYnVwa0cyaTFPRW1vN2FMcWQ5TzVVQWNKWms3SFJpMGRpOXFCY201MU9GMnZhNWZkOXB5QmlPSFZjWEtMTnRWMnV1QjNFcGhpS2NTUGVpRV9iZXBBSlFBNjVjN0tvNGR3R1FMZ1p5STZDRndlSWlsUmxCbWliX2pPWnpDeFFiOGdpMG5zM1ZDZ0Z4Z1dBblQ2SmtXOVRrRHV6azNSYzZlcGdxdHc5V1E?oc=5"
+    },
+    "ba3728323c8bceb4": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "opinion convenience wrapped plastic environmental hazard",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjlyVFB1ZWViMGI4Sk5zaTN6RjZETlB5RGMzNk1XUWM3S0VsNkxhQVA5NTVfSmk4MmVUSl9wclFuSE5YZV9jb0NqMU1rNDNid1BGeGhUQUwzWjY0M01OZGloYkladkJBbkU2NGJuSWFmbHE5SlhWZHlsb3pHQzlLRVA0Ti13QXpRLXExUk1KaWNIX1U?oc=5"
+    },
+    "c109b114514a6662": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "cambridge backs flexible schooling aligns curriculum nep 2020 vision officials",
+      "url": "https://economictimes.indiatimes.com/industry/services/education/cambridge-backs-flexible-schooling-aligns-curriculum-with-nep-2020-vision-officials/articleshow/134364778.cms"
+    },
+    "c81593fdb8856505": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "india may lose access eu metal scrap under proposed waste rules",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FYWdpY3Y4eFl6VG9COWUxVGFYZ1h5SVhHMm0zX2J5Sjl0X3doZmpJOGFZYmVLVTMwcTk3T0ZMMlhNMWM3dXdGaUJpNE9oU2hUcE5wVUxqNVNMT0lPLTNkYy15VDAwWG8ydUNSQnpNUEQ?oc=5"
+    },
+    "cf01bbee26f0cce9": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "syensqo invests aromatic polymers india",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTUZXaU1qNGZfUWY3N3RjSmoyeUlOdlgweXBDT2o2R2JyMFl6QzhwLVpDUDhLRVpHR2RsOVd2RDQ1Mzc5Zm5lSUZaOTRhV2FJai12WlFDbDFXM0o3TDl0SXpsQUdjMFpxa3dFc0V2VDVwczlOR0xieTA1bmFPdmpwWVZpaFlGMmlDM3I1QW9rMmY0eGZKakhKOEViY0ZIWnVZOTkwek5URHF5MGdWTEN0TjByc3JIZzZkcjVPd0p0WE1sM09PZVlKMHhFSFBZNFVPT0E?oc=5"
+    },
+    "d28797189e631907": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "nambike nakshe 2 0 launched bengaluru building approvals automated",
+      "url": "https://thehindu.com/news/national/karnataka/nambike-nakshe-20-launched-in-bengaluru-building-approvals-to-be-automated/article71484843.ece"
+    },
+    "d87534c628d221d9": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "brussels proposes restricting scrap metal exports india egypt citing lack environmental safeguards",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWtUT0VfcnRMelFWeGNGNFBFYnUwdGw3QnUwMzZqUVRLOEFBRjh2WG1ydktTS19aSUNNMGx5YjB5YlNhdzRBTnRrVDZBeHRFUlQtUmsxc1BVNUkwazdpVGJOUjh5bzhaRzA2dXlqaG1QSDFMV1BadnNKVkhGNk5lRl9SbGFTY25ySlZPWEVQdm5UTGk5di1sN0FvYVJ5UQ?oc=5"
+    },
+    "e0fe0e56115133da": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "daily train passengers take note railways upgrading key systems safer journeys kavach 4 0 across 607 7 km ei 7 stations traction upgrade 4",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/daily-train-passengers-take-note-railways-is-upgrading-key-systems-for-safer-journeys-kavach-4-0-across-607-7-km-ei-at-7-stations-traction-upgrade-4-lane-rob/articleshow/134358460.cms"
+    },
+    "e26658d2ab4a9f26": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "delhi meerut style rrts assam himanta sarma adb talks have begun high speed rail network here s what comes next",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/delhi-meerut-style-rrts-in-assam-himanta-sarma-says-adb-talks-have-begun-for-high-speed-rail-network-heres-what-comes-next/articleshow/134353049.cms"
+    },
+    "e762f15cb1557d90": {
+      "first_seen": "2026-09-20T09:26:56.933826+00:00",
+      "last_seen": "2026-09-20T09:26:56.933826+00:00",
+      "normalized_title": "exotic primates reach india welfare concerns grow",
+      "url": "https://india.mongabay.com/2026/09/as-exotic-primates-reach-india-welfare-concerns-grow"
+    }
+  },
+  "count": 36,
   "retention_days": 60,
-  "count": 0,
-  "articles": {}
+  "updated_at": "2026-09-20T09:26:56.933947+00:00"
 }

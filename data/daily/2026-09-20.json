@@ -1,0 +1,991 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T09:26:56.931558+00:00",
+  "stats": {
+    "collected": 267,
+    "after_topic_gate": 65,
+    "unique": 36,
+    "new_since_last_run": 36,
+    "relevant": 3,
+    "high_priority": 0,
+    "opportunities": 2,
+    "source_errors": [
+      "google_news: query 'recycled plastic granules India': feed returned no entries",
+      "google_news: query 'recycled HDPE India': feed returned no entries",
+      "google_news: query 'recycled LDPE India': feed returned no entries",
+      "google_news: query 'plastic recycling Karnataka': feed returned no entries",
+      "google_news: query 'plastic recycling Mangalore': feed returned no entries",
+      "google_news: query 'plastic recycling Udupi': feed returned no entries",
+      "google_news: query 'plastic recycling Bengaluru': feed returned no entries",
+      "google_news: query 'plastic recycling tender India': feed returned no entries",
+      "google_news: query 'plastic waste tender Karnataka': feed returned no entries",
+      "rss: Down To Earth — Waste: invalid or empty feed",
+      "rss: Business Standard — Industry: HTTP request failed for https://www.business-standard.com/rss/industry-217.rss: 403 Client Error: Forbidden for url: https://www.business-standard.com/rss/industry-217.rss",
+      "rss: Plastics News: HTTP request failed for https://www.plasticsnews.com/rss/news: 404 Client Error: Not Found for url: https://www.plasticsnews.com/rss/news/",
+      "rss: Waste Management World: HTTP request failed for https://waste-management-world.com/feed/: 403 Client Error: Forbidden for url: https://waste-management-world.com/feed/",
+      "government: PIB — All Releases: HTTP request failed for https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3: 403 Client Error: Forbidden for url: https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+      "government: PIB — Environment Ministry: HTTP request failed for https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3: 403 Client Error: Forbidden for url: https://www.pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3",
+      "government: CPCB — What's New: HTTP request failed for https://cpcb.nic.in/whats-new/: HTTPSConnectionPool(host='cpcb.gov.in', port=443): Max retries exceeded with url: /whats-new/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1016)')))",
+      "government: MoEFCC — Press Releases: HTTP request failed for https://moef.gov.in/en/press-release/: 404 Client Error: Not Found for url: https://moef.gov.in/en/press-release"
+    ],
+    "sources_ok": [
+      "google_news (127 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Karnataka ranks third in NITI Aayog’s electric mobility index 2025",
+      "url": "https://thehindu.com/news/national/karnataka/karnataka-ranks-third-in-niti-aayogs-electric-mobility-index-2025/article71485178.ece",
+      "source": "The Hindu — Karnataka",
+      "published_at": "2026-09-19T16:25:39+00:00",
+      "description": "Delhi topped the overall rankings with a score of 84, followed by Maharashtra with 78. Karnataka secured 73",
+      "location": [
+        "Karnataka",
+        "Maharashtra",
+        "Delhi NCR"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Karnataka",
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "92495471fdb2bb98",
+      "normalized_title": "karnataka ranks third niti aayog s electric mobility index 2025",
+      "origin": "rss:The Hindu — Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Mumbai-Goa Highway cost jumps 48% to Rs 16,909 crore: One package up 126%, Rs 11,577 crore spent, yet parts remain unfinished; RTI reveals why Konkan commuters are still waiting",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/roadways/mumbai-goa-highway-cost-jumps-48-to-rs-16909-crore-one-package-up-126-rs-11577-crore-spent-yet-parts-remain-unfinished-rti-reveals-why-konkan-commuters-are-still-waiting/articleshow/134353611.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T12:23:00+00:00",
+      "description": "Mumbai-Goa highway cost: Mumbai-Goa highway widening project's sanctioned cost has risen by nearly 48%, with more than Rs 11,500 crore already spent on its development. Delays have been attributed to land acquisition issues and contractor-related challenges, causing significant inconvenience to commuters. Activists have questioned accountability over the prolonged execution and rising costs, while the project's completion remains a concern for Konkan travellers.",
+      "location": [
+        "Goa",
+        "Maharashtra"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "05e2569854d30b58",
+      "normalized_title": "mumbai goa highway cost jumps 48 rs 16 909 crore one package 126 rs 11 577 crore spent yet parts remain unfinished rti reveals why konkan commuters still waiting",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Circular Public Procurement and Ecolabels: TERI’s WCEF2026 Session Examines India’s Circular Economy - - Mahabahu.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CbDdLMDFIaURmQkNIVV9DYlBPbzVTbGhmVjN3VXhHMS1XQ1R6REoyVER4VE82VU1UaGZSVjI2ZnVyWUVRQkRpcDF6TE00REk5VFNEbEE5ZGVqQ1NKVUtVRjdGanJBS2wteE5EY3g4bUJMckhVeEUyVzE5WTJtbDDSAYcBQVVfeXFMTVBjNUNPb3lVc0dLVEpIbzdNZ3RCQTFmQXktaFR3a0VwUnBYeXdoajZwY3NxeDRjaUtiRjZLWV9EVW9aZlJvN2xIVGJlT1E0aUp1Wnk1eElRT1J2dEJEYTM2d1cteUFuR2JFUWVnMG5ja3NMRXoyUVYzSmRLOHh4M3FEZWNsbnYw?oc=5",
+      "source": "Mahabahu.com",
+      "published_at": "2026-09-18T19:30:24+00:00",
+      "description": "Circular Public Procurement and Ecolabels: TERI’s WCEF2026 Session Examines India’s Circular Economy - Mahabahu.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "BUYER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Buyer / procurement / supplier requirement"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "BUYER"
+      ],
+      "article_id": "10e42999457c4fa0",
+      "normalized_title": "circular public procurement ecolabels teri s wcef2026 session examines india s circular economy",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Karnataka ranks third in NITI Aayog’s electric mobility index, tops charging readiness",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/karnataka-ranks-third-in-niti-aayogs-electric-mobility-index-tops-charging-readiness/articleshow/134353205.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T11:47:14+00:00",
+      "description": "Karnataka has ranked third nationally in NITI Aayog’s India Electric Mobility Index 2025, scoring 73 and emerging as one of the country’s top-performing states on EV adoption and infrastructure. The state recorded the highest score in charging infrastructure readiness at 97, with 6,979 charging stations and nearly 15% EV penetration in the first five months of FY27.",
+      "location": [
+        "Karnataka"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Karnataka"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "85a7626706b7affe",
+      "normalized_title": "karnataka ranks third niti aayog s electric mobility index tops charging readiness",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Syensqo invests in aromatic polymers in India - Interplas Insights",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNTUZXaU1qNGZfUWY3N3RjSmoyeUlOdlgweXBDT2o2R2JyMFl6QzhwLVpDUDhLRVpHR2RsOVd2RDQ1Mzc5Zm5lSUZaOTRhV2FJai12WlFDbDFXM0o3TDl0SXpsQUdjMFpxa3dFc0V2VDVwczlOR0xieTA1bmFPdmpwWVZpaFlGMmlDM3I1QW9rMmY0eGZKakhKOEViY0ZIWnVZOTkwek5URHF5MGdWTEN0TjByc3JIZzZkcjVPd0p0WE1sM09PZVlKMHhFSFBZNFVPT0E?oc=5",
+      "source": "Interplas Insights",
+      "published_at": "2026-09-19T00:00:39+00:00",
+      "description": "Syensqo invests in aromatic polymers in India Interplas Insights",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cf01bbee26f0cce9",
+      "normalized_title": "syensqo invests aromatic polymers india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "2 stocks playing India’s textile opportunity differently. A Rs 33,000 crore market is emerging - financialexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNNnB3RFI1emhsRjNnUjE0dUdvVDdMZ2pRbmxSel9fa0dFTEg2VmxFV1hVQW8xWWkwTmwzbVhRLU90NmJVWUFaNWs3SndIZy1PN0tZc3RZQjZFYnlOa3pDdnMwbmdvUWYwNWhEakNaYlFRT2VLZDFONDZ2RUQ2RUdURDduczNpdDZLQ2I4RVRFY1k5RjVETEJfNXY2WEY1VS04dTZydjc5WUVvMnJNZDN6ZWJfMndoUWItTEs3RndDdm45VmZ4UjhaNGpPdVJxNDBMMXJOaU0zcFV0ZjI3ekVvUGs2V1NvSy1ZTzVB0gHyAUFVX3lxTFBOZURCbXVwS2Z1LWFkUHBqRUZ2M25mWkJRTE0yZFNLNnN3cHEyTnlJNy12MHZLRjBaYTFOc1FJeGMwSXlDanl1R0M2WTZhUTdwUUVqNEFuT3g4UGxteE9ua3E4MXk2eC1qVnFuOGZDcG5VUHY5b3d1TU1CU0ItYTVHWWRELUxjakZROXlIeVV2VG9RamRZeXJZV25ZdnhqNEd0TzFjN0xOLWh1YUd1TUEwc2NoYzFDWlE0cGQzYWZobTBNdi1zZmdjdVBBVVRIQnp5NzFyLXhlN2pkX1Y2Sm1VclQ5MUozWmdDZnBKN09QWjJB?oc=5",
+      "source": "financialexpress.com",
+      "published_at": "2026-09-18T23:30:00+00:00",
+      "description": "2 stocks playing India’s textile opportunity differently. A Rs 33,000 crore market is emerging financialexpress.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a8f77d780f53bc62",
+      "normalized_title": "2 stocks playing india s textile opportunity differently rs 33 000 crore market emerging",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Opinion: Convenience wrapped in plastic — an environmental hazard? - Telangana Today",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORjlyVFB1ZWViMGI4Sk5zaTN6RjZETlB5RGMzNk1XUWM3S0VsNkxhQVA5NTVfSmk4MmVUSl9wclFuSE5YZV9jb0NqMU1rNDNid1BGeGhUQUwzWjY0M01OZGloYkladkJBbkU2NGJuSWFmbHE5SlhWZHlsb3pHQzlLRVA0Ti13QXpRLXExUk1KaWNIX1U?oc=5",
+      "source": "Telangana Today",
+      "published_at": "2026-09-18T17:55:07+00:00",
+      "description": "Opinion: Convenience wrapped in plastic — an environmental hazard? Telangana Today",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ba3728323c8bceb4",
+      "normalized_title": "opinion convenience wrapped plastic environmental hazard",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "ENTOD Pharmaceuticals secures patent for its insulin eye drop",
+      "url": "https://economictimes.indiatimes.com/industry/healthcare/biotech/pharmaceuticals/entod-pharmaceuticals-secures-patent-for-its-insulin-eye-drop/articleshow/134359748.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T19:05:19+00:00",
+      "description": "Currently at the pre-clinical stage of development, the patented insulin eye drops are being investigated as a potential novel therapeutic approach to address unmet needs in ophthalmic care, the Mumbai-based company said.",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2fd877902620de1e",
+      "normalized_title": "entod pharmaceuticals secures patent insulin eye drop",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Daily train passengers, take note: Railways is upgrading key systems for safer journeys. Kavach 4.0 across 607.7 km, EI at 7 stations, traction upgrade & 4-lane ROB",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/daily-train-passengers-take-note-railways-is-upgrading-key-systems-for-safer-journeys-kavach-4-0-across-607-7-km-ei-at-7-stations-traction-upgrade-4-lane-rob/articleshow/134358460.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T17:58:25+00:00",
+      "description": "Railways has approved multiple infrastructure and safety projects across the country, including Kavach 4.0 installation on 607.7 route kilometres in Lucknow Division at Rs 252 crore, Electronic Interlocking at seven Solapur Division stations for Rs 209 crore, a 1x25 kV to 2x25 kV traction upgrade on the Savalyapuram-Guntur section for Rs 142 crore, and a four-lane road overbridge in Gujarat costing Rs 133.2295 crore. The projects aim to strengthen railway safety, signalling, traction capacity and operational efficiency.",
+      "location": [
+        "Gujarat",
+        "Uttar Pradesh"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e0fe0e56115133da",
+      "normalized_title": "daily train passengers take note railways upgrading key systems safer journeys kavach 4 0 across 607 7 km ei 7 stations traction upgrade 4",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bengaluru passengers welcome government move against advance tipping, drivers seek fairer fares",
+      "url": "https://thehindu.com/news/national/karnataka/bengaluru-passengers-welcome-government-move-against-advance-tipping-drivers-seek-fairer-fares/article71480998.ece",
+      "source": "The Hindu — Karnataka",
+      "published_at": "2026-09-19T15:55:52+00:00",
+      "description": "The government has directed cab aggregators to stop offering advance tipping options before a ride is booked, describing the practice as misleading and unfair.",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "37db61dfa18c54bb",
+      "normalized_title": "bengaluru passengers welcome government move against advance tipping drivers seek fairer fares",
+      "origin": "rss:The Hindu — Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Nambike Nakshe 2.0 launched in Bengaluru, building approvals to be automated",
+      "url": "https://thehindu.com/news/national/karnataka/nambike-nakshe-20-launched-in-bengaluru-building-approvals-to-be-automated/article71484843.ece",
+      "source": "The Hindu — Karnataka",
+      "published_at": "2026-09-19T15:29:02+00:00",
+      "description": "Nambike Nakshe 2.0 will initially be implemented on a pilot basis in selected areas.",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d28797189e631907",
+      "normalized_title": "nambike nakshe 2 0 launched bengaluru building approvals automated",
+      "origin": "rss:The Hindu — Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "NLC India targets large-scale pumped storage projects in Tamil Nadu, Odisha",
+      "url": "https://economictimes.indiatimes.com/industry/renewables/nlc-india-targets-large-scale-pumped-storage-projects-in-tamil-nadu-odisha/articleshow/134356358.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T15:16:25+00:00",
+      "description": "The company is developing clean energy through its dedicated green arm, NLCIL Renewables Ltd (NIRL). The PSU is targeting to increase its operational renewable energy portfolio from 1.8 GW to over 10 GW by 2030, with a long-term target of 32.7 GW by 2047, as part of its strategy to achieve a 50 per cent clean energy mix in its generation portfolio ahead of schedule, the Coal Ministry said in the statement.",
+      "location": [
+        "Tamil Nadu"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8b3cad3e96a5f533",
+      "normalized_title": "nlc india targets large scale pumped storage projects tamil nadu odisha",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Talks held with more than 20 companies at SEMICON India for investments in State, says M.B. Patil",
+      "url": "https://thehindu.com/news/national/karnataka/talks-held-with-more-than-20-companies-at-semicon-india-for-investments-in-state-says-mb-patil/article71484629.ece",
+      "source": "The Hindu — Karnataka",
+      "published_at": "2026-09-19T14:52:11+00:00",
+      "description": "‘While Lam Research announced an investment of ₹9,298 crore in the State, Applied Materials shared plans for an investment of ₹3,600 crore over the next 10 years’",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "investment"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8f3975541ff13cc1",
+      "normalized_title": "talks held more than 20 companies semicon india investments state m b patil",
+      "origin": "rss:The Hindu — Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Indian Railways approves construction of a four-lane road overbridge on the Udhna-Ukai Songadh section of Western Railway",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/indian-railways-approves-construction-of-a-four-lane-road-overbridge-on-the-udhna-ukai-songadh-section-of-western-railway/articleshow/134354992.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T13:17:11+00:00",
+      "description": "The Indian Railways has greenlit the construction of a four-lane Road Over Bridge, with a budget exceeding 133 crore rupees. This initiative aims to streamline both road and rail traffic, enhancing overall accessibility. In addition, three multitracking projects, worth 10,783 crore rupees collectively, have been sanctioned to boost freight capacity and connectivity across five states, marking a significant investment in transport infrastructure.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "capacity",
+        "investment"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1bd716e4ebb26239",
+      "normalized_title": "indian railways approves construction four lane road overbridge udhna",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Delhi-Meerut-style RRTS in Assam? Himanta Sarma says ADB talks have begun for high-speed rail network; here’s what comes next",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/railways/delhi-meerut-style-rrts-in-assam-himanta-sarma-says-adb-talks-have-begun-for-high-speed-rail-network-heres-what-comes-next/articleshow/134353049.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T11:35:35+00:00",
+      "description": "Delhi-Meerut-style RRTS in Assam: Assam is exploring a Delhi-Meerut-style RRTS network, with preliminary talks underway with the Asian Development Bank. The proposed Assam Rapid Transit System could connect key growth areas and improve regional connectivity. Chief Minister Himanta Biswa Sarma said a blueprint is being discussed, while routes, project cost, stations and implementation timelines are yet to be finalised.",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "REGULATION",
+        "EPR",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e26658d2ab4a9f26",
+      "normalized_title": "delhi meerut style rrts assam himanta sarma adb talks have begun high speed rail network here s what comes next",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India PET Weekly: Prices Rise Further on Higher Feedstock Costs, Repeated Producer Revisions - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQS2NnN2pRZWxCTEx1TEo1a0hXNlB6RF8yQmE2N0pvN18tWWRQYnVwa0cyaTFPRW1vN2FMcWQ5TzVVQWNKWms3SFJpMGRpOXFCY201MU9GMnZhNWZkOXB5QmlPSFZjWEtMTnRWMnV1QjNFcGhpS2NTUGVpRV9iZXBBSlFBNjVjN0tvNGR3R1FMZ1p5STZDRndlSWlsUmxCbWliX2pPWnpDeFFiOGdpMG5zM1ZDZ0Z4Z1dBblQ2SmtXOVRrRHV6azNSYzZlcGdxdHc5V1E?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-09-19T11:31:13+00:00",
+      "description": "India PET Weekly: Prices Rise Further on Higher Feedstock Costs, Repeated Producer Revisions BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "PRICE"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Price / market data"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b900a741fc344585",
+      "normalized_title": "india pet weekly prices rise further higher feedstock costs repeated producer revisions",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "From Plastic Waste to Clean Energy: Recycling, Pyrolysis and Hydrogen Pathways - insightsonindia.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzZiZkJWRnlqeGMteS1ISEFpVkg1UFE3cTVrbUZZZG1BcGRKSllOY2NGdXNMTkgxb3BHamxlcWR1VDI5R3dIQ0NRR2tnU3B4RFcxNlRIWHdoNERYNHRpNkJyNk4wa1lyR1NnREplUHM3eTlfcGl2UUs4WmFsbjUwZDZKdFZfZVctRlJ4aTR5ZXJmb3BSczJ4TVdYaGVuenA3cXBSM3Z6LU9rdkN5dWJ4MXN2bTNmd0h5U0UxSA?oc=5",
+      "source": "insightsonindia.com",
+      "published_at": "2026-09-19T07:41:05+00:00",
+      "description": "From Plastic Waste to Clean Energy: Recycling, Pyrolysis and Hydrogen Pathways insightsonindia.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY"
+      ],
+      "keywords": [
+        "pyrolysis"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Recycling technology",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6b1b1fbe0688bc62",
+      "normalized_title": "plastic waste clean energy recycling pyrolysis hydrogen pathways",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Kollam turns trash into treasure, makes ₹29 crore from waste recycling - Onmanorama",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMGVYbktUbVpMSXRXZ0RJb3g1WGJhZHNhdS1PZFNYZjFQUWxnckJBLTVCSWRKLWdkYlZpMmh6b2pWM290enRLcmVwNTFqZUx6Z2NRUWxKZUxDUlhwTHBxVTRBSHZWSVV6cWJqd2Z1aXcya3FWYV9zQVVPYUxZVEk2b2VTWU1GSkJRWEVXX094cHNWeDR3dmJrdWNRUV85a1B5dmExUC1tYjNwY0E0NTFVdmdkRF9Sd9IBtgFBVV95cUxQMGVYbktUbVpMSXRXZ0RJb3g1WGJhZHNhdS1PZFNYZjFQUWxnckJBLTVCSWRKLWdkYlZpMmh6b2pWM290enRLcmVwNTFqZUx6Z2NRUWxKZUxDUlhwTHBxVTRBSHZWSVV6cWJqd2Z1aXcya3FWYV9zQVVPYUxZVEk2b2VTWU1GSkJRWEVXX094cHNWeDR3dmJrdWNRUV85a1B5dmExUC1tYjNwY0E0NTFVdmdkRF9Sdw?oc=5",
+      "source": "Onmanorama",
+      "published_at": "2026-09-18T10:03:16+00:00",
+      "description": "Kollam turns trash into treasure, makes ₹29 crore from waste recycling Onmanorama",
+      "location": [],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "45407ada9a3f11fe",
+      "normalized_title": "kollam turns trash into treasure makes 29 crore waste recycling",
+      "origin": "google_news:plastic recycling Kerala",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2017, Dubuque turned recycled plastic equal to about 67,000 water bottles into 14 floating islands; th - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPcVZrc2NsQmpORjVFcHhNTDM1OTVFMjZvM0ZyRmE0a05kRmY0UWhNUTNPbzgtcVRWOFZYZmFHOExiTGtWTFJCRE0yTDBTQWxTVXBZMzdFRzNHeXJhVEd0M1B4QzIwM1dPbEdTQzBkNmJVRHFXcklXU2ZVb1VMdlNNSGU2UUNJYlQ5aHFrcDVGdmpxSXZnaURZRUVrUlVjb2E1Z19DaW1fcjNqOWhyVVd2aWJ5c2d1clFpQkpuVktmOWhUNkpETGR3LTZ5QkI0NGdDUC1DNTY3Unp5bXRJMDFGSHppQ01WT0JUS2NYdGt1dzlORDJNcDRqZVdmUHB6MWx4UWFmYXdyWWRZMV9KbUpMcjJ5TXBRdkJndFp6RXdDVHk0alk0UmpKSlZ1aHNQdlRNV3A3RTRjMkdDdUh3SmxkQjJmZ1VOQzlaUzJLRDlwZUYtUVIzbUZPYXNMc3M3a0hQdGoyMmhNMS3SAe4CQVVfeXFMUHBZTng3UEl2OV9kS2FwdzRJb3F3MGhwTlVReE1CdWVMRi1SXzctUkVmZFZtdmhlU2pHSjd0WXIxbGNMLUNDa0ZiR3hCMWtkcXpFaWI2UVZNOUtOOVBuaDZ2YnpKcnBGY3BmTURKN0ZLbVRMSUJ5WklpakNsTFNLa2pfY1ZkeWFKZ2M0M1VEdjlpZGVXeTVmUndhMmFCNEdYZHpyQnRvOHNwSzBJY2hLUEI1cFBDNVRBeDFXWDNidHlXYnpSSUo1bHU0S2ZRTGtoOWlKVmlGT3U2d2FGSHh4cklhSGtDTG5XU29CNWw1SGZncWdRU2dWY2hpV2hLVmJ3Z2RNZFdYZjdnX1MzbERVbFB2YmhiN2JzeVZOVDJzTWVFQzYtaGJZb3RQQ2p5OXd2Nzllck1XRXBhblJfNDhxVW44TUI0NDhGaUpTWVNRTlJqSVo5azktT2ZORG9KWjdXN0Vkel9pTFhBRlNkQXpn?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-20T05:41:00+00:00",
+      "description": "In 2017, Dubuque turned recycled plastic equal to about 67,000 water bottles into 14 floating islands; th The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "aa52c455bf859b79",
+      "normalized_title": "2017 dubuque turned recycled plastic equal about 67 000 water bottles into 14 floating islands th",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "2 Low Debt Stocks That Could Benefit From India's Growing Focus on Water Recycling and Waste Management - Trade Brains",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOY1laM3hBSWhjOHprVHcwWGxuXzFWbGU3ZlZGdmxFb2h5amlXR0tXV3pGN0xwX292V0FpREYwZ2hSQXM3bUNod3BFUFh0a1lpalZVeHJDeVl6Ynp0Ujk3OTZHbmhiSml6VGpIN0NERDQzRlRJX0VUd1dnVEpSNDlRdEZkb3pLSElja2Z3MWNuczdZM1FRcDdsbW04cFJsWDJ6UUNtWG1laVE4VU5saGFXdS1JUjExMTdvQTF4aDFOaHV3dTRrX3daLTlDYU43emRDbVFPQWNCVmR6dHg0WkRCUTI4UQ?oc=5",
+      "source": "Trade Brains",
+      "published_at": "2026-09-19T12:30:37+00:00",
+      "description": "2 Low Debt Stocks That Could Benefit From India's Growing Focus on Water Recycling and Waste Management Trade Brains",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9561e33dc4434bab",
+      "normalized_title": "2 low debt stocks could benefit india s growing focus water recycling waste management",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Meet Benjamin Davis, a 16-year-old student from Massachusetts who designed a low-cost machine to recycle - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNTFoxYm55WE1GdVI5dWVicXZDT2RlNDRUcjdKU0pDMzJzWWZ4YzVhSGoya2FqVl9vZEF4X2FpNjBBczU2cXVObUxNbzJaX0xhbkowQUxUUjA3bW96R2VzUWtKMXQxNXNtRWNQTlIzdV8wOEF6Q2hFT3lJYm5Ra0Zaa3NWSENkUFRuYUtMQ2liUTdQcXdpaU03eVhHRUZTallvc3l6ME5jU1dHY0RYQW02UUFjVWdiMnl2X2JoUmF1ZXpvcXp4c0xSZDFvVWhWcTlOLTE4TEoxNE1qQXlhX1hhZGFjeUIzZThha3N3T0tpbjc3ajVXRnJfbDh6OURTTVNsME9PXzRIWDUxQzMtRERCOGZMaURmR3Z1V0gxTDc5SGFsbEFXMHpDdDdvZ1BUbmwzOERsQmh6c0l4UUlOZU8yeWRkeTRwbjVweURGdNIB0gJBVV95cUxNeWZpY2VzcXRiVEpzS2VCNWJfTUtTSXRmdGZDOVd3UGF4ZXVXY2JvNHFIcU1ROWxYbG9vcm4tRlJxTC0tQjE4RHNHOV9GVUR2Y2F5QllIQWw4ekxoaDFSY0xQZnFDRWx6ZXNTVmpPMlVXcU5YY2d4U1J5NWNGRnZ0MUpCX1NPam9MUnJDRFBvTDA1ejVfRG9INGNNWmVib0NjcGJRLTY2cnExdFBySEhuYWlJSDN0b0hkaW9BcGN5ZEdQRldwSG5uUk5JZ3VOYW5QLVFBNU8xNHVHSHpBWmlxbHhEQkFwUWlhaWpaNGlORjdSR0U1RFFJMktLWFFCMFp5ZkpTODRUcUNPVFFmeEtYcTJ3RUU3MGo1SmVRN0ExeW1BMGU4VE96QkxnUlRYWGRnWGR2OWhBMXB6ZTFSTkl0WVVnb0lrNHpSR1lXMWtjMGoxUQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-19T05:51:00+00:00",
+      "description": "Meet Benjamin Davis, a 16-year-old student from Massachusetts who designed a low-cost machine to recycle The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MACHINERY"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8eaf17c75e13a101",
+      "normalized_title": "meet benjamin davis 16 year old student massachusetts who designed low cost machine recycle",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU waste proposal would ban India from importing bloc's metal scrap - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTXV2ME9RNDUzY3Nia0lCZ2lGM1FXTmN6NUpWNFF0S0YyV1g0TG92bF9MczcyQTZKSUt0S3V5WTNNWEdRSTJDMzk1MWpsYUc2dFZGZVZpdy1JWU1FTU5HTElNTW1TZjhfUHNCTm54X2YxN0dJQmluUUN2RHp3YzlKNzdnMmp0cnVqdjUwRXRPcjFzLVI4T0N4WTZwYVRXVkx1N0pPOWtpaG4tUzh4aVE?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-09-18T13:06:15+00:00",
+      "description": "EU waste proposal would ban India from importing bloc's metal scrap Reuters",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "41fb61e69006aebc",
+      "normalized_title": "eu waste proposal would ban india importing bloc s metal scrap",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s young consumers are giving Samsung’s AI appliance bet a big boost",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/durables/indias-young-consumers-are-giving-samsungs-ai-appliance-bet-a-big-boost/articleshow/134365163.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-20T08:05:02+00:00",
+      "description": "Samsung sees significant AI appliance growth in India, driven by younger consumers. Connected Samsung appliances in India saw a nearly nine-fold increase last year. The company plans to expand AI capabilities to mid-range and entry-level products. LG Electronics is also increasing its manufacturing footprint and strategic market focus. India is becoming a key testing ground for AI-enabled everyday consumer products.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4e597682a1c32de0",
+      "normalized_title": "india s young consumers giving samsung s ai appliance bet big boost",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Cambridge backs flexible schooling, aligns curriculum with NEP 2020 vision: Officials",
+      "url": "https://economictimes.indiatimes.com/industry/services/education/cambridge-backs-flexible-schooling-aligns-curriculum-with-nep-2020-vision-officials/articleshow/134364778.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-20T07:29:52+00:00",
+      "description": "Cambridge offers schools flexibility in subject selection, aligning with India's NEP 2020. This approach supports learner-centred education and moves away from rigid academic streams. Students can progressively make choices as their interests and strengths develop. Early assessment and exposure to subjects help learners understand their potential.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c109b114514a6662",
+      "normalized_title": "cambridge backs flexible schooling aligns curriculum nep 2020 vision officials",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "ICAI prepares reforms for creating larger accounting firm networks; proposals expected in two months",
+      "url": "https://economictimes.indiatimes.com/industry/services/consultancy-/-audit/icai-prepares-reforms-for-creating-larger-accounting-firm-networks-proposals-expected-in-two-months/articleshow/134364704.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-20T06:48:30+00:00",
+      "description": "ICAI plans to propose reforms within two months to help Indian accounting firms scale up and compete globally. The proposals include recognising aggregation structures, allowing capital infusion, easing rules on non-assurance services, and expanding professional networks to include lawyers, engineers, architects and other professionals.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8a7d514d3382d55f",
+      "normalized_title": "icai prepares reforms creating larger accounting firm networks proposals expected two months",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "The winning: Brands and audiences are hungry for celebrities with distinct, dependable style",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/the-winning-brands-and-audiences-are-hungry-for-celebrities-with-distinct-dependable-style/articleshow/134362943.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-20T03:13:11+00:00",
+      "description": "In the social-media era, personal style has become a valuable business asset for celebrities and influencers. Authentic, recognisable fashion identities can generate massive media value, attract brand partnerships and help luxury labels enter India’s market.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ac866fd31f145702",
+      "normalized_title": "winning brands audiences hungry celebrities distinct dependable style",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Potential US tariffs threaten India's textile, apparel exports after Russia sanctions law: CITI report",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/garments-/-textiles/potential-us-tariffs-threaten-indias-textile-apparel-exports-after-russia-sanctions-law-citi-report/articleshow/134356360.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T15:18:59+00:00",
+      "description": "Potential US tariffs could significantly harm India's textile and apparel exports. The industry body CITI is urging the government to engage with Washington urgently. This action is needed to protect Indian exporters from competitive disadvantages in the US market. A balanced trade agreement between India and the US is considered an urgent necessity. While free trade agreements offer potential, they cannot replace the US market's importance.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "921ac5a3f5669718",
+      "normalized_title": "potential us tariffs threaten india s textile apparel exports russia sanctions law citi report",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s Scrap Metal Imports From EU At Risk From 2027 - outlookbusiness.com",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY25Dc3lJSWxDRW5GMEpEeDVMVTFTSHB1b1Q0RExobTRpWkQtR3ZWMWtkSXgyTFRyelNhWnZLSGc4RTV2WUl3Y09xNDVleDdhTHNWV3JlSVJzOFpMcXBvb180a0RtSlROU0g5cUFRUUhnWmFXQlM5OUMxeWZiSVZacmRjUVlZeDRzeTVjd0pua0dXWjd3X29CbE9PN2hQeTNpZmNRSDBmazBYeFppdW5TazRnU2xHZ0hwbXVSZzJTaUpwVG05eHh3UU1fY9IB2AFBVV95cUxPVS11WmJMc1dZNWNyNjlxam9NTm1ON2hRYVBXUm5QQTRuano4bm5WUVZyMmxJZFc1QTM3aUhpeFE4S1JsdkdYbDJ1dGNpMklTX0xwYjJfUGRuc0pOODNobnZHdlN5VUFPRWhhdUxuOVJlTy1qTFNUaWd0bjZIMW9LUlRuMkRfbnBIckxXTWNNSnRWU1ZfcVZyY1BmZjd6XzYxOWV3SWh0bDFYU0xBaTlIZkRNYXNUOHg5c0ZiRmNnRENKZUhJdmZ6dzFFX3QxN2dhc1NsVGJBRkE?oc=5",
+      "source": "outlookbusiness.com",
+      "published_at": "2026-09-19T13:00:15+00:00",
+      "description": "India’s Scrap Metal Imports From EU At Risk From 2027 outlookbusiness.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8629f02f61aa68b4",
+      "normalized_title": "india s scrap metal imports eu risk 2027",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Air India flight from Delhi to Kathmandu diverted back after reporting \"technical issues\"",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/air-india-flight-from-delhi-to-kathmandu-diverted-back-after-reporting-technical-issues/articleshow/134353835.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-19T12:14:39+00:00",
+      "description": "An Air India flight, AI219, which took off from New Delhi en route to Kathmandu, had to return to Delhi due to reported technical difficulties. The aircraft experienced issues as it approached Nepali airspace near Lucknow.",
+      "location": [
+        "Delhi NCR",
+        "Uttar Pradesh"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6b327d683cbdb0ad",
+      "normalized_title": "air india flight delhi kathmandu diverted back reporting technical issues",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Apple Pay eyes India rollout with Axis Bank, sources say",
+      "url": "https://thehindu.com/business/Industry/apple-pay-eyes-india-rollout-with-axis-bank-sources-say/article71479562.ece",
+      "source": "The Hindu — Business",
+      "published_at": "2026-09-19T10:56:55+00:00",
+      "description": "Apple Pay ‌has ⁠also been in discussions with HDFC Bank and ICICI Bank but they are yet to agree commercial terms",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6bb72562af9b2a81",
+      "normalized_title": "apple pay eyes india rollout axis bank sources say",
+      "origin": "rss:The Hindu — Business",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "L'Oreal Onboards Two Indian Startups Into Second L'AcceleratOR Cohort For Sustainability - Siliconindia",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNY3M2OTgyMlgyMEppWncyb05QTU5rSmlmSW9DdVZZUHRsZlFSOU1yZ21xM1ZtbmNFYU1BRWE3Z3RBTGh5ak8tSkdNa2FMOUh6VlFtWkVSSG5yLTFTOWlwZEZQc2pVTFU0clRDRktfWWNnQW5MYWFQenh2LUFEQ3o2UzVCZVJaeG1FN1lydGFKU29JU1EwcFA5ZnFxeGxJTUlVR1Y0dWd6d3g1QkZKVmdkaGZvaWx3MEpBdDAyQ0JKa2NOMkRCU1ZJTVFBYnpxS3lRZWowSW9OT1gzYTBiTlFTODY2QnhxcjA?oc=5",
+      "source": "Siliconindia",
+      "published_at": "2026-09-19T09:21:47+00:00",
+      "description": "L'Oreal Onboards Two Indian Startups Into Second L'AcceleratOR Cohort For Sustainability Siliconindia",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "53ff9dae0f11400f",
+      "normalized_title": "l oreal onboards two indian startups into second l accelerator cohort sustainability",
+      "origin": "google_news:plastic recycling startup India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Flint Group at Loupe India 2026",
+      "url": "https://packagingsouthasia.com/consumables/flint-group-at-loupe",
+      "source": "Packaging South Asia",
+      "published_at": "2026-09-19T06:10:04+00:00",
+      "description": "Flint Group Packaging Solutions will highlight its latest innovations in ink technology, color management, and digital solutions for narrow web label and packaging at Loupe India 2026. The company’s exhibit at Stand N21 will highlight how its inks, coatings, digital press technology and technical support can enable future-ready packaging production in one of the world’s [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6a5d50aeb10ce9df",
+      "normalized_title": "flint group loupe india 2026",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bobst expands service network for growing Zone India installation base",
+      "url": "https://packagingsouthasia.com/events/bobst-service-network",
+      "source": "Packaging South Asia",
+      "published_at": "2026-09-19T05:33:59+00:00",
+      "description": "Bobst India is expanding its service and technical support infrastructure as its installed machine base continues to grow across the country and Zone India, which includes Bangladesh, Nepal and Sri Lanka. Sameer Joshi, Zone Services Director – India, Bobst India, presented a broad breakdown by applications of the more than 2100 machines at the company’s [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "MACHINERY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "27adabd284d0499f",
+      "normalized_title": "bobst expands service network growing zone india installation base",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India May Lose Access to EU Metal Scrap Under Proposed Waste Rules - PravdaReport",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FYWdpY3Y4eFl6VG9COWUxVGFYZ1h5SVhHMm0zX2J5Sjl0X3doZmpJOGFZYmVLVTMwcTk3T0ZMMlhNMWM3dXdGaUJpNE9oU2hUcE5wVUxqNVNMT0lPLTNkYy15VDAwWG8ydUNSQnpNUEQ?oc=5",
+      "source": "PravdaReport",
+      "published_at": "2026-09-18T18:52:00+00:00",
+      "description": "India May Lose Access to EU Metal Scrap Under Proposed Waste Rules PravdaReport",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c81593fdb8856505",
+      "normalized_title": "india may lose access eu metal scrap under proposed waste rules",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Brussels proposes restricting scrap metal exports to India and Egypt, citing a lack of environmental safeguards - Informat.ro",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQWtUT0VfcnRMelFWeGNGNFBFYnUwdGw3QnUwMzZqUVRLOEFBRjh2WG1ydktTS19aSUNNMGx5YjB5YlNhdzRBTnRrVDZBeHRFUlQtUmsxc1BVNUkwazdpVGJOUjh5bzhaRzA2dXlqaG1QSDFMV1BadnNKVkhGNk5lRl9SbGFTY25ySlZPWEVQdm5UTGk5di1sN0FvYVJ5UQ?oc=5",
+      "source": "Informat.ro",
+      "published_at": "2026-09-18T16:52:21+00:00",
+      "description": "Brussels proposes restricting scrap metal exports to India and Egypt, citing a lack of environmental safeguards Informat.ro",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d87534c628d221d9",
+      "normalized_title": "brussels proposes restricting scrap metal exports india egypt citing lack environmental safeguards",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "As exotic primates reach India, welfare concerns grow",
+      "url": "https://india.mongabay.com/2026/09/as-exotic-primates-reach-india-welfare-concerns-grow",
+      "source": "Mongabay India",
+      "published_at": "2026-09-18T15:55:59+00:00",
+      "description": "This is Part 2 of a series on exotic pet trade. The series looks at the health impacts, legal challenges and the ecological consequences of keeping exotic wild animals as pets. Part 1 elaborates on how the trade enables zoonoses or zoonotic disease spillovers. Recently, pictures and videos of five orangutan babies in a forest [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e762f15cb1557d90",
+      "normalized_title": "exotic primates reach india welfare concerns grow",
+      "origin": "rss:Mongabay India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
