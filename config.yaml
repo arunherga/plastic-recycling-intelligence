@@ -59,27 +59,31 @@ sources:
 
   rss:
     enabled: true
+    # Verified against two live GitHub Actions runs. Feeds that are blocked or
+    # gone were removed rather than left to fail daily; none of them cost us
+    # coverage, because Google News carries the same publishers (the Plastics
+    # News story in the 2026-09-20 report arrived that way).
+    #
+    # Removed, with the response each returned from a GitHub runner:
+    #   Down To Earth   https://www.downtoearth.org.in/rss/waste  empty feed,
+    #                   and the site advertises no alternate feed
+    #   Business Standard  /rss/industry-217.rss   403 (homepage also 403)
+    #   Plastics News      /rss/news               404, no feed advertised
+    #   Waste Mgmt World   /feed/                  403 (homepage also 403)
+    # The 403s are datacenter-IP blocking, not something a User-Agent fixes.
     feeds:
-      - name: "Down To Earth — Waste"
-        url: "https://www.downtoearth.org.in/rss/waste"
       - name: "Mongabay India"
         url: "https://india.mongabay.com/feed/"
       - name: "The Hindu — Business"
         url: "https://www.thehindu.com/business/feeder/default.rss"
       - name: "The Hindu — Karnataka"
         url: "https://www.thehindu.com/news/national/karnataka/feeder/default.rss"
-      - name: "Business Standard — Industry"
-        url: "https://www.business-standard.com/rss/industry-217.rss"
       - name: "Economic Times — Industry"
         url: "https://economictimes.indiatimes.com/industry/rssfeeds/13352306.cms"
       - name: "Packaging South Asia"
         url: "https://packagingsouthasia.com/feed/"
       - name: "Recycling Today"
         url: "https://www.recyclingtoday.com/rss/"
-      - name: "Plastics News"
-        url: "https://www.plasticsnews.com/rss/news"
-      - name: "Waste Management World"
-        url: "https://waste-management-world.com/feed/"
 
   government:
     enabled: true
@@ -92,9 +96,8 @@ sources:
     #   * moef.gov.in/en/press-release/ 404s; the homepage is scanned instead
     #     and links are filtered for plastics/waste terms.
     feeds:
-      - name: "PIB — Press Releases"
-        url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3"
-        kind: "rss"
+      # PIB's RSS returns 403 from GitHub runners even with a conventional
+      # User-Agent — its releases reach us through the news queries instead.
       - name: "MoEFCC"
         url: "https://moef.gov.in/"
         kind: "html"

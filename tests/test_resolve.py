@@ -77,3 +77,66 @@ class TestResolveBatch:
         article = make_article("Udupi tender", GOOGLE, source="The Hindu")
         resolve_article_urls([article], FakeClient({GOOGLE: REAL}))
         assert article.source == "The Hindu"
+
+
+class TestRedirectPageParsing:
+    """Google answers these links with a page, not an HTTP redirect.
+
+    The first live attempt resolved 0 of 20 links because only the final
+    response URL was inspected, and that stayed on news.google.com.
+    """
+
+    def test_destination_from_the_google_attribute(self):
+        from src.resolve import _from_body
+
+        html = '<c-wiz data-n-au="https://bangaloremirror.indiatimes.com/story-1"></c-wiz>'
+        assert _from_body(html) == "https://bangaloremirror.indiatimes.com/story-1"
+
+    def test_destination_from_a_meta_refresh(self):
+        from src.resolve import _from_body
+
+        html = '<meta http-equiv="refresh" content="0;url=https://www.indiatoday.in/a/b">'
+        assert _from_body(html) == "https://www.indiatoday.in/a/b"
+
+    def test_destination_from_a_canonical_link(self):
+        from src.resolve import _from_body
+
+        html = '<link rel="canonical" href="https://thehindu.com/a/b.ece">'
+        assert _from_body(html) == "https://thehindu.com/a/b.ece"
+
+    def test_google_infrastructure_links_are_ignored(self):
+        from src.resolve import _from_body
+
+        html = (
+            '<a href="https://www.google.com/preferences">x</a>'
+            '<a href="https://gstatic.com/y.js">y</a>'
+            '<a href="https://businesstoday.in/real-article">z</a>'
+        )
+        assert _from_body(html) == "https://businesstoday.in/real-article"
+
+    def test_a_page_with_no_destination_yields_nothing(self):
+        from src.resolve import _from_body
+
+        assert _from_body('<a href="https://news.google.com/loop">x</a>') == ""
+        assert _from_body("") == ""
+
+
+class TestResolutionReporting:
+    def test_counts_are_returned_for_diagnostics(self):
+        articles = [
+            make_article("A", GOOGLE + "&i=1"),
+            make_article("B", GOOGLE + "&i=2"),
+            make_article("C", REAL),
+        ]
+        # Key on the stored URL: normalization reorders query parameters, so
+        # the string passed to make_article is not what gets requested.
+        client = FakeClient({articles[0].url: REAL})
+        _, resolved, attempted = resolve_article_urls(articles, client)
+        assert attempted == 2
+        assert resolved == 1
+
+    def test_an_unresolved_link_is_not_counted_as_resolved(self):
+        article = make_article("A", GOOGLE)
+        _, resolved, attempted = resolve_article_urls([article], FakeClient({GOOGLE: GOOGLE}))
+        assert (resolved, attempted) == (0, 1)
+        assert article.url == GOOGLE

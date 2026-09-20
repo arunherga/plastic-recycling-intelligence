@@ -148,9 +148,14 @@ def run(config: Config, report_date: date | None = None, dry_run: bool = False) 
     if bool(config.get("collection.resolve_redirect_urls", True)):
         resolvable = [a for a in articles if a.relevance_score >= section_floor]
         LOG.info("resolving publisher URLs for %d article(s)", len(resolvable))
-        resolve_article_urls(
+        _, resolved_n, attempted_n = resolve_article_urls(
             resolvable, client, int(config.get("collection.max_resolve", 40))
         )
+        if attempted_n:
+            stats.source_notes.append(
+                f"url resolution: {resolved_n} of {attempted_n} aggregator links "
+                "resolved to the publisher's own address"
+            )
 
     relevant_threshold = int(config.get("scoring.thresholds.relevant", 4))
     high_threshold = int(config.get("scoring.thresholds.high_priority", 8))
