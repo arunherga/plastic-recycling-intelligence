@@ -1,0 +1,80 @@
+{
+  "date": "2026-09-21",
+  "generated_at": "2026-09-21T06:36:55.250296+00:00",
+  "stats": {
+    "collected": 492,
+    "after_topic_gate": 61,
+    "unique": 20,
+    "new_since_last_run": 2,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today"
+    ],
+    "sources_ok": [
+      "google_news (362 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Mining to recycling: Pvt companies building India's lithium supply chain - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTDZUWVFqWF9VZGsxM2NlTnhqOXlwbXNxV1hOYnM3NEtwYjlaZmI4SFNuVFFyd2ppV1J4OEl2c3FUcldGVGQtN1VuMGlYSDJCLXZ2WFdoWG1ackduakZBTlB5VDJSdE9ZYnZpM1JGRlB1M01DbTZDNWRicHJFSmxKZEZObkxwNTN5LUZQS0FBa1JwTDlqZVVwYm0zMkY1VDJSb1FVZkxQOUFaRzROZG1WUjU4c1Q4dWhxVTdSeV9XbFc3VGZOM19oc01VT0ZIMHZw0gHWAUFVX3lxTFBwRmx0Y3BIU055TzMyMFR0QlJPYVpZaDdEYk1KdXBDT19iUzhqTDVMSlo3QUE2TmJzRTl5dE0yQ2NISzQ4bTA3cXhGTy0zcDJTY09EMHdGSVBmbS1RUGZzZlBnYjNSLWk2YmptRUpFNjBxQkVRTEl1SHN1YVdFV2xvLWpZSWhlRl82c2pmYkR3UFB5dXQwaC01RUlxOWdmMFNnc0dmQjZSTkJJSTlLX2g0cnJfZkxfVXZGc0I4VXI5Nmx0d19LZW5CRVhtZF96WFVVbWlrN1E?oc=5",
+      "source": "Business Standard",
+      "published_at": "2026-09-20T17:44:00+00:00",
+      "description": "Mining to recycling: Pvt companies building India's lithium supply chain Business Standard",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8159c573067a3acf",
+      "normalized_title": "mining recycling pvt companies building india s lithium supply chain",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Shipping groups urge EU states to back two Indian ship recycling yards - safety4sea",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOVZxdFhvdTJjMS1pRzh6c1lyZUJuT2lsUVZhcnQ0M2N4QXA4Y3huV0RsckdyVktQd2xTd2pTdF9ObHVlTmRORUdLS1lQaS1HbDNwZXVtWU1IeGw0d1JybklpVmZ0YWxVM05GUEZnMFgxWW1rbFRSVWFQMXVtZUpaVWE3cHB3Z3VYYmN1Z2QxYTJPcXBvWlktaEtn?oc=5",
+      "source": "safety4sea",
+      "published_at": "2026-09-18T12:49:13+00:00",
+      "description": "Shipping groups urge EU states to back two Indian ship recycling yards safety4sea",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a6183aa32ecd5f43",
+      "normalized_title": "shipping groups urge eu states back two indian ship recycling yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
