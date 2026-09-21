@@ -2,11 +2,22 @@ name: Daily Intelligence
 
 # Runs once a day and commits the generated report back to this repository.
 #
-# Schedule note: GitHub Actions cron is always UTC. 02:30 UTC == 08:00 IST.
-# India does not observe daylight saving, so this stays put all year.
+# Schedule note: GitHub Actions cron is always UTC. India does not observe
+# daylight saving, so these stay put all year.
+#
+# Two things learned the hard way on 2026-09-21, when the first scheduled run
+# never fired:
+#
+#   * GitHub warns that scheduled runs may be delayed under load, and the
+#     queue is worst at :00 and :30 because that is when everyone schedules.
+#     These sit at :37 and :13 instead.
+#   * A skipped run used to mean a lost day. It no longer does: a second run
+#     on the same date merges into that day's report rather than replacing
+#     it, so the later slot is a safety net, not a duplicate.
 on:
   schedule:
-    - cron: "30 2 * * *"
+    - cron: "37 2 * * *"   # 08:07 IST — the morning report
+    - cron: "13 6 * * *"   # 11:43 IST — catch-up if the morning run was skipped
   workflow_dispatch:
     inputs:
       dry_run:
