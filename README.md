@@ -285,10 +285,20 @@ retention, report structure, per-source failure isolation, and the shape of
 
 ## Automation
 
-`.github/workflows/daily-intelligence.yml` runs at **02:30 UTC, which is 08:00
-IST** (`cron: "30 2 * * *"`). GitHub Actions cron is always UTC and India does
-not observe daylight saving, so this holds year-round. GitHub's scheduler can
-lag by a few minutes under load; that is normal.
+`.github/workflows/daily-intelligence.yml` runs twice: **02:37 UTC (08:07 IST)**
+for the morning report, and **06:13 UTC (11:43 IST)** as a catch-up. GitHub
+Actions cron is always UTC and India does not observe daylight saving, so both
+hold year-round.
+
+Two slots, at odd minutes, for a reason. GitHub warns that scheduled runs may be
+delayed under load, and the queue is worst at :00 and :30 because that is when
+everyone schedules; the first scheduled run of this project, at 02:30, never
+fired at all. Since a second run on the same date merges into that day's report
+rather than replacing it, the later slot costs nothing when the morning run
+worked and rescues the day when it did not. If both are ever skipped, trigger
+the workflow by hand — and if the schedule proves unreliable enough to matter,
+the sturdier answer is an external scheduler dispatching into GitHub rather
+than GitHub's own cron.
 
 The job checks out the repository, installs Python 3.11 and the dependencies,
 runs the agent, checks whether `reports/` or `data/` changed, and commits and
