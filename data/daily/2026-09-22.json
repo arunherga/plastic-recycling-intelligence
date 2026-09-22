@@ -1,0 +1,282 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T07:56:57.757261+00:00",
+  "stats": {
+    "collected": 517,
+    "after_topic_gate": 70,
+    "unique": 25,
+    "new_since_last_run": 10,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 595557 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (377 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Kerala turns plastic waste into roads: How 4,447 tonnes of discarded plastic were reused to build nearly 7 - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxQZTV2RFc2VEpjNGJ6cHNLTGI5VkFSMTQxN1ZBN0wyQXc2eTJRb0tDa0U5cDRRSkd5bkF4QmwxaDA1dFp0TW9RSFlmTU1pUlRRZmMxQ19rb3ZueVZmNWpVbURGSllkbWtRM3llQ3B6Z0ZBdjRHbFFfSGVReDZyN1dRM1dpR1FiR01FUkdjRDlfa0VhU2VMYUp6djdDLVFOUm4tSGhESi1oUEZVQmpZRDFKc0xoeXlJMjhqUHVUakozS3lUUTEwVWctQVVudmlJZUdQbkNZdHVGNW9neGhOZ281cWlZMzhRdzY5RTRpYXJuck5XZFpiY1ZibGowU3kwREJpYURwZlFlcWhRVXREY2Z2dFhFTVFMdzJyMzBFMnAxN2FRUi1pUUNRN1FZSXJmMTVJS1hXMnZB0gG2AkFVX3lxTFBlNXZEVzZUSmM0Ynpwc0tMYjlWQVIxNDE3VkE3TDJBdzZ5MlFvS0NrRTlwNFFKR3luQXhCbDFoMDV0WnRNb1FIWWZNTWlSVFFmYzFDX2tvdm55VmY1alVtREZKWWRta1EzeWVDcHpnRkF2NEdsUV9IZVF4NnI3V1EzV2lHUWJHTUVSR2NEOV9rRWFTZUxhSnp2N0MtUU5Sbi1IaERKLWhQRlVCallEMUpzTGh5eUkyOGpQdVRqSjNLeVRRMTBVZy1BVW52aUllR1BuQ1l0dUY1b2d4aE5nbzVxaVkzOFF3NjlFNGlhcm5yTldkWmJjVmJsajBTeTBEQmlhRHBmUWVxaFFVdERjZnZ0WEVNUUx3MnIzMEUycDE3YVFSLWlRQ1E3UVlJcmYxNUlLWFcydkE?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-09-21T14:22:00+00:00",
+      "description": "Kerala turns plastic waste into roads: How 4,447 tonnes of discarded plastic were reused to build nearly 7 The Economic Times",
+      "location": [
+        "Kerala"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b600accdfcb26bec",
+      "normalized_title": "kerala turns plastic waste into roads how 4 447 tonnes discarded plastic were reused build nearly 7",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Circulate Capital to invest in JC Global",
+      "url": "https://packagingsouthasia.com/invest-ma-jv/circulate-capital-jc-global",
+      "source": "Packaging South Asia",
+      "published_at": "2026-09-22T03:54:35+00:00",
+      "description": "Circulate Capital has signed definitive documents with Jayachandran Global Refineries, a pioneering plastics recycler, to invest US$ 9.5 million. This investment will mark Circulate Capital’s eighth investment in India and the inaugural deployment of capital from Circulate Capital Asia Fund, following the recent US$220 million first close of the fund. Through this funding, Circulate Capital [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "investment"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "084318f0e14aafa7",
+      "normalized_title": "circulate capital invest jc global",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Put plastic challenge at the top of India's sustainability battle - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcVJfbXh4UXlEcklZd21PYXppVWJ4bmRPODIycVRoeFpjcmI0a05iT3R3SnpRTE03MlFxc0pXV2R1cnVLaThUa1dEdVlRLUVySHR0LWhxNHRfaGFPSHVxcjdKWU1oeHYtZGk1RVc0NEtPOFdvQVRkYUw2NGZCRURHOURuX1RDbW1UNWJsdi1FemRzWWZNOExNOFF5aWkteWpDaktON3B0ZHlXaTRoV09jRUxmNDVzRW1PREVv0gHIAUFVX3lxTE5GVzdGS21RMFI4TjNxeGtmd3dyMF8wVzA0ZmNUV0ktb3RUbU93MElPQ29TbnliazNiMURocEVEVGRjSXQ2ZXdwYTZ4eUZoQ1VLanJPeTd4algwV1ZMcGNuX0dfeUx6QmpNLVRsc2k2Y3E2WWtmZFR6bUtmMHJhLWlyc1A1bFFCX1I5SWxBaWNVWWJCSHJDWU1jUE1NUy1pN1dIT2k2Skxma0JPSUJ5LVN3ZGw5Z3pfUDdlTTczTHR4VE5qNVpjTzZk?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-09-21T20:18:30+00:00",
+      "description": "Put plastic challenge at the top of India's sustainability battle The New Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "56f5b884ce74254b",
+      "normalized_title": "put plastic challenge top india s sustainability battle",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plastic Money Meets India’s Polymer Push - varindia",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOUo5U2ZDSHhNUW9Nak05ZTUxVVh4S2xBSHY1QmQ1ZTJuVkFDeWxBdWo2czZMankzbklIdVJnMUxIWnVnblBaSUExTmdDZndld09lcVdkVU1rUmJIUnpSeTNycHprcUQxUHhoMGNERU1uNjN4c0w1OGE1MGxVcjJUT2JXemU?oc=5",
+      "source": "varindia",
+      "published_at": "2026-09-22T06:40:36+00:00",
+      "description": "Plastic Money Meets India’s Polymer Push varindia",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "15060005f9a32e5a",
+      "normalized_title": "plastic money meets india s polymer push",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "A 6-year-old started saving empty sweet tubs; in one month, he collected 2,598 for a recycling scheme sup - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNcXRyX0JhVFJhSWdRVU9hZ3JlU3VlZGQ2d3JMb1JGUFhXQ0JrUmlZakVDcHlraFYxVEFiUjV0OVB6T1RUU1NEeW1OLTdxMlpCQVdFcXhNUXVwZTdlRVg5WHJGbVZEaWFmdktYWV81LVdKYUIzUkVxVmN4V3hOdTVESWpoa2ZEVEV4dzdZRE5FR2dxY1F0TkFMRURJZ1cyb2JWZFpseDBScnlENE9VQVpaNWRlTUpjV3hUcVV4Z3BXbFRGVXA2eElqSzRHTF9uU244ZHZBTzBkTzlZMlRhOG1jbVRvRE52bzdLN0NVVDBlNjdWdURaUEhkVXc5TkJBRllxYjJrM1ZpTFRUa083eEIySmI2WUZTcENkYm9fN2xFZ3Bod0XSAagCQVVfeXFMTTBkMldxc0MzSVVDVzZUNkxfbWMyeXkzYVlORXdpb3F6b3lpWFA5YTY5YXdoaHJfNlA3aG9qX3V5MG1waXRoX3ZKWnRBZDdVQ3NVdldXa2dLb0VxS3pxaXFuS3dyVkpOMUNmZWJPR09SZ3NkUkRyWkZxWm1yYzdnenRpd28wTkRqaW1HYk9relN2WHF5QUdyNmRDdnJBT0VQUjZJcTcxVThSdm4zMkMxTXdLN3AxbXZ0RVBzZkpJTm9tcHlJRUxDdVlTeWxPOGMxcndxUE9JUzJkOVZldVk4MWNya2dURDJqRVFsUVpqYW9yaG5tUXZEQWxqaWJsNG1yM2UtRzAxRy1xcnc1ZEpWbDRycWVlenF1QVBWbHQxMmJWbHdPejAyZGU?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-22T04:30:00+00:00",
+      "description": "A 6-year-old started saving empty sweet tubs; in one month, he collected 2,598 for a recycling scheme sup The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f14ef48907f27426",
+      "normalized_title": "6 year old started saving empty sweet tubs one month he collected 2 598 recycling scheme sup",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU draft proposal prohibits recycled metal shipments to several countries",
+      "url": "https://recyclingtoday.com/european-union-recycled-metal-paper-shipments-rejections-india-thailand-taiwan",
+      "source": "Recycling Today",
+      "published_at": "2026-09-22T00:19:00+00:00",
+      "description": "India and Thailand are among non-OECD countries whose recycled metals import applications have been rejected initially; the People’s Republic of China did not apply.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f519e9ad7ec30fe8",
+      "normalized_title": "eu draft proposal prohibits recycled metal shipments several countries",
+      "origin": "rss:Recycling Today",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU Ship Recycling Fight Escalates Over Indian Beaching Yards - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUGtzcXdtQVNic0R6eDA5VzVlUXVha3RZWHJIY19ieGVESlBxNldSQmNfWmJSby1Wa1BPbnBDanAyVG5zZ3ZXREZDYl9YZ0I2cEpSeklicEdKV08zZVpLc1BjMTJSZ0o5ajkzRHExM3Foei1FME9xN0VDOFZzXzFzYzRtVEVOczRycXc?oc=5",
+      "source": "gCaptain",
+      "published_at": "2026-09-21T17:55:47+00:00",
+      "description": "EU Ship Recycling Fight Escalates Over Indian Beaching Yards gCaptain",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "13de70820e503b72",
+      "normalized_title": "eu ship recycling fight escalates indian beaching yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Critical Minerals Recycling Crucial for India’s Clean Energy Transition, Defence Preparedness: G. Kishan Reddy - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUEg5d1k0WmdFZnFwOWJiQ1N0eU5jaG9Ta29wMWdWUzlVTlJxb1k3RzZnbTZlNXJQbXVHeWMydndnbllOd1lWb2R0blRRTHpyV1JEaTYzY2I1amFmZ3NLdldBUFp4T3FJYWZEbVJGOFBVTmtMSEh5aTM1Rzl5eHg2V0VIcjhXSU5FY0g2d0tnX2loeHlYdS1sRWk0Tm5PdWtSWmVjdUNnaG9DNmZfTndNc3V6N0Y2LXg3aEZlMlpwbjJzX0tReVVabnV0T3o?oc=5",
+      "source": "News On AIR",
+      "published_at": "2026-09-21T16:08:18+00:00",
+      "description": "Critical Minerals Recycling Crucial for India’s Clean Energy Transition, Defence Preparedness: G. Kishan Reddy News On AIR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "13e9c028637eaf33",
+      "normalized_title": "critical minerals recycling crucial india s clean energy transition defence preparedness g kishan reddy",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU Scrap Curbs Test India's Auto Recycling Chain - autocarpro.in",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVzFzN0Ftb2gwTV85a0RibU11dDFIMUlyLTBBbDFidTVFelB4eC04Y0VxNVMzOFFKd013WDNvTzdUR2Y1M1g4TmNUcEd0anY5Z2ZBN2ZHNk40T3ZOUUtxcHBaNmpBQjVpYlpyVWFmSm9Od0Y3WTFrSC0tOXVRdUNwMzhNTFRZRG1JQzRFNWdn0gGWAUFVX3lxTE1SNjIyaWhvLUVEbHZVaEZueDc0MzBoZzBKendkSzUzMm1QV0VjelV2TktEd3ZZYWUtWnBCaGN1WHBfQmVwdk92cUZPaXJQM2FEUGlPYk51LWNac0VHMU1RRGZMT1Z3eTZwLU1YaEp1ei1tWGNOX0lzeDVuYWd6a1N4SU1ONDM0VjdDOV9MV2FCemYydktWUQ?oc=5",
+      "source": "autocarpro.in",
+      "published_at": "2026-09-21T06:33:53+00:00",
+      "description": "EU Scrap Curbs Test India's Auto Recycling Chain autocarpro.in",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8e3c74e3768603ab",
+      "normalized_title": "eu scrap curbs test india s auto recycling chain",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "APR Bharat joins zero waste Ganpati celebrations",
+      "url": "https://packagingsouthasia.com/supply-chain-function/waste-recycling/apr-bharat-zero-waste-ganpati-celebrations",
+      "source": "Packaging South Asia",
+      "published_at": "2026-09-21T05:18:38+00:00",
+      "description": "From pilgrimage routes to festive pandals, India’s largest public gatherings are increasingly becoming an opportunity to take the message of responsible waste management directly to citizens. Building on its recent on-ground awareness campaign along the Kanwar Yatra route, APR Bharat has collaborated with the All India Plastics Manufacturers’ Association (AIPMA) and Global Conclave on Plastics [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "94e678b2b2b24715",
+      "normalized_title": "apr bharat joins zero waste ganpati celebrations",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
