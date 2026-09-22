@@ -1,11 +1,11 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T07:56:57.757261+00:00",
+  "generated_at": "2026-09-22T11:30:12.974844+00:00",
   "stats": {
-    "collected": 517,
-    "after_topic_gate": 70,
-    "unique": 25,
-    "new_since_last_run": 10,
+    "collected": 523,
+    "after_topic_gate": 62,
+    "unique": 10,
+    "new_since_last_run": 0,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,11 +16,10 @@
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 595557 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 10 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (377 items)",
+      "google_news (383 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
