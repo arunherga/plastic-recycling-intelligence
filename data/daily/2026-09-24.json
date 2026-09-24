@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T07:48:36.231077+00:00",
+  "stats": {
+    "collected": 526,
+    "after_topic_gate": 45,
+    "unique": 18,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581094 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (386 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Plastic Waste Management in India: EPR, Challenges and Way Forward - StudyIQ",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUMjhmaGJlbEdRSmhhOXZ4eE5xZ2E4MTVKTDRFeWFxd0xTYlBCNWVjLVk3eWstNC1mNmJROXZfRjlXd3R4LTdVdkpacXF6blJIN2tIZUNva2JFQmxCMlJMLVIyUGZWMWc2dUhkbHFuYWFHUEc0RHc?oc=5",
+      "source": "StudyIQ",
+      "published_at": "2026-09-23T12:12:44+00:00",
+      "description": "Plastic Waste Management in India: EPR, Challenges and Way Forward StudyIQ",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "EPR"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change",
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "33a77f45d905da35",
+      "normalized_title": "plastic waste management india epr challenges way forward",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "Scientists turned carbon dioxide into high-performance polyester; the material can be chemically recycled - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQS0dtM0IydXRxYUNVVkxtMTZHMXJhZnlmSjJQaVRCMFhnTGo4MDcydUs2cXNHRDgwUVFsVUl0aVhzdnhEOElfYnZqd21WWmJQR1lDQk9XcXlHUG96bXZXeVlZdGxlZkwyZC1mdFVuMUJsLTMySTdKLVQ3WXpjSHVLcEpmTFJ1NUlTeVpJNWtKX2ZLeEQ0VEhpNTN2cDJwbEhabjd1a1JCSVlsaEZoY0NVNkdWZWM5ZWo2U2JLUTQ4R3BuaXRhUE84MHZuS00zWkpFVXVod0xsRC1PV3lsYzRJY09aZ1RJSkhmZVlfRlBaNVJvcEJSWkFsekdLNXhnX19PQkhnQjZVb1dEcWVpd1FOQlRPWHgwT3VLSDg1S19qZVd4ZlhmVldDQjNSMXA4ZG9kNWh2alFJMl93ZU9sb1hz0gG_AkFVX3lxTFBLR20zQjJ1dHFhQ1VWTG0xNkcxcmFmeWZKMlBpVEIwWGdMajgwNzJ1SzZxc0dEODBRUWxVSXRpWHN2eEQ4SV9idmp3bVZaYlBHWUNCT1dxeUdQb3ptdld5WVl0bGVmTDJkLWZ0VW4xQmwtMzJJN0otVDdZemNIdUtwSmZMUnU1SVN5Wkk1a0pfZkt4RDRUSGk1M3ZwMnBsSFpuN3VrUkJJWWxoRmhjQ1U2R1ZlYzllajZTYktRNDhHcG5pdGFQTzgwdm5LTTNaSkVVdWh3TGxELU9XeWxjNEljT1pnVElKSGZlWV9GUFo1Um9wQlJaQWx6R0s1eGdfX09CSGdCNlVvV0RxZWl3UU5CVE9YeDBPdUtIODVLX2plV3hmWGZWV0NCM1IxcDhkb2Q1aHZqUUkyX3dlT2xvWHM?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-23T16:45:00+00:00",
+      "description": "Scientists turned carbon dioxide into high-performance polyester; the material can be chemically recycled The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8a420e65ff0670ec",
+      "normalized_title": "scientists turned carbon dioxide into high performance polyester material can chemically recycled",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Beyond recycling, India needs to build a system that recovers more value - ET Infra",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd1AzX2UtX1g5NU5EWEwtcEV4NlB2TmhpRFVCUzRieHlFUmxCdTVzZE1jU25kV3ROMXNjd001WmtrVmVwcU9wYVUwUGlzNzE4N0pCYlZsdDFlTTN4bzZFZllIS284a05meWhicEhCZjBxREVnbndURUVHM0ZNZmtzXzNkM2tDZ2FKRG41WmFPQmdMaUJ6RTJsNmV3aHBBeDQ2aW5RU1N3SWlBbEhhWWhFQjNIQXV4Y2FBNzJVVl84eTRka3BYVjQzT21XNTJOd2ZOZldGQWM5OFE2S1HSAdsBQVVfeXFMT3dQM19lLV9YOTVORFhMLXBFeDZQdk5oaURVQlM0Ynh5RVJsQnU1c2RNY1NuZFd0TjFzY3dNNVpra1ZlcHFPcGFVMFBpczcxODdKQmJWbHQxZU0zeG82RWZZSEtvOGtOZnloYnBIQmYwcURFZ253VEVFRzNGTWZrc18zZDNrQ2dhSkRuNVphT0JnTGlCekUybDZld2hwQXg0NmluUVNTd0lpQWxIYVloRUIzSEF1eGNhQTcyVVZfOHk0ZGtwWFY0M09tVzUyTndmTmZXRkFjOThRNktR?oc=5",
+      "source": "ET Infra",
+      "published_at": "2026-09-23T13:14:13+00:00",
+      "description": "Beyond recycling, India needs to build a system that recovers more value ET Infra",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "27db675c9c38da21",
+      "normalized_title": "beyond recycling india needs build system recovers more value",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    }
+  ]
+}
