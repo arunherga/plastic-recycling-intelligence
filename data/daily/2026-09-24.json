@@ -1,11 +1,11 @@
 {
   "date": "2026-09-24",
-  "generated_at": "2026-09-24T07:48:36.231077+00:00",
+  "generated_at": "2026-09-24T11:39:20.683536+00:00",
   "stats": {
-    "collected": 526,
-    "after_topic_gate": 45,
-    "unique": 18,
-    "new_since_last_run": 3,
+    "collected": 522,
+    "after_topic_gate": 47,
+    "unique": 5,
+    "new_since_last_run": 2,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,16 +16,63 @@
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 581094 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (386 items)",
+      "google_news (382 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "[SMM Analysis] Ship Recycling Credit Note: What It Means for India's Steel and Shipbreaking Market - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdHlVenF6V0R6SWNPd1BOSlJjeUhmMXJNcnFXUXV1dHBxRlIzQm9GTmxPYzNWSHZVTGJpNkg3QlVFWG9GSzdaNFZ0MVQxTFhvWXhIb202anBmZmxoNUlJU3liWmhPUDd4OHJQRjBFOW1yeDNQRUxUNHZRaVBGMHNDM1pKS0ptaG4yMTJ2SUJjODhfTEpVeHhNS0EwMkZoc1dLYTBiTkxHTzRNZ24yTzVVOWNaZG1VUDFWRWo1VnBjSUlobGFoNnZSY01aaU9Db3hNSDVYUmR3?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-09-24T10:25:00+00:00",
+      "description": "[SMM Analysis] Ship Recycling Credit Note: What It Means for India's Steel and Shipbreaking Market Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "364befbd769803b2",
+      "normalized_title": "smm analysis ship recycling credit note what means india s steel shipbreaking market",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bridge Green, Hartree Sign $500M+ Recycled Lithium Agreement - India CSR",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE85OTBmSUlpNE00aUJDU1FsaFNES2lVUGxzUTZOay14c19SSHQxczl6UkU1dHRJX3dQMHR5WUZLa1hqTl9TQzJ4ZTdXcHhsTF9uTEZxaTJ3SGRDNnZyWWtjXzNrWXF3NkMtSTAxZTdBcVE5MVo3eURFbVIzRGRHdw?oc=5",
+      "source": "India CSR",
+      "published_at": "2026-09-24T05:35:40+00:00",
+      "description": "Bridge Green, Hartree Sign $500M+ Recycled Lithium Agreement India CSR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "16a728dec07bb65a",
+      "normalized_title": "bridge green hartree sign 500m recycled lithium agreement",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Plastic Waste Management in India: EPR, Challenges and Way Forward - StudyIQ",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBUMjhmaGJlbEdRSmhhOXZ4eE5xZ2E4MTVKTDRFeWFxd0xTYlBCNWVjLVk3eWstNC1mNmJROXZfRjlXd3R4LTdVdkpacXF6blJIN2tIZUNva2JFQmxCMlJMLVIyUGZWMWc2dUhkbHFuYWFHUEc0RHc?oc=5",
