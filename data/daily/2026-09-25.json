@@ -1,12 +1,12 @@
 {
   "date": "2026-09-25",
-  "generated_at": "2026-09-25T08:10:30.484679+00:00",
+  "generated_at": "2026-09-25T11:45:30.121754+00:00",
   "stats": {
-    "collected": 513,
-    "after_topic_gate": 50,
-    "unique": 24,
-    "new_since_last_run": 7,
-    "relevant": 1,
+    "collected": 515,
+    "after_topic_gate": 54,
+    "unique": 10,
+    "new_since_last_run": 3,
+    "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
@@ -14,18 +14,96 @@
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 583675 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 581362 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 581614 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581963 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 7 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (373 items)",
+      "google_news (375 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "EPR in Action: What Indian FMCG Manufacturers in Jammu - openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQbzRhcFhTUGw3czhidlNrNm8tSUpYMHl0Ul9DTjhxakROcXRIVHptUDJaODUxWFVRc3hXRU8xX3RTeWxVZnRjcG9ZdTlfRUlDUzFfWWd5NFc3cXRYbzBENGVrUlRXeHd3cXVDcG5Ed1dvdHVSNDhScFkzM2QteGhuQnpYdnlRY1FXc1NKdnFJQk1sM0k?oc=5",
+      "source": "openPR.com",
+      "published_at": "2026-09-25T08:35:58+00:00",
+      "description": "EPR in Action: What Indian FMCG Manufacturers in Jammu openPR.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "EPR"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Major regulatory change",
+        "FMCG / packaging / automotive recycled-content demand"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7a521ba54eb0c83b",
+      "normalized_title": "epr action what indian fmcg manufacturers jammu",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Abandoning exotic pets is raising ecological concerns",
+      "url": "https://india.mongabay.com/2026/09/hard-to-resist-harder-to-keep",
+      "source": "Mongabay India",
+      "published_at": "2026-09-25T14:22:57+00:00",
+      "description": "This is Part 3 of a series on exotic pet trade. The series looks at the health impacts, legal challenges and the ecological consequences of keeping exotic wild animals as pets. Part 1 explores how the trade enables zoonoses, while Part 2 observes how India is emerging as a link in the global primate trade. [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "45b5b329b812533d",
+      "normalized_title": "abandoning exotic pets raising ecological concerns",
+      "origin": "rss:Mongabay India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "From Waste to Purpose: Indian Cities Are Rewriting the Plastic Story - PIB",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNUQ4TF9wbGtUZ2ZXcXY5Nm1CUU1iMzRYZG5PVDdKdm0wbHduaGFZNWdBZUdsaDhhS3VVUnFOREtNTTNQeGNLZy1ucWtMVF83WHg5M29rT2d4Q29pdUgxc3d6RUItNVlPTC02UjI4U2NseGFCbEEzWElFeXFLSklPNkgyWXU?oc=5",
+      "source": "PIB",
+      "published_at": "2026-09-25T08:55:00+00:00",
+      "description": "From Waste to Purpose: Indian Cities Are Rewriting the Plastic Story PIB",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9f057444288f0835",
+      "normalized_title": "waste purpose indian cities rewriting plastic story",
+      "origin": "google_news:plastic recycling Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
     {
       "title": "India: rPET market holds firm despite softer crude; quality feedstock remains at premium - BigMint",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUEt3S05ZU2lQaHcwS1oyYVhFdUVIS29KVHc5bTJXOW53VVNuWVZfMld2WW04UEJWdDVLUmlLMFNJZC11YVF2eUk4Ym56a3M1WHZwTUlWbWxzY3dXdGNEUDU1SWtMeTh4X2VlRDBrM1FhMTM4SGp5T0haQ19Ccldic0xjY1pGSkpYUm41SlJabTNwdkthNl9xUG9lUVgweXlUQ3c2aHZDNmFJQmdQRklhcGNJeHNveEpNdnhOdzFOb28tZDNySGpreENtYTc?oc=5",
