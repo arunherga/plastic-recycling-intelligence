@@ -1,0 +1,234 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T08:00:07.930778+00:00",
+  "stats": {
+    "collected": 491,
+    "after_topic_gate": 63,
+    "unique": 29,
+    "new_since_last_run": 8,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 596204 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (351 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Researchers in Rwanda turn plastic waste into sisal-reinforced tiles; strongest sample reached 41.66 MPa - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbGpfVFVQX0p5VGQ3akZYSFVRY2VNQ3RpeVRMdzJQeWkwMVprWkVDbkVHYzJocFd1OFY2TElWQmotaU1BYlpOeENBaWt3aGc0R3ZlMU03ZWdHRzRra3BuUU5aVjJxWjVlbGZsM3V5dXRZTVRfcjhJalhsOUZvQmowdG11M1J6QzdHLUd6MlFTRGJwaFRwdUhoZ0RRSWNLWm12T0t5ZFRfcXJHR1JqWUNNd1g3c0NGTGg4ZzdYX2VfNGlVbFZvck5RdUdjQ3ltZUhVZ09WWU05OXd5VXI1Q2oyUXdwaUQ4VmlrM3RvenFWRFIzMmd6Vk5QaXdObVU0UmV4dXVuYUFKQldVeEE4LTNYVTBkQk9UX1dvdnYxRk1pMWJtYVgxRFVXZzhTUXF4QW9LMFRqbFg5a03SAb4CQVVfeXFMUFBRZy1ZSC13LU1kSFF2eG1jc1BFVXlFcklpZHFMV3FQSGhLLWhLS2lEbnVqNFVMV3NLUkE4OVVxYncyRnc3dE0zRGpHTTZ4WWZmaUNDNXZCNkZRVTgxVFR4QmQ0QnBfM0hkaEluZEd5ZjI3eTNYZHRJSHhjRW8ySGwwMml1dTd1Nkt0ZXdRd1dXejRFZkdRZVZ0YVpESnJXVV9oNG1ORFN2ZmZ5MGxaNjNUM2pFci04clBaLUI2dUFCNnVmeXN6bi16ODRfQ2t6M0M0WE5EaTFFakY3OFBjeTZFT0gzWm9JWHl3anZ2TDlHdjNyWUxRN1h1RmJxTERCLTR2WEk5U3k2aXN5OGtxRlZWYXcwX0tldllfYUdJQ1haLUNJUVd0RUx5dVFaZ3VRLUFXYlptaUplUXgxSkN3?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-25T17:00:00+00:00",
+      "description": "Researchers in Rwanda turn plastic waste into sisal-reinforced tiles; strongest sample reached 41.66 MPa The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "57e06fd47d0a7681",
+      "normalized_title": "researchers rwanda turn plastic waste into sisal reinforced tiles strongest sample reached 41 66 mpa",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s solar waste boom could be worth Rs 3,700 Cr. 2 recycling stocks to watch - financialexpress.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPTzExVlZOandCUmhxZVNxdTVzUmhQaHdWRGNsSExCSGJzQ0tCb25jUDBmanhNQWowMjhTSVVmbEg5SFZTVmxTc3oxY3NoNTczaUxZSkRyZUhqZzNSTG5zNkZqbHQyQW5qek1OVFVsMG9XbGpKRDgxemk3dG5YRUZXNzZybDRNV2hHMUxlanVsbVVFTFJUdVc0WEF0MVkwaEF5U21QQlpKanZFdzNXeHlwMUtSZmxkVUtUMUZJT0VOTmNBVXg5YmtMaXFPOUZxVjJSblBsaVdlcTTSAd8BQVVfeXFMTzhCYW9ENV92TUwtY2JWeWFWWF82d3dwQ1JpQ3FndWdGM2tBMlQxSWlHZU9Oc3VWNmZ5emdxVDFFOWtRdHd1bEJtYXptMUptNGVSc2JHa0JZQURIWWw2Nlp5dHAyV2NHQ28zRkxzUnUxM3hUanhEZUZ1VmFScjRSdUg1SmhCbC04eDNKTm80N3VVMm5ZV055VHBJRndRazhCeHUySEJLc0FfZF80eUcxUzU3UVJDa1pZUHBYdkE2YkIzRmxCenU1NWxOenI1YXZBMk9hMW1ZcXlUcG91aHhIZw?oc=5",
+      "source": "financialexpress.com",
+      "published_at": "2026-09-26T00:00:00+00:00",
+      "description": "India’s solar waste boom could be worth Rs 3,700 Cr. 2 recycling stocks to watch financialexpress.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2311970a17dbc9c7",
+      "normalized_title": "india s solar waste boom could worth rs 3 700 cr 2 recycling stocks watch",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "India urges Centre to intervene over EU metal scrap export list exclusion",
+      "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/india-urges-centre-to-intervene-over-eu-metal-scrap-export-list-exclusion/articleshow/134496164.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-26T03:16:36+00:00",
+      "description": "India’s metal recycling industry has urged the government to take up the country’s exclusion from an EU draft list allowing metal scrap exports to non-OECD nations. MRAI warned the move could disrupt scrap supplies, raise raw material costs for recyclers and increase dependence on virgin materials, particularly affecting MSMEs.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c377525a92fd56a3",
+      "normalized_title": "india urges centre intervene eu metal scrap export list exclusion",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "From the Wild, For Trade",
+      "url": "https://india.mongabay.com/specials/2026/09/from-wild-for-trade",
+      "source": "Mongabay India",
+      "published_at": "2026-09-25T17:21:24+00:00",
+      "description": "examines India’s growing exotic pet trade and the hidden costs of turning wildlife into pets. The series traces how animals move from forests and breeding facilities through international trafficking networks, dealers and online markets into Indian homes. It investigates the demand for unusual species, the legal frameworks governing their trade [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "eb8a3980afc7bfbd",
+      "normalized_title": "wild trade",
+      "origin": "rss:Mongabay India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Synergy to present PET technologies at drinktec India 2026 - Plastech",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOTUlNbUY3OUV4RjI4Rkw1TlpBenpTSmx6SWVZdDB3RTF6X3hIdVdVWnZMQ0xHMjlWbURpQ0FlaE9NaFdJbktRRXdib3Y0eFotVkZNSGlwbVdFaU9IWXF1TDdpY21fVWRYcm1USWs5VUJzZXVvc280RTNFSlJaaHhvNlFlZ3JBeVJYWHIxb3ZVM2djNHI5MWQ1RExxbi0?oc=5",
+      "source": "Plastech",
+      "published_at": "2026-09-25T13:24:00+00:00",
+      "description": "Synergy to present PET technologies at drinktec India 2026 Plastech",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dc85f3cc9e591dd6",
+      "normalized_title": "synergy present pet technologies drinktec india 2026",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Aluminium Recycling Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMGd5T1ktdzlUaXNKeTR2eFVlZGoxdmVsMTdzYWdkY3lTa2dWTFhBSHZUZWgxOWVfSklGWkdwSzdBSnJnU3hvZUlja3c1OEpPQ2dpUHQwdmFtNzF3QXBGZ1ktX0duZk83cXNmMGZvUTVJZjlsZEQ1RHZhM2RjMGVKaWl3ZGdkNWx0ajVWMGNQd0NTLTNOZlE?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-09-25T12:17:14+00:00",
+      "description": "Aluminium Recycling Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "45807ba71688d97a",
+      "normalized_title": "aluminium recycling manufacturing plant setup india",
+      "origin": "google_news:recycled HDPE India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "CSR: Coca-Cola Foundation, HCCB Strengthen PET Collection at Four Ganpati Locations - India CSR",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOLUt2Zy1fcDNNb0NWVXhjMFI1TjQwS3BWMmhaLXRUNWg3UE9KNVN4UzVTUF93d1ROY0MzcXZKUndXZDRDUjJFaVJ2ZmhkTFdEMFJGZlRBendLb0RCWnhocW1vdndkd0JraGNLTGd0NDJ0N0lyQmZPUTEzajRZUWFmN0tJU1Rmdw?oc=5",
+      "source": "India CSR",
+      "published_at": "2026-09-25T07:48:45+00:00",
+      "description": "CSR: Coca-Cola Foundation, HCCB Strengthen PET Collection at Four Ganpati Locations India CSR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fed18111cdd50908",
+      "normalized_title": "csr coca cola foundation hccb strengthen pet collection four ganpati locations",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s metal recycling industry has urged the government to cut GST o - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdjZDMjBySUhpMEhiZHBhTk1BR0lQSXctQnhhd0hJb0luOWp5M0w0Zm82OEFOOE1pTWphakprQVdMc1dmbXZzS28tbzhGU0dqMWR0S3pxV2VodURocWdDMmdFSS1yZ0JRU0NnaUplWFp0YkxzSEpzWENLb1dVV2l1bURaSzNBZmREWGs3ODJ0eG1RZzBya0xVZ2JKaVMyZw?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-09-23T07:15:00+00:00",
+      "description": "India’s metal recycling industry has urged the government to cut GST o Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8a94f60f7a599535",
+      "normalized_title": "india s metal recycling industry urged government cut gst o",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
