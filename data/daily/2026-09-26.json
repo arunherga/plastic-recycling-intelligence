@@ -1,29 +1,80 @@
 {
   "date": "2026-09-26",
-  "generated_at": "2026-09-26T08:00:07.930778+00:00",
+  "generated_at": "2026-09-26T11:19:16.074086+00:00",
   "stats": {
-    "collected": 491,
-    "after_topic_gate": 63,
-    "unique": 29,
-    "new_since_last_run": 8,
+    "collected": 477,
+    "after_topic_gate": 68,
+    "unique": 10,
+    "new_since_last_run": 2,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
     "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 596204 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (351 items)",
-      "rss (140 items)",
+      "google_news (347 items)",
+      "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "From Waste to Product : Indian Cities Are Making Markets Plastic Free - jharkhandstatenews.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVXBiaDB0TF9aZUFFSzFaUzZiRHlsVmpYNjVKNDhGdmVycGFEY3RLUGFtWlBXSWpLQnNvaS1pNExpSFB6OWpwckZNZVpjWVNwZExNYURSQjNNVzBjUmlOeXExMG5DSnFsNFhPZEpKSWwwekFYQm9FZGoyXzlOTHBoenA5eU1nZS1od2FZSWhKYVJzelRnZUhxTVlZMGptUmpVc241Vm4xazJLeER1VXdJYXN5bU5uZ1JpLUUzZFc4WDZlQlk?oc=5",
+      "source": "jharkhandstatenews.com",
+      "published_at": "2026-09-26T10:08:35+00:00",
+      "description": "From Waste to Product : Indian Cities Are Making Markets Plastic Free jharkhandstatenews.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e8c64c0d3b33890a",
+      "normalized_title": "waste product indian cities making markets plastic free",
+      "origin": "google_news:plastic recycling machinery India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India is maritime recycling champion, and we need to stay that way sustainably | THE WEEK Maritime Conclave 2026 - theweek.in",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVE5ORnZkRFU2YkpvQUNYaTVocGRNZXFRbkhmX3RIbTV2cGxWZHJTNDZfLWZISmZMZHRKbGxlNS1hbFBYZDkwWm51djhTeG54RXhmUGJFc19LZEs4X1BCR0pmakpUQ3YtTUwtMndVNVZIM2NwcXMzYTlLRW9Oa3lXUEJVWjdiR1lLTEFFRmwxYUlOcjVoNjdGRGZOcndfemY3TV9ZR2lsZnJHSlVSU3hCVDZ3Ym50YXBTTHhPbUFB0gHDAUFVX3lxTFBwTEdfSC1yN3RqQWJpYU1fbUZQanVVclpSWU41OGY3UFVIWFBOek9RcnZlX0NNQVpUVzFMZVduTGZIRzVWdkM0VzRWbHhRRWpaZ0EyWVFScno1TFJFd1VkRDBzejRvUkJwbTlreWJ3MERWMW9UaUo3c0tBRk9UUjN5b3NKc1Z1WUEtdmM2UFJhSmtVNXpSQ3ppbk9nMFpkZzhqOUQ1ZlVGaWZVLWEtZ0xwWWxBX1lXTVVYSzFGMTBnZldqTQ?oc=5",
+      "source": "theweek.in",
+      "published_at": "2026-09-26T09:21:20+00:00",
+      "description": "India is maritime recycling champion, and we need to stay that way sustainably | THE WEEK Maritime Conclave 2026 theweek.in",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "07b4429356052a55",
+      "normalized_title": "india maritime recycling champion we need stay way sustainably week maritime conclave 2026",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Researchers in Rwanda turn plastic waste into sisal-reinforced tiles; strongest sample reached 41.66 MPa - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNbGpfVFVQX0p5VGQ3akZYSFVRY2VNQ3RpeVRMdzJQeWkwMVprWkVDbkVHYzJocFd1OFY2TElWQmotaU1BYlpOeENBaWt3aGc0R3ZlMU03ZWdHRzRra3BuUU5aVjJxWjVlbGZsM3V5dXRZTVRfcjhJalhsOUZvQmowdG11M1J6QzdHLUd6MlFTRGJwaFRwdUhoZ0RRSWNLWm12T0t5ZFRfcXJHR1JqWUNNd1g3c0NGTGg4ZzdYX2VfNGlVbFZvck5RdUdjQ3ltZUhVZ09WWU05OXd5VXI1Q2oyUXdwaUQ4VmlrM3RvenFWRFIzMmd6Vk5QaXdObVU0UmV4dXVuYUFKQldVeEE4LTNYVTBkQk9UX1dvdnYxRk1pMWJtYVgxRFVXZzhTUXF4QW9LMFRqbFg5a03SAb4CQVVfeXFMUFBRZy1ZSC13LU1kSFF2eG1jc1BFVXlFcklpZHFMV3FQSGhLLWhLS2lEbnVqNFVMV3NLUkE4OVVxYncyRnc3dE0zRGpHTTZ4WWZmaUNDNXZCNkZRVTgxVFR4QmQ0QnBfM0hkaEluZEd5ZjI3eTNYZHRJSHhjRW8ySGwwMml1dTd1Nkt0ZXdRd1dXejRFZkdRZVZ0YVpESnJXVV9oNG1ORFN2ZmZ5MGxaNjNUM2pFci04clBaLUI2dUFCNnVmeXN6bi16ODRfQ2t6M0M0WE5EaTFFakY3OFBjeTZFT0gzWm9JWHl3anZ2TDlHdjNyWUxRN1h1RmJxTERCLTR2WEk5U3k2aXN5OGtxRlZWYXcwX0tldllfYUdJQ1haLUNJUVd0RUx5dVFaZ3VRLUFXYlptaUplUXgxSkN3?oc=5",
