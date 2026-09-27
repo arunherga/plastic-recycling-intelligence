@@ -1,52 +1,54 @@
 {
   "date": "2026-09-27",
-  "generated_at": "2026-09-27T08:45:15.214394+00:00",
+  "generated_at": "2026-09-27T11:57:26.380338+00:00",
   "stats": {
-    "collected": 140,
-    "after_topic_gate": 2,
-    "unique": 2,
-    "new_since_last_run": 0,
+    "collected": 483,
+    "after_topic_gate": 39,
+    "unique": 20,
+    "new_since_last_run": 1,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [
-      "google_news: query 'plastic recycling India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic waste recycling India': HTTP request failed for https://news.google.com/rss/search?q=plastic+waste+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+waste+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling plant India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+plant+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+plant+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled plastic granules India': HTTP request failed for https://news.google.com/rss/search?q=recycled+plastic+granules+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+plastic+granules+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled HDPE India': HTTP request failed for https://news.google.com/rss/search?q=recycled+HDPE+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+HDPE+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled PP India': HTTP request failed for https://news.google.com/rss/search?q=recycled+PP+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+PP+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled LDPE India': HTTP request failed for https://news.google.com/rss/search?q=recycled+LDPE+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+LDPE+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled PET India': HTTP request failed for https://news.google.com/rss/search?q=recycled+PET+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+PET+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling Karnataka': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+Karnataka+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+Karnataka+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling Mangalore': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+Mangalore+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+Mangalore+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling Udupi': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+Udupi+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+Udupi+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling Bengaluru': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+Bengaluru+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+Bengaluru+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling Kerala': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+Kerala+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+Kerala+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'CPCB plastic waste': HTTP request failed for https://news.google.com/rss/search?q=CPCB+plastic+waste+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=CPCB+plastic+waste+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'MoEFCC plastic waste': HTTP request failed for https://news.google.com/rss/search?q=MoEFCC+plastic+waste+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=MoEFCC+plastic+waste+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'Plastic Waste Management Rules': HTTP request failed for https://news.google.com/rss/search?q=Plastic+Waste+Management+Rules+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=Plastic+Waste+Management+Rules+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'extended producer responsibility plastic India': HTTP request failed for https://news.google.com/rss/search?q=extended+producer+responsibility+plastic+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=extended+producer+responsibility+plastic+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'CPCB EPR certificate': HTTP request failed for https://news.google.com/rss/search?q=CPCB+EPR+certificate+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=CPCB+EPR+certificate+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'EPR plastic India': HTTP request failed for https://news.google.com/rss/search?q=EPR+plastic+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=EPR+plastic+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling investment India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+investment+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+investment+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling startup India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+startup+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+startup+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling tender India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+tender+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+tender+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic waste tender Karnataka': HTTP request failed for https://news.google.com/rss/search?q=plastic+waste+tender+Karnataka+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+waste+tender+Karnataka+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'recycled polymer India': HTTP request failed for https://news.google.com/rss/search?q=recycled+polymer+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=recycled+polymer+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic scrap India': HTTP request failed for https://news.google.com/rss/search?q=plastic+scrap+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+scrap+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic recycling machinery India': HTTP request failed for https://news.google.com/rss/search?q=plastic+recycling+machinery+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+recycling+machinery+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'chemical recycling India': HTTP request failed for https://news.google.com/rss/search?q=chemical+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=chemical+recycling+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen",
-      "google_news: query 'plastic pyrolysis India': HTTP request failed for https://news.google.com/rss/search?q=plastic+pyrolysis+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen: 503 Server Error: Service Unavailable for url: https://news.google.com/rss/search?q=plastic+pyrolysis+India+when%3A7d&hl=en-IN&gl=IN&ceid=IN%3Aen"
-    ],
+    "source_errors": [],
     "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today"
     ],
     "sources_ok": [
-      "google_news (0 items)",
+      "google_news (343 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
-  "articles": []
+  "articles": [
+    {
+      "title": "Capacity scale-ups to drive Epigral's Rs 5,000 crore target by FY31: CMD Maulik Patel",
+      "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/chem-/-fertilisers/capacity-scale-ups-to-drive-epigrals-rs-5000-crore-target-by-fy31-cmd-maulik-patel/articleshow/134518941.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-27T11:17:23+00:00",
+      "description": "Epigral is planning a target revenue of ₹5000 crore by 2030-31, aided by upcoming production scale-ups in CPVC Resin and Epichlorohyrdin (ECH). The company expects to reach Rs 2,900 crore in revenue this fiscal year following revenue of Rs 2,500-2,530 crore in 2026. Capacity expansions for CPVC Resin and ECH will commence soon, contributing partially this year and more significantly in the next fiscal year.",
+      "location": [],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0a01e2f8eed64294",
+      "normalized_title": "capacity scale ups drive epigral s rs 5 000 crore target fy31 cmd maulik patel",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
 }
