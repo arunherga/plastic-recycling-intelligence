@@ -1,11 +1,11 @@
 {
   "date": "2026-09-28",
-  "generated_at": "2026-09-28T08:57:25.463312+00:00",
+  "generated_at": "2026-09-28T13:46:37.921086+00:00",
   "stats": {
     "collected": 497,
-    "after_topic_gate": 49,
-    "unique": 26,
-    "new_since_last_run": 11,
+    "after_topic_gate": 51,
+    "unique": 14,
+    "new_since_last_run": 3,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -18,7 +18,10 @@
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
-      "government: MoEFCC: no plastics-related links on the page today"
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584801 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 11 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
       "google_news (367 items)",
@@ -27,6 +30,82 @@
     ]
   },
   "articles": [
+    {
+      "title": "Bisleri Showcases Plastic Circularity Through Its Bottles for Change CSR Initiative at World Circular Economy Forum 2026 - India's News.Net",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOMDJ5eWY4NVFSZW94dDhkenBEajFXeTAySF9BMHBoSEM0RTJ5cENyeExTNTJXNEM3bFdZanF0b09Ndnl0UWcyMVFDUUtVZTRrRkRmYXdPcDJRaU5Jc0d3UVd6SmhldDBhbUFHcm5rc0hQVmpaSU1rUktfMWdSVGJ1RUZWNXQ4Rm9mNlpzRFBjd0ZfY3p4aVduRXN4TlU5S29GTWVBaUl0LXJUNXF6aXN0bHpIVExOWmhvV2FYTGk0MmpsVFBwdW5WckQ4ZW9qU0tfZWh2N01YU29DMU9iTUd2OGpBenFuM1daay1zbTJKYUQyMnRq?oc=5",
+      "source": "India's News.Net",
+      "published_at": "2026-09-28T13:20:46+00:00",
+      "description": "Bisleri Showcases Plastic Circularity Through Its Bottles for Change CSR Initiative at World Circular Economy Forum 2026 India's News.Net",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5cdd72f310234be6",
+      "normalized_title": "bisleri showcases plastic circularity through bottles change csr initiative world circular economy forum 2026",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "From waste to purpose: How Indian cities are rewriting the plastic story - ddindia.co.in",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPenpCN1BuLWlXRWwzaEhLV01oamtfaTRNSGkwcWZrYkQyaXN0WmVTRlc2TS1xUHVuQTcxU3FFaWw0dmVIRWd4dF91Y1VRdl80WkJSTW9tX0ZyZ2xiVXFQX1NtWUZGdHRmWXRMOGlIbXFEbXhNRXpUV1dxVnB4NXVWVXZ2ME1zNjBUSTZidFhZVjlmVVplZmNsNUFQb0V6Nnh3QllXSg?oc=5",
+      "source": "ddindia.co.in",
+      "published_at": "2026-09-28T10:50:20+00:00",
+      "description": "From waste to purpose: How Indian cities are rewriting the plastic story ddindia.co.in",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cd82a769b5cdc215",
+      "normalized_title": "waste purpose how indian cities rewriting plastic story",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "In a first, waste plastic mixed with bitumen in pilot test section of NH-44 - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQQmVRb0dTY1huR21HZGdEbGszUE0zeHZKZ0JOWTlFTE11S3JiLTdBQ3R5Qi1qcUlYMjdKQmx4SHVjOHdweDhqazQtSkQ4YUQ5clNuRmhWX0RQb2pEWnNrejRmTlpkZzNpUFdXSzBNT1lhenNvSVlFVjZqSW1PYTc0WmRSTUJ4UDNIa3h0NEd5RVpTY0dlbjdVZlBjR3lBTWh0ME01X2Vld1d4eHdHcUF3Yk1GbzlDRVZKVno1Wk83TXJieVVoSm1PeWJmRGhuQ1lzZ2hlREtTT0otUdIB3wFBVV95cUxPMW5fV1FIQ1VLLXdOXzNSM3NneDJyY1l0MlVEdWlMMGJSdVdsaW5YV19La3VpZnJhOFFqWlZhbUtjd1Zfd0JJYXM3OUVHbW1PY0JhajFaYmtveHNQVXBEYzJrSHdHUjlOV18xQU45T1AwNkxHZWN4OHVOYl9RNDh2WUdxaFREdWFseTd0ckJUbS1mblVYWlhwOVJEb05wZGdPaFFfNDhFbS02WjBTeXRGcTlfV09NYTM4VUpvUEpPNXF0V2NnSktzZU5PU2pGcnZxODIwY24yWVlmdnpnUDV3?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-25T19:01:00+00:00",
+      "description": "In a first, waste plastic mixed with bitumen in pilot test section of NH-44 The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "47aef32db9c24a75",
+      "normalized_title": "first waste plastic mixed bitumen pilot test section nh 44",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Behind bigger price tags hides a fault line in India’s growth story",
       "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/behind-bigger-ac-tv-refrigerator-price-tags-hides-a-fault-line-in-indias-growth-story-consumer-durables-price-hike-global-commodity-shock-copper-steel-aluminium-appliance-prices-india-localisation/articleshow/134535049.cms",
