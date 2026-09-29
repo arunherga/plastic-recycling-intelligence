@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T09:00:50.610032+00:00",
+  "stats": {
+    "collected": 474,
+    "after_topic_gate": 45,
+    "unique": 21,
+    "new_since_last_run": 2,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today"
+    ],
+    "sources_ok": [
+      "google_news (344 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "India's black powder problem with battery recycling - Finshots",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd2lkdWRQWUsxSENOTGd1TVYzeTE3NThKX2NSV3hvTVkxZVNEMkFCSk5BMkVwZXhORXYxMVE2bXpWSXFlWGRjWnlmQVZCX1A1X0EwVFVSNExQck52WFdNakpLY2Jka2M4Qjd6R3RyZk1RSDh6aW5zU2hXMFRJSlNJMXRSeTZzdw?oc=5",
+      "source": "Finshots",
+      "published_at": "2026-09-29T01:30:49+00:00",
+      "description": "India's black powder problem with battery recycling Finshots",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "347cb1e955d5812c",
+      "normalized_title": "india s black powder problem battery recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Anandana – The Coca-Cola India Foundation and Hindustan Coca-Cola Beverages Strengthen Responsible PET Collection During Ganesh Chaturthi Celebrations - Punjab Kesari English",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNdUZtbkJicHk2NzFFb0ZIaEhyalRwYlR3RTdpNjdyVG5yNUFWOTRJVHhzN0M0d0tHelo5RzVucWJvS2tyZ25UamtUTVg0RGJ6NzFLeHNFeUdnMjNzMFN1VG1YNEM4bXlaemZDQmJ2ZmFVcjE5ZEt3dWR0SFN3S1NiRmgxZzNYSW9DSVlBRkFWRHRrVDhlRG5GYUx1Ym1GV1FOYnMyN1kyWFpPMTMyeWZtYVZ0NVMwZDZDaE5MVjF6eng4OTJpSlVYbmY4RzZBSjVLa3F6VUpaMkRKdzN5QmxaS1ZNTHVaVm9zLWstMnVXZXQ4RXU1UkpGN3F1ajM1R3NxajRGVk1wZG9rYlNfQ3FNYnVyd3hIbkRvdGJB?oc=5",
+      "source": "Punjab Kesari English",
+      "published_at": "2026-09-25T11:44:20+00:00",
+      "description": "Anandana – The Coca-Cola India Foundation and Hindustan Coca-Cola Beverages Strengthen Responsible PET Collection During Ganesh Chaturthi Celebrations Punjab Kesari English",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "774d6647eed2d4a8",
+      "normalized_title": "anandana coca cola india foundation hindustan coca cola beverages strengthen responsible pet collection during ganesh chaturthi celebrations",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
