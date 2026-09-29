@@ -1,11 +1,11 @@
 {
   "date": "2026-09-29",
-  "generated_at": "2026-09-29T09:00:50.610032+00:00",
+  "generated_at": "2026-09-29T12:45:29.235683+00:00",
   "stats": {
-    "collected": 474,
+    "collected": 465,
     "after_topic_gate": 45,
-    "unique": 21,
-    "new_since_last_run": 2,
+    "unique": 2,
+    "new_since_last_run": 0,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,12 +16,14 @@
       "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
-      "government: MoEFCC: no plastics-related links on the page today"
+      "government: MoEFCC: no plastics-related links on the page today",
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (344 items)",
+      "google_news (335 items)",
       "rss (130 items)",
       "government (0 items)"
     ]
