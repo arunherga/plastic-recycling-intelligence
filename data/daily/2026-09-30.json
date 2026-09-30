@@ -1,11 +1,11 @@
 {
   "date": "2026-09-30",
-  "generated_at": "2026-09-30T08:59:39.745153+00:00",
+  "generated_at": "2026-09-30T12:28:56.418431+00:00",
   "stats": {
-    "collected": 475,
-    "after_topic_gate": 31,
-    "unique": 16,
-    "new_since_last_run": 3,
+    "collected": 457,
+    "after_topic_gate": 43,
+    "unique": 8,
+    "new_since_last_run": 5,
     "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
@@ -20,18 +20,144 @@
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 583022 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 587667 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 583443 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 597100 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 591373 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (345 items)",
+      "google_news (327 items)",
       "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Haier, Godrej, Blue Star failed to detect fake e-waste recycling claims, India notice shows",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/durables/haier-godrej-blue-star-failed-to-detect-fake-e-waste-recycling-claims-india-notice-shows/articleshow/134590175.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-09-30T09:53:25+00:00",
+      "description": "Indian tax authorities have identified major appliance companies incorrectly claiming tax credits for non-existent e-waste processing services. The companies relied on documents from a recycler accused of fabrication and lacked verification of actual work done. Haier, Godrej & Boyce, and Blue Star face penalties for these false claims, totaling about $714,000. Investigators have found manipulated photographs used to support compliance with recycling regulations.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "797ea726ceeb598a",
+      "normalized_title": "haier godrej blue star failed detect fake e waste recycling claims india notice shows",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2022, Schiphol put 2,571 kilos of recycled plastic beneath an airport road, creating room for 43,200 l - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxPTWs4RTRUYUU2RU5heksxNVlvbHQ2eE5pLWx1YXNLZ19JSlBnMkV5MU1QTlpqYXJ5cmNIb3BmOWcwVlJxRmlBYWZKR1FtV1h4UGVHaHo5cXRZNTRjRXFaU3dKdjlJUmhuZ3VCdEs1VnpTS0VBcnVqdVNUc290MDRxUTBCdzZMbURDQkFQd1RLU3Jib245LUhIdEVyRjIwWThTZmVxNGdzc1RTZVZYQ1ZwbkJXckY5WWN6Uk1rMjZycHQ3dl90dUZneFhXdmVqUFJuTGVmUHAycmlEdGNIWEYzR2N6NS1pNG1MTVdzSmN2LU5MUExXNlN6WG85Q0tYc3pTbElxZHdXSW9xbTJISnczSlI0TW9uSEthWlhQU2szeEF0dGN3MzhRZFdldVh4ZDVEZGUzbWhUTTlhSmt5Ukg5Y3RpSnozd9IBywJBVV95cUxQUFNZcTNhTm9zVVh4YTUtNUtwX2FVS21sWTRVUHRRbHIxSUJ3cW9MQ1BDcld5YkhrNTRnb0NNczRXbGpwalBRLWFyc1lTblJpRWtOVERRcHoxMDM0VXlzNVVGT0RPZVRrdm1RVmF2cnVnMm01RFZEcFR3MnlKTWpuYTNycHAzblFyNXVpRlJPc3pEUWNkYktBWm5EX3VOR0NWRk50aXJyUlFVdE1DSUcyekRSdllJYk1Uc3owaG1RLWhvaGw1aTJmWk9ELXNwWkJvVk51TEFxSEFUeXpuYU9PTC1mLTlrRWtiZXZXeFo0UnF6MmZCcURlWEhwUERZYzdScGlqaE1zV3FJQlJibXRIbEhEQ3Q5NHF6OHVQT3RQOS1iSmJDOENpYXRDV01fYzRsdmlsTndaMkR6a0VKODJpTjh2UHM3MThHVkc4?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-30T09:10:00+00:00",
+      "description": "In 2022, Schiphol put 2,571 kilos of recycled plastic beneath an airport road, creating room for 43,200 l The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c2112e6bc957c826",
+      "normalized_title": "2022 schiphol put 2 571 kilos recycled plastic beneath airport road creating room 43 200 l",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plastic ban stays on as enforcement gets extended by another year - Bangalore Mirror",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPN3MxRWtrYlFab2FoQXpXemxhOVc1T2J5azdPVi1RWFF6ZmhPWWxZYy1JamdTcS11SmptY1lhR29BNG9jY3M2c0l0aWY5S21PNWhsUVdSNjNsdDFydmQtZEVBU3NuVUp2UU1NREVXcGtmcHowd2RaWnVJbnRyMTBtNHcySWE0OExsSlEyeHJvR2lzVnUyQjJGdkszeXNHZnB6Z0laSTlUV0IwdXRqNjktU1F2bmxvb05PeHhmS2dFa3NPOXpfTEVmbU9ENEV1OUM3QjRxeVY5NWlOT01jTVZWdDIwZldBd9IB5gFBVV95cUxPN3MxRWtrYlFab2FoQXpXemxhOVc1T2J5azdPVi1RWFF6ZmhPWWxZYy1JamdTcS11SmptY1lhR29BNG9jY3M2c0l0aWY5S21PNWhsUVdSNjNsdDFydmQtZEVBU3NuVUp2UU1NREVXcGtmcHowd2RaWnVJbnRyMTBtNHcySWE0OExsSlEyeHJvR2lzVnUyQjJGdkszeXNHZnB6Z0laSTlUV0IwdXRqNjktU1F2bmxvb05PeHhmS2dFa3NPOXpfTEVmbU9ENEV1OUM3QjRxeVY5NWlOT01jTVZWdDIwZldBdw?oc=5",
+      "source": "Bangalore Mirror",
+      "published_at": "2026-09-30T00:30:00+00:00",
+      "description": "Plastic ban stays on as enforcement gets extended by another year Bangalore Mirror",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3364752b0641b909",
+      "normalized_title": "plastic ban stays enforcement gets extended another year",
+      "origin": "google_news:CPCB plastic waste",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Win exciting prizes by recycling dry waste - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUTVNSGduaEs5MU5kWU5xN3Y5Z3pMOXp3VGlTWEx6b2xVMWFpUEwzdlloNU8wdFA5NzRuS2dlM2tmeVZJMlFBWFphLTR2akdnTDRoU0kzem5iVFY0QTRuMEhRcG5BZEluVElXTm9KcE9KdTFQUGZxbE4ta3hmbWh1T3VnT3B5d3RjSnZzSVBUTVhfeVllVk1Ya01R?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-09-29T21:13:14+00:00",
+      "description": "Win exciting prizes by recycling dry waste The Hans India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d3d8400126d06468",
+      "normalized_title": "win exciting prizes recycling dry waste",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Door-to-door e-waste collection, recycling drive launched in city - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNS1UweGZEU1ZvTDc3STUtQkhFZWFSQ28wWk5zcG5TNF96c2FISThrVUdDRWZLM2pieERBQTVWNmVud1UzN24wNVVZUFhvQXN0QnR2ZUcxVjZtaXNrMHZUTExaRy1DRm50Q3J5LTNIZHNoQ29aWDRJR3JmQUJ6LVlJdXNWS1NtOG42UFkxS0FCYWdxUEZZVHc4c000NjN6ZnVkQm5UcEJEMUhQMjlMeW1VRDl3WnZDSEpoS1h0VnItR1NnYnpMRHgtRWpnMGlmZF90MVI0OUN0c9IB3AFBVV95cUxNX0RESmtydkJ5Wm5RLXAtdklEV1gwbk9IOGhyb3VIeGZWZnZZbEtkbjEtM2ZacFl1a1N0TTJ1bXk2Q0l5TF83TGdBOHlVRWduY2hVQlg2OFBuakwxQXBnTXg1cUZJbXg2dy1HUGJ1bEtPLVppc0dpdmZCOWswekhUdHR6YUF5VlBCSFJ4RXNMenZjMHdLV0VQTVF5RDJNVWJIQ1VsblRiajl3UjJkQnZpVTkzUUdtVDlfTGktTjB1MnhaRm5OampNT1JMWmVwZVdVYW5xYkRaM3pxVDlK?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-09-28T18:08:00+00:00",
+      "description": "Door-to-door e-waste collection, recycling drive launched in city The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d82da05161afc7ab",
+      "normalized_title": "door door e waste collection recycling drive launched city",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "How Kerala’s Villages Are Changing the Way India Thinks About Plastic Waste - businessnewsthisweek.com",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlh2U2NlbWJXTWMtUDdfWTZESVZKTHBKNFhMZ1h2Wk5QU1k1U0MtVU1IdmFZdVNPcVZILXBUM2kyRE1SdG1NWWo5RURoVlNhQUtKUUwxX0VkUkxEWFV2T0hqNldjWUprbDVCWkI5YXFwVGFkZEN3RXZZMkNUNFlFZGVTZ3JtVElxQ0kwNVVEc2ZzcVVMRTBDQjFveExCNDR3eFViRXVPVjNEWDR0WE5uUHNCRQ?oc=5",
