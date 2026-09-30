@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T08:59:39.745153+00:00",
+  "stats": {
+    "collected": 475,
+    "after_topic_gate": 31,
+    "unique": 16,
+    "new_since_last_run": 3,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 583022 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 587667 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 583443 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (345 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "How Kerala’s Villages Are Changing the Way India Thinks About Plastic Waste - businessnewsthisweek.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTlh2U2NlbWJXTWMtUDdfWTZESVZKTHBKNFhMZ1h2Wk5QU1k1U0MtVU1IdmFZdVNPcVZILXBUM2kyRE1SdG1NWWo5RURoVlNhQUtKUUwxX0VkUkxEWFV2T0hqNldjWUprbDVCWkI5YXFwVGFkZEN3RXZZMkNUNFlFZGVTZ3JtVElxQ0kwNVVEc2ZzcVVMRTBDQjFveExCNDR3eFViRXVPVjNEWDR0WE5uUHNCRQ?oc=5",
+      "source": "businessnewsthisweek.com",
+      "published_at": "2026-09-30T06:07:18+00:00",
+      "description": "How Kerala’s Villages Are Changing the Way India Thinks About Plastic Waste businessnewsthisweek.com",
+      "location": [
+        "Kerala"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ff474017c5c637e9",
+      "normalized_title": "how kerala s villages changing way india thinks about plastic waste",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Indian community led efforts to reduce, reuse and recycle plastic waste - dailyexcelsior.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWFXOHVXUGFzaFNDOHUyMnBaZWhUblVZbW12c29HREFZaVdFdmZsWmhraWhteDNONGVHdjR2dnNlUnd0bC1fRU9HMjlhOFRwWWdxM0V4NkhvZkR5c3MwQnlGMWthVjF0akxjNFZxRFBHM3c2QS1WOUJIOUVEbUtTT3FxUjFBb1VCNC0xMF9oZWcxTjV4TnRYNy1OQnBycERob2NfNnVkSWTSAagBQVVfeXFMTS1hVzh1V1Bhc2hTQzh1MjJwWmVoVG5VWW1tdnNvR0RBWWlXRXZmbFpoa2lobXgzTjRlR3Y0dnZzZVJ3dGwtX0VPRzI5YThUcFlncTNFeDZIb2ZEeXNzMEJ5RjFrYVYxdGpMYzRWcURQRzN3NkEtVjlCSDlFRG1LU09xcVIxQW9VQjQtMTBfaGVnMU41eE50WDctTkJwcnBEaG9jXzZ1ZElk?oc=5",
+      "source": "dailyexcelsior.com",
+      "published_at": "2026-09-29T22:47:41+00:00",
+      "description": "Indian community led efforts to reduce, reuse and recycle plastic waste dailyexcelsior.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3fea91f7b2b1024a",
+      "normalized_title": "indian community led efforts reduce reuse recycle plastic waste",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "AVRO India Updates Plastic Recycling Capacity and Revises Revenue Outlook - TipRanks",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcDMwSHVUTUNzMkpaZzBfVFhGajMtWTFNYndpZ1lieWx5N1FWQzdWbWdXTVFCUkJlMnBNdnNkRWI1aW95aHp6bVJ0bHV1WUgyWXRDak8xdjh6elZZNHMycG9sZVVYY2NHLU1wOHYxQWFHaU84Wm16QnNjUmtiQVJWbmZDbHA1dHQ0dGdBRjhWdmxQd0N2eGlhMGh2Sk5wVXBfN3dYQ0RWVDZaWDc0OXV0YjJUbXBYbDdzenY0czBvaDZ1ZWs?oc=5",
+      "source": "TipRanks",
+      "published_at": "2026-09-29T18:16:59+00:00",
+      "description": "AVRO India Updates Plastic Recycling Capacity and Revises Revenue Outlook TipRanks",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "afc1ff0f6914faae",
+      "normalized_title": "avro india updates plastic recycling capacity revises revenue outlook",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
