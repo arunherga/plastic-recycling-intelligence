@@ -1,11 +1,11 @@
 {
   "date": "2026-10-01",
-  "generated_at": "2026-10-01T09:25:14.592460+00:00",
+  "generated_at": "2026-10-01T13:05:29.632460+00:00",
   "stats": {
-    "collected": 452,
-    "after_topic_gate": 62,
-    "unique": 29,
-    "new_since_last_run": 12,
+    "collected": 438,
+    "after_topic_gate": 63,
+    "unique": 16,
+    "new_since_last_run": 4,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -17,22 +17,123 @@
       "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 596196 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 583580 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 582385 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584171 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 12 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (322 items)",
+      "google_news (308 items)",
       "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India’s aluminium recyclers navigate supply constraints, quality and policy challenges - Aluminium Bharat 2026 - AL Circle",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWDZQS0l1cDRCNmpEdEljX0YzVVVGaGRKellLd0dhTjZRWS04Nk8xMTdxWVFQQ1RGLVA4d1RibGNiSkpIR0ozQzFZcVRKWUpaVmtHb0hOS0Z5ZmJlR0FROFN0d1FLeXd4YVZPZTBiVktvYTZFN1JCeng4dmJDUlhQVUFScHpxYjRmeHBweGd0OEt2MS1uOXFyYkpOendZSHJnMWxxZHREMnB2NVlQQU5KYm9rRjJ3cjR2TDgwekVtdGhSLXNfcFVMVmhaSkJPZGxFOUdhZ0o5a253SEU?oc=5",
+      "source": "AL Circle",
+      "published_at": "2026-10-01T07:54:04+00:00",
+      "description": "India’s aluminium recyclers navigate supply constraints, quality and policy challenges - Aluminium Bharat 2026 AL Circle",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9d4cb39f8cbbb7dd",
+      "normalized_title": "india s aluminium recyclers navigate supply constraints quality policy challenges aluminium bharat 2026",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Nitin Gadkari-led ministry backs IIT technology of using waste plastic in bitumen for national highways; - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxNT2lsRFNEdGxhQ2lNR3RvQ1lpNEx1Q3FuRXVGR2t1T2lFYU9TVS1UNk9ueGI0ajZIT2RPWjhkYlZWNVBYY19naHA0a05XTlhncVBudFVRZjR0ZlBLOEM3Y0ZVOUFCa2FQUDY2aHFzaHdmQUhNRmVadllsUXNvY01KLWh5bmVBakwxWmp0bVRxemt4UXdFN0F1TkNGazcyT0U3MVg4b2FNa29uWno1cVpCZ1JrY19DcXVKMWVaX1pZLWhoU2JETjM5Z2FLWnJRNlJ3cUFyVW01QzJqTkNwNXJTRXhQeDd5cDdJZ0pXaDJOcFZXWlBOWi1OQkMtTi12eUk5V0dpVkRuVmZOM3hIOFZKRUN3NW92eUYwS25tQmJqbVpzRHEzaHB5OGNObG82cGE1aFJDRFF1bjJ5Rk9ZSWxNVnVrYjNFc1JyM1I5TFdPS2hjbDZWUnJkeUtHOUUzU1pKUmRUenNHM3FxdnNRLUNoczFiTHRFdWdhdUZyN0RHVEN1dFJjaWt6clBjc9IBkANBVV95cUxNUFpBaGdUX0MxX0NpOHhTNmVBX21CQ3VQWGJ3WExhN1NWM1hoTW51bnlfdjF3VHRGOUM0cXhIX3RjRkFLcm01NnBwTUZiZC13eFN3T1JVd0FYc2dGemRKNHR3UnJxSi0zdmU3S2FTbERmVzhsTzg1T3JaSmY4cWZ0WG9wOXdpb1lhR3FfSlVNM3VfQUdTazkzenRfX2FuUVlFbnNiNkJsZVh1S0R4bktMRUdRQzhPWno2X1BnUDhfM0Y1S3pZMWVRZkVyRjRIYkNiTFZQeUtLa2dHYVBISmlRM2NMOTFMckUwZUh6bXlYTF9ONVlZUXc1VUhFOC1ielpmTk1UUV9CbkhOQ0JRaVNwM3dOSzB5MHZqUVhuMm9tRjRucnFTeWx4em52T2ZLZko3R0Y5LVBNeTVXVUUteGpKQUMzYlZHemEzNUdvOXZ5aC0wa085Z21xeHVEMXFiZk9hbWFOZmY3bnQzWkZENzBXbmxGbHpURldaTlNlZ0RSb2JlZWJJbDBFbm1YWEQwVEEw?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-01T12:31:00+00:00",
+      "description": "Nitin Gadkari-led ministry backs IIT technology of using waste plastic in bitumen for national highways; The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "63b45ef8debdb18c",
+      "normalized_title": "nitin gadkari led ministry backs iit technology using waste plastic bitumen national highways",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "How Two Sisters Have Removed 80,000 Kg Of Plastic From Jharkhand’s Rivers, Lakes And Waterfalls - The Better India",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRnZ1SUVXMHpKY3lPTlp2UnJpb20yWk9vLUNVWXE4QkltS1U5d0lHUFozZ0haTGdwdGFibjFkUUlKTGVpWlFLU08zbXRGWWFOV0F2NUNheEkxSVhpeFdzTG5Qd3J6dFpqQkFMMEZBLWNReFg0TmtEZFRBS1dHUjJtNkd3a3pYbjF6dWIyUlllM3lPeXphei05bmJadVZOM2J4dnVSY2dWLXRkN3AxQXlUaHRn0gGyAUFVX3lxTE1GdnVJRVcwekpjeU9OWnZScmlvbTJaT28tQ1VZcThCSW1LVTl3SUdQWjNnSFpMZ3B0YWJuMWRRSUpMZWlaUUtTTzNtdEZZYU5XQXY1Q2F4STFJWGl4V3NMblB3cnp0WmpCQUwwRkEtY1F4WDROa0RkVEFLV0dSMm02R3drelhuMXp1YjJSWWUzeU95emF6LTluYlp1Vk4zYnh2dVJjZ1YtdGQ3cDFBeVRodGc?oc=5",
+      "source": "The Better India",
+      "published_at": "2026-10-01T10:40:56+00:00",
+      "description": "How Two Sisters Have Removed 80,000 Kg Of Plastic From Jharkhand’s Rivers, Lakes And Waterfalls The Better India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "447077c1ccb1030a",
+      "normalized_title": "how two sisters have removed 80 000 kg plastic jharkhand s rivers lakes waterfalls",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "PVC Pipes Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWG9QZE8wcjZuLWU0MHFLSmhORGJQcmo3M2hCRmRFMVRMZEZrby1BcUUyZkhwRklON2xsVnNaYmRFSjAxX0ZWaHZmZVRUN1h6Y0hqekc4V0tzMnZGaVUtV0VnRzV1Qk9KeEhWSTEzaEpHSno2eGRVUkJIczhTaE42SDBOQWs5bmgx?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-09-30T11:43:26+00:00",
+      "description": "PVC Pipes Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pvc",
+        "plant"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "75f978189fb86fcf",
+      "normalized_title": "pvc pipes manufacturing plant setup india",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "In 2019, Los Angeles tested a road mix made from old asphalt and recycled plastic bottles, aiming to repa - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZXEtNVJObHpiS0Z0V3BOVTloMTgyOFoxcE1qV2Z1RnNocG9XZDhQQ0VmODdhdTQ3UzJ2V01rWDJaQ2gwUnhPVnVRQkV6c21yamJ0TFFveUhsSno2X1RIVDF5bHdTRGtsdXFucmY2bzNIemE0N3BmY3M0Y0lZejV5VEFlOW5KVUNvZG5aekszSEJhdWRzeXpsVG1GU0FPVjhvSkhLMEhVSTdJWHBqb2dvX2RTdlpsQ0ljZEduNzFjOWJYdmxfVmlpc2VsWjM2b01ZMmhLTDV1VnJxRV9Rd0k0UDZIVGxKQ0VkU1JhMUtNRzUtLWJWXzdNUVExdExrZ0QtSXcyWi1FWFA5UF9wM2VCeEFybE5tbTQyb3ZRS3hxS1A5ODBiUExnVHM0VWhJQlp2ZDNvTkJ30gG7AkFVX3lxTE5OR01kTTVzVG9wbUJSTy1YQm00WlFaaHpwUzh0UnlwZ2JoelV4VW81QVhPQTNhM0VHUWhLMEdXaUtMSERGUUQtSVNwNGZtMG1Rb2pJQXRmeFNDUV9pR1lpYlpTN3dzaDl4Vy1FdXRLcUx1RWlQRURvTXlvTVRldGxWZXVaaVZKRjBMWkVCMDlzMXVqc2N1VmYxR014a2VLbmNuTGo4SjN5a0hHZGFJalFkbE90MEVqRVJmbF9tMFpCQ0Rab2s2LXgza1pPTUxHckR5b29iTjZpemhLd0hQSzNTUFFwa0otLTU5YUNQYV9yVnRRNFNBY0RZSzNwUWdNakVxM2J5UDNlaVBGVnBlVEdtcFhhRU5nR2Y3SDdtcjBDZEpheDFWb3oyTEw3dzVLYlo4V2pMWlFaVlFGaw?oc=5",
