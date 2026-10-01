@@ -1,0 +1,347 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T09:25:14.592460+00:00",
+  "stats": {
+    "collected": 452,
+    "after_topic_gate": 62,
+    "unique": 29,
+    "new_since_last_run": 12,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled plastic granules India': no results in the collection window",
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 596196 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 583580 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582385 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (322 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "In 2019, Los Angeles tested a road mix made from old asphalt and recycled plastic bottles, aiming to repa - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxOZXEtNVJObHpiS0Z0V3BOVTloMTgyOFoxcE1qV2Z1RnNocG9XZDhQQ0VmODdhdTQ3UzJ2V01rWDJaQ2gwUnhPVnVRQkV6c21yamJ0TFFveUhsSno2X1RIVDF5bHdTRGtsdXFucmY2bzNIemE0N3BmY3M0Y0lZejV5VEFlOW5KVUNvZG5aekszSEJhdWRzeXpsVG1GU0FPVjhvSkhLMEhVSTdJWHBqb2dvX2RTdlpsQ0ljZEduNzFjOWJYdmxfVmlpc2VsWjM2b01ZMmhLTDV1VnJxRV9Rd0k0UDZIVGxKQ0VkU1JhMUtNRzUtLWJWXzdNUVExdExrZ0QtSXcyWi1FWFA5UF9wM2VCeEFybE5tbTQyb3ZRS3hxS1A5ODBiUExnVHM0VWhJQlp2ZDNvTkJ30gG7AkFVX3lxTE5OR01kTTVzVG9wbUJSTy1YQm00WlFaaHpwUzh0UnlwZ2JoelV4VW81QVhPQTNhM0VHUWhLMEdXaUtMSERGUUQtSVNwNGZtMG1Rb2pJQXRmeFNDUV9pR1lpYlpTN3dzaDl4Vy1FdXRLcUx1RWlQRURvTXlvTVRldGxWZXVaaVZKRjBMWkVCMDlzMXVqc2N1VmYxR014a2VLbmNuTGo4SjN5a0hHZGFJalFkbE90MEVqRVJmbF9tMFpCQ0Rab2s2LXgza1pPTUxHckR5b29iTjZpemhLd0hQSzNTUFFwa0otLTU5YUNQYV9yVnRRNFNBY0RZSzNwUWdNakVxM2J5UDNlaVBGVnBlVEdtcFhhRU5nR2Y3SDdtcjBDZEpheDFWb3oyTEw3dzVLYlo4V2pMWlFaVlFGaw?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-01T09:10:00+00:00",
+      "description": "In 2019, Los Angeles tested a road mix made from old asphalt and recycled plastic bottles, aiming to repa The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "62f189a176f2f060",
+      "normalized_title": "2019 los angeles tested road mix made old asphalt recycled plastic bottles aiming repa",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "EXCLUSIVE: Haier, Godrej, Blue Star failed to detect fake e-waste recycling claims, India notice shows - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYlB6RmhlNDdjOXZTeGhMWlB3ZEt2RExtQVJ3ZkdSQ2hQMEVNYnBkTDJHcVRVX2M1T2pXNFMyYm55bjlBZXhzdVlhYko4MG1nY3VKRDZrMEtCWXdRYzh5ZWktV3puSktPY0xTRjV2MTF4dTNuY2UySTNZQ29KN3RMYW13WDR6elZSSGQyRWFDcURCdW9iMlNUME5jMnZJV01XejVpZnpPTko3bnBnT1NJSTlVNjFBR1lLWGEzODdNdnRncTVCSmc?oc=5",
+      "source": "Reuters",
+      "published_at": "2026-09-30T09:43:03+00:00",
+      "description": "EXCLUSIVE: Haier, Godrej, Blue Star failed to detect fake e-waste recycling claims, India notice shows Reuters",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d47d7945af9ca396",
+      "normalized_title": "exclusive haier godrej blue star failed detect fake e waste recycling claims india notice shows",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Pre-Consumer Textile Waste Recycling Market Outlook, 2033 - Grand View Research",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQndRcUdrbHcycGdPVXN2ejhYZzhQbmlPWnhUY1NacW96c3VydVd1QlBveVhXQmxBMUVLSDU2MTFHMUNlMm8yRjF3c19WSHo3eW5QZ0kxUGZFSlpoTjBlRVh5bEJiUC1adS1Ta2pfdDF5b21hbTl6dDhTS2FFdjlsS3ZPRFBKSnVQbnIwMnJsejlFWDJ0a1BSbUFHeVdMSXZ5?oc=5",
+      "source": "Grand View Research",
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "description": "India Pre-Consumer Textile Waste Recycling Market Outlook, 2033 Grand View Research",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cbf9574fb47097fa",
+      "normalized_title": "india pre consumer textile waste recycling market outlook 2033",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "North India cotton yarn prices rise; recycled PSF, PC yarn surge - Fibre2Fashion",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQZm5Xa1cyR1pxZmFDN0NTUGVXODlOa0NLSkFpb0o3ekFSR2ZZOFBFQ3ZEcTF5RjhBWmpMQU05WVJSY2tqSVh6b1c0LTYwWE41NmMtaXE0WVdkWW1tNjd1am1WTGpHSW5RM1FqMmRhU19WRXBNTWZnZlJIdGxaSVhmcjVjZUpZbjlkeGJzbEVUeHJCblNQZk5MX2F5aXEtRlhmUGxYQjhUWW5ZU1BQcmNnVHo0QUYwYVZPS1JZR2h0SEVKcnBUanBWczBLZnY0YnU3T0hDQzU4dW41aUFzcU1Kcg?oc=5",
+      "source": "Fibre2Fashion",
+      "published_at": "2026-09-29T22:12:01+00:00",
+      "description": "North India cotton yarn prices rise; recycled PSF, PC yarn surge Fibre2Fashion",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "PRICE"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Price / market data"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dfa3e7182892d1f6",
+      "normalized_title": "north india cotton yarn prices rise recycled psf pc yarn surge",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Messe Düsseldorf strengthens trade fair portfolio for plastics & rubber in India - Packaging South Asia",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA4bHRxTWh5VzBYby12bDJCNDNPVnZWLUlWTlNOX0lTZVMzTGROc2pBaDlTS3lOeDN5ejU0VWt5TmFBNXVFaXdTbmc3RmZncUd2cHVBdEtFVThXNk5pRGpaOXNiRjlXWHJPb01udlNUcFdBY2cw?oc=5",
+      "source": "Packaging South Asia",
+      "published_at": "2026-10-01T04:14:55+00:00",
+      "description": "Messe Düsseldorf strengthens trade fair portfolio for plastics & rubber in India Packaging South Asia",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "95b60f8005336445",
+      "normalized_title": "messe dusseldorf strengthens trade fair portfolio plastics rubber india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "From Waste to Resource: How five Indian initiatives are giving plastic a second life - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWGI1YnhYM0FGNjRwNlN0SEhhRU4xSGFNaFI1SnI1ZHpQdFpPalBrN1A3U2tvcHBYM3MyR094YTQySzdkOTUwV1BrTDRnTnNaLTBhS3dRVlNDX3k2ZTR6cEtuRTVrNldPdEw3MjVnTVhEYXBESTlEVmotbFZYMkVYSVdQVUczWDR3VG9LcWJXSW9EdzEycUNKYWZONDVodjNEUWtEYTZwdGFscUtJdDNqLTRXUDZIV3BEdi01MkV6SXNtZGdKVGdMdTNia9IB0AFBVV95cUxObVFLMFhMeXI4UTFhUkZnYVRmZDhGOTlYSnBwRUpFVWVla2NwZ1ExZmlLcGh4YXJueU5Rdy1DemhkQkNuUGlwcllsbTdWYUVoa2NkclFFRzJHaDlVWllFczBraHBXdFN0bEtVeUFRNW1WYUhkMmk4NHRSRDJLNGVqdlZFS0RDdEhkRmIyWnhiQjd4aHlKVXhzUFp3X0tRelpZeDJlSkU1TEw5eURzS2Qza2QtN251WVZPUnJmVTJuWC04Z2g1N2kxSUNkY1VMNkJT?oc=5",
+      "source": "organiser.org",
+      "published_at": "2026-10-01T02:37:29+00:00",
+      "description": "From Waste to Resource: How five Indian initiatives are giving plastic a second life organiser.org",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "af76a906d1aeba3d",
+      "normalized_title": "waste resource how five indian initiatives giving plastic second life",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Blueocean selects BoReTech washing line for its bottle-to-bottle PET recycling Project in India - Polymerupdate",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sazd3cXVhTDFBVFB6SXMzZG5BVEVfa1VsWVgydmxCc1hrRkV6V01GUmRrLVZjd2tOYWJBdC1iempwU0gydnFzU0NlUVVFUncwWkppRXY4c3ZqYThleTA2WkF0aEozYms?oc=5",
+      "source": "Polymerupdate",
+      "published_at": "2026-09-30T15:21:55+00:00",
+      "description": "Blueocean selects BoReTech washing line for its bottle-to-bottle PET recycling Project in India Polymerupdate",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MACHINERY"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Machinery / equipment"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "25181626e08b92a1",
+      "normalized_title": "blueocean selects boretech washing line bottle bottle pet recycling project india",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Legal system fails to keep pace with India’s growing exotic pet industry",
+      "url": "https://india.mongabay.com/2026/10/legal-system-fails-to-keep-pace-with-indias-growing-exotic-pet-industry",
+      "source": "Mongabay India",
+      "published_at": "2026-10-01T11:52:13+00:00",
+      "description": "This is Part 4 of a series on exotic pet trade. The series looks at the health impacts, legal challenges and the ecological consequences of keeping exotic wild animals as pets. Part 1 explores how the trade enables zoonoses; Part 2 observes how India is emerging as a link in the global primate trade; and [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ae9f865c7f5c93da",
+      "normalized_title": "legal system fails keep pace india s growing exotic pet industry",
+      "origin": "rss:Mongabay India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2020, researchers compressed sand with only about 10% polyethylene; their structural material achieved - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxPdjRUWmpaY0FPZi0tV1B0Rlh0RzRhaHZ4Njh6eGJVTHVPY250aW02czhjZjZkbkdwWWY0MHlPTEtoNEYtb2NaeENUNnU1dVF5aFUyOEsxcGhqcTNqaHFQdG4walFQRll2NVlHZUltVFBKRC1zVFJ2ZC1MUU5zQXhnX19ZMzFwS1hVcUtmWS1mX0NVd0psVU0wOXR2MDRDTUM4X0RhOFdTejlmRkJnc2FqVzFmWXNVNktaU3htSTBFZEYzSUUwUFA3Z1ljeEE3ck00Vnp2MXRyOFA3eC1TdG5LOGkzdENURnpXWFZYUkRyTFUycVlHaWJ6UHJrYTlOcEtRc1RvZlJfclZwS2xvUnY2TWNJSDNFUEJCeEVwZDFueDgxZjJnS0l2d2gtQVA1bVNSYUVYaF85WmItQXRzTGtLeUZtSUZZSXRCRWJWbTVUVGRHSFBScUNMM2RVdnTSAeICQVVfeXFMUDN1SW5PSkIzbWdjZnJFbVNkVXVhU0YydjlGTDVKZTZ4Q0dPbGxJdGp6UklqQ3hvZy1nZ1d1T0FBaU1VZEN4V29ZbldRUFdKZU5BN1FmVjBJbDhDNGZhdlpUUlROdTN1NU9TS3hDWEJUVDBBdHFGVkUwRnZKYTlZZUI3a3Z6cFQwcVFOazV0cUU2YjBFcml3RFNwdldEYWpCQXdWNE1rSzJlV2VCcjVzQmVhWXVlOE5paXpxbjZZZ0dubzVYX2J6UjJjWTJBczRKMG1OMHZralZoNnh2dVZLa2tacnJ2VURxSVlwZ21jVFdBRzZQa0dJb1d4WGdWOXZaVUFreWszcGhwX1FwLVlqVTFkeTlobGdNSDJSbHdkdGF2c0pxOEFidU80RXcxV2NKUGZ1c2l2QWlqU0VyaFF5aU9OSHo5dG1hVGU3dklkRmp6M3lBRm1FZFM3RHB5aDN4Z1pR?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-01T08:50:00+00:00",
+      "description": "In 2020, researchers compressed sand with only about 10% polyethylene; their structural material achieved The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "polyethylene"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c9d0babff2ce3b9e",
+      "normalized_title": "2020 researchers compressed sand only about 10 polyethylene their structural material achieved",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gujarat govt moves to end use of plastic files, folders in offices - IANS LIVE",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWkJ6UzByTzBGWHVKNTFKeHQyRE05aEVVQnhyV2FmOTFQbDZpNF9FWjlnQ3lreVR3TEZIWlFpRXZYZXZYSkdJOUhPaVp6bnVWTlZPMlZ4VE1qQk44WXg0c1J1VndNcmZIcGxfeHI5RzZONXlwZjdlT3hfWEZiVkVxem1XY2ZMblhodDFkenFnbnJHQm5lS29MRElJTnpYZVN3aE9V?oc=5",
+      "source": "IANS LIVE",
+      "published_at": "2026-09-30T14:48:00+00:00",
+      "description": "Gujarat govt moves to end use of plastic files, folders in offices IANS LIVE",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cacd7030ed37d967",
+      "normalized_title": "gujarat govt moves end use plastic files folders offices",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "GOBARdhan Just Changed the Rules for India's Biogas Sector. Here Is Where Organic Recycling Systems Limited Stands - ANI News",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRVh5LUtLamhhaWEtemZtVjRqMGl6THBOTlRQR3E5YmY4OXQ4dTlGVkEtWnB5TXN3VmhmY3RiMWdiekdGRjF3bGFtMXJMeTJMTGJBbEhNX1lxUl94SFpzNVZZQkxYSVhkRXRISUZqTGEtVzdYa2daVWw3M191N1dRMFFQRzZldjh0ODFIZzhnbndmc3V4VnV5V1ZUU0s0UkhkaXQwZXgxOG40WlRiWHBRZXZtNDF3WXVPNkhvZUNtU0t5LTc1VUlFaUFubWpEZkJlanp6U3NWVnZLd2ZyOVZhNUdIel91MmNDWUJWNXh5NVB1NzN3WEE?oc=5",
+      "source": "ANI News",
+      "published_at": "2026-09-30T11:59:00+00:00",
+      "description": "GOBARdhan Just Changed the Rules for India's Biogas Sector. Here Is Where Organic Recycling Systems Limited Stands ANI News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "33f427b8b3474b95",
+      "normalized_title": "gobardhan just changed rules india s biogas sector here where organic recycling systems limited stands",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India should recycle copper as a strategic intervention, says global copper body’s Indian arm - thehindubusinessline.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOMHdzUW5mcXhNaGpQOVdYTHp5UlE0NjJJZWNZT2NUc0xvRVZybm91eFlMdjhiQVhzLXV1SGppRnFSc0NKSU8zem03ZG9yaFJrM2Z1NGplNEFfSll4ZGxtZFJLV283LU54Qm5HaVp1VnRvS0M0Z3pFWExhblZ1X1J1eVhMTUtkbEJ1WjAxa1p0TzhNU2FsaHdCcDJlSmlnbk5RcU5PNWtuUW8zbzV5bGY2VzlNUnVDRlpqLWhqNnh0UnNqSG8wellVcjJvZTNRT01nV2hac1FvdVJXT0FGbW4yaU5oRUFiQTRjNXVJdWppaU0yN0tPcnpVanJxV0pOQkXSAYYCQVVfeXFMTkFlWXdoRG9KNzh1Vlg4NmRnMHZGQUVtNzE3Y2R3SG91RHQwLUJ5WEVQSVFLUkZDd2l6a3dZSnlXRkRLOFBsbm9VZHF4LW9VaEg2bVpsaDcyc3BsX3k5aVcyeWg5OFdxWjdSRldlM2hGanFaZklIUkIwM0t5bHBkVlBCeUFBczM5ZjJiRWd2MjJnSm03QVFncmpkMUMybURuLTJfNlVhd25Fa0pvU0lLVThodjN3a2xjTnBsdklTY0UwYUxac3VaeWIybFBYdFFqbENkZEZFWWVUOXpJWmNxRi1HNjdXdDYwUGdrMTFxaTI3c2hnUmlpbFpzV2lLem4zdVExY1NtQQ?oc=5",
+      "source": "thehindubusinessline.com",
+      "published_at": "2026-09-28T07:00:00+00:00",
+      "description": "India should recycle copper as a strategic intervention, says global copper body’s Indian arm thehindubusinessline.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "68f40253a71099d7",
+      "normalized_title": "india should recycle copper strategic intervention global copper body s indian arm",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
