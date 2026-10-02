@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T08:59:21.625381+00:00",
+  "stats": {
+    "collected": 461,
+    "after_topic_gate": 68,
+    "unique": 29,
+    "new_since_last_run": 3,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 593681 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (331 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Hyderabad Industrialist Anil Reddy Vennum unanimously elected President of 81 years old National Trade Body of Plastics Industry AIPMA - contentmediasolution.com",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNR21KbmRhMEZMMkJlc2VmQmc5N0ZIMUVxeGgtUlFHenozNkVRUXpJMzJTcTl4YnZZX0V2dVRrcmM1ZlhPN0lhcWUtOWdBSDR3dzNnaUpOejVTdUdHaEtZaWh5ZUFSQm5JUXhFSmhhT0dPbTVoODk1LVoyMzY3T0RaenBTazl4YjFRX252dWs4R25pNlgyXzd5ZnFSbWVpakpGWFJnX3U0MGpodXVQY0FHNElKZ0M5Q3NRVGZsXy15SzVRRVFpRE1NcmpjLUdjdnNGN3FDUGN4QWV2OWtvamR4NndNdi1NX2tqNDd3S3ZyOFg4b3RuU1pPN3JKSVFuTE1NVEJyN194VWdtcnZJOWfSAY4CQVVfeXFMTUdtSm5kYTBGTDJCZXNlZkJnOTdGSDFFcXhoLVJRR3p6MzZFUVF6STMyU3E5eGJ2WV9FdnVUa3JjNWZYTzdJYXFlLTlnQUg0d3czZ2lKTno1U3VHR2hLWWloeWVBUkJuSVF4RUpoYU9HT201aDg5NS1aMjM2N09EWnpwU2s5eGIxUV9udnVrOEduaTZYMl83eWZxUm1laWpKRlhSZ191NDBqaHV1UGNBRzRJSmdDOUNzUVRmbF8teUs1UUVRaURNTXJqYy1HY3ZzRjdxQ1BjeEFldjlrb2pkeDZ3TXYtTV9rajQ3d0t2cjhYOG90blNaTzdySklRbkxNTVRCcjdfeFVnbXJ2STln?oc=5",
+      "source": "contentmediasolution.com",
+      "published_at": "2026-10-02T01:47:38+00:00",
+      "description": "Hyderabad Industrialist Anil Reddy Vennum unanimously elected President of 81 years old National Trade Body of Plastics Industry AIPMA contentmediasolution.com",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fde6c35e63663ae7",
+      "normalized_title": "hyderabad industrialist anil reddy vennum unanimously elected president 81 years old national trade body plastics industry aipma",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "The New Plastic Economy: How Indian cities are moving from waste collection to recycling - organiser.org",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNUjgyS0lQbzVKc19PMHhDS0hISmVwVmozb1lsV0dXbGJ1MmNkUXlnSkh0TVcxdldMdUs3TldtaEVYS25Sb3pldjVXa3V6ZTJVMEJzdXpvcnlPOVQzSWt1enAwZnFGY3p6V1M4UDktV2h4Qjd4UWJuN2F4RkZTSmdKUU50VHFyUDQtR1NoeEtoSDZSY0FpMlNZUlVWMXhwMno4NFd2YkJJNlVmU2dESzJBUU11TUdKYWpFMlFiQjU2bFZIRHNMVEhYS2FJSVQ3ZFZ50gHWAUFVX3lxTFAwWlpSRm93dnZLRDJCMkc5VWp2X0pNVlI3TWF6YmRDLUdFR2pmN0xycWxFaHRYNEdWSm9IVW10eG5BMGpjblQ0VW1UX3c1RnFwdi1jXzNBVmduT1ZHWElGaUZvbjBSclI0UlpveWF4bXZWZk5fZkk5b0JZTXBLTlNQLXZzS2tRcGc0VnJSMktwdF9oYnN2ak5hX045QVNqcXhzVUFtWndZQzc0VnB4djUySk5xaThnOGlPMmlVX1RFUVhJU1A3VE9BT1FlWE1PVTVBYzFjX1E?oc=5",
+      "source": "organiser.org",
+      "published_at": "2026-10-02T05:35:21+00:00",
+      "description": "The New Plastic Economy: How Indian cities are moving from waste collection to recycling organiser.org",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8668c3935773eb89",
+      "normalized_title": "plastic economy how indian cities moving waste collection recycling",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Less plastic, reusable plates & utensils help cut waste on Amarnath route - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQmpZOW94R0NPSXktTzllcG9SbVJiUW9DZWJBU1pvd1M2Y2laSEg4bjBNSXZMNzRRUzJzcEQ0MGJCak44c1QyYTVOSmNPdkZZTlVPOF8wcFhCSE5lR0NTZkdLZ2VvVnhoSGg0SnZiZGZsSFhVbkNYcldjdi1pZlFmVlpFc0NRNnVXTFNuRV9laE94Ulh0QzRIbng4dTQ5MmNyZnJMeTVmTzZmZmNMZmZjN1JfeXNpTnFHRGNMVEFXQU9wakVoMHlyLW1KUnZxMnIwR1lLc19yV2dIOXNY0gHiAUFVX3lxTE1zRVNOdzBiaEpYdGtvUFNNZnA3Nnc1M3ppaWpLZVJHSmY3VlU3bG1xSFcwWExGb2hHM190NEFyZ052N3BwUXJLV25acHZKZG5RNE1Pdlc2bzFlTVUyUjZhUU9DQkxTOGZfbW5zUUZQVjN3OWtyU1l0UWx0ZVlIa3hremNFXzZqUlJKTHVNQmw1N0hSeGJ3T0dsNW1Ga2JxbDBYY2hkX2xZUmV2ODM0cUVfcEJ1RzNweVhURGtQWmhsMWUwdW9Od2ZXd1diajg4Vk1OQXVycUdDTUVkMWRCYktlU1E?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-01T13:42:00+00:00",
+      "description": "Less plastic, reusable plates & utensils help cut waste on Amarnath route The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3b4bba9ac3c80e4e",
+      "normalized_title": "less plastic reusable plates utensils help cut waste amarnath route",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
