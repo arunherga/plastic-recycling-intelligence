@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T08:33:02.505206+00:00",
+  "stats": {
+    "collected": 457,
+    "after_topic_gate": 59,
+    "unique": 26,
+    "new_since_last_run": 2,
+    "relevant": 1,
+    "high_priority": 1,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 588783 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 590063 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (327 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "‘Maha r-PET Bottle & Stickers’ plastic recycling initiative launched in Maharashtra - ThePrint",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHFuT3VEOGRNRlZVZUZLNTdZSnhKeTdaN2RhSlRVLUxycWFoMWFKNEVHdjJxMUNwX0Jmd3I4ZWdCSlNtQmQ3Z1Q3T1ZBcS1iQUZENElEQWRtTkl4X1JhWVJ1X0x2N01YVU82ai0zdVZoVHo2OFVGRG1fQmcyVE5nNFBMWWhIRzRuQ3BITVVvNEFHTncyaFZIVExkQk5pZU1kczVWWWlET3hjZzFrVEtzcDd1cWF1MVN2MXfSAboBQVVfeXFMTXBxbk91RDhkTUZWVWVGSzU3WUp4Snk3WjdkYUpUVS1McnFhaDFhSjRFR3YycTFDcF9CZndyOGVnQkpTbUJkN2dUN09WQXEtYkFGRDRJREFkbU5JeF9SYVlSdV9MdjdNWFVPNmotM3VWaFR6NjhVRkRtX0JnMlROZzRQTFloSEc0bkNwSE1VbzRBR053MmhWSFRMZEJOaWVNZHM1VllpRE94Y2cxa1RLc3A3dXFhdTFTdjF3?oc=5",
+      "source": "ThePrint",
+      "published_at": "2026-10-02T12:49:15+00:00",
+      "description": "‘Maha r-PET Bottle & Stickers’ plastic recycling initiative launched in Maharashtra ThePrint",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 8,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states",
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e44b016d62750e9c",
+      "normalized_title": "maha r pet bottle stickers plastic recycling initiative launched maharashtra",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Hyderabad’s Anil Reddy Vennam elected president of plastics body - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOc1ZjSW9BQ05FRjVpdmF1ZlhaSDNNT1RtYWd0LWoyS1pQS3BKaVhiV2dMLTVsOVlkbzZ2SE5FVXFSWXlPck50UXA1QjdjX2hwQVZ3dmlSOW5ndEdiMzRqUjQyYUdSaXlqSFY1WjVHdFQ5ajBzZHZ5c2lad0g5YzNWZE1ocmg4OEllclI2UUN0VURYUDdpdnVkamdDVzJ2ZTF2SWYzS2lVdFJHalQtRDRTekxRdnhmVWh5dE1aZ2hCak16ZkFJb2cxQ2xNbTNicE9J0gHQAUFVX3lxTE5zVmNJb0FDTkVGNWl2YXVmWFpIM01PVG1hZ3QtajJLWlBLcEppWGJXZ0wtNWw5WWRvNnZITkVVcVJZeU9yTnRRcDVCN2NfaHBBVnd2aVI5bmd0R2IzNGpSNDJhR1JpeWpIVjVaNUd0VDlqMHNkdnlzaVp3SDljM1ZkTWhyaDg4SWVyUjZRQ3RVRFhQN2l2dWRqZ0NXMnZlMXZJZjNLaVV0UkdqVC1ENFN6TFF2eGZVaHl0TVpnaEJqTXpmQUlvZzFDbE1tM2JwT0k?oc=5",
+      "source": "The Hindu",
+      "published_at": "2026-10-02T15:56:54+00:00",
+      "description": "Hyderabad’s Anil Reddy Vennam elected president of plastics body The Hindu",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cf6461126eccf0bb",
+      "normalized_title": "hyderabad s anil reddy vennam elected president plastics body",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
