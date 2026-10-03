@@ -1,36 +1,81 @@
 {
   "date": "2026-10-03",
-  "generated_at": "2026-10-03T08:33:02.505206+00:00",
+  "generated_at": "2026-10-03T11:35:01.658345+00:00",
   "stats": {
-    "collected": 457,
-    "after_topic_gate": 59,
-    "unique": 26,
+    "collected": 467,
+    "after_topic_gate": 57,
+    "unique": 4,
     "new_since_last_run": 2,
     "relevant": 1,
     "high_priority": 1,
     "opportunities": 0,
-    "source_errors": [
-      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
-    ],
+    "source_errors": [],
     "source_notes": [
       "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 588783 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 590063 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
       "google_news (327 items)",
-      "rss (130 items)",
+      "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Formula E GEN4: Bridgestone tyres to feature 65% recycled, renewable materials - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQQk53Y2trTjAzVlNQVlJ3Q2VPV1hDX2poamdoNGpSemtsSWlxYmg2OXBPYUp0VkxvbTMtTUtTWC1wd2txcVZNTDVFZnhzd1pGaWtObTJMbkZFUkNrd0hPZjI5QUdUNTJTY090VUVvWndDdmNZVE5rZ3BMVWlTMU1GNEtFOEh1dTM4OHlxSzNwbTdxQVhQY284VmtjVEV5dlo0UXlKcmtWMGRGRlNLWWxaZk9Bc3NQZW11OHFDOHlIWkwxdkUyMXk2VV80dktpa1ZrbkZSd3hPcmlvY2E1d2I3TU9RbkZnYVduYVHSAe8BQVVfeXFMTzllWkdoWXZjYXhPVmR4dVIwTHZyUFBYYjh0V2FOdFA2c3pTQnhWSTVhMTZjZzd4X19qU0lFWkViTGRwWjF0aTVuSXJfWERVQjFRMm53ZTNpa045c1JXSUk2ZXBNMjVNZWkxcGwtM3dVS1Z1c28wc2FNbFZTRk1DenhpSVM2anR1bnJ0ZVlDOXgwMklpXzRpc3dPU3dLQWxFbmZyQk5OVXB3UWpmX3lmZVVnZ1EzcmhMcEpzTHpqZFFNdTgtU1V3NUhKZmx0SS14ZURYcnNEQzdhYmIzT2dfZlBDN1QxdEJFcUo5NTV6bW8?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-01T18:20:00+00:00",
+      "description": "Formula E GEN4: Bridgestone tyres to feature 65% recycled, renewable materials The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c74e5ac5d9253352",
+      "normalized_title": "formula e gen4 bridgestone tyres feature 65 recycled renewable materials",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "After jute, India seeks anti-dumping duty on PET film - The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNlVERi03a1Z5RmFmV3hFbXJhM2Jmem1saml2MnlLN1pkZ1NFR2UtNXFxN1drYWtPdnFpeEZTQmljY3phRENwdzVBZEFCT2J4OGxPcVFEWWVLNmdaTVM4eGVxcjhLdldLdWVwZS1LejVaVXJSTURpZmZuTkN1RVBGV2ZscWpuSFNpSmNGejJzTEpvTnc1TjlPWVJRVjQwcnVrRFE?oc=5",
+      "source": "The Daily Star",
+      "published_at": "2026-10-01T03:48:06+00:00",
+      "description": "After jute, India seeks anti-dumping duty on PET film The Daily Star",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8a8ecaae66020b9c",
+      "normalized_title": "jute india seeks anti dumping duty pet film",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "‘Maha r-PET Bottle & Stickers’ plastic recycling initiative launched in Maharashtra - ThePrint",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcHFuT3VEOGRNRlZVZUZLNTdZSnhKeTdaN2RhSlRVLUxycWFoMWFKNEVHdjJxMUNwX0Jmd3I4ZWdCSlNtQmQ3Z1Q3T1ZBcS1iQUZENElEQWRtTkl4X1JhWVJ1X0x2N01YVU82ai0zdVZoVHo2OFVGRG1fQmcyVE5nNFBMWWhIRzRuQ3BITVVvNEFHTncyaFZIVExkQk5pZU1kczVWWWlET3hjZzFrVEtzcDd1cWF1MVN2MXfSAboBQVVfeXFMTXBxbk91RDhkTUZWVWVGSzU3WUp4Snk3WjdkYUpUVS1McnFhaDFhSjRFR3YycTFDcF9CZndyOGVnQkpTbUJkN2dUN09WQXEtYkFGRDRJREFkbU5JeF9SYVlSdV9MdjdNWFVPNmotM3VWaFR6NjhVRkRtX0JnMlROZzRQTFloSEc0bkNwSE1VbzRBR053MmhWSFRMZEJOaWVNZHM1VllpRE94Y2cxa1RLc3A3dXFhdTFTdjF3?oc=5",
