@@ -1,11 +1,11 @@
 {
   "date": "2026-10-04",
-  "generated_at": "2026-10-04T08:45:14.567674+00:00",
+  "generated_at": "2026-10-04T12:16:27.906236+00:00",
   "stats": {
-    "collected": 491,
-    "after_topic_gate": 60,
-    "unique": 24,
-    "new_since_last_run": 4,
+    "collected": 483,
+    "after_topic_gate": 61,
+    "unique": 6,
+    "new_since_last_run": 2,
     "relevant": 2,
     "high_priority": 1,
     "opportunities": 0,
@@ -15,20 +15,74 @@
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 582259 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 583882 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 583108 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 585172 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 4 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (351 items)",
+      "google_news (343 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Major Fire at Plastic Scrap Godown in Warangal; MLA KR Nagaraju Inspects Site - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNc3ZjaGt3bHM0X1hLckx6V09iWW1BbUp0T3I0ZFg4T1JVMVRfWWExMHN3S0xHMXlSWHhJVzhoN2xyUjNxaHZHS2VFOHZuNHp1dml3R0R2VHYzR29rN3FaaHdOSWdPSlF5bmJaSFdxUFhlQi1aTFdxd1lZWHhMZVlPa2o1UW1lTUlzZmFzajU4dmlXN1ZaVkZxR2FTVFNmZjRFMUN1YmhfNk1jYUIxbklMbkJudV83UlVUcldPRGItUnF6S2U5dC1RRWZFRlk1UHpUTDBja1AzNHNDX3BEWU5XWXltaGo5Nk9uNEw2UXNqWElwRWNoWXBteEVGdDg?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-10-04T11:01:07+00:00",
+      "description": "Major Fire at Plastic Scrap Godown in Warangal; MLA KR Nagaraju Inspects Site The Hans India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "05317ce9d6c14d75",
+      "normalized_title": "major fire plastic scrap godown warangal mla kr nagaraju inspects site",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Toray develops first solvent-based recycling technology for high-performance PPS - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTGduSDlUMVlVRk1lOWlBQ2ZaUHFsOHQ2OTlMeVBiWDJEMlVhMnhNdWFmenNyajJxQ2FDbEJ2aldCeTQ3U0ZCN29uU2pjRGZGQkJXdmF6VEc4Q3Qtb2JDQXRVYkt3YVAzYm8xcnZnZ0Y5YjNHWEJPa2JTZlBCZDR4TlFva2ZSVXFqbE4tRWVZVnpFbURweFFrTS0xQkNPeXFPZVZJTFZOWWROTTZTSlZOdTlaOVY0clkxWDFNaTZFR0FzcFZ1UzROekppNNIB0gFBVV95cUxPNnRuM19ST0pIc3M4WjJ3RHJ4RHJVZms2VWc3WWFNMGFFbk41d0g5VnBtWVJZWHNkSGVUcmxvNzlCaFVFZ0Ryel91cnNrNWtYWmlwYTMydmJuLUNxUzIzb1EyN2lSREJNRlppTjBGOUlCRzZoTGRaZEhRTkx6cFlLWjlac3QzekNBOTA2TzBDY3dtOElNcnFrTjZoT1hsZElhSmxtcUUwODA3Ukx5UE5xVXM3SS1ua05GM0o0aExweTY0dnk3ZDVaWkVRM1lpd2N5c1E?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-10-04T03:14:19+00:00",
+      "description": "Toray develops first solvent-based recycling technology for high-performance PPS Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Recycling technology"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "09269857ffd92d55",
+      "normalized_title": "toray develops first solvent based recycling technology high performance pps",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
     {
       "title": "Maha R-PET Initiative Expands Plastic Recycling Across Maharashtra - mumbaiviral.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRjl0MHY2UXFCYW9NY3pfeXRQdjhacU5ITzF5aXdTdUhkaUpnTmtDVHBUZGp4MlpKNUd0UWF1ZDZuMzRSRlJWdTZ0MmVkQ0xUcnJLYmxwbzJrZGxKMWZMejZoNTlyUjcyUzU5aXhseGFPWVVXOGgwTTB5S0I2SnhCZnVIRzNfNHg0SEIySHA0Skx3ellDNjBabUd3?oc=5",
