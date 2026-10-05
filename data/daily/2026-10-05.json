@@ -1,11 +1,11 @@
 {
   "date": "2026-10-05",
-  "generated_at": "2026-10-05T09:35:50.349325+00:00",
+  "generated_at": "2026-10-05T14:28:21.141123+00:00",
   "stats": {
-    "collected": 476,
-    "after_topic_gate": 39,
-    "unique": 18,
-    "new_since_last_run": 2,
+    "collected": 465,
+    "after_topic_gate": 55,
+    "unique": 6,
+    "new_since_last_run": 4,
     "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,17 +16,115 @@
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 597109 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 583074 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591995 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (336 items)",
+      "google_news (325 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Odisha plans plastic upcycling policy to turn waste into construction material - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOMXpKSWlrdGNvWVpRTVJVcTB5eFVaT29hR3BSNUNWMjJRdVRVMU5USDFDeXpSQjFxSnA4d2J5UnZBbVp1MFY2VG9oYW02bWlITV9zRkdySjlRcGQyWl9wSkZ1cmVSbkJLdzlNWllPWXpRQ1R0YmI0ZUZmamNxaW1RVHhBaGd6R3pYcWVRc01Ralc0LWxCalZicVBaYjZRU1d3TFRuaVU4bzRUXzJGYUFTNm1QRTN5cVFPV0t6NDZVTVItUENlU1pXVDR6QjBPRlFWcVp2MUJUTTdyV0ctMlRRcmlHYzFDOFZuN3dqODJR0gHzAUFVX3lxTE8yZGh2SXc4ekpYRmhhRDE4Vkp0Q3BNenBqTlcxQ1JlVC05c1EtQUtmR3FnRlpQVWZXdUswRF9ocjZ4a0hsSUpXV2ZQTlNoRk40LUJvMGZ3MDBXbEM3V2x1SmprNUpoYmF6LTdmdkdlVUw5S01SMUw3bjRJS3dQRnhFaU1aS2ZhYkNUNlFxWGdQNnhNN2VnQTFLVVZxTUtqbGhUZXFXQXVHZkFfVnV2UmVpVHlGdjNNWkpNX09xa3o0QVdqXzZXekZQZEFTOGdxSDVPN1FzQUVycnZqY0lReTBXcGpObm9kZFRyd3Y4MGVaU0FRTQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-05T13:26:00+00:00",
+      "description": "Odisha plans plastic upcycling policy to turn waste into construction material The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c2e7c2ca62b64a6a",
+      "normalized_title": "odisha plans plastic upcycling policy turn waste into construction material",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recycling: ReHubs appoints Béatrice Moureaux as chief executive officer - FashionNetwork India",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQelVQcWVKTk5sMU1SU3NnbmxJaFluSDN3SmRha2RTUXpzUVpNWlB3NGtWQlhpUFhzdFRUZWpkZl9BandsX2o3SFR4MEJIOWJ0Zzk4cmJpZ3QxcWp2R3U3WEVfQlFKcEd0VXMyeTFqcFRkUnRJc2tjTTRkQnZCRjJPWTdBWWZNMmZnSWtMNFVxbFhBRFZJVkxnM1FyU0pLZVllcVkzcml2aktmSDV3b1ZWb2haZm5jb3oyVVE?oc=5",
+      "source": "FashionNetwork India",
+      "published_at": "2026-10-05T11:49:03+00:00",
+      "description": "Recycling: ReHubs appoints Béatrice Moureaux as chief executive officer FashionNetwork India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0d8073f3e0c8daef",
+      "normalized_title": "recycling rehubs appoints beatrice moureaux chief executive officer",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gravita India to Incorporate US Subsidiary Gravita Recyclers USA - Business Upturn",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdWVlTjhMcy1jWWZVOGtmMU5Ed2tEM1dPdzlPX3FQeDkxUjFyQzVuQTdTX0Z4R1hiN2hXNkwwYTJjNXIyX25qVkItdDlMSFh5WkpkYU45S1lfanNOSjgxdk5BRGdKZU5LaXVqbFUwRUVscElDUklsUzBzV3NQYm8xSDRJb01Tc0szVVRfLWhCU1Y1aGRVUC1ydGpscnkydmtaLWlIY3dGbG9wR0JxWG5jcFlLeVNveTRBcTJGQ1A2NFdocmF1ZEI5UGNLSmRzTzQzcHNIc0NUNGJMclR4bE00a1pfem1SQQ?oc=5",
+      "source": "Business Upturn",
+      "published_at": "2026-10-05T10:09:43+00:00",
+      "description": "Gravita India to Incorporate US Subsidiary Gravita Recyclers USA Business Upturn",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d66a049c140c7ca3",
+      "normalized_title": "gravita india incorporate us subsidiary gravita recyclers usa",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2022, engineers mixed recycled textile fabric into cement; after accelerated aging, the silica-fume co - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOVEE3cmI4OXhUVlpyQ1hpQkJiZG1mRVZNdkg0Z3hNODNuS3hENTRlM2tLdmRlYkNGRXFkWVp6aWxHeDFTVndHSUJiUUpwbTBRMVZqWllXcGdLdElKV3g3RjNnYTJfdWRjWmNGbjR0dWtJeHRoRkNlU09mVE9BLXduU1NGbklZanpXWE4wX3hzS0loM3BWdWplZnZ5Wl9XRmFueWtPV0J1MXZvbTdqXzgxMTBBNU4ydDRQbkxSYXpzYnUtRVhmTUNSZDFoV1d4MG5OMTQwTjJaV3VvMDNqcWtGT0VtbzFYWnpkOXMtQmRqVXlDQnMxeWtTdmZrNzcwMEdES1RWcEpRdjhVMUViYVZXcGRZa2gzRnRfU1c2QmthZHBzSXA5eVNqcWY2dDR6MWdGbzdjdjhHMkZCWVN0a3VwMTIxTdIByAJBVV95cUxQazJhY0tCU3ZRNkRWbFgtcU5YQlYzRzFMc3hiN1F6TjNyblhCSEJvTHBQck5XalhScVE2b2p4WjBiVlJ1VFcwcHIzMWVQc3lERHdWRDVKVmUxZ1E1UVhxcmp0ai1CcU81ZFFJbnJpeGRPNUVNQmJYU19VM2NrQmNWdWpUcTF6Q3lYci1ndmJZQjQ0dmp0czRfUmR4dmdQNUlNTXViREhEZ282el9KZW5KWTdnYlJ3ajVfOEtTOUV0Z1laSC0weTVudnN2ZEtFVjlDcDktcHdfUTZlZVR3TWpNWjA3Z0k1MTRqR2U2NTR5TFpqS201Z0FRcW1pM0dCYnpLOG5UcGF0Ty1KMWVwckI3cWxEa3JBaGppd1BNZ3JoMzhvdnJzYUZlYWJ1V0dhOExDMU1IbVJ6VmJ3cHdpSExBeG96aVJOMkFH?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-03T16:00:00+00:00",
+      "description": "In 2022, engineers mixed recycled textile fabric into cement; after accelerated aging, the silica-fume co The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f4872899c81382d1",
+      "normalized_title": "2022 engineers mixed recycled textile fabric into cement accelerated aging silica fume co",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Government of Maharashtra and Hindustan Coca-Cola Beverages Expand Maha r-PET Abhiyaan in Thane with Dedicated Collection Infrastructure for Used PET Bottles - The Tribune",
       "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaGV5d2pOZ0c2a0ZEbUlxQnhTRUhuRWdpY2xCVGlLYktlQnVFWmRmTE9vMGdnTm5sdklwS1NRZlVsNUVEVXFNWG9faVlpa21fMXlUOXFBVU5NZkpIQ2hLWWJMTDBqWU5PeWFaQTZxeTh0N2dSNWVpUmxwQndMSFVmcUlRUWwtbkVUWEJkWndTWV9xU3p0TktSNHQ3cHI5cWhJWVVHOENPY0NJSEFlY3REOC13NjdqeUp3aVNIRjRaNXJqYjhYZGFlbmxhWktSaDZxSG41SEh5LXlhMFc2VWt1ai1UUGhGVkdJYXBGaEdhWkd6REI2b0JlNDFnclAtRnJmZU14eVRFZ2VoVGc0bmZJemNzQXNJUXJiOG1FQmV0aXpVT0Roa2dTUkM5ZTJ4ZEhmV0plRGdSZ3JYck13eWE1RDFfQWwwUjUx0gHIAkFVX3lxTE9oZXl3ak5nRzZrRkRtSXFCeFNFSG5FZ2ljbEJUaUtiS2VCdUVaZGZMT28wZ2dObmx2SXBLU1FmVWw1RURVcU1Yb19pWWlrbV8xeVQ5cUFVTk1mSkhDaEtZYkxMMGpZTk95YVpBNnF5OHQ3Z1I1ZWlSbHBCd0xIVWZxSVFRbC1uRVRYQmRad1NZX3FTenROS1I0dDdwcjlxaElZVUc4Q09jQ0lIQWVjdEQ4LXc2N2p5SndpU0hGNFo1cmpiOFhkYWVubGFaS1JoNnFIbjVISHkteWEwVzZVa3VqLVRQaEZWR0lhcEZoR2FaR3pEQjZvQmU0MWdyUC1GcmZlTXh5VEVnZWhUZzRuZkl6Y3NBc0lRcmI4bUVCZXRpelVPRGhrZ1NSQzllMnhkSGZXSmVEZ1JnclhyTXd5YTVEMV9BbDBSNTE?oc=5",
