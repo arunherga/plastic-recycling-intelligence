@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-05",
+  "generated_at": "2026-10-05T09:35:50.349325+00:00",
+  "stats": {
+    "collected": 476,
+    "after_topic_gate": 39,
+    "unique": 18,
+    "new_since_last_run": 2,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 597109 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 583074 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (336 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Government of Maharashtra and Hindustan Coca-Cola Beverages Expand Maha r-PET Abhiyaan in Thane with Dedicated Collection Infrastructure for Used PET Bottles - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxPaGV5d2pOZ0c2a0ZEbUlxQnhTRUhuRWdpY2xCVGlLYktlQnVFWmRmTE9vMGdnTm5sdklwS1NRZlVsNUVEVXFNWG9faVlpa21fMXlUOXFBVU5NZkpIQ2hLWWJMTDBqWU5PeWFaQTZxeTh0N2dSNWVpUmxwQndMSFVmcUlRUWwtbkVUWEJkWndTWV9xU3p0TktSNHQ3cHI5cWhJWVVHOENPY0NJSEFlY3REOC13NjdqeUp3aVNIRjRaNXJqYjhYZGFlbmxhWktSaDZxSG41SEh5LXlhMFc2VWt1ai1UUGhGVkdJYXBGaEdhWkd6REI2b0JlNDFnclAtRnJmZU14eVRFZ2VoVGc0bmZJemNzQXNJUXJiOG1FQmV0aXpVT0Roa2dTUkM5ZTJ4ZEhmV0plRGdSZ3JYck13eWE1RDFfQWwwUjUx0gHIAkFVX3lxTE9oZXl3ak5nRzZrRkRtSXFCeFNFSG5FZ2ljbEJUaUtiS2VCdUVaZGZMT28wZ2dObmx2SXBLU1FmVWw1RURVcU1Yb19pWWlrbV8xeVQ5cUFVTk1mSkhDaEtZYkxMMGpZTk95YVpBNnF5OHQ3Z1I1ZWlSbHBCd0xIVWZxSVFRbC1uRVRYQmRad1NZX3FTenROS1I0dDdwcjlxaElZVUc4Q09jQ0lIQWVjdEQ4LXc2N2p5SndpU0hGNFo1cmpiOFhkYWVubGFaS1JoNnFIbjVISHkteWEwVzZVa3VqLVRQaEZWR0lhcEZoR2FaR3pEQjZvQmU0MWdyUC1GcmZlTXh5VEVnZWhUZzRuZkl6Y3NBc0lRcmI4bUVCZXRpelVPRGhrZ1NSQzllMnhkSGZXSmVEZ1JnclhyTXd5YTVEMV9BbDBSNTE?oc=5",
+      "source": "The Tribune",
+      "published_at": "2026-10-05T09:21:28+00:00",
+      "description": "Government of Maharashtra and Hindustan Coca-Cola Beverages Expand Maha r-PET Abhiyaan in Thane with Dedicated Collection Infrastructure for Used PET Bottles The Tribune",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "14ba61bc8616ae41",
+      "normalized_title": "government maharashtra hindustan coca cola beverages expand maha r pet abhiyaan thane dedicated collection infrastructure used pet bottles",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Telangana: Massive fire breaks out at plastic scrap godown in Warangal - Udayavani",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa3JMTXBMRVpFUmN6T3ZHRE9GbHR4UmxpUnBoRG14bFYweVdvSTBCMk13MHJOY3V2cVZTaVZvM3JPSEVnSGtuUkFac1RhWUpfZjJmRl9EcWhIbXNLZDI1ek5fZFVtSjFYQXVmSVRYeWpvVG5GdFZOQ1AzVnZXc0dZaUE4RWJtZDA3ZV9wMzBiUnhlMmFiRHl1NlExVUZaNmIzNDhBSm1UOXlNMEFUbjdTaXBnWkhidw?oc=5",
+      "source": "Udayavani",
+      "published_at": "2026-10-04T13:23:04+00:00",
+      "description": "Telangana: Massive fire breaks out at plastic scrap godown in Warangal Udayavani",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5e66edbbcfc35189",
+      "normalized_title": "telangana massive fire breaks out plastic scrap godown warangal",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
