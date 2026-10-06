@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-06",
+  "generated_at": "2026-10-06T09:24:06.673196+00:00",
+  "stats": {
+    "collected": 455,
+    "after_topic_gate": 48,
+    "unique": 24,
+    "new_since_last_run": 4,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 589936 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (315 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "UFlex, US’ Spectra Systems bid for India’s polymer banknote program",
+      "url": "https://packagingsouthasia.com/type-of-article/industry-news/uflex-polymer-banknote",
+      "source": "Packaging South Asia",
+      "published_at": "2026-10-06T04:30:37+00:00",
+      "description": "Noida-based flexible packaging company UFlex has teamed up with US-based Spectra Systems to bid for the proposed polymer banknote program, according to sources cited by news agency, the Press Trust of India (PTI). The program has been initiated by Bharatiya Reserve Bank Note Mudran Pvt Ltd (BRBNMPL), a wholly-owned subsidiary of the Reserve Bank of [&#8230;]",
+      "location": [
+        "Delhi NCR",
+        "India (national)"
+      ],
+      "category": [
+        "TENDER",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "FMCG / packaging / automotive recycled-content demand"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "77c084e112b06905",
+      "normalized_title": "uflex us spectra systems bid india s polymer banknote program",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Community norms shape plastic-waste practices: NU study - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZWJDeTdBZEp0TkViNTlDQlU2N0xoN1FYa1NBa2s0YWdPaGpISW5FQ3Y2azctdnllekJCeTFOTDdpdmtLSXBXTW53Q0gxVmxhcEZ0eUltR0MxSW9wSG94MlFHd09sdldrY3NhWXJZVmRVYVc0cjlhNnZVY3daSnlrTE9QajhJelBXY2JSOEdJazhvR0V1cmtzdWJPWTNCYmd2LVpTVVlISGxhSU4xSmRMcEhFenpraGo1cFpkUThRSGZ2Y2ltYmNnWWhZVHZ5clXSAc8BQVVfeXFMTWViQ3k3QWRKdE5FYjU5Q0JVNjdMaDdRWGtTQWtrNGFnT2hqSEluRUN2Nms3LXZ5ZXpCQnkxTkw3aXZrS0lwV01ud0NIMVZsYXBGdHlJbUdDMUlvcEhveDJRR3dPbHZXa2NzYVlyWVZkVWFXNHI5YTZ2VWN3Wkp5a0xPUGo4SXpQV2NiUjhHSWs4b0dFdXJrc3ViT1kzQmJndi1aU1VZSEhsYUlOMUpkTHBIRXp6a2hqNXBaZFE4UUhmdmNpbWJjZ1loWVR2eXJV?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-05T18:16:00+00:00",
+      "description": "Community norms shape plastic-waste practices: NU study The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8e52d4f560d15615",
+      "normalized_title": "community norms shape plastic waste practices nu study",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2023, recycled turbine-blade fibre in asphalt raised laboratory low-temperature ultimate strain by 34. - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQaUk1Y3ZNQ0dqRmRmYndFa0pBLTZVYTJ5b0wxZjUwcUVmdmNZdXhoeHZQNHB1Wkp1NHNCRUZXVFJoem54ZktpTmpXWWJOZzR1bU50dUQwbVpOQjZkdmp0dWdiRWVUdHBuUU9yR2JkVlpMbjVYLWRDLWRTN3BEdlp1R1dBeFNlQ0t2bDB6M291LU1WbmxhWkxPSnJMZ2QzNl8zWExIZTY2bHBtRDRaQlVEaTdlb1drQjMxeGt0MHZ0WVFLd1VVUDg3NUJYSW42ajVYa045U09IdEJvNm5PUU1VQTlzdFJvc0NmSV9PQjlMWl90aDZHVENNOG9haXN4SHBNUnhrNFQ1cWg2bkJJVVh5dndobXk3OWdOQnlQemRRdGJNV0V5bnpEdThKUmpPSnhOV0x0WNIBugJBVV95cUxOODZ0N04tX3VZcnRhakVZMWpxclZKdWduTDFtbVhJa1JmdEROeUpfMXZhaUdYTTBZMHRidkJhTV9NdjVrSmlGOVJmR0dTcHZsZnoxQmhOR29keUNETUJ6dEdtbTZ0c1RBNEE5YzM3Rk1OUXpLZEFJenRVQU9mRG5qSmpFWUhaUG9CVF9ITm9Bd3RMYkNnUUtISThhNF9YQ2x5R0U4TF91eEVxR25mUVlaOWpsVHVPWmI5UlIxS1hrdG9CNHRxTFp4a1FjcDdvRnFiSlFyV3o4aEhYcGdJLUlxZXFPNUNkc1hGalVMS2VmUXk2UzUyTlV0R0s1RGp1OWloV0VGdFVkWFBYWTJzQkVrLU0yb3dCOWNPQm5wWTNtZlFKM3RBb09kZk9zQWZ1bWQxdE00UmpMOUtPUQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-05T15:30:00+00:00",
+      "description": "In 2023, recycled turbine-blade fibre in asphalt raised laboratory low-temperature ultimate strain by 34. The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "24126edcafd3b607",
+      "normalized_title": "2023 recycled turbine blade fibre asphalt raised laboratory low temperature ultimate strain 34",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "LNG tanker and sanctioned tankers head to Indian ship recyclers - Lloyd's List",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWWpSWDBHM2Zmek9jU2hUMklycEdmYlpYSlFVSWJwbnE4bkk2dVQ2THB2YXFyNWJ5bEU4aUdrOGdleUZvSFd0a1E2T0xTVE04MDIyV0I5c0lZSVFRblJrOVVLM184eUhFb3kzMFBONEhMV29xQTdvOXl5WTFpQUVCeDlnNmstZHR0Um9ma2tBNm1IVFdkdEVGSW0wa0RGZllnZHc?oc=5",
+      "source": "Lloyd's List",
+      "published_at": "2026-10-05T15:19:02+00:00",
+      "description": "LNG tanker and sanctioned tankers head to Indian ship recyclers Lloyd's List",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c3b8a922044ed558",
+      "normalized_title": "lng tanker sanctioned tankers head indian ship recyclers",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
