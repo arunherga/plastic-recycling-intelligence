@@ -1,12 +1,12 @@
 {
   "date": "2026-10-06",
-  "generated_at": "2026-10-06T09:24:06.673196+00:00",
+  "generated_at": "2026-10-06T13:14:58.581238+00:00",
   "stats": {
-    "collected": 455,
-    "after_topic_gate": 48,
-    "unique": 24,
-    "new_since_last_run": 4,
-    "relevant": 0,
+    "collected": 457,
+    "after_topic_gate": 58,
+    "unique": 7,
+    "new_since_last_run": 3,
+    "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
@@ -15,16 +15,102 @@
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 589936 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581763 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 580509 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 4 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (315 items)",
+      "google_news (317 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "PET Bottle Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxON2N1VHRPbHBkc2xmaVVsS21CWk5pdEVvSi1HNzZkTmRDS01kOG1SVFB6MFdqMzBrOFFTLXh5bWF3TWlEelVqMDV1RUEyNlZaNXI5djE5d1o5Y1lKSWk3SWNVQXpzcU9fLUdibE92YkgyR1BkR0VZOWVzRDhrX1lFazFMYld4T2RHNXc?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-06T11:26:23+00:00",
+      "description": "PET Bottle Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet",
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)",
+        "Widely reported (10 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4f5afbf59947396c",
+      "normalized_title": "pet bottle manufacturing plant setup india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 9,
+      "ai_summary": ""
+    },
+    {
+      "title": "JC Global has announced a US$9.5 million investment from Circulate Capital to accelerate its growth in circular plastics recycling in India - Polymerupdate",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5TRjVlaU53M1B0NXd2d1Z5Smt4bXRUcjZaU3YxX240MGpHN2tTMzFFQnkxdnVNQzRNekc3OGR6b3J6eEZCTHp3cHNlZnFlcUFOeEFfQm1DMzY2eF9VOXRB?oc=5",
+      "source": "Polymerupdate",
+      "published_at": "2026-10-06T12:51:11+00:00",
+      "description": "JC Global has announced a US$9.5 million investment from Circulate Capital to accelerate its growth in circular plastics recycling in India Polymerupdate",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT",
+        "MARKET"
+      ],
+      "keywords": [
+        "investment"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e48555d2460be643",
+      "normalized_title": "jc global announced us 9 5 million investment circulate capital accelerate growth circular plastics recycling india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Researchers studying ageing in mice found that declining cellular recycling helps 'zombie cells' evade im - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikANBVV95cUxNa1RQeVFHSDVzR0VMc29YdE9HQWpwQWFZWXk4eE9EUW1FWjdpbzdFQXhHdUo5NGZMQkE0WDZKT21BOXljU2FTYndlYksxMnFiaVU5a1ExWnkwRmtXZVZ5cDA1SlZPTGtlenIxUGFjTUphLXRpWHpIdTI4VmNjOXFTY21PTWwtN0I0UFFVSkoxWVY2b2Y3TTNmZEw1MzRWai1xQUZseTRNUHFYU09WdGJ5ZmJYUlBlam1UcGJpcEdBcnJyWW9QU0VGQS1oeE9CdzdsSHdQWWx3ZlRRWU9mdzBlSVNXNnp0SDdRLVdUWE5RdllidUtxU3EzVDVzUzJ2MG04V3FwZHpldDYxc3d2VVUxUGVtX19vWG0xOG90NjlZaFcxUnE1LVpZVlVrSV9Yb2FBWXVGOTlWbDN2eURnTjU1UkstSGV6WTNpMVU4RlVWYWlhR3VpYUlkbDczVURwaFJNQ2FYYUFyek9oM2N4R0U1ZWp3WjVTcDktZy1aa0k1NW1wRHBZdlE0TUZ1aE1EZVRf0gGWA0FVX3lxTE9Pb0s0bF9YUDUtVU9fTWRWX2RrdEFxNzk2SXk4QnFCUE9zbVRRYkNWWmlkR2hBcmR1OGsxeHdxd21BSV9MUDByVFdsMllzVWtId0Y3a3pxRGMtWkhfNzNDR2VDYjYtcS1SUllVN2hjeGFsd2lPaFFTaFN1YjhDazRoRlVJTmZvVHBaaDBuTlJGYUVRdGlNaEcwVGhqR0tTaDVscVlIeUpnMUtneGp4bTM3Q3hHOXRYRGhaaHFrRjZsRmVPZmhaU243QzFaeDVxTWUzRGZvQ21mX2g5RGRtWENxaVRQcUlXbFdRVUdmT1VXZkEzSVYtQ2t3d3FVNU9zTzR4ejVoY21pd3hoU2VCa3Q1MmkxYUhRU2M1QVBmTWJ2VTN2dmkwcFgyaG8yYk9hOWtwM1hUUmxHU1FySWVvUnRIc2ZRMlRHbUZhUFA4ejBXSXkzUEY0ZjlMVWpibmRtOGRTMlRNQ2hUbHdJd1JxU3lqZU9Sd0pMQUZYMWZLT05UT0pud0ZSYjVzc2psdVpkSjBjVVZOMlE?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-06T08:00:00+00:00",
+      "description": "Researchers studying ageing in mice found that declining cellular recycling helps 'zombie cells' evade im The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a8d9cecc34112b1a",
+      "normalized_title": "researchers studying ageing mice found declining cellular recycling helps zombie cells evade im",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "UFlex, US’ Spectra Systems bid for India’s polymer banknote program",
       "url": "https://packagingsouthasia.com/type-of-article/industry-news/uflex-polymer-banknote",
