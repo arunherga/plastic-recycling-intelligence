@@ -1,32 +1,56 @@
 {
   "date": "2026-10-07",
-  "generated_at": "2026-10-07T09:13:29.751760+00:00",
+  "generated_at": "2026-10-07T13:14:36.017399+00:00",
   "stats": {
-    "collected": 465,
-    "after_topic_gate": 67,
-    "unique": 25,
-    "new_since_last_run": 8,
+    "collected": 462,
+    "after_topic_gate": 66,
+    "unique": 9,
+    "new_since_last_run": 1,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 6 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 581467 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 601298 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 582472 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (325 items)",
+      "google_news (322 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Textile Recycling Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaW9VbkxnX2U4UkdmbG5XN3J1MzEwbG1aeFZ2ZnVyOG5JRHlZUGtxTVZqcVliY19LS0lVYW1TdDJkU2pUZFJiR3dEYnRMUTNRZ1FwMlhfWTZ0bVNWNWRjNW4tZjVDTW0zSVdHREQ5SVktRlBkLUZENllpUnhmZWVIMXRQanhET1JlQUhkamQzeFMtM28?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-07T12:12:56+00:00",
+      "description": "Textile Recycling Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cc491df7dd4035fc",
+      "normalized_title": "textile recycling manufacturing plant setup india",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
     {
       "title": "The regulatory iron frame: How India is combating plastic waste problem - OpIndia",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX1ZXZ2RvTGhDb2JiZ1hUeHc2QW41TDhXS1c1N3NRVkRaQThFVThDSHJXM1kwZ01UWXRkdFBnTTlqNDhJVVkwcWxSa2RtUHQzeTl5NHFkYUt6SDJrMnJLdFpnUFM1NVhieGJUYkJvbnQ5SDV6ZWJodWlHQzNGNmZLdmZ3?oc=5",
