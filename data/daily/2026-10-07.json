@@ -1,0 +1,241 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T09:13:29.751760+00:00",
+  "stats": {
+    "collected": 465,
+    "after_topic_gate": 67,
+    "unique": 25,
+    "new_since_last_run": 8,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 6 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581467 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 601298 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582472 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (325 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "The regulatory iron frame: How India is combating plastic waste problem - OpIndia",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX1ZXZ2RvTGhDb2JiZ1hUeHc2QW41TDhXS1c1N3NRVkRaQThFVThDSHJXM1kwZ01UWXRkdFBnTTlqNDhJVVkwcWxSa2RtUHQzeTl5NHFkYUt6SDJrMnJLdFpnUFM1NVhieGJUYkJvbnQ5SDV6ZWJodWlHQzNGNmZLdmZ3?oc=5",
+      "source": "OpIndia",
+      "published_at": "2026-10-06T15:00:00+00:00",
+      "description": "The regulatory iron frame: How India is combating plastic waste problem OpIndia",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d6c8cb446a581240",
+      "normalized_title": "regulatory iron frame how india combating plastic waste problem",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2018, Dutch engineers replaced a bike path with hollow panels made from recycled plastic; after 1 mill - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMijgNBVV95cUxNY0lKNWczckI5MkJVUzQyZ3Z4ZGN2N1oxSXJ6WUtKY3RXVjBXQ2VzOUNPZGc0NGxnNmF5SHhsZW1rcTFtZGVWQU1XaVVqSVhhRTBVa2c4T0QzMU83QzVqNDNjVDVpc1EyLVR5Rl9wcXVTQ3JBWEpuLXNJc3pHQUFTSUJ6UjN3cFZrQV9rdk1Ib292UzhRYl9nY3FFVDUtQXQwMkdkQ1hia1hDcFJYYldRQmttd0lCYlZNcFN0R0Z4OVF5cFFOLXpSN3hIRThoX19TY3FNN0wzeUZhdkVKUEhXdUZCWXhxQXZfNTlOODhneEVPcjQ0anljdGxhQmdVYnI4bFhaODBTVnp5bVNaWnpMSnpkNHVxaDVsX3ZLcGRUWHMtVnZybmJwNlpiMGNYSGI0RmZpWWJZWmIwQTlUaXZSZkhLNGJ4cmxaeHV3Z3d3aTdqNkdiMWpFNWhLN1BoMl9oSDBrOUFBVEt5cUgzRVM5a2xGdHpwbzVXcjAwVktZalhzQ1A2VlRrYk9kMU5MZ9IBkwNBVV95cUxNODJ2SmdRU3oteUQzeUlpZEtqWmt1b0RUcFFwLVJDUzNudXIzV3l6OTFVOHpuRVBkR09RMFdfYWlzLU0yRl9obkNZSjJIWk9hV2ZIelJ1TkZUZ3VqMUtXWDdvUkJIcm8zeTRqT25NczBLNTQ5X2pRUEgzdFBPaVQ3d2hGZklQLUx1a2s0YTN5Vkp3ODNnUXhMZFNLTDdaR1E3SXZFeXlhRFRrNDdQVXdPbFJ3Q3FRUF9nMW1pNW90NEZoZXQ2UXVqcEFMSlNaWkhzQWpEWnhsaThpempEZGlJMFpSRTlWa2tYX3dZRU13MHFCZmFlT3lOSkFmZ0V1N19FZ3ZCOGF5b0gxWW5rRmRzcDllRFdkUkFfc19OZmphM3VnclN6UEpjRFNxRnI3cl9ra2czaU84TzU1bW9nY1ZvX2FDeGNaTUlmUVZnSFctVFNzNjF4Z1VWSFJPTUVNR0dkQTlBTHh5emlfSnJHLVhsNUtkbU5JX1h0cmF4bUhfbm1JTlByaWg4Q1BFemgzWnpZdDY4?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-06T17:50:00+00:00",
+      "description": "In 2018, Dutch engineers replaced a bike path with hollow panels made from recycled plastic; after 1 mill The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "411c8a71be6677f7",
+      "normalized_title": "2018 dutch engineers replaced bike path hollow panels made recycled plastic 1 mill",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "JC Global raises $9.5M to scale circular plastics recycling in India - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRzBBcmFxRkt1MHBPa3JibDBXTnR6YlM5bnpSV19rNDNjSk13b2JIUnktNW0tUVZuRW5iemtyRE51aVZSMU5kVzM1YVhGcExYajRXb29TREZ0ZmRNdndjdXByMDR2TmFRZHlHMFFoZ05iQ0tUWVpyVGw0VXMtaGFQZnBXZDl1eTI0RWFocXlrZ0V3S1ZZcFJqWk5BWmVmLTM5VVdN?oc=5",
+      "source": "Dealroom",
+      "published_at": "2026-10-06T16:13:19+00:00",
+      "description": "JC Global raises $9.5M to scale circular plastics recycling in India Dealroom",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "086b62880ea7a699",
+      "normalized_title": "jc global raises 9 5m scale circular plastics recycling india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Correction of assessment dates for Indonesia, India domestic recycled containerboard prices - Fastmarkets",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWHJaQmhNbGFKRlpra2xrM28yXzVfRkQtN3RMOUFKSHpsUWJEUGVEYkFFc3lid3l0YzZjOFhWdFl6blBfZFJvckFsTUp2Q3NldUYySHRucVh5OXp0TGFwVHNjc0pxREJfRnNSNlZlanNpNGpINlVsd0hucHg1Y3JaZE9IT1ZmY1pTeTFObXhuam9RSXdwUV9aVGdxN0FFX3g5VVp6V1JjdndQZldtWEIyMGgzTXpkQnV3R1RXS2YwdC1KTmtFemlV?oc=5",
+      "source": "Fastmarkets",
+      "published_at": "2026-10-07T08:58:51+00:00",
+      "description": "Correction of assessment dates for Indonesia, India domestic recycled containerboard prices Fastmarkets",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "PRICE"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Price / market data"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cc6695d50b085818",
+      "normalized_title": "correction assessment dates indonesia india domestic recycled containerboard prices",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "24 Hours Inside Mumbai’s Plastic Crisis: Beach Trash to School Desks - The Better India",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX2daa2VYZkpwNC00SXRid0c4dGZSaGRCUkpfSVhzb0ZCUEJCdGtCYWRBZGNYa2syLWkxNHJlTHhZdTVHbHo1QkE5Zm41SlJ5Q1RFbHpLYzh5aUxGWk5Fc2tXZjBMWXVIUENKZkNNN0xCbFFHT3RhZkxwaVcwOVJaVERpaTNyR0ZjdXE5ai1UOG9tR1ZRdU4tMDBCNGtyd0V0YjZORFMyeEVhTm1PMkNlTVhiUzNSd2VnYURoWmlR0gG-AUFVX3lxTE1fZ1prZVhmSnA0LTRJdGJ3Rzh0ZlJoZEJSSl9JWHNvRkJQQkJ0a0JhZEFkY1hrazItaTE0cmVMeFl1NUdsejVCQTlmbjVKUnlDVEVsektjOHlpTEZaTkVza1dmMExZdUhQQ0pmQ003TEJsUUdPdGFmTHBpVzA5UlpURGlpM3JHRmN1cTlqLVQ4b21HVlF1Ti0wMEI0a3J3RXRiNk5EUzJ4RWFObU8yQ2VNWGJTM1J3ZWdhRGhaaVE?oc=5",
+      "source": "The Better India",
+      "published_at": "2026-10-07T03:30:32+00:00",
+      "description": "24 Hours Inside Mumbai’s Plastic Crisis: Beach Trash to School Desks The Better India",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3de59a8cdefd7098",
+      "normalized_title": "24 hours inside mumbai s plastic crisis beach trash school desks",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Maharashtra expands PET recycling drive in Thane - Daijiworld",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBDMDYyLUxiX19Oa0VNaU1MZ05yQmZ0aVlUTzVMcWJiNFJJSFRyU2ZXQWZGRE1sZDZqc2NBRzdhU3pUT3VzelNRZUpnVEMyRjZ6QTVORGhuc2pDNnhVb1lJSVdzVEZnUzVNOUE?oc=5",
+      "source": "Daijiworld",
+      "published_at": "2026-10-05T11:14:39+00:00",
+      "description": "Maharashtra expands PET recycling drive in Thane Daijiworld",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ac5aba5c248f38e6",
+      "normalized_title": "maharashtra expands pet recycling drive thane",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India clears 58 companies for critical mineral recycling scheme to boost domestic capacity - DD News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYzdpMDJQTzJNVVhLUUVsbWhXR3FGbXF1X0tYeHdSXy1EYjB6dExCZlNyTVJRaExPSkFORXdnXzdfODAtV0J2bi1xQWk1SENKb2xJZkNIQzBOeWZZTWY4T2J4UmFxLXROQTBScGItNlZxLVRBc2FIWHZZR3B4anVaWll6QnZkbW44dVBaODBGaTZJV0wyZkRHV3llR05pTllKM2FpRm9rT3hxb1U3UUNUbmViSHh4WnM?oc=5",
+      "source": "DD News",
+      "published_at": "2026-10-06T18:18:17+00:00",
+      "description": "India clears 58 companies for critical mineral recycling scheme to boost domestic capacity DD News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8f0c1f955d0fd076",
+      "normalized_title": "india clears 58 companies critical mineral recycling scheme boost domestic capacity",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2024, researchers turned discarded plastic bottles and stone into pothole-repair surfacing; strength, - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxQZGxWV3pvNkNNbXBvU1pMNVlqOEp4XzZjdy0tTktoS1ZZTmtrUGxUeW93bnZpMGZsUGVGTGI5RVI4TUpVTFREZ3JRZFpJQ18wbWJ2bGh5QU9pN3lQbFdSTkQ0N2d5REVjbGNxNUFxR0lldFRraGcyQjR5dGRQTng3MVFFMW96X2Nhc2x2VEdGRWQ4T3NUcExOcHpWbWxyY3AtSXJzVjVyWHJtbGxBaEoxWl9meTJBZHJ4QVd4b2llenhnRTVyZWhNaHRHOTF5cnhFNFV1Z3VGT2QtY3k4cGZpU3pad2hTR2RnRmZmX1I4QXQ0VkxrdXRSR3k0R3JuQUFYOGlKQkVGXy1lNGFQYXJCZmcwam1SYlA2Sm5jT3FxbmhUcEp4QXNfM25SMnQwMVhuNGFVWjJYcFFJY1hlMlBUUFBBbmxiOHI3WnNhWGkwblBsNEFkeXJBcXVSeDVIU0FVYmZTQktwSjU4TmxIMDR4NU9IZEd0UEdoZEHSAfoCQVVfeXFMUGRsVld6bzZDTW1wb1NaTDVZajhKeF82Y3ctLU5LaEtWWU5ra1BsVHlvd252aTBmbFBlRkxiOUVSOE1KVUxURGdyUWRaSUNfMG1idmxoeUFPaTd5UGxXUk5ENDdneURFY2xjcTVBcUdJZXRUa2hnMkI0eXRkUE54NzFRRTFvel9jYXNsdlRHRkVkOE9zVHBMTnB6Vm1scmNwLUlyc1Y1clhybWxsQWhKMVpfZnkyQWRyeEFXeG9pZXp4Z0U1cmVoTWh0RzkxeXJ4RTRVdWd1Rk9kLWN5OHBmaVN6WndoU0dkZ0ZmZl9SOEF0NFZMa3V0Ukd5NEdybkFBWDhpSkJFRl8tZTRhUGFyQmZnMGptUmJQNkpuY09xcW5oVHBKeEFzXzNuUjJ0MDFYbjRhVVoyWHBRSWNYZTJQVFBQQW5sYjhyN1pzYVhpMG5QbDRBZHlyQXF1Ung1SFNBVWJmU0JLcEo1OE5sSDA0eDVPSGRHdFBHaGRB?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-06T16:20:00+00:00",
+      "description": "In 2024, researchers turned discarded plastic bottles and stone into pothole-repair surfacing; strength, The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a672ef942adb4f9b",
+      "normalized_title": "2024 researchers turned discarded plastic bottles stone into pothole repair surfacing strength",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
