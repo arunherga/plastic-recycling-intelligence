@@ -1,11 +1,11 @@
 {
   "date": "2026-10-08",
-  "generated_at": "2026-10-08T09:26:47.288979+00:00",
+  "generated_at": "2026-10-08T13:21:07.282582+00:00",
   "stats": {
-    "collected": 462,
-    "after_topic_gate": 86,
-    "unique": 31,
-    "new_since_last_run": 6,
+    "collected": 468,
+    "after_topic_gate": 95,
+    "unique": 10,
+    "new_since_last_run": 4,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,18 +16,118 @@
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 583428 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 592471 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 593858 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 589296 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (322 items)",
+      "google_news (328 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "BASF expands Ultradur portfolio with new recycled-content PBT/PET compounds - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1RIWXZIaTJpd3I3Vk05dUVEVHVtNWx4NFZhdVM1MUNQWU5DU1ZQbEhsUThtdHV4RnZXVWRQTHVKTzF6amxBYllEODRIeHdUOE1oN1lzd1V4dFdGMHBlNTNFZXlYUlBHNmVUOWRUWG5HdTB3THMwQjI1Q3ZCWG1pVVBrbmtOSnJBMHFDUDBqS2xIaTN0TnlOendNQjdJQkJldy03YkpsUWUtbFRtQWtGS0hwTThPaWtJVnVXNk9aX1pXRFnSAcoBQVVfeXFMUGNTNk9YS0Z4d29BU3ZUczlnMDBEZ0VkNFFmdHA3QUZWRVlUMkVoaFNQMU11Sml5eDVxQVRIT1lYSklKSXphUFpzQ0F4WXVLZFFCVm0tc1EycEN2WUdudEwwNWlnQjhIVlBjRS1XcXNzc1NybWNnM0J4cWRQYTZ2SVVJMFp1dDBlYVEyNTFWay1LUVRUdkhPN0FQenNYcWdRQWZCV0FMbkdwVzBRRW03enpzdElUWV9XVEtMM0hVWG9LZHYxUklfM3pOUQ?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-10-07T08:25:16+00:00",
+      "description": "BASF expands Ultradur portfolio with new recycled-content PBT/PET compounds Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet",
+        "recycled content"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "FMCG / packaging / automotive recycled-content demand"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dc2c8f87f01dc05c",
+      "normalized_title": "basf expands ultradur portfolio recycled content pbt pet compounds",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components - EIN Presswire",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeGtwZFA1b2NmZlhQZi1yTTdZRE5zQWNSSS15VHFRdW5KU0hGMDNIYzZKaEpBMF9NS3VtVE1LTlpzMl9qZnN2MmpJeU4zWm9DYmpmN1VVNXZZRFdpU3FPNmRQczV5aVlzVERpaTliUlNPYVpiUEQyNFlrVXlab2R0LXFQWlNBekpLc09NRXJmeHRTWHJIckdRVmtnOW84aHNSanhrMTFKRUdQZTdGa29LanNCUzJZWHlKUE5hcXlFdlNkSzJQWHMtcGhscDFHSmg5eHBlWUxGYndjTGpi?oc=5",
+      "source": "EIN Presswire",
+      "published_at": "2026-10-08T09:30:00+00:00",
+      "description": "India's Electronics Manufacturing Growth Is Increasing the Need for Engineered Plastic Components EIN Presswire",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3f7b4d020db6f25b",
+      "normalized_title": "india s electronics manufacturing growth increasing need engineered plastic components",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2016, Cumbria began trialling waste-plastic roads; a year later, an A7 project reused 500,000 bottles - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOdzVmU1o4bEpuNTVTOTJlWXFOSkQtRGhZZldBWDZHMmN2TERkaWxqeGhJZkU2eDd2UzFteTgyWXIwanRSY1lGRW1IcGx4RUdPbHJyXzF2MUFUenMtU3Q1T3VsS08wNDBHVzUtVzFDeVdFd3BsV2hQeFlJNnJrTnpxOE5GdkFyX2x6TFdCUXlWdUFMU2hVOXBwWm83THZuVTlWeENUZHZGWlBpUENRZG42NURFS0U5eHRQOW9UZXpXdERpNDNCWkl3UVJXRXpMQkxORWFVSjJ4emZSWjZXS19yMWk5RU1sSGNzckJpSEZibzFDN3pPSVBxOGoyeWFSMWZXMkpaS0FvWWpzUGxFT2gtalBwN3BVSUVpVjBheDI2b3hLby12YnRaQWdvS01sVm96WUR2azRBTEYwMGxRMk9hZFpMWVgtdU5oV3FMZ2U2WTRJeXh5czMzMtIB3gJBVV95cUxPd3UxQlN0RjNMcmFwdHpCTUxybXo3RE5wQ1V5ek9pWmp2VXdhRVUzb3dVemU2U2Z1MnRRWlMzaHZDRFFIMFV0a2ZXQlh3NnlUX2MwQ0F3T0lnUFV0aUFWQzBnX1VvMmxLeWNfZ19PeUJaRmZEblI2WGNiVzVfVDdMQmZzNUtsMlEta2xJMzQwUVl0SnJlTW43a0dlSkxLMEIyekljZkdqX0RGS2tBbUpENzNzRnhJMlQ1d1pYdWhJaTBOZUgzZTk5dzVwYjhxb2NQT3FkQkxEdEQzdXNpTVZnWUtjc3NuNDViTFF4X0pkQ3ZNY3QyM2RIdFFheVROcUUtVVQ5NDA3UFdPMG52Z0dUQlFuSzhLcXN2cmpkNEI5QTRTYUdLajFtUFliSlFxWTZKX1RLaVQ5UDJxRTBrUTlvTTdnbC1JTmx1SWpiQm9ZQlRwc2NDZmlIbTZLaF9ZZw?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-08T08:30:00+00:00",
+      "description": "In 2016, Cumbria began trialling waste-plastic roads; a year later, an A7 project reused 500,000 bottles The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b1cd6daec289583e",
+      "normalized_title": "2016 cumbria began trialling waste plastic roads year later a7 project reused 500 000 bottles",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "First Indian ship recycling facilities set to be approved by EU - Shipping Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHg1UndEUVdxd29IVm1SSHFQTG1aaU9HVklrWkJBTzNWNjJXOFk2aEVsOEF5NndqMjJwUXl1UlJ2MS04TTRqRG41dXpMWjR5RXlIVjV3Wk4xS29OYmFFQ1lsV1gyWHV5Tml2cGJiYWNqUGF6WjhlNWh2YkNJZ0tWVVJYM0lENG15YmdiOXRCeERxSDlJVWJ6T0pzQWVsVUZEVkxlcS1tY29jZjNqUkVRcmRB?oc=5",
+      "source": "Shipping Telegraph",
+      "published_at": "2026-10-05T07:00:00+00:00",
+      "description": "First Indian ship recycling facilities set to be approved by EU Shipping Telegraph",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7b2505d958639ffc",
+      "normalized_title": "first indian ship recycling facilities set approved eu",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Blueocean selects BoReTech washing line for bottle-to-bottle PET recycling project in India",
       "url": "https://packagingsouthasia.com/recycling/blueocean-boretech",
