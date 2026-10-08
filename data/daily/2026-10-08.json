@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-08",
+  "generated_at": "2026-10-08T09:26:47.288979+00:00",
+  "stats": {
+    "collected": 462,
+    "after_topic_gate": 86,
+    "unique": 31,
+    "new_since_last_run": 6,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 583428 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 592471 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593858 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (322 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Blueocean selects BoReTech washing line for bottle-to-bottle PET recycling project in India",
+      "url": "https://packagingsouthasia.com/recycling/blueocean-boretech",
+      "source": "Packaging South Asia",
+      "published_at": "2026-10-08T05:40:50+00:00",
+      "description": "Indian PET recycler Blueocean Ecotech, formerly known as Badri Cotsyn, has selected BoReTech’s ES Process PET bottle washing technology for a new bottle-to-bottle recycling project in Madhya Pradesh. The washing line, supplied by BoReTech, will have an input capacity of up to 6,500 kg per hour and will support Blueocean’s expansion from recycled polyester fiber [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "CAPACITY_EXPANSION",
+        "TECHNOLOGY",
+        "MACHINERY"
+      ],
+      "keywords": [
+        "pet",
+        "capacity"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)",
+        "Capacity expansion",
+        "Machinery / equipment"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "16d39da7c88e3b06",
+      "normalized_title": "blueocean selects boretech washing line bottle",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "WARANGAL : FIRE BREAKS OUT AT SAI PLASTIC SCRAP WAREHOUSE NEAR ENUMAMULA MARKET | VISUALS - Press Trust of India",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSXdINGFLS0JhY1ZGSU54ZmVtN2twRi10b0xQeEpUdHczR3lEQ0RoVDJqT3E0QnhkVmQxOFZ4dzVZWDRaSzZOZVdMdkIxeFBvNnVnaUdpZFMyemZMSHJTTmNUY01LOXNKcUdlWjVJcGpjYWNZcWRDRTJZLXpZcmVlUHBqTFRNUjc0ZzNsVDM1R3YyUkVhQVE3SnZqQnZmcnhPWjcwX2pYNmlQMVlmVHdUbmlQMlk0X3VHQnVyUlo2eVY0cmpaeTEyYw?oc=5",
+      "source": "Press Trust of India",
+      "published_at": "2026-10-07T06:55:13+00:00",
+      "description": "WARANGAL : FIRE BREAKS OUT AT SAI PLASTIC SCRAP WAREHOUSE NEAR ENUMAMULA MARKET | VISUALS Press Trust of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "278f23ef621980f5",
+      "normalized_title": "warangal fire breaks out sai plastic scrap warehouse near enumamula market visuals",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "VeeCycle Works signs MoU with A.P. government for ₹150 crore recycling project in Visakhapatnam - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPY0ZMLVNCQ3FqbFBiYmdGTTN6aDhnOFpWSVFKbkZpNGNuMGpiMU9ranBJWHp3cmlaSnhSenZhUkNEbU91Q1d5U1h0VU1uTlotMlZyNlZrM2g5eGVYTzQ1V0wySlJybTdZVGdMNDhQZjBlOXVmaWlmNjRUSk0yQjY2dlg3MlJvc2RKUXo3MXpBUVFrLWF2b1hqeEY5bG5uTzlrQW5pSzFFM3lmOU44bEdzZXZMbmFKRjAyTVVYSjVaWnRnNDZkRExGMVRXblVldkJtZWkwRUhQSUF4VDlMd2pSWHVjQ3RjbzhQZ3FVS3BwUW9fYkRaU0NRZ0VHYXTSAfwBQVVfeXFMT2NGTC1TQkNxamxQYmJnRk0zemg4ZzhaVklRSm5GaTRjbjBqYjFPa2pwSVh6d3JpWkp4Unp2YVJDRG1PdUNXeVNYdFVNbk5aLTJWcjZWazNoOXhlWE80NVdMMkpScm03WVRnTDQ4UGYwZTl1ZmlpZjY0VEpNMkI2NnZYNzJSb3NkSlF6NzF6QVFRay1hdm9YanhGOWxubk85a0FuaUsxRTN5ZjlOOGxHc2V2TG5hSkYwMk1VWEo1Wlp0ZzQ2ZERMRjFUV25VZXZCbWVpMEVIUElBeFQ5THdqUlh1Y0N0Y284UGdxVUtwcFFvX2JEWlNDUWdFR2F0?oc=5",
+      "source": "The Hindu",
+      "published_at": "2026-10-07T15:47:33+00:00",
+      "description": "VeeCycle Works signs MoU with A.P. government for ₹150 crore recycling project in Visakhapatnam The Hindu",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b7bdbf44799ed453",
+      "normalized_title": "veecycle works signs mou p government 150 crore recycling project visakhapatnam",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Silox India, Runaya venture maps ₹60,000-ton battery recycling build-out in Andhra Pradesh - Indiatimes",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNVHpkQU9tRHRhMzMyOC1NWmw1SEpFNXRkR1FYSWVnWVJrRDhsX0hjQ2hiN0RzckVPZ1VIejlsN3hzVlctWDZXZURqRXF6ZmZsVlctTzYzTlVVaXBMZWpGdjlLUzRBQW9LMXlWVmFqY2Y1UVdaWENxUW01NDhlUFVTQno1YmJjdHVnd1J6YkFxelhxRm5OaF94Q3ZKeW9pV0xfUmNNZEhsSTBicmVvV1B6eW96QTl4Tk05RU1wdzl5dXRJUTdSYjZJNWdpNzhzaHRKVnF0ZEdHTEZHMFZnTzF1ZVlfVnNRN0l5QVdjd1hpNkxsSWNJQkdoZlFkUXJxN2hiRklvUGJidEJ3ZEppR083MFFn0gGWAkFVX3lxTE41V1R6UnE4VEh5cXB3WlhrdlpXbTlnTW5HN3Q4V3Rnb1JIWnd1dVVISFctamxGMldpRzR5UTRUb2ZZM05vOFNkTlFXcEVZdWR0blhaM0tlSkdidHBsZUxURmF4cmJvcVNSM2c2RWtGWEhYUXRrSmR0Z3dkOHhWemtrczlzUk82QkxSSGxGVmpXblJpMHhJVG1HVVFGRFRncmN6QjMyZnNCQ2U5d2hQVllJbkJVb3ExUEwySnl5aGF3RWQtYXFQc2N5MDVjQndEb1NRX1RCMzdmaHlGZmJYUVRIUVBXa2s2eVJRTFhSUVg2LTYzTl8xWk1NMk9xamV6UVNOZEJURnU5VkpSTlNGemx5QURRUzhB?oc=5",
+      "source": "Indiatimes",
+      "published_at": "2026-10-07T13:41:15+00:00",
+      "description": "Silox India, Runaya venture maps ₹60,000-ton battery recycling build-out in Andhra Pradesh Indiatimes",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "12a88126ea5bef03",
+      "normalized_title": "silox india runaya venture maps 60 000 ton battery recycling build out andhra pradesh",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Copper Recycling Manufacturing Plant Setup in India- IMARC - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNREJJOHlGUV9PUjlQVlRLQzBabEhWUjVkMnI4SVVBX3plX0VNVVllcWRFcXNJM0gtTlhwX1FKM2NHUEF6dWl4MUN6aEJxMjIwZER1bVlCNGFJUThqQUpZaV9XMk11QUJlVl9YRG9sMmJZY1d5ak1naEVwSGZ6UUplU3VaRVlsNTNKa0NrRTRjVmFLZw?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-08T07:03:08+00:00",
+      "description": "Copper Recycling Manufacturing Plant Setup in India- IMARC IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "19ceee7e19dba4f5",
+      "normalized_title": "copper recycling manufacturing plant setup india imarc",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Collection is the weakest link in India’s battery recycling ecosystem: MiniMines CEO - pv magazine India",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSDJLM2lpZW1ONGdZS2pQMHl4c1lOR05uaW5fckZhVUNOejZPVmtCaExhNFUwVVRwZ250NV83Sm5rX1ZGWHNQbUFodHp6aHk4QUJNSjhuZjBlNlZraXhxcjBmMl9wVElKOEExNUF4SVY4R3c1NThyd3lmcFJicFRxdU45dkRmZGhuc3JFWEpIZmpYd3BYTXJjeFIzYkJsdVU5WVhqN0xYUVlvTTJ6WW5WTlc4SFBpMWFTMVpiVDNPa3d2MmllcEVj?oc=5",
+      "source": "pv magazine India",
+      "published_at": "2026-10-07T18:36:05+00:00",
+      "description": "Collection is the weakest link in India’s battery recycling ecosystem: MiniMines CEO pv magazine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "eb932b81db010a86",
+      "normalized_title": "collection weakest link india s battery recycling ecosystem minimines ceo",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
