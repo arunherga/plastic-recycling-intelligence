@@ -1,0 +1,238 @@
+{
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09T09:36:41.387425+00:00",
+  "stats": {
+    "collected": 485,
+    "after_topic_gate": 116,
+    "unique": 34,
+    "new_since_last_run": 8,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581570 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 581978 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (345 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Waste Plastic Recycling Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNW9JU19SSDN2VEp3VXF6TUVYcjBzODY2MEd6VVdWRnpYMFoyTER3ZG1MV2s5MjlreGl5c0NPTW1aVDRsYWVzaFl4Z0RJbnplY3RudnNUQzBrRTJjVjdwb1FpWHZJX3NCaDZZczhOTEF1emNxNG1ybVYzMmxKWEJBOG1zQUpjTHBD?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-09T05:47:19+00:00",
+      "description": "Waste Plastic Recycling Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (19 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ef4ca0d30f8846a6",
+      "normalized_title": "waste plastic recycling plant setup india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 18,
+      "ai_summary": ""
+    },
+    {
+      "title": "Mangaluru Waste Management Plan Targets River Plastic in 50 Villages - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNc29SbWZsQy1NXzFUYTJJZmY3REg2THB4UjAwZXhvckpyc3paaEs4YW1HYXR0Vl9la0NHbTA5REFPeUJwc2lIdUUzTnp5eE5PQ0tPeVZyNlBYclNyQ19XbmYxSXZ1cHBqV0htU3J6eXFYajN6dDV3bDZjTXZZTlhlNUJGSUNwZkM3bzNCaDdPY0dPNGFnVEE?oc=5",
+      "source": "Urban Acres",
+      "published_at": "2026-10-09T09:13:15+00:00",
+      "description": "Mangaluru Waste Management Plan Targets River Plastic in 50 Villages Urban Acres",
+      "location": [
+        "Mangaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Udupi / Mangaluru / Dakshina Kannada"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e781e45c9859b24f",
+      "normalized_title": "mangaluru waste management plan targets river plastic 50 villages",
+      "origin": "google_news:plastic recycling Mangalore",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s plastics recycling push now hinges on brand adoption - Plastics News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZW5rN29SQ1ZvUWhpejlwbVpGSVFWTERNclhNWHl4MHVZbnhPUE9tcThBOFNveE5VVnRBSDh6RnAzSkNuMTBaTWo2cEhncjBycWJCdHYxVVA0bm1uV1F1QWY1dTRsLVdqNGNna0diSnh4b1dGQ254LWNhVUFMQldHMW5NemJLdzBCRWtBZGZpdnpkUW9LNVJPcWlTamMwY2ktQkozUlJNcWROVGFNdU03TjFEWQ?oc=5",
+      "source": "Plastics News",
+      "published_at": "2026-10-09T08:00:00+00:00",
+      "description": "India’s plastics recycling push now hinges on brand adoption Plastics News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b998297a8326b282",
+      "normalized_title": "india s plastics recycling push now hinges brand adoption",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "Used Oil Recycling Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVVZONTZHVU1BY0hrNm1NdEpKMnRRdTRFd2NDXzRJQUxrc3dlWGJYb3k2SjRzTUh1Zjh1ZkxqeGVpZGlnelhmSUliWjBJT2UxVEw0MWEwV21QaXBfNUhvYnZaTlVnQVY0eThyaHJ2VTN5UFV3OVg1bTZSWWFCRjEteW9vb1VXeXljSDZGR280amc2ZDMt?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-09T05:47:08+00:00",
+      "description": "Used Oil Recycling Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (16 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ebe5c439c1dc8cb1",
+      "normalized_title": "used oil recycling manufacturing plant setup india",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 15,
+      "ai_summary": ""
+    },
+    {
+      "title": "Alternicq partners with UK’s Pulpex to bring pulp-based bottle tech to India",
+      "url": "https://packagingsouthasia.com/type-of-packaging/rigid-packaging/alternicq-bottle-tech",
+      "source": "Packaging South Asia",
+      "published_at": "2026-10-09T05:38:53+00:00",
+      "description": "Alternicq (formerly Manjushree Technopack), India&#8217;s largest rigid plastic packaging manufacturer, is redefining its capability from design to delivery, expanding its packaging solutions portfolio with the addition of advanced pulp fiber bottle technology. Through an exclusive partnership with UK-based Pulpex, Alternicq will bring Pulpex&#8217;s pulp fiber bottle technology to India, adding a new sustainable material capability [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ed25bbd417d31dc9",
+      "normalized_title": "alternicq partners uk s pulpex bring pulp",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Borouge International expands European recycling capacity with new investments - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPOE02ZDhJSUJiV2NpYVNHaXdnNFpkVlkxeTFJOW1OYWdqMFZEM3RVemUxaWRCS0lyazY0MVltZGFOa1hGTTRlbE1MOFNPdncycUVtcDBITDFqWDl2Z0MzSFZINGFWd1Z6TTJESmwxWmZCdHdSZmNkUVY1NjhfdkpKbFVGUDl0YlNWdE9JMmpaaGM1WmR3WHJQTEJQTDBRUzc3VzRMNU85RU5RX0Q2SnhQeTlVdndpX3NnWkJEckpyb0NST2E0eGdGQtIBzwFBVV95cUxOSUNvWmZPRFVQMUlXQk54TGdyT2hydHVXazNxbTZPMVlnVHBxZGVmWW5KVDE5YW04VTJKSWVEN1pyM2RaWkJ0dUxFZEkzWGRrRFBVUlZDU0hKUjhocGpSdXJiZ2E0ODZOUFItb2YteWhlaDBOZ21sNmhsUnlsUXltaFNpOTFQQ1NSUlYyRWZLS3ZuMzE1eGZwVnRySTlXWlpwOXYybFdxVmtSMHhEMFB4SHdRMndlSkg3a2VhSUZzVmJ0RjAwdVlucmVfM3pXdzQ?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-10-09T03:52:36+00:00",
+      "description": "Borouge International expands European recycling capacity with new investments Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dcf91d6b15bfbfa5",
+      "normalized_title": "borouge international expands european recycling capacity investments",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gravita India Forms Green Maputo Recyclers In Mozambique To Boost Recycling Efforts - Sahi",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcVVRUnhtZGxDa0JyYU03LU1CSnJkdzhyTE9PQ1k3YWFPd05Gd1AxRDkxTUl4Z2VJTkFkaWN1d2V0end3NzFTWlFaYWJoOXFOdVVvaDd3dThGWlBQQUlRQXRoUjBNMXZTSmVROGotOGtja1dtbFBiaW1KeFJYczB4RUVYMkstcUhmM2gxUkhYMlNLQ1NIOXFnZEozeEpNeHFFMV9KTEY1UFU1SjByLUE?oc=5",
+      "source": "Sahi",
+      "published_at": "2026-10-09T02:21:43+00:00",
+      "description": "Gravita India Forms Green Maputo Recyclers In Mozambique To Boost Recycling Efforts Sahi",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "23299ea44be259bd",
+      "normalized_title": "gravita india forms green maputo recyclers mozambique boost recycling efforts",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "MoU exchanged with govt to recycle one MT at industrial waste - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPX04yMndoVjBHVGNjdGxkUlk2U1lmVWhzMnFwdkJlM0dsUDBoN05aSGVwb0xJTjNLOWxSNHltMXlJMUl0TExPMjZiY2tObWFZdGZmNUI3WWg2SzBFVkZnZTlaaU9FZmJtbVVDb09MTndIUVdabEM4cEhQQ1ZIWUdDcjdodXVNRVhfY3UtNThxczBlcnNUbl82RTVIeG9UQXhUa2dNWFFsZ2xpVXJ2dWlfbXR5RGtjaGZVdzljODBmUGZKUQ?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-10-07T21:07:21+00:00",
+      "description": "MoU exchanged with govt to recycle one MT at industrial waste The Hans India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d78db47472b76895",
+      "normalized_title": "mou exchanged govt recycle one mt industrial waste",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
