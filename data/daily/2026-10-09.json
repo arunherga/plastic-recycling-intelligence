@@ -1,31 +1,63 @@
 {
   "date": "2026-10-09",
-  "generated_at": "2026-10-09T09:36:41.387425+00:00",
+  "generated_at": "2026-10-09T13:13:48.783820+00:00",
   "stats": {
-    "collected": 485,
-    "after_topic_gate": 116,
-    "unique": 34,
-    "new_since_last_run": 8,
-    "relevant": 1,
+    "collected": 481,
+    "after_topic_gate": 118,
+    "unique": 9,
+    "new_since_last_run": 1,
+    "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    ],
     "source_notes": [
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 581570 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 581978 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581695 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (345 items)",
-      "rss (140 items)",
+      "google_news (351 items)",
+      "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Lead Acid Battery Recycling Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM3RlMVkwazZvZGl0TTVyQVBidWRGRmNtSFUwVUZiV3dzZ2hpQ2FlRElnMjE3QVdMNFJFOUt0a2p6X29CMzEtcUZmUzUwRmo3bmFZT0xZeE10RTlKbkU4NWJJR3lNQUwxTWRLeXpaREhQUzFVOXoyci1IZWE1NGxOcG81d1lqeXFxTnBQejln?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-09T11:52:26+00:00",
+      "description": "Lead Acid Battery Recycling Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (12 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0bee8f205735f819",
+      "normalized_title": "lead acid battery recycling plant setup india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 11,
+      "ai_summary": ""
+    },
     {
       "title": "Waste Plastic Recycling Plant Setup in India - IMARC Group",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNW9JU19SSDN2VEp3VXF6TUVYcjBzODY2MEd6VVdWRnpYMFoyTER3ZG1MV2s5MjlreGl5c0NPTW1aVDRsYWVzaFl4Z0RJbnplY3RudnNUQzBrRTJjVjdwb1FpWHZJX3NCaDZZczhOTEF1emNxNG1ybVYzMmxKWEJBOG1zQUpjTHBD?oc=5",
