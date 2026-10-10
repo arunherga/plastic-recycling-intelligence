@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T08:57:19.344138+00:00",
+  "stats": {
+    "collected": 499,
+    "after_topic_gate": 117,
+    "unique": 31,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 582986 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 590886 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (359 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Karnataka begins setting plastic recycling targets - Deccan Herald",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZWZZZm9TU1RZRG1CaVVQRUE4QjNtVkJicWxRS3VPc1ItQ1NTVHVVSzJSX1N3LTZRN204bW5IS2NKRUZVbU1qY25hY1JMOTh4T0NoTWwyUlRvNmxjdEZGZWZuNmwtT0x5dDRKc2dJYk5jNE9TblR3S0I3dUoyaGR0YVBYWEF2WnNYYUpFcU5KN1dUS3ctTzI2eE50Ulo4MV85alhsb2JDcF9CbDd0RzJYX3Y5VjEtNXhp?oc=5",
+      "source": "Deccan Herald",
+      "published_at": "2026-10-10T01:44:00+00:00",
+      "description": "Karnataka begins setting plastic recycling targets Deccan Herald",
+      "location": [
+        "Karnataka"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 7,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Karnataka",
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c8c6ef5113519fd2",
+      "normalized_title": "karnataka begins setting plastic recycling targets",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "Ramanagara recycler faces criminal case over pollution violations - Bangalore Mirror",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWENuUXBrLXMwN3pWNkwtLXVYZ2QyQXlPd3lmN3NiVUNhRmtxRzZ2MWpvcmNSRVlSQVBJOURHQS1uLUdzbVlacVJkSy1WZXJjbGgxc2hoenRKVjY0a05KRG9VdHZJX2FuVjVIMmZ3QnhScEszdVlnVzdOdEZzVFdsZ1lRc0hILWdaczBDLXV0eklrb0swMmROd2NYbHE5cXJnNEtwZjZiSS1yQjJyc1FCYnJMQ3hOVE94WEgwVThFYnBFLVJwazRNYXVuU08wMHhiQV80Z2M0aFgxTlluUnJz0gHkAUFVX3lxTE5kcTNhdTN0QnJkY0owdzVUdllVeWJxRkpoU2I3bTNtZVMwZ1RZemxqYTRQWVp2elR6N3NTVzJWVGxwZ09DVkJnNXpzR2hfVHdTOWRvOVBTaEVUSThZMXhYcTFnTHJIQnB1NGo0RXJGeldrZlhXRERtalFJSDZNelNCSTZ2MVBTMlpLZEE5OHRQanJJRDZRTGQ2cUZvaFFFNUUtdlpfeC1jbDc1cmdwaGk2U29ZV3NpZUpRVGFsWllORWdPQkdRTE5qQmt1WnN1TlJDclRRcFE4eFB2MEtpOURqS1hoNQ?oc=5",
+      "source": "Bangalore Mirror",
+      "published_at": "2026-10-10T00:30:00+00:00",
+      "description": "Ramanagara recycler faces criminal case over pollution violations Bangalore Mirror",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4f140866a73243b6",
+      "normalized_title": "ramanagara recycler faces criminal case pollution violations",
+      "origin": "google_news:plastic recycling Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "GST Scrap Tax Plan Tightens Recycling Compliance Across India - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWlRV1hWLVhqMGYwNklvbGdUcTdqOXN5dUtrOHRlQUVPUHk5SG10dE5PUEJBVHlkX0Y0dUZYekwtTFQ3cndxMmltTGY2Z0poU3JNM2RPcGdTMzBMTm5jVlFkZ1o1Zl82aWJxYmhidllwWjNTOE9pTkViMjlpLVpOdFQyN1lsWVJ2UjJZcg?oc=5",
+      "source": "Urban Acres",
+      "published_at": "2026-10-10T01:12:34+00:00",
+      "description": "GST Scrap Tax Plan Tightens Recycling Compliance Across India Urban Acres",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8b58e19f68a0bd4c",
+      "normalized_title": "gst scrap tax plan tightens recycling compliance across india",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    }
+  ]
+}
