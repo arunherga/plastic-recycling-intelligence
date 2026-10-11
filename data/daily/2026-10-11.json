@@ -1,11 +1,11 @@
 {
   "date": "2026-10-11",
-  "generated_at": "2026-10-11T09:17:16.360306+00:00",
+  "generated_at": "2026-10-11T12:42:22.731627+00:00",
   "stats": {
-    "collected": 486,
-    "after_topic_gate": 124,
-    "unique": 26,
-    "new_since_last_run": 3,
+    "collected": 484,
+    "after_topic_gate": 113,
+    "unique": 4,
+    "new_since_last_run": 1,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -15,17 +15,41 @@
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 584214 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 582055 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 581855 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (346 items)",
+      "google_news (344 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Pashupati Polytex: The Bottle-to-Fibre Recycler That Raised ₹290 Crore from Havells' Founder and Ashish Kacholia - LinkedIn",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMnM0MnQyWUJ0Qi1FRnp5dXhDdTVueTZtcTRtcFJocGJWa0w1NXh4X1FPMWdUekdsOVdrX2Z4M2RQZFpNY1hUOFhMLURmSmVvQUFnX2czODBKc3dXOGxhZUtRX1M1VjBPbXZ1cEZ2NVJYSUZKSEI3SWlXSGZUTUl3b3VTdENpTFJKaVE2Nm9Fa0s4VEtJ?oc=5",
+      "source": "LinkedIn",
+      "published_at": "2026-10-11T04:00:19+00:00",
+      "description": "Pashupati Polytex: The Bottle-to-Fibre Recycler That Raised ₹290 Crore from Havells' Founder and Ashish Kacholia LinkedIn",
+      "location": [],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "348ce82d57b44341",
+      "normalized_title": "pashupati polytex bottle fibre recycler raised 290 crore havells founder ashish kacholia",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Keralam to Set Up Model Plants for Plastic Waste Disposal - Construction World India",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQVpaZFFOTXZJYXV4RGRFcXFnOUYwemtVcWtueDd4VHVUUTh3WEJUTW1JMGxqSVFqWHJ0M0Vmc2xodUx4bXRqeDcxNXNIaWJMVWpNajd5NkpYWi1EWF9rWm9KeUhyYzBENXIyX2VmUl91MU5ESFpMaGdjZ3JHUl81djJnb1BtMm5NamwzQlIxVHFnaGM3dWdEUlpDVDV5Q2wtWnI1MTNtNzFXVE41Zk4zdkhsbWhnUkFhUHBwdmtFdXBqNDZTdzE4eXdJUEZYaGtRTUFKamxpV3pZMmR4UVp6QThtVQ?oc=5",
