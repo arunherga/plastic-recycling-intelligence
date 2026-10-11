@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11T09:17:16.360306+00:00",
+  "stats": {
+    "collected": 486,
+    "after_topic_gate": 124,
+    "unique": 26,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584214 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582055 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (346 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Keralam to Set Up Model Plants for Plastic Waste Disposal - Construction World India",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPQVpaZFFOTXZJYXV4RGRFcXFnOUYwemtVcWtueDd4VHVUUTh3WEJUTW1JMGxqSVFqWHJ0M0Vmc2xodUx4bXRqeDcxNXNIaWJMVWpNajd5NkpYWi1EWF9rWm9KeUhyYzBENXIyX2VmUl91MU5ESFpMaGdjZ3JHUl81djJnb1BtMm5NamwzQlIxVHFnaGM3dWdEUlpDVDV5Q2wtWnI1MTNtNzFXVE41Zk4zdkhsbWhnUkFhUHBwdmtFdXBqNDZTdzE4eXdJUEZYaGtRTUFKamxpV3pZMmR4UVp6QThtVQ?oc=5",
+      "source": "Construction World India",
+      "published_at": "2026-10-08T06:00:47+00:00",
+      "description": "Keralam to Set Up Model Plants for Plastic Waste Disposal Construction World India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "New recycling plant"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "efb1d3b089617440",
+      "normalized_title": "keralam set model plants plastic waste disposal",
+      "origin": "google_news:plastic recycling Kerala",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Turning plastic waste into cheap gasoline: A circular economy solution from India. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNc2d2VThaOG1BczdPZW9uSk5JMU9aYjFaMlZQekktbWVXel9DMHdRajFGTHllU0REOTdvTVFBdkdZZzJSYVF2eHYyLWMxMUlBZUF4RVJjUlVpN0xabXZLSFJHVW9iTmpVSzI1Y0N1RlRTaXhQbFBmREdBc2lkRWgwQnR5elVJTjQ3QTFnbWtNbmJrLXlZWnJWUQ?oc=5",
+      "source": "Vietnam.vn",
+      "published_at": "2026-10-09T07:00:00+00:00",
+      "description": "Turning plastic waste into cheap gasoline: A circular economy solution from India. Vietnam.vn",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ca74177df483dc97",
+      "normalized_title": "turning plastic waste into cheap gasoline circular economy solution india",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "In 2024, Bangladesh tested a road made with shredded plastic bags and bottles; during a heat wave, it sho - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8gJBVV95cUxQOGZnWVVPZ2x5aTMyTjQ1eXhJSGV6U3pCbHdzYTh5OXFpZ3lQTDZTY05JSlJiaC05OWJzQWg5OEEwVnp5QXlTY0tycUtzdlpUa0xNekgxYnZra21sTW1XanNTZlZRNHZmSXItT1ZCOFFMZmw4emhTLTgxeDg3QlpZdUhrVV9McGxSRGVTSERtd3RXQXdxRkoxMmNBR1NkVWJYVXFFTjZmQ1JISGNDUm41V0l6djI0cWhMRWFiU0U2WFhWbzdIeldQZmhSOHhyMWF0T3I2V2dMaGdlSXhVNXlsLWVaS2dFbVFlSFpFQklCUEFnclVRdUdZaEc2RlRaVF92YThCamNQTmd1Mm8yVmNSSF84NVBmQ2JXcUJsT2pWdm5oS0NOMi1qSWlSZEZXOW82TmVFRTlKWkZfckp2cmRDbVU3WlF2bUVUd2c2UVZwVFdwQUxDR0VxQlNTc0hkTVh3ZHBWSG5DRlNHZ0dUNmdNa1Z30gH3AkFVX3lxTE9mWkRMSmZEZFVMaHVrUjktaXFDby1Nd3hzS2lsX3ZnSV9ta0lkX2lER3U2TWxCaE42dW1xb3pJdFQ2QzNuckVmN0x3eXpkcjQtSlQyWTEyWUVURjk4R3FOWWUxdGs5U1QyeEREVnhOSnRaRWcyTF9uS0JMbEVYSVZMMnN6Mmxmb09UWTd4cWVxbUs0am9QWk8tOUcxSjBDZ2FCSFltSnNwQXdMTE9Pb0VoS08zS3c2V3BDZ2xLbHB1dkdpNURLVXJ3MXpoQ05MQkNwYzV4ODAxeUFCR0EtSEJZQ2tjZEFLcEphVlVrQ0lORXRYX0lnLWhKekZPMS1fRW5seF8tYV8yOURIRFcyZGpBb21zNFlqREllT2swSmhxVkhfai13RnFhSHJIWWdmNDFQRVNZMGNyaVhDT3NfYm85d1NtbVlsX2drZEZxMnI1OVZzaV9qRFlEaWI4RGgza0ZaaE1Ua0pEellHcEh1Qk5udlYtVHJHQQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-10T15:50:00+00:00",
+      "description": "In 2024, Bangladesh tested a road made with shredded plastic bags and bottles; during a heat wave, it sho The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "97596f760a5bc8ec",
+      "normalized_title": "2024 bangladesh tested road made shredded plastic bags bottles during heat wave sho",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
