@@ -1,31 +1,196 @@
 {
   "date": "2026-10-12",
-  "generated_at": "2026-10-12T09:43:36.486673+00:00",
+  "generated_at": "2026-10-12T15:14:39.621257+00:00",
   "stats": {
-    "collected": 495,
-    "after_topic_gate": 110,
-    "unique": 23,
-    "new_since_last_run": 5,
-    "relevant": 1,
+    "collected": 500,
+    "after_topic_gate": 116,
+    "unique": 11,
+    "new_since_last_run": 6,
+    "relevant": 4,
     "high_priority": 0,
-    "opportunities": 0,
+    "opportunities": 1,
     "source_errors": [],
     "source_notes": [
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
-      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 598143 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 591212 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 590449 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582353 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582908 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (355 items)",
+      "google_news (360 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "The Sunita Narain Show: Why India's EPR system fails to tackle plastic waste despite recycling success - Down To Earth",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPa0ZkTlNFaTFfRnk3YXJpSC10dWhxbUN5aDM3dlU3dG02MVdwQXp1b1FnUF83RlBCTkxFcGxHRWJRMHY1VHhFeHl4X3doNU4yX3M5ejRobU9UOWZVY2xxdTRnOGIzbzNLcHBvQW5hSHVkUTBTcXBUV18xMjk1VUtWdzVZdGJTVUdBYVNvLV9tTmpHbFRoZ1NXZGN0NVM4MEpyNDlvUjBZSHBSakVabWk2LVhfWFFMenVaamRGeEpJRHAwVEl5dnBtMURMYm14YXJwaWEw0gHgAUFVX3lxTFA3c3FUOWt3M0xSa3VCZF9LN0NyZnNvSW1DdTU4NDZVUWtXM1RQWDVid2tXQ2J4Z2h5bFVRazY5T1Ntc005U0dVZ0JoUDBUdEdfMlFjS1pveTFSbGZEMXYxWjBGbEdYNTJHb0pDdlpLbXlVOFJ4Q0NKckNxWkN2Ny1KN3lLQnlpMVpfR0xJajJ0RXRuR3p2dlZuZmk0YUdZYUYxa1RhQVozRWNKc0s5eVFOa2lOaFRpT1FMWGdoTHlVTE9xZUNYUXhDclVmckZOMi1yODFYa1lwYXFtY1JKNHRY?oc=5",
+      "source": "Down To Earth",
+      "published_at": "2026-10-12T12:05:26+00:00",
+      "description": "The Sunita Narain Show: Why India's EPR system fails to tackle plastic waste despite recycling success Down To Earth",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "EPR"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "19cfa20786c02393",
+      "normalized_title": "sunita narain show why india s epr system fails tackle plastic waste despite recycling success",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Construction and Demolition Waste Recycling Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcTdHUnlwdFpJSzZKWTY2c2VrZDR4YlhhZExlc3VpZjFieVhiNXhDd2RXTlFXaEduSklwdkxDS0NKam1CbnF5ZXpnbW9XeGJyT3F3QlpGVnV1MGFocWs2Mmg3NHZncGZIOElYVktseEZMWm5kUFQ2Qnp4T3BVSk9kbmlxeExORjNXNEJTS2dUWTVnMlNUeDU5eV8wTTFOVEd5cVJJ?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-12T12:45:35+00:00",
+      "description": "Construction and Demolition Waste Recycling Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2129f3f20f42e17d",
+      "normalized_title": "construction demolition waste recycling plant setup india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "India: Recycled content in rigid packaging set to double to 60% by FY'29 - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUzJuX2xVVzAwczJTb1dqcDl2QkotNzFyNG9aNGVyQkFSSWFBajk3RTBEMHRpTVI5REZ2bnljNDQ4Si1GdkxOOEFsbmxVdGNHMVROd2RHQUR4LWlhaVFEcHdyN0lOTDlOLUNkOGFBVVI1d2RXRGl6MGR1MHhQZVp0ZTRZZ2RjRC1YN2hDVXktTGk0V052TlVud0lydlZmdHFmbmwwT3pFWFRkRkR4QndMWHRiaXBIVFU?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-10-12T11:20:53+00:00",
+      "description": "India: Recycled content in rigid packaging set to double to 60% by FY'29 BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "recycled content"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "FMCG / packaging / automotive recycled-content demand",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "MARKET_DEMAND"
+      ],
+      "article_id": "8927d59dc434b4b8",
+      "normalized_title": "india recycled content rigid packaging set double 60 fy 29",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Yamaha Recycled DiASil Cylinders Could Reach India by 2030 - BikeWale",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQelJZRmJZb3lmMzRpYUlUZFFlOW54ZTRubGVyTG5tR1VxQVRiRWJEUlhMTEN6WmVoWFU2NnlraFNqQW5RNEFlVUtjMlNqOVlzUDdQbnVVRWhWVFFER0swRS1IYXo0cTlkX3FzaEhBdm1Bb2pieGRaUVV6cy1CYVE3cWw4eWFzNnBIVVE5S3ZqN0RiRlU?oc=5",
+      "source": "BikeWale",
+      "published_at": "2026-10-12T13:21:54+00:00",
+      "description": "Yamaha Recycled DiASil Cylinders Could Reach India by 2030 BikeWale",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1f99e3e72f4749f1",
+      "normalized_title": "yamaha recycled diasil cylinders could reach india 2030",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Epoxy Resin Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUzY1X0dtc2c2RFBxdmwwSzFfX1VJVW5iRExQa1dBNXFtUkJnc1k4UDNQSko5SkozX0FhclVjY01pQ0RqS21Wc1YzOWUxdnlEM0h0Y2gyd0Q2TENsbURfMDFmTFFTazdhRFVPN3R1SDJDb3BBUGVmZ25QTW9zbS1ZTWJqMVA2cV9hSEdZ?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-12T12:45:39+00:00",
+      "description": "Epoxy Resin Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "af91131d2ea05741",
+      "normalized_title": "epoxy resin manufacturing plant setup india",
+      "origin": "google_news:chemical recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Clarios expands recycled plastics portfolio as EU regulations push automakers towards circular materials - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdzJXbXJoTll4cnlmNzhyMi10MzJzb2xVdXJUUERYQzY5M21tYktISGdnMU84Sk5NRUhaS0dsQ2gwWHBnakkwMExzYS1oR0I5NFFYQjFILXpGdHk4SExucEd2TTB5RlI5cWRtSUttQUNkb3d4bDR0SmViNDdRRDFUZGVxT2pEOTJ5OXpDQ3hlWm5TRjI2M25tcXVyYVA3ZEh4UGJDNzRLSFdGcDRHRnBtc0RjTnJJeHZkYWppbFJzaklUMl9SWkY3Yk9DVXpweWtBaVF2cG1pQUh0YmVwSURwZjd5ajd4T2FQMlU40gHyAUFVX3lxTE91LXBBYjl4Q3laUWt4ZGRPQ0pyVkpQX3ZleWlQNHBZaWstTEdZY0d6bmk0UWpBYm42NHgxandrVTB2WkVaa25YMEpmMk05ZHlLeERUS29Mb2RsZncweW9iMHZrdWdMckhDT1R6ZWVLOXM0MlhaOGo4b1prR2U2QVFFZFc2TW9meC04Y2NHVjBMLXlIdG53eGhtRWJhMmJqcjJubXNNWVVRUl9Edl9GODZXYzZEd2JCWWZwRExuMFJUbU5kTE1hM2hHcEU2cnRHZXFZV0prekU4WHZhbnJibzR4Z1h4MUtUUkxiZVo2YTdsaHBR?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-10-12T10:12:01+00:00",
+      "description": "Clarios expands recycled plastics portfolio as EU regulations push automakers towards circular materials Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8adfdacefec04e94",
+      "normalized_title": "clarios expands recycled plastics portfolio eu regulations push automakers towards circular materials",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
     {
       "title": "In Ghana, researchers mixed shredded plastic waste into asphalt; tests suggested that up to 10% plastic c - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOaEY2T3ptOXpwTmNvNWcyTWpmWnp6V0xXOF93ckVReWlKd1JlYlB3X0U3dE5tcWlibjBIWGNmU01BV3ZFMXY1VzdmQm1LTUtFc3d3bXoxQk0tY1hoYkNybXd3UkVraWV2SE5jTDNuVjJJZXNXVlY1T2Nkb3RaZGpCWW16VjVCYTNwRzB2LS1UWlNQMndtOURBcWZ5dERLS1dLMFUzOVhyRzhEaEx6NTRHWUR6SFVFcVByUmtnY0JDZHVWYnAyNUNrclNDQXlFTFpDaEkwZHhrQ3gyejZuUDFQY1dzOXc1MGpScGo2OXZUdWNSMDA3V1RzNjNlbnprNzVIWjBZWHVrVjBjWlAtQzdCOFZ5UEF6UkViU3hJSXlwSmw1cW1yWVJqTi02UWpDQWdiSkg1ZGlRV1AwbHRCZnVFdXlOYjQtcWJ3ZXZSSlhJRHEyVTZKWDI0WHRSZ9IB4AJBVV95cUxNTTlWMnhsVnVTUEFwS3QwbW54R1JzT1l5ZlotemNWM2QxVklDSjBQUEZDV0JvMzZIeUtnLWRpRWppSHdZS2paMGJvQzNTcG5QT2hBOXRpNFdlbVpHUEZLRGVHUlJsVHJ5SExHVk02SGdwM1ZnRXVCWEdlcUZLVmo3WmNEVDJ3RFZEcEZkalVfMlVTZnE4UG9odnhLekpENFNQNUpVS0x0M01SQ2FEeUxGQVo5QndEb3hXcFlGYzgzTEl6OXRYLVBBeVlabFpxampmcGhxRUt3dEF2dFdnR2hZek9XcVJNUEdwZGx2WC1NQUNtYWFia21ORERhWExzeEZ2aVZYcDhkZlFGeWY5UExlSnRFV083aXlqVVlFNFZUVmtQSFZUUUppcDc5U0x6Rlo3QXpmQnV6NEEybnFoUTExdXp0UEVWNG5iRWhBWDgtTWQ0aWFEeGVzTnd3YjNwVDZF?oc=5",
