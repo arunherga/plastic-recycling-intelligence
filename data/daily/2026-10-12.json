@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T09:43:36.486673+00:00",
+  "stats": {
+    "collected": 495,
+    "after_topic_gate": 110,
+    "unique": 23,
+    "new_since_last_run": 5,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 598143 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 591212 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (355 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "In Ghana, researchers mixed shredded plastic waste into asphalt; tests suggested that up to 10% plastic c - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOaEY2T3ptOXpwTmNvNWcyTWpmWnp6V0xXOF93ckVReWlKd1JlYlB3X0U3dE5tcWlibjBIWGNmU01BV3ZFMXY1VzdmQm1LTUtFc3d3bXoxQk0tY1hoYkNybXd3UkVraWV2SE5jTDNuVjJJZXNXVlY1T2Nkb3RaZGpCWW16VjVCYTNwRzB2LS1UWlNQMndtOURBcWZ5dERLS1dLMFUzOVhyRzhEaEx6NTRHWUR6SFVFcVByUmtnY0JDZHVWYnAyNUNrclNDQXlFTFpDaEkwZHhrQ3gyejZuUDFQY1dzOXc1MGpScGo2OXZUdWNSMDA3V1RzNjNlbnprNzVIWjBZWHVrVjBjWlAtQzdCOFZ5UEF6UkViU3hJSXlwSmw1cW1yWVJqTi02UWpDQWdiSkg1ZGlRV1AwbHRCZnVFdXlOYjQtcWJ3ZXZSSlhJRHEyVTZKWDI0WHRSZ9IB4AJBVV95cUxNTTlWMnhsVnVTUEFwS3QwbW54R1JzT1l5ZlotemNWM2QxVklDSjBQUEZDV0JvMzZIeUtnLWRpRWppSHdZS2paMGJvQzNTcG5QT2hBOXRpNFdlbVpHUEZLRGVHUlJsVHJ5SExHVk02SGdwM1ZnRXVCWEdlcUZLVmo3WmNEVDJ3RFZEcEZkalVfMlVTZnE4UG9odnhLekpENFNQNUpVS0x0M01SQ2FEeUxGQVo5QndEb3hXcFlGYzgzTEl6OXRYLVBBeVlabFpxampmcGhxRUt3dEF2dFdnR2hZek9XcVJNUEdwZGx2WC1NQUNtYWFia21ORERhWExzeEZ2aVZYcDhkZlFGeWY5UExlSnRFV083aXlqVVlFNFZUVmtQSFZUUUppcDc5U0x6Rlo3QXpmQnV6NEEybnFoUTExdXp0UEVWNG5iRWhBWDgtTWQ0aWFEeGVzTnd3YjNwVDZF?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-11T15:40:00+00:00",
+      "description": "In Ghana, researchers mixed shredded plastic waste into asphalt; tests suggested that up to 10% plastic c The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "bae20c8096ba3682",
+      "normalized_title": "ghana researchers mixed shredded plastic waste into asphalt tests suggested 10 plastic c",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Waste To Wonder! Plastic Partially Replaces Asphalt Across 13 Km Of ₹3,500 Crore Ring Road Project In MP’s - Free Press Journal",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSm9WNG1laV94YlkwMW56OFQ0WXdMdGRla08xTjV6V3FOY0FkY0k3SktuQ285Ym02em95STh0a2htdVk0aktsV21iRnZQUHk2MVBkeUFORUh5QTQwTGQ5NGRzVVR5RVY1aXdndTljOWJpei1mTEVtaXV3a251bDVQMjVaMklzUG1FMEtTSndKMVk5NElzTkRHRzlSU3NONlYxRTB6WGhMY0ptZXByWFRVMUhleVpmcjBMcEpjWUtteFRrODZUWG1WUDUxTDcyUEZWUXk4aFRReUd4VGotZGhlZ3lJa3fSAeoBQVVfeXFMTTFncks1SWJKWmZERU5BM0h4RjZRVnMxVlZTZFhrbzgwcXVFdHdvcGE5QlpPV0t5VnFTVjFrZFFFMkpGY3FRNjkyRUtOd0ZpZkR5cWZnaHpXaWRvMnFJM19FcWd3RHBrYnhhM2xpekZRQkV3QmZuQ1JrcGlPeUt0TzhtNFNBdFFsNnppZnhrVndzc1ZHak0zU1B0SUFlWlZuQl9aaTI1c3hPcVBiSTdURlR2bDIxQVVTU3I3Qi0zbHVjbGUzOUVpbWRybTc1ekpYVjNkZkpJbXVSQTBrcEo1dGtBZzU0dThKclNB?oc=5",
+      "source": "Free Press Journal",
+      "published_at": "2026-10-12T09:18:37+00:00",
+      "description": "Waste To Wonder! Plastic Partially Replaces Asphalt Across 13 Km Of ₹3,500 Crore Ring Road Project In MP’s Free Press Journal",
+      "location": [],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3a077e0025b25ffe",
+      "normalized_title": "waste wonder plastic partially replaces asphalt across 13 km 3 500 crore ring road project mp s",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Building the systems to keep plastic in circulation in India and Indonesia - Plastics News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZGdNRjB6QVVqQ1ptT01FOFNrNGJhaVR4SnlYWjJhYm8yNTlRWXFHOEl1SnJkckFNUnVSaFRPR09pUk5ZcGVYYmtnVkNrM0FXR3RuVmhzSUgzZEtuejRseWpBM0oteU9oZFYxLXNneldidlNITHNhRzV0dExscHlwN0F0NU5UNzN2QkZNX1FTX1NLY1pkUG5FamJXUVlwUWxyVTBlNEtFZGZpOV95OURPWjVpM290cEhjR2gxTWdjRmQ3WUFoUEwxc0c2ZF9rMWJQNmtj?oc=5",
+      "source": "Plastics News",
+      "published_at": "2026-10-12T08:00:00+00:00",
+      "description": "Building the systems to keep plastic in circulation in India and Indonesia Plastics News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a8678736652c02e4",
+      "normalized_title": "building systems keep plastic circulation india indonesia",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "‘There’s no point in saying, “Recycle, recycle”’: Meet Arya Satheesh, the 18-year-old who invented a plan - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxQVzhhd09vUm53SUFSYzUxTWprTVZfdENELUp1bXRWV0E3SVhRUS1SSEpMeFJRcV96cGc0bTFFLUlMT3F4Z1hKTXRwMnVQSFB3TndjV0V4RG1uMjNvOGlKVlV1RUJKN0NiZmNlWUV0NEZWM2VoUHBydnFlb0J3a3REM0RXbG5IbHBHMHZaZUpNcVV3Tm1Uc09fWTNmcmRYMWh2cUJ3Y2hydTVzZDJXUW9jNnlZX01GZ29ZdHdGLUhHaGk3Q2JabW9TNnFha3NqX3prQlluTzNYMTYtMTMtM2xuRWhEd1pfZ1ZLSkYyamxMcTEtV2Z6TzZaRVBhN1BuRHNkbGJUR0NKY3JGdlJ5RE9qQ3VNVVRhT242OHVSanpiVVQ0d0FWWDBPOFc4dFI0aUpJNG5WVXhwaG00Q0NtNk9FWVZ1Ul9JM0pBd1hGeGxLUl80cnfSAdgCQVVfeXFMTTVIOXdMc2VpS1JmRGhiV2R1LXAtSjhYUUlFUkJvbFE3eWpOQUtiMDZnOUt6RWFpeHducjlueGc4V1N3RGtGaG9GMDJCZkVXbkcwOTFfT3A4QnhNMGlqaXB3djFFZVhVUEVGZnhteVJXVi1LN0dOa0oxOXFsSXl5dWZES2xnVS1ZVDhDZnN0QkFJY2JvTXN1ZWZXaU5sOEZueXJmVjlZRllwS2piODZTQnVaS2FiZ19TSGdyZUZYZFdDSWZ1RnQtYXJXc1ZOS28wbHJlcDBXTnpHak5YNHFWM0cyb1FTaC1tazNON2pSRGMzMHU5Zml4bE1YVzRTWTFRNGdhZ2V1ZTdrZVl3VTNOblpQMi1CNmgyNGJHcHA1bS1FQVYyLUtfY3IyVldmMHQ0eXpSSlkxR2lBdXBjc0M2dGFCblQ3TFFsTlB5RHN1endmVHZJUUZMS3M?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-12T05:06:00+00:00",
+      "description": "‘There’s no point in saying, “Recycle, recycle”’: Meet Arya Satheesh, the 18-year-old who invented a plan The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0dd363b3f6922c93",
+      "normalized_title": "there s no point saying recycle recycle meet arya satheesh 18 year old who invented plan",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Beneath one Sussex wind turbine, 75,000 recycled cubes replace rock armour in the ocean; could create mor - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOQjhvNW05N3MtZ3psUGg3NmNFMGhWTVZUVmI4VFZWUmQ4Mlo4Ty1rdnNJNnA4VzRHaVJkWnBkV295bkU0YnhoMDhGeElKalY3a3Z2b1c3Z3JubzBaVjV1Q09QNXBRTUxNU1VIbnp4N1FUZnpoSG5hcjhtY1lLWVlrNXhnNlFta1hwQUpPS2pJZzNPV1JMYmFidTd5S0wwRllxUVJ1OTYtWXk2MmlBTFBpWlNDVWxLSHhVRUFxa01ZODl3V0dqdzN1NjZlMG43aW1xNEhOR2tNV1F4dHF2YUFGX2h1eXNBNGZVM3BTNUZEdzF2Q0JXd0ZRTDNDRnhzd29DZ2V0ajh2Nmc0elVpRGNyaENYaDBiajJDa1R4RmhLZVlEeEtVaHlHeFhlRGl1YVZWbG03cGQxX29nN2hvSnIxMTJJempBLThX0gHOAkFVX3lxTE1ENjhlQWpqQmFCUjJtRmF1ZGR5djdJYTdERlVjbEd6WnJDZWlXWElPWENBdnlZTDJxTDNFRWIyaUEteS1Dd1dfQjl6elJzM1VIY25LQnJLSXNwRzBrOWNnd2ZqLWJBSTNGU2xaSWZDV1FUZC0zOC1SdUZzZWVodlRRek4yNFAxYS1jNjVfb2tQOUZnMF90RE41cDNKWkpkODNLdVBhTVhBQjFQSlBNS3d4VnlLajBrTEhLSUhJN0U1ZklrQ0RqdE04VklKeFdRdmRWT08wZTJNNkRsUjVpQThmMmhPb00wMHJjbzBCQWJLTWc4ZXJhTGhpWGwwLTMtOE43VkpTMFhnZTl2TXpkRlB4dl9zc25Yek9QYm9VUkZSaWduYjk0N3hNN19RWVF2TVI0NkNraE9rTWZPdWM2TTdSU3NvOENObVByNEdWcFE?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-10T06:00:00+00:00",
+      "description": "Beneath one Sussex wind turbine, 75,000 recycled cubes replace rock armour in the ocean; could create mor The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7b999e452c039e28",
+      "normalized_title": "beneath one sussex wind turbine 75 000 recycled cubes replace rock armour ocean could create mor",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
