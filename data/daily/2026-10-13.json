@@ -1,31 +1,25 @@
 {
   "date": "2026-10-13",
-  "generated_at": "2026-10-13T09:49:10.611058+00:00",
+  "generated_at": "2026-10-13T14:05:31.545954+00:00",
   "stats": {
-    "collected": 490,
+    "collected": 482,
     "after_topic_gate": 110,
-    "unique": 26,
-    "new_since_last_run": 7,
+    "unique": 7,
+    "new_since_last_run": 0,
     "relevant": 3,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [
-      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    ],
+    "source_errors": [],
     "source_notes": [
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 582726 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 581445 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 596552 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 7 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (360 items)",
-      "rss (130 items)",
+      "google_news (342 items)",
+      "rss (140 items)",
       "government (0 items)"
     ]
   },
