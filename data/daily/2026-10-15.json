@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T07:43:47.992248+00:00",
+  "stats": {
+    "collected": 471,
+    "after_topic_gate": 87,
+    "unique": 22,
+    "new_since_last_run": 8,
+    "relevant": 3,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 592313 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593169 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593877 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (341 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Karnataka’s 3.81-lakh-tonne plastic target faces scrutiny - Bangalore Mirror",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXJMQ1c4UFpPdU52RjVrT3V1WFdfLTVDVWZLREtCeWEwdmo5OGg4QjVnUkt6Z1RDdENzdExic1FZVEVoOWJ0MHprRHZScDBmd0VmaUlmV0ZzdUtuaUtHYlNBM2NzbDdMazg2WF9LY3gxOF8zLTdxU2pBZkMxdElnM1Jaa21PQktBUFpBTDBMbjVaSElHcEhiSHFpYllyVmZ2UkVpeXJWWGhLbWdKaWFQcUxEbXBFOEY4ejFGZWV4a1BHTnl0cmtYY3hEbHNXVUEtM3JFWtIB2gFBVV95cUxQWktVUzFjcHI3Z2I4OWl5OE5GQWwtYU45YlQyS3cxQXVWc1A3czhBLW1lMFJ6elhHNmNvZ21qV1BMV0ZUWWdSUlRKUmo5a2FkLWVYbzNTemt0SWJJNU1CVjRZZ3BURjVNUnZLcHpUNlhoQ0RDTDIxQm5GZkVZMXYtcFk0QW9TczR4UzdhQXBKZXNNT3UtTFU3YUl5QmpoNUgyX3NWdk5QUEttZ1RxRkdiU3JOTkQwY3VxZTNTcWN5eEtpOTdEZ2VhQWQwUmpxeEZKZVZTNlNLeERaQQ?oc=5",
+      "source": "Bangalore Mirror",
+      "published_at": "2026-10-15T00:42:00+00:00",
+      "description": "Karnataka’s 3.81-lakh-tonne plastic target faces scrutiny Bangalore Mirror",
+      "location": [
+        "Bengaluru",
+        "Karnataka"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Karnataka",
+        "Bengaluru",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "545325a563aeda01",
+      "normalized_title": "karnataka s 3 81 lakh tonne plastic target faces scrutiny",
+      "origin": "google_news:plastic recycling Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "NAN Silox GreenMet gets green nod for ₹1,400 crore battery recycling plant - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPYVdSRVVwdVdpRjNYYTNJZDdoMHZYdWlDU1VhNTNIRzRsZnRaS0VDX3NGMzlmYUplVHdVVDNtNWdYekxwNzYzOUJMQVcxQVRfMklGVFlWNTZIWUFPNGQyZjRoWmdXRTlMMks2VkZnbzNYcjNzZTVHa0ZLcTAzNGZ0dG4xVi1XSm5fa0g3bU5OQ05McUZBbkVHMUFkN0g3dmtzQW85ZkNXMDBwZUQ4Zll4STZXZXBJUHlJVHdWbE8yU0FRLVlPTkRFQ2lVM0hBNmtreWcxWDROWktRb1lPZUJSc0h1VdIB6AFBVV95cUxQbXRia2dxZE5uWW5xelMyTlJ1TE5RTGEwTmJxUk5KQU1zSDEtRVo5dDNnSmU5b0Z3NXUxRXZRVk1ZbEk5WUJoaGNyc3NFTVo4VjlFa1dKWDQ5U1h5RzNaQUhKdHI5ZUc2MDgxeDFjNHRfZENrNm8zUWpVdGRRS1dXbWhoTlpLUDdfXzlvVnl2dUN4X3RDUEJHZzBwQnJlMFFIeTBYTFh1ZnB4MDN0anFOR1hEbmQybmg4cF96Nm1WV29hajVxRWZiMHVYakp5bXRBNkVycy1tTE9WWEtSUEF5bzA1WHI2eE5k?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-14T17:51:00+00:00",
+      "description": "NAN Silox GreenMet gets green nod for ₹1,400 crore battery recycling plant The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "834caaa241b9001a",
+      "normalized_title": "nan silox greenmet gets green nod 1 400 crore battery recycling plant",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Can plastic-to-fuel technology help address India’s plastic waste challenge? - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZFpPdHlLSW1sS2l2R3FjamVFbmtBbVpTcWxqckhRQWJjTzA4N21mOTBYbEdkaUR0YWo3SVNXNks4cDcxbDJiQVJPVG1xanpsYkF5TE45WXJjbk5zLXhLdGFNeHVhM2NtVzF6WXdEVWYzamJuR2MzTnkxS0duVkk3Y2o0OHBXQUUtXzR4ZExoY1lsTnNGQ2V0QzBtaEkzNXRXTDI2WXJIOG5PVFpVOVV1dzlGQ2lnOGV3SEhkQ3JsRDFzYThtRFp6SFpTdXBZVXByaHZmcnNudGY0aU9aMEpzUlF0VWlvYjJRaUQzY2Y1Z2NuZ9IB8gFBVV95cUxOZFpPdHlLSW1sS2l2R3FjamVFbmtBbVpTcWxqckhRQWJjTzA4N21mOTBYbEdkaUR0YWo3SVNXNks4cDcxbDJiQVJPVG1xanpsYkF5TE45WXJjbk5zLXhLdGFNeHVhM2NtVzF6WXdEVWYzamJuR2MzTnkxS0duVkk3Y2o0OHBXQUUtXzR4ZExoY1lsTnNGQ2V0QzBtaEkzNXRXTDI2WXJIOG5PVFpVOVV1dzlGQ2lnOGV3SEhkQ3JsRDFzYThtRFp6SFpTdXBZVXByaHZmcnNudGY0aU9aMEpzUlF0VWlvYjJRaUQzY2Y1Z2NuZw?oc=5",
+      "source": "The Indian Express",
+      "published_at": "2026-10-14T13:48:55+00:00",
+      "description": "Can plastic-to-fuel technology help address India’s plastic waste challenge? The Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (9 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ca462bbf92c30ce3",
+      "normalized_title": "can plastic fuel technology help address india s plastic waste challenge",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 8,
+      "ai_summary": ""
+    },
+    {
+      "title": "India: Plastics processing machine installations hit record 19,330 in FY'25 - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWUhFLXFqbFd0OGJiTFYxTkhuNUlab1FFV2kxWGFrcXZDZHg5R3NjRXFXMm5vckp6SmVJNURFZ3ZBNk0zMmJYcWdGQlU0NVZUVXc0ZVhPclljV2trUWRhR2tUemM1TmVUaEwzR3hnUlVaQkloQzBUbjhrbm5ReTA3TmZsN3h5QjItYVAzMnJRempabmx3bW5HWFhrczR5S2tmOGI1emxLZ2s3Z2I2Ri1adTltQ0ktbnI0TGhNTA?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-10-15T07:33:15+00:00",
+      "description": "India: Plastics processing machine installations hit record 19,330 in FY'25 BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MACHINERY"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "71ffef85959b4082",
+      "normalized_title": "india plastics processing machine installations hit record 19 330 fy 25",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "From Beach Plastic to School Benches - The Better India",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQW91eXpqYXlNNHhBNTlIRktRbWdHel90VWdQSlhsN3NJTENDVUVZRFRBclBHT0tSNnh0cmhfVWJmZDBvMElPRjJzWmE5QWVhd2JXSF9vY1drUWpSM0Z4c1VjNWRCQ3huc0JjOF83OWZPR0VLcm9ZX3VoSmZ4ZEY4OVI5Wmp6QdIBiwFBVV95cUxOOFNRcTVxaEhrWnJodFVCSTlOV1ZiM1cwdkFiNktEZm5VV3BjRkg3ckgyUGxxUTBMWlpJUFBqcS0xNXRtWHl6Z2EzcU9hcWt5VmpnNkQ1dndUaFJRU0pQa3g0UHd6SXJBWHlTQ2ZoMkQydERDajBEU05jWVE4MTB3UzJGQ0Zoa3VKSVRz?oc=5",
+      "source": "The Better India",
+      "published_at": "2026-10-14T15:30:31+00:00",
+      "description": "From Beach Plastic to School Benches The Better India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "46b4e8cba598b33a",
+      "normalized_title": "beach plastic school benches",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Your bathroom is a hidden source of plastic pollution; here’s why - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORlZUeDNCM0xseGN2bFpCVGpGcjJVM05RRVhpVXdVUjJNQlVzS0ZHa0ZSUy1BYko3YWVEeUtYd29hakhjTDNlZ1pKSjBLZDBrVXRVcUpaWm95cV9xclV0bk9qd3ZzbUNvbGlhMEUybjBvU1RzT1JfVzBhdnBJbzhtb1ZsWW51c0pydXZLVzRWSEx3TjRjUWlPTW56VHU2enA00gGnAUFVX3lxTE5SSjZwWUtiMkxSNWZXb0YwTDdob1g2SUFGOFFndnFsVHVGX0JuZGRNaWJrRnRHNDJHYUJzc2VuRFFIQnY3SkF0ZkNmTXdvTFhqaWQ5SWFRVmttME5XVmNKbGppSGVVVG1MakptTzU1MHRPUnVXMkk4NUE4WDdXeTBRYVhfYTYxOURXb0s1eGc3SU9kZFhVWkwxcmRwLTV4UjZCLVdPcnNN?oc=5",
+      "source": "The Indian Express",
+      "published_at": "2026-10-14T12:27:23+00:00",
+      "description": "Your bathroom is a hidden source of plastic pollution; here’s why The Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4f845ab34c79f4d4",
+      "normalized_title": "your bathroom hidden source plastic pollution here s why",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plastic Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNHk5S28zWXFKVHBSU2lqYnotOUlvME54dU9vTGpYUDktQVhRNkp6QlltOXNHNXEweFI0Q1Q5YTI2enh0TzRvQUhLMnV1a3lLc0RtYS01c0RJSzItVDlaeUhZT0V5Z2pVWWtFRGUxbEZGLTI2UkhNeHBZbC1TSV9Gbm8zSDdwZw?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-14T12:05:44+00:00",
+      "description": "Plastic Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (9 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6a70b0125cfe91cf",
+      "normalized_title": "plastic manufacturing plant setup india",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 8,
+      "ai_summary": ""
+    },
+    {
+      "title": "Largest Shayana Ganesha Idol Made from Recycled Newspapers - India Book of Records",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQnpPZnNmQ0IwVUJPdnlmNUJOQndXVzkwWWtDN1dlRmtHdEUwOFp2aTBvOURCb3RGcU8xNHdmTU9na1RhQzVRRFZucFZEZkE4bTZveW5SajdWd3pZOERCMnZDRXNMc1JQQ3lVOGJBaGpvZWJEamZJemtuNVdSTHBieVBRR2Rwa1RqX1pOcWpyeVVGWnc?oc=5",
+      "source": "India Book of Records",
+      "published_at": "2026-10-14T06:14:00+00:00",
+      "description": "Largest Shayana Ganesha Idol Made from Recycled Newspapers India Book of Records",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "aaec1521307f2f74",
+      "normalized_title": "largest shayana ganesha idol made recycled newspapers",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
