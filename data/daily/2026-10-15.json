@@ -1,33 +1,60 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-15T07:43:47.992248+00:00",
+  "generated_at": "2026-10-15T11:21:27.384205+00:00",
   "stats": {
-    "collected": 471,
-    "after_topic_gate": 87,
-    "unique": 22,
-    "new_since_last_run": 8,
-    "relevant": 3,
+    "collected": 475,
+    "after_topic_gate": 90,
+    "unique": 9,
+    "new_since_last_run": 1,
+    "relevant": 4,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [
       "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
     ],
     "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
-      "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 592313 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 593169 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 593877 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 585656 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (341 items)",
+      "google_news (342 items)",
       "rss (130 items)",
-      "government (0 items)"
+      "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "N.A.N. Silox GreenMet advances INR 1,400 crore battery recycling facility in Andhra Pradesh - pv magazine India",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNd3FhVlZCajhuQU1WcHAxckYwNkRyRlNIZFVQYjctMUV0MjlZcDNvbm0zMDRWXzRKdXZ1OG9PM2U2eENrZEdaWm1KLUFKcGdNU2NRd3V3c3ctUjVWenFhY2JrSFFqZnEtSDdUcTlmb2U2NFBjRmRvaXhGYjkyeXZvc1g1aEpzcTdQbmtybXU1cG1JSklCQVh6YW5Pd0VXQVV0Rzl1UmhUb2VxMEtQY21rTW1yZjAwdC0xYzItSlJ6UV84MmZ1bHJ6X3AtUWs5Z0cw?oc=5",
+      "source": "pv magazine India",
+      "published_at": "2026-10-14T14:54:37+00:00",
+      "description": "N.A.N. Silox GreenMet advances INR 1,400 crore battery recycling facility in Andhra Pradesh pv magazine India",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [],
+      "relevance_score": 7,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c437e69eec4579d5",
+      "normalized_title": "n n silox greenmet advances inr 1 400 crore battery recycling facility andhra pradesh",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
     {
       "title": "Karnataka’s 3.81-lakh-tonne plastic target faces scrutiny - Bangalore Mirror",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUXJMQ1c4UFpPdU52RjVrT3V1WFdfLTVDVWZLREtCeWEwdmo5OGg4QjVnUkt6Z1RDdENzdExic1FZVEVoOWJ0MHprRHZScDBmd0VmaUlmV0ZzdUtuaUtHYlNBM2NzbDdMazg2WF9LY3gxOF8zLTdxU2pBZkMxdElnM1Jaa21PQktBUFpBTDBMbjVaSElHcEhiSHFpYllyVmZ2UkVpeXJWWGhLbWdKaWFQcUxEbXBFOEY4ejFGZWV4a1BHTnl0cmtYY3hEbHNXVUEtM3JFWtIB2gFBVV95cUxQWktVUzFjcHI3Z2I4OWl5OE5GQWwtYU45YlQyS3cxQXVWc1A3czhBLW1lMFJ6elhHNmNvZ21qV1BMV0ZUWWdSUlRKUmo5a2FkLWVYbzNTemt0SWJJNU1CVjRZZ3BURjVNUnZLcHpUNlhoQ0RDTDIxQm5GZkVZMXYtcFk0QW9TczR4UzdhQXBKZXNNT3UtTFU3YUl5QmpoNUgyX3NWdk5QUEttZ1RxRkdiU3JOTkQwY3VxZTNTcWN5eEtpOTdEZ2VhQWQwUmpxeEZKZVZTNlNLeERaQQ?oc=5",
