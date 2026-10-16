@@ -1,27 +1,23 @@
 {
   "date": "2026-10-16",
-  "generated_at": "2026-10-16T07:30:36.140584+00:00",
+  "generated_at": "2026-10-16T11:16:00.888368+00:00",
   "stats": {
-    "collected": 469,
-    "after_topic_gate": 96,
-    "unique": 21,
-    "new_since_last_run": 1,
+    "collected": 480,
+    "after_topic_gate": 95,
+    "unique": 1,
+    "new_since_last_run": 0,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [
-      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
-    ],
+    "source_errors": [],
     "source_notes": [
       "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 584637 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 1 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (336 items)",
-      "rss (130 items)",
+      "google_news (337 items)",
+      "rss (140 items)",
       "government (3 items)"
     ]
   },
