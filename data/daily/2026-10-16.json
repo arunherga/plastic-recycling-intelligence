@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T07:30:36.140584+00:00",
+  "stats": {
+    "collected": 469,
+    "after_topic_gate": 96,
+    "unique": 21,
+    "new_since_last_run": 1,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584637 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (336 items)",
+      "rss (130 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Tinna Rubber Registers 19 Acres in Andhra Pradesh for ₹250 Crore Recycling Complex - Sahi",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOUZXRWpKb1l3OTd1WjhiLThlZ1NPRjNXR1VLcU5NRG1nOHJZV0ZwR2lWaUY4WE5sUGNfcm5PcGl3TVFmNGNHQ3BoM18wbUFyb3QyYjBDYzR1NzMtRjJpb3lHUFVjNF9OQy1fZDJ3ZWVkeWpJOTEySmt6WF9oMENtSVZwaTd6dkZ3WFlELXZKZ1hFOURlZTFYR2J1dUZxNTI5cV9Uc3M5dm9pQVk?oc=5",
+      "source": "Sahi",
+      "published_at": "2026-10-16T04:12:41+00:00",
+      "description": "Tinna Rubber Registers 19 Acres in Andhra Pradesh for ₹250 Crore Recycling Complex Sahi",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Investment / funding / acquisition",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "85be7a097da7ef74",
+      "normalized_title": "tinna rubber registers 19 acres andhra pradesh 250 crore recycling complex",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    }
+  ]
+}
