@@ -1,20 +1,21 @@
 {
   "date": "2026-10-18",
-  "generated_at": "2026-10-18T07:25:10.035305+00:00",
+  "generated_at": "2026-10-18T10:57:39.492179+00:00",
   "stats": {
-    "collected": 518,
+    "collected": 520,
     "after_topic_gate": 83,
-    "unique": 15,
-    "new_since_last_run": 1,
+    "unique": 1,
+    "new_since_last_run": 0,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
-      "google_news: query 'plastic recycling tender India': no results in the collection window"
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "merged 1 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (375 items)",
+      "google_news (377 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
