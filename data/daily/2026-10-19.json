@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:04:36.579995+00:00",
+  "stats": {
+    "collected": 523,
+    "after_topic_gate": 62,
+    "unique": 12,
+    "new_since_last_run": 2,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling tender India': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (380 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Eco Recycling cites EU e-waste data to highlight India's urban mining opportunity - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcU5zc2JDbFN6aTdSalc0dWRET2tieXRUSVNYU01HS2NqcS1Wa21VUlBENnpNRnRJeUxxa1U4SW1nY0lVLXVRdnYwTFB6M0c4Zy13NWVmck5ld210NDYyT2plX0JTNzRVT2lCYWlDRzFwaFBpVGhoaXYxMGFtdDltZVp3NXJNX0lSMmJTQmJ3YTlKR3RZeklndmVIczdKNkZ3WjZrVTBOZ09RQmdKSm9sMkd6X0g5THVGUExoTVFkeGM?oc=5",
+      "source": "scanx.trade",
+      "published_at": "2026-10-19T04:19:47+00:00",
+      "description": "Eco Recycling cites EU e-waste data to highlight India's urban mining opportunity scanx.trade",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d4dfbca5130ca162",
+      "normalized_title": "eco recycling cites eu e waste data highlight india s urban mining opportunity",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India: Masterbatch demand nearly 2 mnt as fillers lead additives growth in plastics industry - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNFgzUjBLbEduTFg3OTZFc2JhNXlNZ3NQdkQycFA3SjB0RDVnd21iMC1WOHp5c1FQeTF6YU1BN0hKa1V4WFBYYWt5Y3pLelZJY0VMM29FemQ4aHVraWJKbGFxdDJMRl8xX3F4dE9yMUVkOFhEcFpKOWlsakVjNkFoOG9na2x5YXJyYnphd3VsN2IxQWQxenFuX3hhVENxNWtvMHJ2TmxZeHhVU2l1TC1VRml0NXE2R2YyZmhEZGpXVDhoeXZweTlXSnNtaUdld1JXRk5V?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-10-15T21:16:56+00:00",
+      "description": "India: Masterbatch demand nearly 2 mnt as fillers lead additives growth in plastics industry BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "20bb96d85033708f",
+      "normalized_title": "india masterbatch demand nearly 2 mnt fillers lead additives growth plastics industry",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
