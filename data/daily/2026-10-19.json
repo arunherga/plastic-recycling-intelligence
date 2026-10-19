@@ -1,25 +1,78 @@
 {
   "date": "2026-10-19",
-  "generated_at": "2026-10-19T08:04:36.579995+00:00",
+  "generated_at": "2026-10-19T13:00:54.646672+00:00",
   "stats": {
-    "collected": 523,
-    "after_topic_gate": 62,
-    "unique": 12,
+    "collected": 528,
+    "after_topic_gate": 50,
+    "unique": 4,
     "new_since_last_run": 2,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
-      "google_news: query 'plastic recycling tender India': no results in the collection window"
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (380 items)",
+      "google_news (385 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Recycled Aluminium Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTTdQUjZqTUIzRS01dXhQX2NyemNGTTlGMnJGbEhLZVJFQ3REVVd5TjFicUoxVHpYVGFYRlRnTUlqT0tqS0JyVzFXcS1nbHliVWgyZHBWOC1ySHVnRm1NNFZ5NnNPY0VzMFA2ZDNfdXFPMmdzUUpUbEMzbmVfN1VZemQzd2VyUWNQNUxEVVN4d013aTJ1?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-19T08:05:53+00:00",
+      "description": "Recycled Aluminium Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7f23f71a57e8ff25",
+      "normalized_title": "recycled aluminium manufacturing plant setup india",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Eco Recycling Ltd Highlights India's Emerging Urban Mining Opportunity Following New European E-Waste Data - EquityBulls",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV1J4Z3RvRmpXQ0NEbTZXbHhsTjZCRTJNN0hLeTUtQkRJSW1iODQwc002X2lMZlpqay1Jd1BBcFhHVl9zNG5XdVV6bDRsdHNYUFdEa0s3NnhUVmRIZHdxOWxTR1VwNXJoZTZNc2lMcW9OMDdieTJPOW5LVThDalo3RXk4UUQ1eEpoaEVRS0VneWd0U2NWMHFuSF9PNk5CT2JjRGkxSHNBT00wNkxiWHV3eXV1elZvLXVYbDZUYw?oc=5",
+      "source": "EquityBulls",
+      "published_at": "2026-10-19T08:27:16+00:00",
+      "description": "Eco Recycling Ltd Highlights India's Emerging Urban Mining Opportunity Following New European E-Waste Data EquityBulls",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a522f1f1b99500ba",
+      "normalized_title": "eco recycling ltd highlights india s emerging urban mining opportunity following european e waste data",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Eco Recycling cites EU e-waste data to highlight India's urban mining opportunity - scanx.trade",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcU5zc2JDbFN6aTdSalc0dWRET2tieXRUSVNYU01HS2NqcS1Wa21VUlBENnpNRnRJeUxxa1U4SW1nY0lVLXVRdnYwTFB6M0c4Zy13NWVmck5ld210NDYyT2plX0JTNzRVT2lCYWlDRzFwaFBpVGhoaXYxMGFtdDltZVp3NXJNX0lSMmJTQmJ3YTlKR3RZeklndmVIczdKNkZ3WjZrVTBOZ09RQmdKSm9sMkd6X0g5THVGUExoTVFkeGM?oc=5",
