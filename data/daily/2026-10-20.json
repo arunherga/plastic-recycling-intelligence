@@ -1,0 +1,125 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T07:55:21.609365+00:00",
+  "stats": {
+    "collected": 529,
+    "after_topic_gate": 44,
+    "unique": 13,
+    "new_since_last_run": 4,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584987 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (386 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "India: While 74% want recycled-plastic sachets, only 23% will pay 10% more - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajNwZ3hTczFfTUU2TkFpOVA1eWM5Q3FRbENNbzc5b2FpLTBwQ3oyNjVtVk9vVmMwVGI5a1lTWGNtNFRMcExKRVJ6aDJkeTVSRkdtbHFsOEFGeEVFNFF1bTRSczRreHhDREFRM1dkdXBzaldvNzFHeUJDQ2JSdEpHamNrNUdGX3lVTFlEOHpwYjdUN2t1NlM1RklCZ0JvazBoTEdxZ3dVS0dCV2V0ZGs3b05iT2JyZw?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-10-19T18:43:37+00:00",
+      "description": "India: While 74% want recycled-plastic sachets, only 23% will pay 10% more BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "74a9b57a9c822d36",
+      "normalized_title": "india while 74 want recycled plastic sachets only 23 pay 10 more",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "Driving Toward Circularity: Transforming India’s End-of-Life Vehicles (ELV) Ecosystem - Auto Recycling World",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYXZjNW1Xc0tmRmNvMXRXQnRuVDJmZTdnWGp1bzhMaDhsb1BoZkVGeGxnSHQ3UFZFWW9tSnJIemExT21XWVRocVFFcC1xMU9RRmRsX0lxQWZjWG9BNVNkdUpONUN3djhFdHc2blNmX1BzSzJQZUNPUEFTUTAxLWg5ZEFTT3l4cDJNbGhOOWI0MERsRmZaT1dHOGVFUVVzSDRiQ2NTem00Nzd6dm5qc1NlODdVbw?oc=5",
+      "source": "Auto Recycling World",
+      "published_at": "2026-10-19T13:22:34+00:00",
+      "description": "Driving Toward Circularity: Transforming India’s End-of-Life Vehicles (ELV) Ecosystem Auto Recycling World",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6c885a46999babe7",
+      "normalized_title": "driving toward circularity transforming india s end life vehicles elv ecosystem",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's Recycling Industry: 4 Stocks to Watch for Long-Term Growth - Trade Brains",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQemZBNW5JNHJ2SHotZGlPSV91UUZmVloyRzhfbHBRbHByX3F5RGc1UnNuUXV4cV9uT3NRNmZfQmdIdkVRcWVMc2xwV1VLa2VGMTk1bnM0dS1qQ04zd3c3dEIzZ0s4b1NGQ3l5R0Fvc3JHbUFjeEQxSUZTcXJ2VEhGblFUdG9CaWRGU2F5a2FxWUoyOVdVYjh0cUlIclBLQlZNaFB2cExkUXV0LVdWMDIzTUVkMFRZWTM1MTRxbFFLYzdfM1FneVloRWVsVjJydS1MU09mOXBqNkJvVVE?oc=5",
+      "source": "Trade Brains",
+      "published_at": "2026-10-19T13:00:04+00:00",
+      "description": "India's Recycling Industry: 4 Stocks to Watch for Long-Term Growth Trade Brains",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4523cb67a498c2d4",
+      "normalized_title": "india s recycling industry 4 stocks watch long term growth",
+      "origin": "google_news:extended producer responsibility plastic India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "How Artists Dhiman Sutar And Femke van Gemert Turn Plastic Into Durga Pandal - The Logical Indian",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOYVdUWElvZ2NiUFh0U1BZTFRBSWxlSm5uMXZVSkYtV3FRWG5RczdoOUJ0X01MOEdjWkVyT1dwdnRSTXhuQWR4RUY0RFpZSGFRcEVNTl9CX0F6Q2dTOWNuLWVEOHgtdEVSR2VTbjAwVTFfUmdjTHdPZzdSQTNOVWk0Yg?oc=5",
+      "source": "The Logical Indian",
+      "published_at": "2026-10-18T08:07:35+00:00",
+      "description": "How Artists Dhiman Sutar And Femke van Gemert Turn Plastic Into Durga Pandal The Logical Indian",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fac7a0f224d3129d",
+      "normalized_title": "how artists dhiman sutar femke van gemert turn plastic into durga pandal",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
