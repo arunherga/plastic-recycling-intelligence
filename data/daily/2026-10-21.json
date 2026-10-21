@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T07:59:17.240563+00:00",
+  "stats": {
+    "collected": 494,
+    "after_topic_gate": 35,
+    "unique": 11,
+    "new_since_last_run": 1,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (351 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "India’s Growing Waste Crisis: Plastic Pollution, Landfills & The Failure of Waste Management - tatsatchronicle.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNek9HdXBkd0dEZlFBN1lwN1hmc29EZTN2TXBNbFJOUDJiUW9ubFlkcjAxVzJWR05rcVJjeVpQaHk1Qnk0b1kxUlViY3FNZjgya01FU2tyQnF1dzIxV2cxRzEwUUNWSEYtWXVaT1pzQi1GcWg2dGZGeVIwaWF6SzFRZEVGSWNEcFAtWjl5QzRLcUNwRF9JRXM4VUNzRTZDcTMydDZJQlZPa08teW5YUEZPTEtheW02Wk5VZDJDVHRDa2Q?oc=5",
+      "source": "tatsatchronicle.com",
+      "published_at": "2026-10-21T07:35:45+00:00",
+      "description": "India’s Growing Waste Crisis: Plastic Pollution, Landfills & The Failure of Waste Management tatsatchronicle.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4b37a6069200865d",
+      "normalized_title": "india s growing waste crisis plastic pollution landfills failure waste management",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    }
+  ]
+}
