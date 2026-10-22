@@ -1,11 +1,11 @@
 {
   "date": "2026-10-22",
-  "generated_at": "2026-10-22T07:56:28.775736+00:00",
+  "generated_at": "2026-10-22T11:43:28.489234+00:00",
   "stats": {
-    "collected": 476,
-    "after_topic_gate": 43,
-    "unique": 15,
-    "new_since_last_run": 6,
+    "collected": 472,
+    "after_topic_gate": 39,
+    "unique": 8,
+    "new_since_last_run": 2,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,17 +16,63 @@
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 587738 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 586290 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (333 items)",
+      "google_news (329 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "In 2004, Florida researchers used 36 recycled oyster shells per reef mat, helping restore Mosquito Lagoon - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQWUphZ1dlUVpXalJfUEN2RS1TU3BlcXF2S3pDX2d3SHd5NzdrUHotWldSblZmemVnT1NCSHNHYTBrMDZuNzB2UXZ4R0lQTWZ3cW1mNzZ2OEFBZFlBcldVcm0zcFprOWRybEpNT3BldmhGMUd4UmNZSW83dFd5M2pTMk9lVVFmVVNvUW5qN1lScmxDUkhkRTEzTDlvdTdzR3lhckdsQzJZZTNiN0NJWEdpb1ZEVnhvakx6Q1ZEU01lc3RBRXcxeG0wN01uVU82Um9hWmpDeU8zUFVmcHV3Nl80LUdQQl8ydFhnMlY3cTZtaTdBWXk0TGhONmo3S1VjTU9TTzZ2X0k1MlFyQ1JlWEpWMGo2dzBUNEpTa0gyUGJ2VHpQSGc3Vi1MN2xoNm42YVNRZ0dfR3RLaHdRQ1dyeGlLdEI1Tnc4TzVD0gHOAkFVX3lxTE1zTUZYb0dxcnVuVU5JVWFmUTJZZjhnZ09kbmNuRnJ6SEN5VTI1U1VJSHExQWJqbG1hZ0V0Q1FjVGpiZmdrXzl2Q3JZclA0U05pYms2bF94c2I4T0hkZ05YU04wRGRrQnNORWFTZnBpRUs0TVFDWXk5N2JjTDBXbG5FY0JvN1AtLUlyYnlrNnl5OUtLRHR2d01ZT3pLTDg2VWtEUXJvQy1jUHhHbFRFandiUEg3MjhmRndfalM2VTVaNVgyenVhM2lrWllxdE9NWkdsdmlOLXJ0MkU1NUtVdUtPX25DbGlkZW5EMy1aZzlFTWdBZ0VXMUlMQU00cTl6MGNna01QRVFBc2JnbkthUDVnWF9VSDJ1ekNybHBEOEZYOFA4ZXN3ZmRSN1ladmFzbTlFek05UVdxUFd6bzJOMHhlc29wUGZ4cXl2V3ZKalE?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-22T08:15:00+00:00",
+      "description": "In 2004, Florida researchers used 36 recycled oyster shells per reef mat, helping restore Mosquito Lagoon The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8a2136fb9dc47321",
+      "normalized_title": "2004 florida researchers used 36 recycled oyster shells per reef mat helping restore mosquito lagoon",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "JK Maxx Paints bets on recycled materials with JK Naturals Aura - Indian Television Dot Com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFp2TkxHcndldDFrblFaeU4wZGM2dnd5N2VRVzE1bmdVNjV1bS1IeE5EODlXOUNrNXRIZm85aGYwNjl2NGlLTFQ0ZHhkUno2UGQwNVFycHFnY29ieDZwbFNwTWhORmlpZTFUSXhTb3R4eUNpZlhoWFlTRTRjRjdWcUJyTTJCb00tbTNCTlFGT0NfcWJzeUludlBjSXU1Zw?oc=5",
+      "source": "Indian Television Dot Com",
+      "published_at": "2026-10-21T09:59:50+00:00",
+      "description": "JK Maxx Paints bets on recycled materials with JK Naturals Aura Indian Television Dot Com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a9d1872214f407db",
+      "normalized_title": "jk maxx paints bets recycled materials jk naturals aura",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Anandana - The Coca-Cola India Foundation Brings \"Maidaan Saaf\" to Durga Puja Festivities with Reusable Tote Bags and PET Bottle Collection Drive - ANI News",
       "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPeUdEZVJ0NUljSVFVWTliOVlqX0JhZ2RfLVVxTkFTbjZ2cWxkS205TFBMb1Z6WkNzTmp2RzhKc2hrNzJ6QWlmSW9aamNSYWhCUnBVUVJnOUNqWkFvdndnUnJvSy05NnVHNU5BUFFmeU5pWERqWmZfN3ZHYnllSDg0dXFCTk5DZ0dibVFJUkl5d0FjdFBIc20zWmNWdEFVSFgyS3RlX0hjeFprR2t4MlpzVFRrbHpJTTR5dW9DelRPZGVnLVZyTzlibkpGczl2WldJU0FjenYxd0dnS3ZYUzNKR0Z6UnM0OHViUk5jRmpBUWpKOFB4Sll6UTRPT1E0UHdvZFhyaDhKSE0zOXZScDlpTHJiWnh1YnAtUTgwQQ?oc=5",
