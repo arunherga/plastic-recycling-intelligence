@@ -1,11 +1,11 @@
 {
   "date": "2026-10-23",
-  "generated_at": "2026-10-23T07:55:29.365396+00:00",
+  "generated_at": "2026-10-23T11:31:54.567108+00:00",
   "stats": {
     "collected": 478,
-    "after_topic_gate": 46,
-    "unique": 19,
-    "new_since_last_run": 5,
+    "after_topic_gate": 45,
+    "unique": 5,
+    "new_since_last_run": 0,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -17,10 +17,7 @@
       "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 591862 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 582897 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 591175 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
       "google_news (335 items)",
