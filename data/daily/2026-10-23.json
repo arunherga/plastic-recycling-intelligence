@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T07:55:29.365396+00:00",
+  "stats": {
+    "collected": 478,
+    "after_topic_gate": 46,
+    "unique": 19,
+    "new_since_last_run": 5,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591862 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 582897 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 591175 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (335 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Andhra Pradesh: Ensure plastic-free Pushkarams, says PCB chief - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOGtIMFdvNk1SX1JteWd4Zk42N1RfU3NLZkgySkxCNlUtWVNsOHhEQ3dIS0F3Sk9TQUhDaGpoQWhYRC12UWQwQmVpUmlpd3dPU1ZoV1hzQzBQX0VEeTVJLVJYUUs2UVFpNFJmeUZwcmJPbDR6cGhrRzFKMFVtU3k3YXFqQ3BuRG5ZOTc1dEQ1QV91NFpQd3RTS3BkUm9MRUpCb0tkRzdWbDdGZnJaZEhWWFF2NHpSM0hPT1FKekFvaFQ3MDk1N1N5ZWc2enBjcmRXbXNB0gHTAUFVX3lxTFA4a0gwV282TVJfUm15Z3hmTjY3VF9Tc0tmSDJKTEI2VS1ZU2w4eERDd0hLQXdKT1NBSENoamhBaFhELXZRZDBCZWlSaWl3d09TVmhXWHNDMFBfRUR5NUktUlhRSzZRUWk0UmZ5RnByYk9sNHpwaGtHMUowVW1TeTdhcWpDcG5Eblk5NzV0RDVBX3U0WlB3dFNLcGRSb0xFSkJvS2RHN1ZsN0ZmclpkSFZYUXY0elIzSE9PUUp6QW9oVDcwOTU3U3llZzZ6cGNyZFdtc0E?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-10-23T03:21:00+00:00",
+      "description": "Andhra Pradesh: Ensure plastic-free Pushkarams, says PCB chief The New Indian Express",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2b2ecf1fb5f03b2a",
+      "normalized_title": "andhra pradesh ensure plastic free pushkarams pcb chief",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "From bankruptcy to Rs 12,000-crore recycling empire: Rajat Agrawal’s remarkable journey - Daijiworld",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XY3d1WU81UUJTaEZicnZabE1ZOFVSby1XQi10RXlBQU5qSGtEamZIWFpjRVdfbVNTZW5QUFU2VVFzU0Q2enVLbFcyOWY2Q1pIT3NjbFJNbG5fUkY3ekhNdlRuUXFpVzhmRm5DMUM1MklWNHdHVXV3?oc=5",
+      "source": "Daijiworld",
+      "published_at": "2026-10-22T02:52:37+00:00",
+      "description": "From bankruptcy to Rs 12,000-crore recycling empire: Rajat Agrawal’s remarkable journey Daijiworld",
+      "location": [],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2468c3ee09b2f9b9",
+      "normalized_title": "bankruptcy rs 12 000 crore recycling empire rajat agrawal s remarkable journey",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bhansali Engineering Polymers Q2 net profit jumps 54% to Rs 62.46 crore - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNmgzQ1FZbWhWbW9FNHU0MVpPV3JxNjFJVUtfNjg5N1BnZzNrWTR2Wm40TzJoY1p0V0hyUFI2WWNKVXJFdnludmtlNTBMRzNydXVoYURhQ1QyQjJ0OE12Z2pGd0Z1M0NKZkpQcnRNN2Z5alQxN1dQNnlGVi1HQUJmeFlteHlvY19KU1VyaXhWS2JIWDlZZ19ZbzhEXzNTYU9YdUE0MnhtNkdlR05Rb0hoc3RVNGJ1VHNJaWJaeWF6OTdZclnSAcoBQVVfeXFMTzF6b3k4LW1sZDVaSjFpcThXWEh0UVI0SU81aTdWS0JabWlNaldMVzh3dzd5SGV4X0tFTmRwUkVnQmx0NlVidkg1cG5RaGVmX3Z5MjIzN0VoaDBGNTRiUm1NTnc1LXVRMHN5WjJ6M1FoSml2WnZHaWU5VVktMGtzZ2dxWURxVTJDQWFxc1JaV0pjUHk4c1ZoTzE2cUxpZ3J2QVgzdzRPQ0FvWmxvaWhfV2d0b0lrbzdqTU54cjNNdGJGYm9mdDJTamJ5QQ?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-10-21T13:18:45+00:00",
+      "description": "Bhansali Engineering Polymers Q2 net profit jumps 54% to Rs 62.46 crore Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "36af6a639a61a50a",
+      "normalized_title": "bhansali engineering polymers q2 net profit jumps 54 rs 62 46 crore",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Rikayaa Greentech's Tin Recovery Patent Highlights India's Recycling Potential - ChemAnalyst",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUGkxa0o1Q2pIbnlXbjYtdE1BYUg5VnVubG0wUzZHOW14bmg1OHQzdnNKRzZvZ0wybnBLZHpzYmR4VGZKdF9reWlfT2I1WjVhUURFOElNNjl3Y0xwWVlTdXZfR0pIbFRfXzVHNE91eWtRUTlMUzZITEp0amZwSUxhNWxDZmlXTWRpSVZuM1N1bWFCM2xUdDFJaVpGQXNEOEpENTlRTjVWejNiV3h2djJXcTVQaHZYQQ?oc=5",
+      "source": "ChemAnalyst",
+      "published_at": "2026-10-23T06:25:54+00:00",
+      "description": "Rikayaa Greentech's Tin Recovery Patent Highlights India's Recycling Potential ChemAnalyst",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3d2d805dc9e3e234",
+      "normalized_title": "rikayaa greentech s tin recovery patent highlights india s recycling potential",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Environment Minister Bhupender Yadav highlights waste processing and recycling push in India - News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaWVzaDNxMHQ4ZkFlMy13eERkMUdXLU4xbjZIbWh6U2FTbUtfbzZfV3lBcWlKUzUySjh3bDVCRXlEaHRwRERUYVRHSEtBRFdxb0MzQkxnOGhxQkp1TzJQZUhqS3hqNFIxQVZlcGt0Y1B3TjFMM1pqTmNNWXZZVFNseTlsd1R1emNuRFNLN21zNnU0N0hmT2F2NmZDYVhwT0lVNmxybjlrUzhjbHhLRmZBNlZpM09sZzJJLWc?oc=5",
+      "source": "News On AIR",
+      "published_at": "2026-10-23T03:09:41+00:00",
+      "description": "Environment Minister Bhupender Yadav highlights waste processing and recycling push in India News On AIR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d25ec0b7763e8ee4",
+      "normalized_title": "environment minister bhupender yadav highlights waste processing recycling push india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    }
+  ]
+}
