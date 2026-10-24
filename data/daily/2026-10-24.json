@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T07:35:41.964328+00:00",
+  "stats": {
+    "collected": 471,
+    "after_topic_gate": 43,
+    "unique": 17,
+    "new_since_last_run": 2,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled plastic granules India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 603039 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (328 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Jason Momoa launched a water brand to fight plastic pollution; after reporting more than 6 million plasti - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMijwNBVV95cUxQNVE3UzY4d2xQYWZ4aDlRd3BSVnBKSFYtcmczMXZ3ZDRMajloM3FzaE9LOEhzY052NkdPaWNMUFZ1d2REWU1RZnpxM0kyblh0OEo0UmRlUE9GaFZzRDlDRFF3dGM3WnVMcFhqY0JYempaaTZpQ3J5V0hkQ1JWbUZsa0pNaERJTVBNSVZhWWlucElHNk8xNVNtdjdvQ2FxM2g3ZEwtQU5BcXh3Q1A0Yk1fVWV4LXFDZ3ROWGJmV0htY3BNMU5lc01VQWhqNG1yZzhVYTlsS094QkpSNDVDNDVKZFRKcEtyVlBMRDFsN2dTUXp2TW43cHRUd0NHMDFacVRIdTFYMWZJV291RnpLTFhWSDFvcjJWZkxmTWZFVjVfakNsNG5DSlJlMEZLZmtWdjdrd3paWG9sN2tnNTAzY1VGX05aeU9ZcDBPYzdfd2tKUFBIWlNaU0dBY1EtUk1SVGhvdjA4TGZTYnN2MGNNNTBJLXF0aEVKQmVyX2dqRm5iakRvaWFWMk82UHVOSkFfbDjSAZQDQVVfeXFMUGZGVFlmX3hBR2E3VXRYT0o2c1lpVEZXUEowc1dOZVlJd0ZzMVVPUVNBSFdmeEpaTHVPeHZPWjUzcEp0STdITTN3emNuaHJ1WGc4YkxkRTEwaXl4emxkMmd2WFdHdTFxWXliaGJ6MFp4SzZEbk5iSHpRUy00ajVZcEtYaW1ZLUNTNFZOQkE3clRINnotY2dSeE8wMVVkZ3VqX3BGRl84LW00VGpFcF9SMmp6MGFjUzk5RlBPV2h2TVhGa3RCZjhzYUNsbkJWdE1sRGdVdE9EeS1uYmtiZEtUcG1LQTljWHR0S3pnS0pwazAyTnVieWZPR1BjMTJObVZoakw3RkgwdWtLVnJuaDg5TUMwVFNqODVXa1BFSVp4Ykw3VTl3LWUtRnVpeC11bVZwYUVrcjBrQnl6MFlwMzVLZTBaTWNyeHljNk56bDI1bkJWUXFFUWdkbEVXM0FaNjMwdjd4YnhfSnA5dHlaWlhpZF84aTU1VFNWaHVkSklMbzNpYmJxTXN0ejhVM1hOeWlmdjVCZ0I?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-23T18:25:00+00:00",
+      "description": "Jason Momoa launched a water brand to fight plastic pollution; after reporting more than 6 million plasti The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e4064592a883c66e",
+      "normalized_title": "jason momoa launched water brand fight plastic pollution reporting more than 6 million plasti",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Centre bans reuse of single-use medical devices across hospitals; flags recycling of disposables - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZVZScDRTTGRRSl9IMEtMLTZUWmxxZzVCOHVadnE3TmtRYzhjMTBFc0VPNzlBeEQ1WnFfYkVaMktTa0cyOGIyeUxxQnRycWtWbFZnRjRVYW1VY09IMFpkSkw1UnV0UV8ybXVLQnR0dDBkQy0yRXBIYlF5VG9vWnc0aGFJMC02Y2JxRlktaTMwM3lHbGhBNGlOWENPdE1ibWZmd25UVUNNWHo2YlJOWDdEckNreFdicGt2MzZSMnN4UjJZZGoyWlBSTDR5Yk5uNVFnbno5WFpGTFBwZXFVRzczdHFnSHRXdGZQM1FQRGFZQThkcndkcUHSAfsBQVVfeXFMTnY5UWZLN3E2Zm0tVjA1ZDZJVTgzWTNZb0UtS0tsd3l0VTVudTd3UjQxNzRiMGJkNlFsYzFjSjZuX3Q1dEtBR1hkZ2IzWlhNY1RrZjdXSlFObEFqS3g0dGFTTkdrVzRDeTlsVFVFZHE1ckJNOVBRU0IwSE1fTUJNVHlPdVRFMWZOWVJ4aGZuUXRNSjRibGdlTnNHWDN3QXZqem9QVnlHcWRvVlpHNE9zX0dHdTJZQ0tEcmpyTGlkUHhrdGFlb2twQWhIZ1VHbVIyVEpyUjZSanBIc3YyMXFrYm0tUktkWV90U0s4Wl9uS1NYOHNjQWx1UFJkNDA?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-23T19:07:00+00:00",
+      "description": "Centre bans reuse of single-use medical devices across hospitals; flags recycling of disposables The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "97e3d5e16206827b",
+      "normalized_title": "centre bans reuse single use medical devices across hospitals flags recycling disposables",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
