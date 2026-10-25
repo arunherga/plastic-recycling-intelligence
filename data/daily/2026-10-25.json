@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T07:48:26.745248+00:00",
+  "stats": {
+    "collected": 471,
+    "after_topic_gate": 24,
+    "unique": 12,
+    "new_since_last_run": 1,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled plastic granules India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling startup India': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (328 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Recycle route: Durga pandals to host Jagaddhatri, Kali idols - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRURPOWxQNVFWLTNrOGpoQUQtOVdIWC1VbkNCSW0zNTdNSDBNX2V0eGlReTFQSFc0MmtNZktZVGk2MktEZzZRaVNjaHExSng2aFowaDlDVmVqSWRsV0loVzJjMkhrZEtLOEZlZkVES2wwa1lXRkF0cUlHLXI3eGxBRl8wYTFNMWZTUF9yX2xFVGZRMHJOanc5QWwyRDUxS2x2b0dhRm83UXhLUXZTSzZlMjg4Yl9VcWE2allJRG1iTWp2cVk0eGJBN25OdjN1QdIB0wFBVV95cUxNdzhQSFhDc2tMQ1hKUXBSRC10TTRIdWFuanNBTEY2SEE3My1GSWZ3YzBBTGdkYnhyRWJ1cHV0NXdqWktNWEUtTnBoUjR4ZGtQSmxoTmUyTmwwZ2I3UFNRdEhLd3NNUFJKVGpFWjJzeHQ2Zy1fYnhPQU9DVTJ1em5SZ3Q2a0xCVVFNZWQwR25YWDRBMXNUUlRIdHhWc24zVlBLbndQbnJTZW5ZcnluYmdiYnVhSUNsdkhhWVJ1d1VxSEI4c3FHRGpLR0NyS2ZySllNUGtF?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-24T18:37:00+00:00",
+      "description": "Recycle route: Durga pandals to host Jagaddhatri, Kali idols The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a7e6cc4edd633ec6",
+      "normalized_title": "recycle route durga pandals host jagaddhatri kali idols",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
