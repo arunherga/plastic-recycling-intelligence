@@ -1,30 +1,58 @@
 {
   "date": "2026-10-25",
-  "generated_at": "2026-10-25T07:48:26.745248+00:00",
+  "generated_at": "2026-10-25T11:17:35.057425+00:00",
   "stats": {
-    "collected": 471,
-    "after_topic_gate": 24,
-    "unique": 12,
+    "collected": 467,
+    "after_topic_gate": 27,
+    "unique": 2,
     "new_since_last_run": 1,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
-      "google_news: query 'recycled plastic granules India': no results in the collection window",
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling startup India': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "google_news: query 'plastic waste tender Karnataka': no results in the collection window"
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "merged 1 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (328 items)",
+      "google_news (324 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Gravita India and 4 Other Recycling Stocks with High Recycling Capacity to Add to Your Watchlist - Trade Brains",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRERPdFFrN3AtWk9yV2RkQ3llbGZZUnl0ZE1XQ1huZlZaMU1vMHlRemRsWmkyNVBWR3RuWkNtdWJ0Z3U1Q1pwU2xrUHpqSnc5bXpCNzJERW10WjdBYkhFMXlrRXpadUhHay04UzVVdUw0cjVRWW5IbEdWVTRsOXg4dGRfNUxRMGh2Z0ZuRlgtSUsxODlHSXNVcUpGcHR3dm94aWVhQkw0NWMxMEVnOUhPVEZQaVhiMTBNVkRZZnRKbUtQazV3UWJ1bTdzc3ZlelVkSnU5X2NydTBFYUE?oc=5",
+      "source": "Trade Brains",
+      "published_at": "2026-10-25T10:31:37+00:00",
+      "description": "Gravita India and 4 Other Recycling Stocks with High Recycling Capacity to Add to Your Watchlist Trade Brains",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "545757c58ffe9055",
+      "normalized_title": "gravita india 4 other recycling stocks high recycling capacity add your watchlist",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
     {
       "title": "Recycle route: Durga pandals to host Jagaddhatri, Kali idols - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRURPOWxQNVFWLTNrOGpoQUQtOVdIWC1VbkNCSW0zNTdNSDBNX2V0eGlReTFQSFc0MmtNZktZVGk2MktEZzZRaVNjaHExSng2aFowaDlDVmVqSWRsV0loVzJjMkhrZEtLOEZlZkVES2wwa1lXRkF0cUlHLXI3eGxBRl8wYTFNMWZTUF9yX2xFVGZRMHJOanc5QWwyRDUxS2x2b0dhRm83UXhLUXZTSzZlMjg4Yl9VcWE2allJRG1iTWp2cVk0eGJBN25OdjN1QdIB0wFBVV95cUxNdzhQSFhDc2tMQ1hKUXBSRC10TTRIdWFuanNBTEY2SEE3My1GSWZ3YzBBTGdkYnhyRWJ1cHV0NXdqWktNWEUtTnBoUjR4ZGtQSmxoTmUyTmwwZ2I3UFNRdEhLd3NNUFJKVGpFWjJzeHQ2Zy1fYnhPQU9DVTJ1em5SZ3Q2a0xCVVFNZWQwR25YWDRBMXNUUlRIdHhWc24zVlBLbndQbnJTZW5ZcnluYmdiYnVhSUNsdkhhWVJ1d1VxSEI4c3FHRGpLR0NyS2ZySllNUGtF?oc=5",
