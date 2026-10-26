@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:06:14.788477+00:00",
+  "stats": {
+    "collected": 474,
+    "after_topic_gate": 34,
+    "unique": 15,
+    "new_since_last_run": 4,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591488 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (331 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "CR plans 5 recycling plants to tackle daily station garbage | Mumbai news - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTG5nekdTZzNkM0JBZEpEQzY3bmM5TUNVTWNidC13QXZrNUdEakRYRkxKZFB5NGtpeHlSejA5VU5HaG45TGdQNVVNNmVBN0V6VTd2Q2lBNmswcjRoQWtma2hkS3l2RXlTcWlsbmtSUVFvV1FHN3Rxdk5odE9neTV5bmNFZlV4VFdDalJIMEdGa2gxUmtpU2dWbmNpS2FQeTBSY25aMGxZYVdDR2FQbW1xWXprRVRlUUpiNTZfUkhTN2dfZ2dUamlDQ2lR0gHPAUFVX3lxTE9VWTQ4TDVzUFJMSUcxbXVfdWJ4X3BzY0NTTTVsekd3R1hicTdibHUyNTZkUWpQV1dRQTlJTFU1M19lY2lORXNPNFhKbUpLUHdTNjZwNnVhbGdSWmlYaUt0X2duQngtNWVZX0xuWkwtdTNZSEUzQUNVY1BncVppOVZmSFJWc0ZySVVEM1pnOF91a0dqenMxcUpVa0gxUHp5bl9sbWZwTnRWSGZRUjgtbkpwd0JpdXVESEczZ2ZfbjRYX25sZGpCSi1TTXllUHVMMA?oc=5",
+      "source": "Hindustan Times",
+      "published_at": "2026-10-26T02:17:40+00:00",
+      "description": "CR plans 5 recycling plants to tackle daily station garbage | Mumbai news Hindustan Times",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b9481bd0896b18f4",
+      "normalized_title": "cr plans 5 recycling plants tackle daily station garbage mumbai news",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Tinna Rubber (NSE: TINNARUBR): Recycling Build-Out in H1 FY27 - Kalkine India",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPX1VKUEZTS21yVGlXWURUMUpvYzRSd0RhWXlfRnZYN3pLWVloLWlvLTl3SE8xaFlIWlZVRDJtdjFYSUFYSF9yR0Nxb2M5UWZVTUpMa19YZXh3R3h4V2pnMm9JM0I0clQ5TDNac0FEcEdHNXBMSUU0TE9uYjV1X0huakpzUVdjd0tTS1BqSHNrN2tSdVk0R0JmMEI5MVNuT0JoR0E2c2YwOGhwVnBwMmtJcndyNDNVNFU5Ym9VcEZPRjVfWGREcE0yeUQxT2kwdVBSd0N4Qw?oc=5",
+      "source": "Kalkine India",
+      "published_at": "2026-10-26T04:33:00+00:00",
+      "description": "Tinna Rubber (NSE: TINNARUBR): Recycling Build-Out in H1 FY27 Kalkine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "69061fb94d4ba4c2",
+      "normalized_title": "tinna rubber nse tinnarubr recycling build out h1 fy27",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Needs Stronger Battery Recycling Rules To Support EV Cost Reduction, Says Jai Asundi - BW Auto World",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOTGxqTHB4SHNBM2V4dUthb2hpRFNIOGJFeDlIS0xyei16ME9JdEhJV1FEM1FOTGY2Qk9weXBHOGtsLXU2cU05S2UyaUlUa3NpV2hsTzZaMzlmOGFMNTBnSlB5TnNSSlppdElaQ2lVcHRwOW83SFBYT3E3dmxCc0loYzQtRkF2bG43aHFBMUVJYzdkdG94VS1IbDVjRUowdVRydDgxSEdxak5PM1ZzeENpd0NaQkV2YURjS1FMM2k1WjItbzdGejN3?oc=5",
+      "source": "BW Auto World",
+      "published_at": "2026-10-26T04:30:51+00:00",
+      "description": "India Needs Stronger Battery Recycling Rules To Support EV Cost Reduction, Says Jai Asundi BW Auto World",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "af694b459c68061a",
+      "normalized_title": "india needs stronger battery recycling rules support ev cost reduction jai asundi",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Sanctioned tanker gets recycled in India after getting turfed out of Bangladesh - TradeWinds News",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUjFZNFBkMThKXzFlUEU2bjJJdXlGajREZGxMaUFscGdjQmZ2M1cyUndtcGNpZXptSHA4SXlTbDFHNnFBSVh1ZDhpUkxmbVhiOUNLVFI3c0piU2Jtc19ISkNNRUY5SHd2S21yOVBRZFhfSmJGSkdYQzk2blNLWW0tb0FkVTNaT0owSWtEWEVBZmFDZ19LSjNrbFBmcVF2a0RTY0RJU283eWtiMUQwSWw2Q2dCcVN4WktyOEJ0bTlEaHNIaHltd0V2bjZB?oc=5",
+      "source": "TradeWinds News",
+      "published_at": "2026-10-26T03:39:58+00:00",
+      "description": "Sanctioned tanker gets recycled in India after getting turfed out of Bangladesh TradeWinds News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "066f166ca2d8995f",
+      "normalized_title": "sanctioned tanker gets recycled india getting turfed out bangladesh",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
