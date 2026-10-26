@@ -1,30 +1,55 @@
 {
   "date": "2026-10-26",
-  "generated_at": "2026-10-26T08:06:14.788477+00:00",
+  "generated_at": "2026-10-26T12:55:14.883937+00:00",
   "stats": {
-    "collected": 474,
-    "after_topic_gate": 34,
-    "unique": 15,
-    "new_since_last_run": 4,
+    "collected": 452,
+    "after_topic_gate": 26,
+    "unique": 5,
+    "new_since_last_run": 1,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    ],
     "source_notes": [
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
-      "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 591488 bytes, 57 links, markers: canonical, c-wiz"
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: HTTPSConnectionPool(host='packagingsouthasia.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='packagingsouthasia.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\")))",
+      "merged 4 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (331 items)",
-      "rss (140 items)",
+      "google_news (319 items)",
+      "rss (130 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India's energy storage story is incomplete without battery recycling - ET EnergyWorld",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT1JnTnA3YmhMTUJodE1FdlczZlA2WENNLVcxamdWc25oR3NBbGNVcEZQZ1kybVBKT2ZZR3RiMVppSFN4NHdfWDRKTU1IYkloTGp5bzRmZTRCUG1qQmJYQ1l6aEYtMnRSUTNxYWtYXzhrY3lhbHlMakdrVk1KUElWMHVWLU9DLXo0VzFscktvTk0zYU0xUmJjZ2VNOEJqTUh6WVp3TUZmVW1RbHF1Rm1YQzRuTWV3VXo5WFZIWnlFZjVmMzB6eVd1cVB5azfSAdIBQVVfeXFMUEY3Q0ZmbWxqRXpqT0hpby13X1U1V1Z5SEJ0cE1fOGRHMGd4V2xBZWdvcWQ5QmtWWG9ZQ2NwcmVDWGgyNmlDUWdtNXRSS1h3TWp3N3RJRE92ZXRBaVdxTHJBT1kyLXNKeGNJZmQ3OTd4YlBJbTdtZERwUzlHYTNlQlp4WmwySXBsbU1rRWxJb25GeXQtOXlvRWo0ZVBjWHUxWl94Sl8tZ21kbWVfY1V6UzhJelBZa05iMUR5RUt4bjJ1X3gwbHpfOXZ0ZjNEb0hmUlhR?oc=5",
+      "source": "ET EnergyWorld",
+      "published_at": "2026-10-26T08:57:51+00:00",
+      "description": "India's energy storage story is incomplete without battery recycling ET EnergyWorld",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e752b79e275131b8",
+      "normalized_title": "india s energy storage story incomplete without battery recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "CR plans 5 recycling plants to tackle daily station garbage | Mumbai news - Hindustan Times",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTG5nekdTZzNkM0JBZEpEQzY3bmM5TUNVTWNidC13QXZrNUdEakRYRkxKZFB5NGtpeHlSejA5VU5HaG45TGdQNVVNNmVBN0V6VTd2Q2lBNmswcjRoQWtma2hkS3l2RXlTcWlsbmtSUVFvV1FHN3Rxdk5odE9neTV5bmNFZlV4VFdDalJIMEdGa2gxUmtpU2dWbmNpS2FQeTBSY25aMGxZYVdDR2FQbW1xWXprRVRlUUpiNTZfUkhTN2dfZ2dUamlDQ2lR0gHPAUFVX3lxTE9VWTQ4TDVzUFJMSUcxbXVfdWJ4X3BzY0NTTTVsekd3R1hicTdibHUyNTZkUWpQV1dRQTlJTFU1M19lY2lORXNPNFhKbUpLUHdTNjZwNnVhbGdSWmlYaUt0X2duQngtNWVZX0xuWkwtdTNZSEUzQUNVY1BncVppOVZmSFJWc0ZySVVEM1pnOF91a0dqenMxcUpVa0gxUHp5bl9sbWZwTnRWSGZRUjgtbkpwd0JpdXVESEczZ2ZfbjRYX25sZGpCSi1TTXllUHVMMA?oc=5",
