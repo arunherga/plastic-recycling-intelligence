@@ -1,11 +1,11 @@
 {
   "date": "2026-10-27",
-  "generated_at": "2026-10-27T08:22:02.028728+00:00",
+  "generated_at": "2026-10-27T12:02:46.725496+00:00",
   "stats": {
-    "collected": 443,
-    "after_topic_gate": 28,
-    "unique": 14,
-    "new_since_last_run": 2,
+    "collected": 450,
+    "after_topic_gate": 30,
+    "unique": 2,
+    "new_since_last_run": 0,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -14,14 +14,14 @@
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
       "google_news: query 'plastic recycling Kerala': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 584518 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (300 items)",
+      "google_news (307 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
