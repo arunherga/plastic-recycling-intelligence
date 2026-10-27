@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T08:22:02.028728+00:00",
+  "stats": {
+    "collected": 443,
+    "after_topic_gate": 28,
+    "unique": 14,
+    "new_since_last_run": 2,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
+      "google_news: query 'plastic recycling Kerala': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 584518 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (300 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Mint Explainer | From Goa to Uttarakhand: how states are pushing for bottle recycling - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOQVZmYkJqZy1qbHB6d1FFTlN1bjFoNE9wTHhzQ0VGcjhHRUt6enNuSHNwa2w4eENCNFVxWTI1VkJPOXhZajRqSnVUYms1RW1faVBwRXBLcjRtcUEtaVVvRGdjQXVveTAwdnNhMXhmYXM1U3pkVzk2dkhWd3VxQVZHZ0loV09hQU90ekk2QTlyN0N0UzhlbDc4Tk9uSDVOdndqU3MzNE1XdkQ?oc=5",
+      "source": "Livemint",
+      "published_at": "2026-10-27T06:15:38+00:00",
+      "description": "Mint Explainer | From Goa to Uttarakhand: how states are pushing for bottle recycling Livemint",
+      "location": [
+        "Goa"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a34e42fc69ea2795",
+      "normalized_title": "mint explainer goa uttarakhand how states pushing bottle recycling",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Garware Hi-Tech Films’ specialty film portfolio",
+      "url": "https://packagingsouthasia.com/events/loupe-formerly-labelexpo/garware-hi-tech-films-2",
+      "source": "Packaging South Asia",
+      "published_at": "2026-10-27T07:27:39+00:00",
+      "description": "Garware Hi-Tech Films, a global provider of films for diverse applications, with expertise in polyester films (BOPET), has confirmed its presence at Loupe India 2026 to be held between 29 October to 1 November at India Expo Mart, Greater Noida on the theme ‘Innovation Meets Sustainability.’ At its stand E30, the company will showcase its [&#8230;]",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "85e51630f59fea82",
+      "normalized_title": "garware hi",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
