@@ -1,31 +1,55 @@
 {
   "date": "2026-10-28",
-  "generated_at": "2026-10-28T08:57:48.386587+00:00",
+  "generated_at": "2026-10-28T12:43:57.209970+00:00",
   "stats": {
-    "collected": 454,
+    "collected": 437,
     "after_topic_gate": 33,
-    "unique": 15,
-    "new_since_last_run": 7,
+    "unique": 8,
+    "new_since_last_run": 1,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 592677 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 7 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (311 items)",
+      "google_news (293 items)",
       "rss (140 items)",
-      "government (3 items)"
+      "government (4 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India’s copper strategy needs mines, recycling and overseas access, not just smelters - climate.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZjBxdmwwLVNYN3dxamxBTmpFaHFXbzZjcEVzMEJ5QVMwQlZQelFLVzlYcFp4VnB6dENxaUVqcFdYVjhOZk5CTlJZcllGb0hNUlg4N2ozSVZiUHRtM3dnTmNKZWZZZkJyUTJUdWpkTlhRNV9XejZTVzI4WTZicFpxZC04WE02R3pJWm9OeU9kazh4aWVRWXIxTi0yQ3NpV1pyRF9QMVJKWlFqeXIwMl9fREFIWWhIQXRKanRCWmt6cFVvUWxIS0RCMDdzNDAxbDlJem5GdWcwUDhQQnMxZHk3RURrbUNGdWIwNmNmaEppTkRuWWk5TU9kOVZEajlRUmFH?oc=5",
+      "source": "climate.economictimes.indiatimes.com",
+      "published_at": "2026-10-28T07:34:11+00:00",
+      "description": "India’s copper strategy needs mines, recycling and overseas access, not just smelters climate.economictimes.indiatimes.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a48a0423ad242add",
+      "normalized_title": "india s copper strategy needs mines recycling overseas access not just smelters",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Kochi Corporation mulls waste-to-fuel plant to 'burn' plastic worries away - The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNEVGZDc3ZVhKeFdxM3QyWlVkN3Q4blNqQUFZdUd0REp4VFp1T2NuQWFxNWtyQVNHTkJzOWFOYm41WlBtTlhUenZKVFNBZ2o1NEV3OUVyZEIzZ1ZQeGFCMGxTZy04d09mRTR0SVBXZW1yMjE3Y3Q0ZkpvaFJMTGJpMmNic01mRGcxVzNFUnFIT0htMGYtX3JuZDdHWnl1ZWN1SS1TWTRQOUVITVB3SDQ1R3IwNnZMTzZUdzJtVjdCSlpJb0IxTVhCaXRZdTFwRl9DMUJFUE9fNNIB1wFBVV95cUxPNEVGZDc3ZVhKeFdxM3QyWlVkN3Q4blNqQUFZdUd0REp4VFp1T2NuQWFxNWtyQVNHTkJzOWFOYm41WlBtTlhUenZKVFNBZ2o1NEV3OUVyZEIzZ1ZQeGFCMGxTZy04d09mRTR0SVBXZW1yMjE3Y3Q0ZkpvaFJMTGJpMmNic01mRGcxVzNFUnFIT0htMGYtX3JuZDdHWnl1ZWN1SS1TWTRQOUVITVB3SDQ1R3IwNnZMTzZUdzJtVjdCSlpJb0IxTVhCaXRZdTFwRl9DMUJFUE9fNA?oc=5",
