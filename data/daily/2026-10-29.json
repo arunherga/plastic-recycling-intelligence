@@ -1,11 +1,11 @@
 {
   "date": "2026-10-29",
-  "generated_at": "2026-10-29T08:53:45.696484+00:00",
+  "generated_at": "2026-10-29T12:53:12.854282+00:00",
   "stats": {
-    "collected": 439,
-    "after_topic_gate": 32,
-    "unique": 17,
-    "new_since_last_run": 6,
+    "collected": 429,
+    "after_topic_gate": 36,
+    "unique": 8,
+    "new_since_last_run": 2,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -16,19 +16,63 @@
       "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 595096 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 586256 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 586427 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (295 items)",
+      "google_news (285 items)",
       "rss (140 items)",
       "government (4 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Paper Recycling in India: Sustainable Manufacturing Trends - IBEF",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdGptOHpvX1B6cmpDbFZFTlZjNlFCZ1gteFpKS0N5SFEtNkNMcmJFZkdWV2tzNEtjMTZ0bUg2QmlOV1FuX1RJR211Q1dfeGduVkYxdXRqRTlrVUlmZ2tZUXExd0hFdFp4QWw4VDFvTy1xeXEzTmF0aUxjd2ltWGplc0sxNGEzTkRCc3dVU1V5Q2g5YWNpekRyeGEwdlZQemJlUDd3M080ZklhdURoNWFqNnpB?oc=5",
+      "source": "IBEF",
+      "published_at": "2026-10-29T10:35:12+00:00",
+      "description": "Paper Recycling in India: Sustainable Manufacturing Trends IBEF",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4a8a3a8796ec4e2e",
+      "normalized_title": "paper recycling india sustainable manufacturing trends",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Wood Plastic Composites Market Size & Forecast 2034 - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tNUJKRVlsUUdoRGlnQXdQT2tHS1ZqNjdvbE9fNFFLY2F2am9DelNDeFpkc2F1ODVHNzM2R0g4NXI5aTVFclNoTm1ud0YzWktRaDU2VHFkOXR1Uk16MDNHNGF1MHNoVjJxcVpxY2RrbnE?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-10-26T07:00:00+00:00",
+      "description": "India Wood Plastic Composites Market Size & Forecast 2034 IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fba0014e31914071",
+      "normalized_title": "india wood plastic composites market size forecast 2034",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "100-day cleanliness drive in Gujarat: Crackdown on single-use plastic nets ₹1.2cr in fines - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPckNKYWVzM2cteVkxQlhHTGVGUW80RmdWSkZRUzg1RFFpeFF2Z3dUakhCNU1paWNrZkpnSE5tR3EweWVocTN0VnRwbUxjcnJoQWNmWnhNS1VGeGgxZ2FUZV9COHUtSjNkVG5SdnFFdzB6YW9URDFwQS1pWUJoNTJJZzljeS1BNG15SDhuX1lfbGx5NWd0VmlyckdBZVdzbmxaYnFCMWdxSk9lTXdCM2NMY1hpUVp1TUFEWnhFcDNNejBOZVp4emVwTjVyZDBWYmJ3THJXVmpmZmllem1CaG16bEJOVHBzLXZUS2NCQk1XakVic0FpbzkxcHQtWU43QdIB_gFBVV95cUxPckNKYWVzM2cteVkxQlhHTGVGUW80RmdWSkZRUzg1RFFpeFF2Z3dUakhCNU1paWNrZkpnSE5tR3EweWVocTN0VnRwbUxjcnJoQWNmWnhNS1VGeGgxZ2FUZV9COHUtSjNkVG5SdnFFdzB6YW9URDFwQS1pWUJoNTJJZzljeS1BNG15SDhuX1lfbGx5NWd0VmlyckdBZVdzbmxaYnFCMWdxSk9lTXdCM2NMY1hpUVp1TUFEWnhFcDNNejBOZVp4emVwTjVyZDBWYmJ3THJXVmpmZmllem1CaG16bEJOVHBzLXZUS2NCQk1XakVic0FpbzkxcHQtWU43QQ?oc=5",
