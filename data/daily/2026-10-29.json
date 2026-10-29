@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T08:53:45.696484+00:00",
+  "stats": {
+    "collected": 439,
+    "after_topic_gate": 32,
+    "unique": 17,
+    "new_since_last_run": 6,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 595096 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 586256 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 586427 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (295 items)",
+      "rss (140 items)",
+      "government (4 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "100-day cleanliness drive in Gujarat: Crackdown on single-use plastic nets ₹1.2cr in fines - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPckNKYWVzM2cteVkxQlhHTGVGUW80RmdWSkZRUzg1RFFpeFF2Z3dUakhCNU1paWNrZkpnSE5tR3EweWVocTN0VnRwbUxjcnJoQWNmWnhNS1VGeGgxZ2FUZV9COHUtSjNkVG5SdnFFdzB6YW9URDFwQS1pWUJoNTJJZzljeS1BNG15SDhuX1lfbGx5NWd0VmlyckdBZVdzbmxaYnFCMWdxSk9lTXdCM2NMY1hpUVp1TUFEWnhFcDNNejBOZVp4emVwTjVyZDBWYmJ3THJXVmpmZmllem1CaG16bEJOVHBzLXZUS2NCQk1XakVic0FpbzkxcHQtWU43QdIB_gFBVV95cUxPckNKYWVzM2cteVkxQlhHTGVGUW80RmdWSkZRUzg1RFFpeFF2Z3dUakhCNU1paWNrZkpnSE5tR3EweWVocTN0VnRwbUxjcnJoQWNmWnhNS1VGeGgxZ2FUZV9COHUtSjNkVG5SdnFFdzB6YW9URDFwQS1pWUJoNTJJZzljeS1BNG15SDhuX1lfbGx5NWd0VmlyckdBZVdzbmxaYnFCMWdxSk9lTXdCM2NMY1hpUVp1TUFEWnhFcDNNejBOZVp4emVwTjVyZDBWYmJ3THJXVmpmZmllem1CaG16bEJOVHBzLXZUS2NCQk1XakVic0FpbzkxcHQtWU43QQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-28T18:47:00+00:00",
+      "description": "100-day cleanliness drive in Gujarat: Crackdown on single-use plastic nets ₹1.2cr in fines The Times of India",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "995416f1f57f4238",
+      "normalized_title": "100 day cleanliness drive gujarat crackdown single use plastic nets 1 2cr fines",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Copper recycling could power India’s circular economy - climate.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZXFQNjlwQWw0Z3M2MjhTVWtobEZWZ0hVb0ZTTFBGUU1lNndVSVRFRkxhcmJ2eFFXTUxJTEp0OUxjTW9OV19SWEx1VGRyaVlfME5ubGpleUtDY01RSlY2MF9fR1BTS2xCVXNaQTl3ZFhaeWFjREtQYThRY3k3ZkRxQzU4cFFPWklXd3pyTEFsVkFMMU9QR0V4c1JFZ24yMGtHTTJoMk9tRUw4Q3dhZzR1Z05Uc2U1RWtlQ3R2d2tSQlBGVnMyVHhlTlJCNTNCQndIc0lNNw?oc=5",
+      "source": "climate.economictimes.indiatimes.com",
+      "published_at": "2026-10-28T13:21:53+00:00",
+      "description": "Copper recycling could power India’s circular economy climate.economictimes.indiatimes.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "52668634655c39bc",
+      "normalized_title": "copper recycling could power india s circular economy",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "| PC yarn prices rise in India; polyester, viscose & cotton fall - Fibre2Fashion",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNa3RmWjJ0RjRmNUFNQzBJRXd0cVlIZlhCa1ZYS2s4SXkyZFZLNG1ZTVZ1bEQxODQ4b1NHQl9PUXZrQndsb3ppM3dXWmJOTTBYUm41SHI2Yk5sNWFtMmdwNTk2Umx4cjdHWnhTQS1UbUQwRmh6VmNmSXBYQUhFUTFMV1lObVR2T1ljdjBJQi1Ldm5teklYSjczZ2hheUp2X2JGVnVkZUVIU0lfNi04QmIzNlM5cVkzRjRLMDlYMzVmeWZfUlpvNjBCQmxGbjJwZHZqZ3FLTW9rbmVxdzA?oc=5",
+      "source": "Fibre2Fashion",
+      "published_at": "2026-10-28T23:23:21+00:00",
+      "description": "| PC yarn prices rise in India; polyester, viscose & cotton fall Fibre2Fashion",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "PRICE"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Price / market data"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e9929f0496b84306",
+      "normalized_title": "pc yarn prices rise india polyester viscose cotton fall",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Eco Recycling incorporates ERI India JV with US firm for e-waste - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcG9mbGo1N3o0aTdJWkdRX1RnUVZVQnpxZnA2QjNoY21nVFAzVlpjdU5kRW0tTkVsaFVVVWswbFc1R252b0JVUFBwdk54Nm1lbU9jOTFNLU5UbldDQy1ZUkdvM0k5SFNmSFd4a0djaFRCWjBlOXpSa3pDS1pHcl9reE0zSVU3X2NYRmhfdHduWGxtTWpocXkwWGlIaFdqaFd0dU1qaVJqUmFUNXI3OXhCUjFB?oc=5",
+      "source": "scanx.trade",
+      "published_at": "2026-10-28T12:51:05+00:00",
+      "description": "Eco Recycling incorporates ERI India JV with US firm for e-waste scanx.trade",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f0d99b4324206ffe",
+      "normalized_title": "eco recycling incorporates eri india jv us firm e waste",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "High coal dependence, low share of recycling major challenges in India's aluminium sector transition - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbmxFWUp3X25sNnlpbUk1SU1UYnRqaDdWd1ZwRG5ELWI0aHR4dkJPcF9BT2gybjZKeDc5N24xVElPZjFUNV9RNlAydVZOQjR2cU51aDlIb1EwQ2lpR2xhT0M4b090VFlWQ3VjaS0tVjlfRGNMQkdyWEY1bVdIaHFGdmdKVDlJbEwza243RjhLWmFvRW1ubm92LXI5X2ZYYU9rVkhHcHRUaWJ0OEJVZWNfeC1pR3JmY2Z6WjhLQU5WZFh0dnpaeE1JUG9RSTVVdU1fLW1ocDlJSXhuNUhzMUE?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-10-29T04:04:33+00:00",
+      "description": "High coal dependence, low share of recycling major challenges in India's aluminium sector transition BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d0f3e0ea7a63113f",
+      "normalized_title": "high coal dependence low share recycling major challenges india s aluminium sector transition",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Madikeri Dasara waste volume drops 25% after plastic ban - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeGQ1LW9qREFFUzJvVUdnVGozbFg0S2N5cGZZQzFYd2pidFFUeDBMUjRLYmhGbmF0aGJpZ3ZlZE9wWHpMTEswVlQ3LVd4ZFBjbUxjZjBhTlh1dXVDZGt6UnNKbGlVeG9ZRUppNVI1dUczaVV1UmVOV1JvSXN0RzlxMjhuSjFyTW5qbkQzTVNyMFZzUUFfYUp6MlJwSWJYMHdNVVNpOGF3b29wVEJOaWpHUEhGUlJ4NEF5TGtBR0t4WUN3TzNoanRFbtIBzgFBVV95cUxNLWNVM3QwbkZ0R3duTWV6Nm5BRFhrT0Z0QmVqMC1rYi1RSWJRelIxZkFqSzVoR0d4RU5WVXY2UmE1Wk85RDlFYWk0UUw2MVZJR2xFaEI2NXh2cmdGanJJQlduOGlNVE1XZXEybUJxS0J3bk9td3lfc2lFdFVlWWlvWXZ3UDJrQnpHZUZzMzRkUnhITG5XejBEQXNNck5PMG4yZGllQ0puQmNoX3lkcF9SbF9GS0pYeFNPT1lkX0EwZEhRYTlvX1p0RENTbnJ5UQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-28T17:31:00+00:00",
+      "description": "Madikeri Dasara waste volume drops 25% after plastic ban The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7b1fc3537edb3c36",
+      "normalized_title": "madikeri dasara waste volume drops 25 plastic ban",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
