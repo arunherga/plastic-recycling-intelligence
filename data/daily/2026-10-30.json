@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T08:58:03.894254+00:00",
+  "stats": {
+    "collected": 402,
+    "after_topic_gate": 56,
+    "unique": 26,
+    "new_since_last_run": 8,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 586359 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 585635 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593851 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (258 items)",
+      "rss (140 items)",
+      "government (4 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "India's Precision Wires Commences Commercial Copper Cathode Production at New Recycling Facility - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVmVRUnVyQi1rSFE3QXRvU1Fyam90ZTNEVGp4QlVsdG8xVk5IM3I1ZmctcWFmNmVLOVAxeWFTOTVPb2c2TmZLejl5LTdmVW03dWpIWFlEYmhDNXhxYmY4ZEVxRXM4bUxPR1lERjhwandUS18yZzBPa1puZEJnSF93NWlPODd1ZGU0Q1lkQzJGMThZUF8ya1FYUXhtenVGS0swdWNzdk5KZDlSVS04dkVMVGQ2QkVDWEtyNmtmSndGQmNFel9oOS1GeEFfSnpXWlRoM2gwSnJQUQ?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-10-29T09:40:00+00:00",
+      "description": "India's Precision Wires Commences Commercial Copper Cathode Production at New Recycling Facility Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "New recycling plant"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "92c6dc32f4d120cc",
+      "normalized_title": "india s precision wires commences commercial copper cathode production recycling facility",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Loop Industries scales back plans for PET chemical recycling plant in India - EUWID Recycling and Waste Management",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUFYS3J1dV9kSE1IT2R2RWQ3RFA2OXdUZ2NsWFVfdVZaZ0R1ZEJ5Zk9EUFhLY3pRRmFiaVV5VFRROVptbUlCUDVkc3ltLXNMLWtVY2pBellTcGdQRklGdFJ3UzZiQy0wdzNCSjZVZy0yOVc0aUlmYzhUSml6VTBUTDhCdS1CcWRuSWwybnJ0Ylhyc0hzN3BkZk1CTUlheE5pQ3dtN0k2ZTZURzZQb3V6bE9GeHFJQUpKaGxiN3BvRQ?oc=5",
+      "source": "EUWID Recycling and Waste Management",
+      "published_at": "2026-10-29T13:08:00+00:00",
+      "description": "Loop Industries scales back plans for PET chemical recycling plant in India EUWID Recycling and Waste Management",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT",
+        "TECHNOLOGY"
+      ],
+      "keywords": [
+        "pet",
+        "chemical recycling",
+        "plant"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Recycling technology",
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1863bba6fe19d825",
+      "normalized_title": "loop industries scales back plans pet chemical recycling plant india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "Another cheetah dies, this time from firearm pellet wounds",
+      "url": "https://india.mongabay.com/short-article/2026/10/another-cheetah-dies-this-time-from-firearm-pellet-wounds",
+      "source": "Mongabay India",
+      "published_at": "2026-10-30T14:16:20+00:00",
+      "description": "A 19-month cheetah died from pellet wounds on October 27 at a veterinary facility in Jabalpur. The male cub was the offspring of Nirva, a South African cheetah brought to India under Project Cheetah, India’s effort to reintroduce the species decades after it was declared extinct in the country. Following the death of the cheetah, [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pellet"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Recycled granules / pellets"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ac080547e6450122",
+      "normalized_title": "another cheetah dies this time firearm pellet wounds",
+      "origin": "rss:Mongabay India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "BHU collects 400kg of plastic waste for disposal in campus cleanliness drive - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQUF2UFJuaDAtN00wMEpNalVUX0YzVTMyVEpGTjdnWWZnVGRQd0Y5N2MwbGNFdDFkN0FlUUN5bmsyYlZVRkVJYjF2Ym5BVHNpZWJ6QklHUVdkMWJoRE5obHUxQWh1TmxHVzFnTWJLNXI4dkRvbEtPSUdLc1pyOWRrUmdfWTVMX0xubENEQllrWkx2eVpudVRlT2lac2t3bkJUQUtVV01oSUpwV01kRkdGN2lXRlFqS3FpQmJsdXM4QzlJSm1rZjZzVHliSkNQX2Q0cThuOWFsU19JUGU5UmVQT0RtNWlRTW_SAewBQVVfeXFMUDJsaTI1b2RjSU15d2tfVXg2QTdNRWRXaHZkdnpsQ29xM25GSUxCTDhXNlBFd3Y4WEl0VHNFcndfZ1FuN3ZtWWozVFVubEZCN2xldHE5TWFoRjVOYVNldkwycDhhLXZLdkpELWh1Y2h5OTR5WGxwMFVacExqeXYxQk9WSE83OGpER0dwclZ2MWZtNGQyY25YQW9veXp1T3hlakRGclpIOG5zODFhMDB2S2l2YVdmNUg1VzlsSGJPMEtPSjVsU08wdHpFaXBtdnFyeWNGc0E2SnF6X1lFVDhFUDlwYTN5alVVeHBSNVo?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-29T18:01:00+00:00",
+      "description": "BHU collects 400kg of plastic waste for disposal in campus cleanliness drive The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0c2df31e366fe48c",
+      "normalized_title": "bhu collects 400kg plastic waste disposal campus cleanliness drive",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "E-Waste EPR Compliance for Indian Producers: Registration, Targets and Ongoing Obligations Under the 2022 Rules - TaxCorp AI",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdk1Sa1JWQTZmc3hQUzMwbXlfRjJaX203dmxwdnRFM3JuRUJDR2VaeUxyTGZadmM2Mi1yVDBZWnpXbFFYUVdjZ2FHdWk3VHNjVXpMdzgtQ19uWVBhNW9YVUN4cGZSU2ZHMjhMWlI0SkpNelJiWGNDWUFPdUlaYXFONGFpZUpXZEhoekV1c1hfQmU4T1FCeWdXNjdBcXFXb2g1NUJFbGlGTmZvQQ?oc=5",
+      "source": "TaxCorp AI",
+      "published_at": "2026-10-29T12:57:03+00:00",
+      "description": "E-Waste EPR Compliance for Indian Producers: Registration, Targets and Ongoing Obligations Under the 2022 Rules TaxCorp AI",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "EPR"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d03316651de18567",
+      "normalized_title": "e waste epr compliance indian producers registration targets ongoing obligations under 2022 rules",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's aluminium transition runs into coal and recycling hurdles - climate.economictimes.indiatimes.com",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQRkwxWU1iRWkwNEFpYVotT0UtajJIbzJPRkFwYUR4X3VZNHJoRE9TSlpNTDhBUncyVEdCOGkxRlcxTExDUUY4bzhNQW4zZFZzejdLM3hqQmt0SDRxZnpIbmF1OGJzOVdnUVB4ajFpdEZyaUFQNUV5S2hLWTFCOFA1b2ZieFFSaGtQZWRIeTUxbmNVelRZUGhkR3BxYmVXN3l0VjROT2UxNWUxMmpUbENZM0NhWVl0REF1YXA2bG1JaTA5UmdsZUlTUjdDVHhXMTZsa0VOY2EzZmp2cGJRcG9Wc2pGUWh0RTE5?oc=5",
+      "source": "climate.economictimes.indiatimes.com",
+      "published_at": "2026-10-29T13:53:16+00:00",
+      "description": "India's aluminium transition runs into coal and recycling hurdles climate.economictimes.indiatimes.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9d31fc52e48c490f",
+      "normalized_title": "india s aluminium transition runs into coal recycling hurdles",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Lower waste, lower recycling: The circularity gap in India’s construction sector - ET Infra",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbEszcFdGT0lrX3ZYMlhYb1NKb3VSYXV4Yl94U3d1WnRiQmoyTnB0QXh0STE1bjN5Snp3THh6WDNETjY5SHNnSUl6am5zRVBTRmphSkp3c0JXMXZ5Z0xhSG5WR25vdmhRMkxGRnNaTV9oNVFYWmVLVWM2d203R1BpTGhRTHU1Y0c5SE5ibHB5Q0tXbnVucy1qcTA0bDlWeWUzRWFiVHF1d2NJdVEwNXB4RXhmYmNhZ1BsdUtaRndnSzVPekg5eVgtVmhWRFZWNUFERkt2Z3J0dXRkdkVjWkNOYtIB5gFBVV95cUxNSXBlZTU1ZkpHV1BKX0pwcElpaFdBUXByS0xsbFBJcTRuTHdJVFhNZ0g4LXB1RnpVMkQ3QURubTBEMDBGRjhpZ1BqTDVZbFRHWWJfbmY4c0RscmtYVnFmUHM1YTExLUJuaE0wR2FjQVhIMEFZV1lfRWNFNTFFRnJMbEE4V1k3UEpKMW12cWFnQ1VES0FQbktobHZlTXdDQktEeWxxNVc1a0h5RXVDSjZPUU8zemdCeDZMTkZrTC1hMmNrV1Nacm5tTFJVNi1jd1lScVprd2hzTkZ0VzZuc3Zmbmx5RkZCQQ?oc=5",
+      "source": "ET Infra",
+      "published_at": "2026-10-29T12:37:57+00:00",
+      "description": "Lower waste, lower recycling: The circularity gap in India’s construction sector ET Infra",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "48ba864b8320a8df",
+      "normalized_title": "lower waste lower recycling circularity gap india s construction sector",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Sanctioned tanker is recycled in India after getting turfed out of Bangladesh - TradeWinds News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUnEySmVMUm44REJMUzRza3gtU1Q2RS1XOExSc2Y1VlRSWk1tRGhzV1ByZmRnSUV0T1ZzZXgzY09kVzA1RE13N20wbXNTcXEzT3lZN2tBbDlfYWQxbHh2ekU0YTZmN1RGcEhXbmFxeWd2ZlIxU0RHUWxMdEZZYTJ1NE5fcmVDampiZWlJUkVnMS15b05xcWcwSHJsWHAxbXJNSGttRDI3VzdOazhrcjE0dFFWM1ZBcFo0Y0FsQUw0M3VJWG51SUlR?oc=5",
+      "source": "TradeWinds News",
+      "published_at": "2026-10-26T03:40:23+00:00",
+      "description": "Sanctioned tanker is recycled in India after getting turfed out of Bangladesh TradeWinds News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "83e7e9f8f85ca7be",
+      "normalized_title": "sanctioned tanker recycled india getting turfed out bangladesh",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
