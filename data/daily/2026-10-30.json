@@ -1,11 +1,11 @@
 {
   "date": "2026-10-30",
-  "generated_at": "2026-10-30T08:58:03.894254+00:00",
+  "generated_at": "2026-10-30T12:44:48.337394+00:00",
   "stats": {
-    "collected": 402,
-    "after_topic_gate": 56,
-    "unique": 26,
-    "new_since_last_run": 8,
+    "collected": 384,
+    "after_topic_gate": 50,
+    "unique": 11,
+    "new_since_last_run": 3,
     "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
@@ -14,18 +14,87 @@
       "google_news: query 'recycled LDPE India': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 586359 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 585635 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 593851 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (258 items)",
+      "google_news (240 items)",
       "rss (140 items)",
       "government (4 items)"
     ]
   },
   "articles": [
+    {
+      "title": "A two-bedroom home in Quebec was built with panels using plastic equivalent to about 200,000 discarded bo - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNMWNtWnhrWk1HUWxPemZhNzc2NzlydHlvSFlHNEZkVUhQdklVWXFocVFIQzBCdk1oTFJUV0k0YTRyazExMDhUVnJNNVdVS3JiMjhrNGtWLWY3cTBkcUt5OURvRjIybFZWUUVZWm8zbXJmNEZpbUNPVTZxSW1ndjItaVk3OG5rY3pZNWRNYlZpSk56TlpjbDBuWWdvdFV5ckFBU3NldUdIZDMycjQteHIwY0xrbXZlMmFNSm9BZVVHZlEzT0tKNHdvMVI1enBZSmk0TDVVZ0ZVeHNoUGRJZmNpeWJ5enBYX2tvZnByY3hWcWFZaGthZ01pSHNNYzBuNGN2LUQ4dlE2bHAwbnRJOERSMnpTN2QwbDdhTVF6UTFTbFhEekRVeHNrbXE4cGdhS2J1WGNXOTNOREJmNlJCcXh3cEtwZXJPamdYQzBocnRrRWZyVk55YXgtNTFDd2JSb3hRaG02X295dFNaeXRkdS1QQmh4SDJKRXJ2R2N6cTZoT3JkX0FPaXNGWE41R04xZC1ZQ1VuTdIBmgNBVV95cUxNRUN6OHVTaUNWSkRwcExjOHFhbm5QNnpMNFlIdndUSjVzUndGczB6QVdDZmxwM1B4eGVjRDk5LUdCSUZSdzNjeG1BT2pGMXJCem9MOW53bmxCRk1aVGhsTUphY1NRLWk2ZDZiYmRvMFEycTlTTVJ2OC1uVko5ZDJ1bENkNlRiZThaNVE2N0pQUG81ZmQ5TF9lN21kaWxQYVJJcl9xMDRjV3FKOGZ2OUpIM2Q3UDNVeTNhcGlxUUVYTEJPTll0dldJcThfeFpnUHI3WmF6UmRQUW5DaFBOTVZsUnFPUl84R195VmJvUWRPVmM2VWpnbnIwUlFfcjRVVkdOSXQyaWxtMlU3WmJ4WWlMVmxTeFVWTnR3Z1hqRzNjaXVyZDRnSElpSUF2dkw0dE1DdkNBWHRER1dJVXpkd0NxTlFkYnliVXBtRnlTa0NEWVlPSlhsUnB3OFUtajFNbHREbk9vVGp4Y3FnbnVfbXNoS1pTNnZRN1d3czlwSlVYa0ZaOVRuUWhtNEdzNkYzNUp1cF82b2ZOakhlUQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-10-30T12:02:00+00:00",
+      "description": "A two-bedroom home in Quebec was built with panels using plastic equivalent to about 200,000 discarded bo The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1a39292bb7228457",
+      "normalized_title": "two bedroom home quebec was built panels using plastic equivalent about 200 000 discarded bo",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "European Shipowners urge MEPs to back two Indian ship recycling yards - Shipping Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlMwUXg3WXRNcDdVUUc3c3QwZ00zeGw5Z3NaRVlQUFJsa2lUU1o3WnNHWVRzb1loRXRUMmNoR1F6b0RLaWRKUlp0RWg0VGE5TjNPM0cya3AwelplbkxkTVJnYmJpMk9BbVF0VUlmQnNEeExXQkpLeE5pTGNRdHJjdHdJTFhkSmNWNUxIWnRwWUJ0eFJPOS1CRHR3bVNjWlo0cW13c1ZubWQyQkVTa2dlSnVqY3BKbElQ?oc=5",
+      "source": "Shipping Telegraph",
+      "published_at": "2026-10-30T01:46:27+00:00",
+      "description": "European Shipowners urge MEPs to back two Indian ship recycling yards Shipping Telegraph",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "63ef9a8fe4758bfd",
+      "normalized_title": "european shipowners urge meps back two indian ship recycling yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "GRP Q2 FY27: Tyre Recycler Reports Higher Revenue and Profit - Kalkine India",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWldrUzJ6SU5MeWNTWmJoZEJmYzEyUXVWTnItRFI3RVpMTUE2eVJzRVdhUEcybS1kcUJKTzZFZlRLZ281RXhLRkpVWFdPVWt0c3VoZEZfdlFMNi1xd2h2V3ZsUGhZVmtpSktoQW41bWVubm9CVXY0S2NZalpFNHN1S3N2ZjRUNDNVVVJzVmI4dElXaVh3UmdpbXRiNlF5QmpCTUNjc3B0ZkMtYl9uS1gzbjhZejg0QXpKYUlES2lDR1FYaUVQaUl5NmZsT2k5YTg?oc=5",
+      "source": "Kalkine India",
+      "published_at": "2026-10-29T08:40:00+00:00",
+      "description": "GRP Q2 FY27: Tyre Recycler Reports Higher Revenue and Profit Kalkine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6f5e2e8e816c1fe3",
+      "normalized_title": "grp q2 fy27 tyre recycler reports higher revenue profit",
+      "origin": "google_news:plastic pyrolysis India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "India's Precision Wires Commences Commercial Copper Cathode Production at New Recycling Facility - Shanghai Metals Market",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVmVRUnVyQi1rSFE3QXRvU1Fyam90ZTNEVGp4QlVsdG8xVk5IM3I1ZmctcWFmNmVLOVAxeWFTOTVPb2c2TmZLejl5LTdmVW03dWpIWFlEYmhDNXhxYmY4ZEVxRXM4bUxPR1lERjhwandUS18yZzBPa1puZEJnSF93NWlPODd1ZGU0Q1lkQzJGMThZUF8ya1FYUXhtenVGS0swdWNzdk5KZDlSVS04dkVMVGQ2QkVDWEtyNmtmSndGQmNFel9oOS1GeEFfSnpXWlRoM2gwSnJQUQ?oc=5",
