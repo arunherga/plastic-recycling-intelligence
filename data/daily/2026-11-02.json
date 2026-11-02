@@ -1,30 +1,111 @@
 {
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T09:56:10.907545+00:00",
+  "generated_at": "2026-11-02T15:39:57.304484+00:00",
   "stats": {
-    "collected": 402,
-    "after_topic_gate": 45,
-    "unique": 22,
-    "new_since_last_run": 4,
+    "collected": 420,
+    "after_topic_gate": 46,
+    "unique": 7,
+    "new_since_last_run": 3,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'plastic recycling startup India': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 593039 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 585321 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 585778 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 4 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (259 items)",
+      "google_news (277 items)",
       "rss (140 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Granules India net profit rises 39% to ₹182 cr on higher revenue",
+      "url": "https://thehindu.com/business/Industry/granules-india-net-profit-rises-39-to-182-cr-on-higher-revenue/article71656931.ece",
+      "source": "The Hindu — Business",
+      "published_at": "2026-11-02T14:06:46+00:00",
+      "description": "Revenue crosses ₹1,500 crore despite higher input and logistics costs driven by West Asia tensions, expect cost pressures to persist, says CMD Chigurupati",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a6164b95a1c3e855",
+      "normalized_title": "granules india net profit rises 39 182 cr higher revenue",
+      "origin": "rss:The Hindu — Business",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Quad Backs Critical-Mineral Recycling in India and Expands Indo-Pacific AI Cooperation - The Policy Edge",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLW1CaEhScjAtQ0d0Y2pDWDJKTktxVld6UzBkZmRfR01BRmZ2cExCR19BV0pGMlE0S1ZDaEFUQmhMNmtVaHFLYkhQWFVaX1lPWnF3c1J0ai1YMG5sTFlIR0MwMmUzdTcwa2hfZmtPZDBQaGNKb2ZMTzRZMHdMN0pSakg5dUFCdUhLdUFQeGdES1RMVFNLX0hJRElMRC03bFRtYTFqVFh5a1lPR1BYOF91VjQ4aU8?oc=5",
+      "source": "The Policy Edge",
+      "published_at": "2026-11-02T10:21:41+00:00",
+      "description": "Quad Backs Critical-Mineral Recycling in India and Expands Indo-Pacific AI Cooperation The Policy Edge",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8d5f9b8c66f0f324",
+      "normalized_title": "quad backs critical mineral recycling india expands indo pacific ai cooperation",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "IMARC: India's Annual Lead Demand About 1.25 Million Tonnes, Over 80% Met by Recycling - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeEVTUmVURDJSNTBoT1QtR19fdVFNY3R3ckxaXzJQS0ZBUXphLTZPVllIb3dJdzBkVXI3ZDBRSDdBMzBsQko1Ukt1dGFCd2lmMFV1U2UzSDkyOVN5RUhkalcyUmRvRG1EWk1vSGhFUkxMZlRNV3ZSYnk0Ry1fbk4wZ2NfRWVWNk1rVWdqcW1HTnhITl9HRzhQT3FsN2dDdFZNc0lKVFJXLTNJa3NiY21HREZoclRhaDhHVmZfODYyWU45OUxn?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-11-02T09:07:00+00:00",
+      "description": "IMARC: India's Annual Lead Demand About 1.25 Million Tonnes, Over 80% Met by Recycling Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "84c9cd435135a8c6",
+      "normalized_title": "imarc india s annual lead demand about 1 25 million tonnes 80 met recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Kochi: Opposition flays move to set up plastic pyrolysis plant at Brahmapuram - The New Indian Express",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQanZFSlNvd3BOMm5rdFJfd0lvNFIxVGNNcFBwZDBiaEZKRkE4RlQ3aFlaSEJaQnA1UUtzZ2g2Ym1RTURnQ3dUVmJEM19UMGhXZVJIOUFHREtzSUNrSV9Oc3dHU2kwbmFOcXM4clVUcVZsRDBKTloyN09lTnFTNzc5MU04bDZ4b0c1Z2tqN3ZGdG03WGVmeHFYYU93cnNOYUs3R0wwZi04TGl1VGN5aGE3elFpZW5oWUZaQzBHTTRRYTVpTHRZX0hPUHp1QjNaZ1gyWFpvZ01yN2g0SXFv0gHcAUFVX3lxTFBqdkVKU293cE4ybmt0Ul93SW80UjFUY01wUHBkMGJoRkpGQThGVDdoWVpIQlpCcDVRS3NnaDZibVFNRGdDd1RWYkQzX1QwaFdlUkg5QUdES3NJQ2tJX05zd0dTaTBuYU5xczhyVVRxVmxEMEpOWjI3T2VOcVM3NzkxTThsNnhvRzVna2o3dkZ0bTdYZWZ4cVhhT3dyc05hSzdHTDBmLThMaXVUY3loYTd6UWllbmhZRlpDMEdNNFFhNWlMdFlfSE9QenVCM1pnWDJYWm9nTXI3aDRJcW8?oc=5",
