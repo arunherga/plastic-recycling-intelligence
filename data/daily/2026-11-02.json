@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T09:56:10.907545+00:00",
+  "stats": {
+    "collected": 402,
+    "after_topic_gate": 45,
+    "unique": 22,
+    "new_since_last_run": 4,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling startup India': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 593039 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (259 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Kochi: Opposition flays move to set up plastic pyrolysis plant at Brahmapuram - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQanZFSlNvd3BOMm5rdFJfd0lvNFIxVGNNcFBwZDBiaEZKRkE4RlQ3aFlaSEJaQnA1UUtzZ2g2Ym1RTURnQ3dUVmJEM19UMGhXZVJIOUFHREtzSUNrSV9Oc3dHU2kwbmFOcXM4clVUcVZsRDBKTloyN09lTnFTNzc5MU04bDZ4b0c1Z2tqN3ZGdG03WGVmeHFYYU93cnNOYUs3R0wwZi04TGl1VGN5aGE3elFpZW5oWUZaQzBHTTRRYTVpTHRZX0hPUHp1QjNaZ1gyWFpvZ01yN2g0SXFv0gHcAUFVX3lxTFBqdkVKU293cE4ybmt0Ul93SW80UjFUY01wUHBkMGJoRkpGQThGVDdoWVpIQlpCcDVRS3NnaDZibVFNRGdDd1RWYkQzX1QwaFdlUkg5QUdES3NJQ2tJX05zd0dTaTBuYU5xczhyVVRxVmxEMEpOWjI3T2VOcVM3NzkxTThsNnhvRzVna2o3dkZ0bTdYZWZ4cVhhT3dyc05hSzdHTDBmLThMaXVUY3loYTd6UWllbmhZRlpDMEdNNFFhNWlMdFlfSE9QenVCM1pnWDJYWm9nTXI3aDRJcW8?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-11-02T03:45:00+00:00",
+      "description": "Kochi: Opposition flays move to set up plastic pyrolysis plant at Brahmapuram The New Indian Express",
+      "location": [
+        "Kerala"
+      ],
+      "category": [
+        "NEW_PLANT",
+        "TECHNOLOGY"
+      ],
+      "keywords": [
+        "pyrolysis",
+        "plant"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "New recycling plant",
+        "Recycling technology"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ea02541878634405",
+      "normalized_title": "kochi opposition flays move set plastic pyrolysis plant brahmapuram",
+      "origin": "google_news:plastic pyrolysis India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "OPINION | India's EV dream has a hidden import bill and recycling is how we pay it down - The Week",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeGVfQmVaY0hQY0VvaDFFSld4X0pJOWlqd2ZvSGFfNHBkR1NPM3BTcWpON29ERzhnc3hHckdzWEgtczBaUl9KTlllQWFJUVp5YW15Y05aVFowTmp1YnMtR1VTZnpJWDZsYTlvd2VqdlZna0wtTXQ4bVZWOEdROXRab29USFViZ1I5ckVWM3YwX1c1ZHh6NS1LNkxQNTVPLTl6Mi1TdzRwQS1JOVV2dTJKNtIBsAFBVV95cUxOeGVfQmVaY0hQY0VvaDFFSld4X0pJOWlqd2ZvSGFfNHBkR1NPM3BTcWpON29ERzhnc3hHckdzWEgtczBaUl9KTlllQWFJUVp5YW15Y05aVFowTmp1YnMtR1VTZnpJWDZsYTlvd2VqdlZna0wtTXQ4bVZWOEdROXRab29USFViZ1I5ckVWM3YwX1c1ZHh6NS1LNkxQNTVPLTl6Mi1TdzRwQS1JOVV2dTJKNg?oc=5",
+      "source": "The Week",
+      "published_at": "2026-11-02T07:49:29+00:00",
+      "description": "OPINION | India's EV dream has a hidden import bill and recycling is how we pay it down The Week",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5a86bfda25d3cf43",
+      "normalized_title": "opinion india s ev dream hidden import bill recycling how we pay",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Anti-Static Agents for Polymers Market in India: Size, Trends and Forecast to 2035 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeEREVENQVjMzbXRHQVJJQ0p3TjBlc1dvTnpmMkt3QkNmOG11ZVlfQ0hVZG01OWw2MWhGbWFpNV9JLTRWM1hFSzRqTG9tREJoZWdJU2djWW5kUjZKbWQzWjRoMmhWNUVHTU1VQ1RYQml5QWZ1d3huckFtT3g1ZWwzRzA0VWFoV01RTFlpamNOWFdQd1VmUHJwTnVjVHN1d1M1X0s1d2E2VzNqR2NFZ2w4SWZYeDJyX2pTTWc?oc=5",
+      "source": "IndexBox",
+      "published_at": "2026-10-31T07:00:00+00:00",
+      "description": "Anti-Static Agents for Polymers Market in India: Size, Trends and Forecast to 2035 IndexBox",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "36a555cf0cd6f0b2",
+      "normalized_title": "anti static agents polymers market india size trends forecast 2035",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recycled Acrylonitrile Butadiene Styrene Market in India: Size, Trends and Forecast to 2035 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWDZnMWZaekVURThZUllVUGFUTld3Z25ZeFgySDV0ZjRZS3VBSmZrcHZ4YW5sekVPcU5ZX3RCRTVKVnNfeHF6cVhPN2d2YzR4N3lqVERJN1p4SGE3QTVzbGtnUHVlSVM1dXBVRHpJSmVUbFpBSTdqMnVXMmhDNkpWczRGa0h1eUoyV1I1VF9OWXVkTWlMTV9Xa0pOQzVjRTQtTmdlbDdGTzlaVDdIa2NaSG81dUowcW9TaXhzdFJ2cVBBRTl4RXc?oc=5",
+      "source": "IndexBox",
+      "published_at": "2026-10-29T07:00:00+00:00",
+      "description": "Recycled Acrylonitrile Butadiene Styrene Market in India: Size, Trends and Forecast to 2035 IndexBox",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9e8a6c113b8fe1e3",
+      "normalized_title": "recycled acrylonitrile butadiene styrene market india size trends forecast 2035",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
