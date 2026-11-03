@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T10:00:47.766156+00:00",
+  "stats": {
+    "collected": 447,
+    "after_topic_gate": 57,
+    "unique": 21,
+    "new_since_last_run": 3,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (304 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Plastic Granules Manufacturing Plant Setup Cost in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1A1ZENCV2xTRGoxTUxqano2VGxDQkhtbDdObHg3LU5QcFlRT0RUVnlQb3lxclVoTXc0LUVhNkUzX2k4VWFrSFh2cTlpOTFGMTRkQjlQOGs1TEVoLU1SVzkyd1BvQjhBRUt3cllPMjgyTE50dkVtZXlpVUFQX3Q5RHQ2aHY1SmFvcC1EUnNVb3MyUQ?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-11-03T06:57:54+00:00",
+      "description": "Plastic Granules Manufacturing Plant Setup Cost in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (14 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4e66fea9f90953c3",
+      "normalized_title": "plastic granules manufacturing plant setup cost india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 13,
+      "ai_summary": ""
+    },
+    {
+      "title": "Huhtamaki India sees recycled rules creating packaging work - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWjByaWdzRVV2elJNNHNzSmFBU05MdWluWVRlVl9QdUFQcDJ6ek1UUGxZM1gxaW5VTnl2aHRDdjB1MWxHbG5ILVd1Uy1XOXltRGFYNGQzYmRKQWpHMHhHZnNnZmNUNTd1U3dZbUR5ci1tNGg5TmVBS091N3YzSEs4WHFaZ192UVZNN2hlcnhKRUpIWE9KdmxQNDBTQTRpZUtrSVJRTW5HQTBiNjhfYVV4QlZVSUlET2M?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-03T00:07:36+00:00",
+      "description": "Huhtamaki India sees recycled rules creating packaging work Multibagg AI",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "059e2a90aa03ec07",
+      "normalized_title": "huhtamaki india sees recycled rules creating packaging work",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Mold-Masters Opens New Expanded Facility In India - Canadian Plastics",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMS1wWWQwa05DTjltVHBxdkx5UVFfQjZyZExyTFVvUTBUZzg0ZXVmRVZwbm82am15YzBFeDhvcEhwNUxZTnNvS3l3SkpMZUx3SkVkVHk5aExMbzdaZ0hzOXdudWdwS0dTLXU3MFI3b25oOEJOTk8wTlE1WDUxbXhscVRfNy1oazhXLXh1NzVCWHJWOGthMEw2Qy13?oc=5",
+      "source": "Canadian Plastics",
+      "published_at": "2026-11-02T20:50:45+00:00",
+      "description": "Mold-Masters Opens New Expanded Facility In India Canadian Plastics",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "82692577fa59d1b2",
+      "normalized_title": "mold masters opens expanded facility india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
