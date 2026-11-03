@@ -1,28 +1,84 @@
 {
   "date": "2026-11-03",
-  "generated_at": "2026-11-03T10:00:47.766156+00:00",
+  "generated_at": "2026-11-03T14:04:08.751385+00:00",
   "stats": {
-    "collected": 447,
-    "after_topic_gate": 57,
-    "unique": 21,
-    "new_since_last_run": 3,
+    "collected": 421,
+    "after_topic_gate": 46,
+    "unique": 5,
+    "new_since_last_run": 2,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
     "source_notes": [
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
-      "google_news: query 'plastic recycling tender India': no results in the collection window"
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (304 items)",
-      "rss (140 items)",
+      "google_news (288 items)",
+      "rss (130 items)",
       "government (3 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Disposable Plastic Syringes Plant Setup Cost in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcWJiSGZkTUhVYmhaSXA0amN2SmV1YkI4TG5KVEtrU0tPM0tfcnc5aXM2bzduS3dRNUwxYzl6QnNwb2ZubThzbWJSenZDYlhEMHNkZFlZbTdzVFMyc3JfYXNMUjNqcXhnNFhacWRLQjdfc2J1WW1pS01yM1ZDZUQ3WUZtXzFWUjB6MmpGeVRVR2p5SFJrUnJod3pVZGdZS3Vj?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-11-03T06:57:52+00:00",
+      "description": "Disposable Plastic Syringes Plant Setup Cost in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b970a5d7f24b02c3",
+      "normalized_title": "disposable plastic syringes plant setup cost india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Lithium-Ion Battery Recycling Market Is Going to Boom |• Umicore • Li-Cycle • Redwood Materials - openPR.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQMHF1NmZvdEpWWGRnOTU5cUs2TTVMQ3Z0Wm5LcjM4WlViZnFkbXRKdzdETUt6X2RjODhCejE2dk5QZFRMUmh3UWt6RlVpdzY3bTNTbk1GZHlLS1VYM1BiS3RQN2ZnYkMyU1NGaWw1N0xlanhVcUREMmJZc01RQWk4bzhEaWgyMnNhR3RWaXFHNGVRNFBEdWhaSjZCVQ?oc=5",
+      "source": "openPR.com",
+      "published_at": "2026-11-03T06:42:41+00:00",
+      "description": "India Lithium-Ion Battery Recycling Market Is Going to Boom |• Umicore • Li-Cycle • Redwood Materials openPR.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "17feaf09ca35da12",
+      "normalized_title": "india lithium ion battery recycling market going boom umicore li cycle redwood materials",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Plastic Granules Manufacturing Plant Setup Cost in India - IMARC Group",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1A1ZENCV2xTRGoxTUxqano2VGxDQkhtbDdObHg3LU5QcFlRT0RUVnlQb3lxclVoTXc0LUVhNkUzX2k4VWFrSFh2cTlpOTFGMTRkQjlQOGs1TEVoLU1SVzkyd1BvQjhBRUt3cllPMjgyTE50dkVtZXlpVUFQX3Q5RHQ2aHY1SmFvcC1EUnNVb3MyUQ?oc=5",
