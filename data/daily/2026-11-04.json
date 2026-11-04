@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T09:49:54.403536+00:00",
+  "stats": {
+    "collected": 461,
+    "after_topic_gate": 49,
+    "unique": 16,
+    "new_since_last_run": 5,
+    "relevant": 2,
+    "high_priority": 1,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 586641 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593785 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 591857 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (318 items)",
+      "rss (140 items)",
+      "government (3 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Indian Beverage Association’s Dr Gunveena Chadha on EPR, Plastic Recycling and Circular Economy in India - The CSR Universe",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWN1NzNKdjBZejBCbVNUYld3LVNyNVpXdGp4QTh5ejdsTUoySjB5dFVWdnp6QkltY3BXRWdsTFI2TEF5UThEckRQbldTTG5hWEd5LThxMlpfRGJQUHJFNmpCV2J5eWxxNk94VTd4UHNQUi10QlRwOGpJVkRBSjNnNXd2cXZNMDFkdmxIVjF3V2stcERMazRWYms4MXJqWUg2WmtQaHlsREVqaWNXTElodEFNUXFsZU5pUnJpNk1raHRYRzN6Z0I0Q09TQVBhTjZObl9jR1BXdFEwS3lCYmNxdXBhWQ?oc=5",
+      "source": "The CSR Universe",
+      "published_at": "2026-11-04T07:07:00+00:00",
+      "description": "Indian Beverage Association’s Dr Gunveena Chadha on EPR, Plastic Recycling and Circular Economy in India The CSR Universe",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "EPR",
+        "MARKET"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 9,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change",
+        "FMCG / packaging / automotive recycled-content demand",
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6c8c5c6da9dc9f09",
+      "normalized_title": "indian beverage association s dr gunveena chadha epr plastic recycling circular economy india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "CPCB Reiterates Mandatory Registration on Common EPR Portal for Entities Covered Under Plastic Waste - Nicobar Times",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPcmhMTUVNUXVWazZMcGFWM2lkc2ZjdU9MRXBseGVDeE9zMEVRTmFZeTAxS0lIMU1ZTjZFamx4TmRhY3RtV3o0Q2ZxVlQ5cG1rUXVPTEVfNnVTTEdSekRXZlNfbkRoZGMwT0YwcFdmbVNuREtOeGVGWWJTcUZnYmRvQ3V0ck5zMUZaWkhCMGdkTUlaVllpMDEzbEVyRTJ2N0k2YVFqMVRUU0dkaWVPNFNJQU1iXzNFVDRBSEgxaW1jTFNNOFAzRjRNTGFGeVE3WVlON20tMEViNHFpZ1FRa19ZRl9Ud0t3Z1k2bmfSAeoBQVVfeXFMT3JoTE1FTVF1Vms2THBhVjNpZHNmY3VPTEVwbHhlQ3hPczBFUU5hWXkwMUtJSDFNWU42RWpseE5kYWN0bVd6NENmcVZUOXBta1F1T0xFXzZ1U0xHUnpEV2ZTX25EaGRjME9GMHBXZm1TbkRLTnhlRlliU3FGZ2Jkb0N1dHJOczFGWlpIQjBnZE1JWlZZaTAxM2xFckUydjdJNmFRajFUVFNHZGllTzRTSUFNYl8zRVQ0QUhIMWltY0xTTThQM0Y0TUxhRnlRN1lZTjdtLTBFYjRxaWdRUWtfWUZfVHdLd2dZNm5n?oc=5",
+      "source": "Nicobar Times",
+      "published_at": "2026-11-03T18:20:24+00:00",
+      "description": "CPCB Reiterates Mandatory Registration on Common EPR Portal for Entities Covered Under Plastic Waste Nicobar Times",
+      "location": [],
+      "category": [
+        "REGULATION",
+        "EPR"
+      ],
+      "keywords": [
+        "epr",
+        "cpcb"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9de6b5a6c62ada05",
+      "normalized_title": "cpcb reiterates mandatory registration common epr portal entities covered under plastic waste",
+      "origin": "google_news:CPCB plastic waste",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Dumping plastic in forests to attract ₹2,000 fine from December 1 in Kerala - Mathrubhumi English",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTERlNFhJQ3dLSFg1Q2xPQ2xLYm80d05PUi1kR2EtZk1DRHBBODFZaHRjNHBJa2lnTC1QMEsxY2ZnVkt5enRmbW9SWHhnZ2hEQWg2SkVRRVozSjJnLWRQekVRRFJyaGMwd1Q5QVRSbkFCWjVOMjFxR2t5M2FYZUxYWTIwLVMxdGhrVDd4UnFhZmtuZU1SczdENWJQWko5LVRJMmU1LW13Z29kNnRGeHRFYTM4YnAwQ3I3LWdjekZTZ3Yya3lHblHSAcsBQVVfeXFMT3JJZTI0R1hoaHk2allheXJTd3l5SER0Z3ByMXhoOWdRelUydkxydWtXUkZiaGpyZkVjY3YwakUwR2VQQWNQY1pFV0JfdjdEU2p1OGhLOGFESkRQMVJ2RXZiamI0eWhVX0ZrcFRtd0lQUHNuYlRFejVuc1lUNGIzTlZLZ0JPckxhUVA0M0R3SGtVYWNybnRWbkdsa1ByTmF5TWpzU3VlYU9ZNmhURVNqNmk4TU4zM05Ma1J1TEhJLWVWQjV2U0Nyamh2Vzg?oc=5",
+      "source": "Mathrubhumi English",
+      "published_at": "2026-11-04T06:28:15+00:00",
+      "description": "Dumping plastic in forests to attract ₹2,000 fine from December 1 in Kerala Mathrubhumi English",
+      "location": [
+        "Kerala"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "828907449db58a61",
+      "normalized_title": "dumping plastic forests attract 2 000 fine december 1 kerala",
+      "origin": "google_news:plastic recycling Kerala",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Earnings call transcript: Jain Resource Recycling posts strong Q2 2027 growth By Investing.com - Investing.com India",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORzlTaDZvNGdncU93MGtYOXYyaUd3S1AxbE1uYldEWkZQMmwyVHNSc2V2M3Fkb0lxa2N5MG14VUJLWWZRdFdtZHBWQllWMTNlV3E0bFp1WndGM3Z5ak1ha2pEak5pSjVJRWJwMThtcmJBMFRvRXFYUTZiRGNLTlB4c2xYc3dJTERDdHpSYlRtYXlLaU92N1VVZzZQZjBVMV9kbnRoN3Bid0ozX1gycFduaGxZbUZaSjFkeVhsZDJXcFQ1Mk5iYnpNRzNsQmc1Zlc3VzY0?oc=5",
+      "source": "Investing.com India",
+      "published_at": "2026-11-04T08:13:32+00:00",
+      "description": "Earnings call transcript: Jain Resource Recycling posts strong Q2 2027 growth By Investing.com Investing.com India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ddf4b1ed20327c45",
+      "normalized_title": "earnings call transcript jain resource recycling posts strong q2 2027 growth investing com",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EV battery recycling market to reach $3.15 billion by 2034 - Manufacturing Today India",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVmRwYjVmVjhJeGdhVm9fZnN3bkVDdnVZSzM4aS1odmlsbW5tdUdyODljNTVDeXAxcWRWbVNhcENOczhwazVodXFXS1Q4VGlmRTY5cEtxS1RKWDNFdW1WU2U5Q2VYVnU2cUtSZWlwWmlNS3RFZlBQejJYRmVaNEFNRktROVhGeDBvUG14ck5EQzVHT3VJdHo2WG8tbHhaZw?oc=5",
+      "source": "Manufacturing Today India",
+      "published_at": "2026-11-03T11:01:56+00:00",
+      "description": "EV battery recycling market to reach $3.15 billion by 2034 Manufacturing Today India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7b8b2585267554b2",
+      "normalized_title": "ev battery recycling market reach 3 15 billion 2034",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
