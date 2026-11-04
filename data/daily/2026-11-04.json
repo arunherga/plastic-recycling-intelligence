@@ -1,28 +1,126 @@
 {
   "date": "2026-11-04",
-  "generated_at": "2026-11-04T09:49:54.403536+00:00",
+  "generated_at": "2026-11-04T14:23:59.194055+00:00",
   "stats": {
-    "collected": 461,
-    "after_topic_gate": 49,
-    "unique": 16,
-    "new_since_last_run": 5,
+    "collected": 478,
+    "after_topic_gate": 58,
+    "unique": 9,
+    "new_since_last_run": 4,
     "relevant": 2,
     "high_priority": 1,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 586641 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 593785 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 591857 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (318 items)",
+      "google_news (336 items)",
       "rss (140 items)",
-      "government (3 items)"
+      "government (2 items)"
     ]
   },
   "articles": [
+    {
+      "title": "PVC Blister Packaging Manufacturing Plant Setup Cost in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORmlCLVFYRzlBeU9RbzB6aG1aTV9BYWFrakpiWENnM29OZGlFZE41dFc0X3czSi10TTYxQmRBcWNYTk5BanFMZ1dBWUpwVXlRZHUtS1N3bGRaYkRyakFyUlJyUFdDRmpnbkxaOVRETkg3aVRRcDB3c1pqRC15anRFdFZ4RGFmOTh1cTZpN2RZODhST2FLNXg3SQ?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-11-04T10:07:54+00:00",
+      "description": "PVC Blister Packaging Manufacturing Plant Setup Cost in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pvc",
+        "plant"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1da8c5ea08ac208e",
+      "normalized_title": "pvc blister packaging manufacturing plant setup cost india",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "At Bhopal’s ‘Kachra Cafe’, You Can Exchange Plastic Bottles & Old Newspapers for a Meal - The Better India",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSUVWUnRRQ1BPdE9seTRVSVhCOXFrY1hwenVwaGJNcEZDdEh5UFE2eHdGSUJQRGdNMmp3SjBQd2RMWmRhcWZIX01Ua3JfUEgxQVQxNGg4bGJUbHVQZXBRVC04SmZTZHlySDJBV1FQVTI5elJOdzNyZ2VLazZ2czQ1TzlnRDFHTllKNDNzMmp2cGh1bU5aUEgzUFFhTFMyRUYwUVE4UjBtQ1dGcV9q0gGsAUFVX3lxTE5JRVZSdFFDUE90T2x5NFVJWEI5cWtjWHB6dXBoYk1wRkN0SHlQUTZ4d0ZJQlBEZ00yandKMFB3ZExaZGFxZkhfTVRrcl9QSDFBVDE0aDhsYlRsdVBlcFFULThKZlNkeXJIMkFXUVBVMjl6Uk53M3JnZUtrNnZzNDVPOWdEMUdOWUo0M3MyanZwaHVtTlpQSDNQUWFMUzJFRjBRUThSMG1DV0ZxX2o?oc=5",
+      "source": "The Better India",
+      "published_at": "2026-11-04T11:42:25+00:00",
+      "description": "At Bhopal’s ‘Kachra Cafe’, You Can Exchange Plastic Bottles & Old Newspapers for a Meal The Better India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5d92f36ae35c1f53",
+      "normalized_title": "bhopal s kachra cafe you can exchange plastic bottles old newspapers meal",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's Jain Resource Recycling Reports 74% Growth in Copper Volumes - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORlBmWGYzckNjMndwQzBPb2N0NW9qU2ktMGR6TjVXSEhrOUt6MDBSdG5kUXphTERHUmgyQmJWR2kybFVzVXFVUnNnX3VYbmJWYl9zWmFTUHdzc2dnYmpWYW1zRmdCR0tzNFg4YWdKWnMwaXp0bE90Z2xndWFuTlNuUXpKblVIVVV1bzUzV3NHUGdrVTdiOWVfY0hkMW1DcXJ3VEhlQTA2U3Rkd01oaUpMMQ?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-11-04T11:08:00+00:00",
+      "description": "India's Jain Resource Recycling Reports 74% Growth in Copper Volumes Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1f2316e92ef94af0",
+      "normalized_title": "india s jain resource recycling reports 74 growth copper volumes",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU lawmakers to vote on inclusion of Indian ship recycling yards - safety4sea",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnN5WTJSRHBvQkhCVTl0WXZjblRwZHo5OHVVZEJoZ0w3UzRzdTdRbXdpbV9Mdm5DbldUbzNpcGRicU13NzlBR2tYVGtESUxiS0xyM0l6NEFIU1YtRk80eFhqVTJidFU4T0pBb0FjZ2huZFlsOFpqYW1tbDc0RGt2dVhNN3pjQmJMMXV4ZEVzTXpRUQ?oc=5",
+      "source": "safety4sea",
+      "published_at": "2026-11-04T10:00:16+00:00",
+      "description": "EU lawmakers to vote on inclusion of Indian ship recycling yards safety4sea",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "62f4ec9b99a4309c",
+      "normalized_title": "eu lawmakers vote inclusion indian ship recycling yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Indian Beverage Association’s Dr Gunveena Chadha on EPR, Plastic Recycling and Circular Economy in India - The CSR Universe",
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNYWN1NzNKdjBZejBCbVNUYld3LVNyNVpXdGp4QTh5ejdsTUoySjB5dFVWdnp6QkltY3BXRWdsTFI2TEF5UThEckRQbldTTG5hWEd5LThxMlpfRGJQUHJFNmpCV2J5eWxxNk94VTd4UHNQUi10QlRwOGpJVkRBSjNnNXd2cXZNMDFkdmxIVjF3V2stcERMazRWYms4MXJqWUg2WmtQaHlsREVqaWNXTElodEFNUXFsZU5pUnJpNk1raHRYRzN6Z0I0Q09TQVBhTjZObl9jR1BXdFEwS3lCYmNxdXBhWQ?oc=5",
