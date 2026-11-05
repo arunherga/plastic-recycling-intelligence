@@ -1,27 +1,101 @@
 {
   "date": "2026-11-05",
-  "generated_at": "2026-11-05T09:49:52.865992+00:00",
+  "generated_at": "2026-11-05T14:32:00.899418+00:00",
   "stats": {
-    "collected": 443,
-    "after_topic_gate": 65,
-    "unique": 21,
+    "collected": 434,
+    "after_topic_gate": 69,
+    "unique": 6,
     "new_since_last_run": 3,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 1,
     "source_errors": [],
     "source_notes": [
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 592900 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 587164 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 595310 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (301 items)",
+      "google_news (292 items)",
       "rss (140 items)",
       "government (2 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Meet Mumbai's 'Plastic Man', Turning 20 Bottles Into A Hot Meal In His Fight Against Hunger And Waste - News18",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQOURleHIyRGdJdWJka0xZUkRhUGY2SC1ubDZvSU1UQjVDVGM2UnhiYXhwMHo2ampXRTRpRDBBb1dackJNTWZHR0psZzI3azQ1WUlSMDBQalhpdUNuOElfaEVwN05UT2ZMcXlQQlVvMExmVTVHT3RIQjNzWWJ2NFdXX1BWT2d3c2Vwei02NmIzblZVZGx3VTc5c0ZYNE03aUQyYTE2Y0I4eGgwak9nU2hOeUdfM0pDOXhrWGxxMnlIeXdlN1ZmcVhXQmNmU3VOVlQ1akczMld2THZyN01FM3lUTDBmWW9WdGc1TDBQRFV3UmVGMEVWMmhRQmNfMEVoeEll0gGGAkFVX3lxTFB3SzJQNkJPUWJuVVdORGNfZE1Zd3VkXzgyVHRRYXpUc18ya2hvcGVEWlhZdTlCbnVsZDlwcHk2LVF1cXhoOC1mOFhYbU82aHd6MHg1UW5mSktmMjZzSkhTZ0ZjVTFRTGxSbjUzUzRyR3RpdWVRM0t4N0NKVndLWFI5UlltU0ExaGdBU3c2eUs0UGtLVVBja3VEVXROT2pmbEZhLWlhVEQyRE16SXMwVUNueVplcDdaTi04MVUxQjJEa3pXc3hEcHVUblZ3dURNZWJOakszNkIwOXRqNk9hQ2J2THl3QlZKM3lmOFFrcm81RmRGLXprTU5MRXEzcGstcEN1WGJRMEE?oc=5",
+      "source": "News18",
+      "published_at": "2026-11-05T09:54:23+00:00",
+      "description": "Meet Mumbai's 'Plastic Man', Turning 20 Bottles Into A Hot Meal In His Fight Against Hunger And Waste News18",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ee1216a4b56d5ea8",
+      "normalized_title": "meet mumbai s plastic man turning 20 bottles into hot meal his fight against hunger waste",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Video | From Textile Waste to New Product Inside India Recycling Revolution ft VinFast VF 7 - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTXlwQTVrblo0WDIxWGs3M2ZaeHUyRlkxdkVlc2lheDBkVlhGcERTbkFpOGZMa0kzSXNMb0NVY3VhbmFzUkJKaEt6T2JYVGc3bzZ1RkhtRHdsODEyR0ZUX1hqdW1iZ0pGN1JvaWlDS1hHNWdWM0loM0NWcUJOMFFlVmNralJVWlh5amEwbThwRDkzWGc2VlVoLV9KekEzNmZQeFFiS0gwZk9XcERybU9PYld6TzlnSUUwWlE?oc=5",
+      "source": "NDTV",
+      "published_at": "2026-11-05T13:17:36+00:00",
+      "description": "Video | From Textile Waste to New Product Inside India Recycling Revolution ft VinFast VF 7 NDTV",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cde5052e6ac6a064",
+      "normalized_title": "video textile waste product inside india recycling revolution ft vinfast vf 7",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India fast-tracks recycling rules for solar modules and wind turbines to curb waste - CNBC TV18",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQc3RvZFZzZUYxSVNUWlZIcnIzSkx0U09uMG83VGdHRUYwR1BlYTdlUTZBSlI5UFRNcWQ1R2FKWTZ3MUtObnVYWUdwdFFJdHphYlBacC1QNm9mcTN2QzRaYWVibEM5NDczbDdYTDgwaGp1MlhFdHd5SFVlc3JSTkx5SFluSGxUSEFLcDdtZVdJaE1UN1BrMElyZUF5NHk5SG12Z2hEOXJGX0NzY3dMN2NGX1NqUXpqRThmVVBPc1hNaWxwaGdaVE1j0gHMAUFVX3lxTFA5OUpCdWJqbThheFE2aTU5VWRNdG9XQ0pXMHdJZnE4YjNvc1p1dWprTlYzcG1tRWJDZXRIa1p0ellROS1fOWpXcU9XdlVYOGpfeTNka0xoYUNZenB1cmg2VDlKUHR6VTY0N3Q1TmRPdDJWOXdLbE9tZ3JHa1hCOUN2SWJ2cExTMk1BaWpuZlZSUHU0WWRldUdDZEhMYlRQdExIRXBxY0F6S1psVVlXWEQzOXoxOEFDQTAwTWJOMWpZUlNXZTVtX3l4M2oycQ?oc=5",
+      "source": "CNBC TV18",
+      "published_at": "2026-11-05T11:55:24+00:00",
+      "description": "India fast-tracks recycling rules for solar modules and wind turbines to curb waste CNBC TV18",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7ee7652fb85c1134",
+      "normalized_title": "india fast tracks recycling rules solar modules wind turbines curb waste",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Buying Recycled Paper Notebooks? 6 Things to Check - The Better India",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVmhDV0dSSTZiSmhSZlZ1dGxpbGlqQWJGMklVMzl0cUhSN1ltRUZRUnlWc2VsbE05TVFEUWhqbWtZUDF4NHBxQVd6aDd0RGw3LVR4M0M0aUpWMHA5ZkJUbFdubWRHeEFyTlkwVU9ZWUdKYVNTSmEzai1xbVdzSkhjM0N6SFVmZmhiLWpjMnk1Ni1jdHpOLUR5bHJXcmlzQ1NkZDdJSmNfcnUxbm9TM0pvMGZGd1ExOXloWFZBcHZOR1BPa3V4a25tSGFRVWoxamc1R3lJYkl1Mm13d9IB2gFBVV95cUxNVmhDV0dSSTZiSmhSZlZ1dGxpbGlqQWJGMklVMzl0cUhSN1ltRUZRUnlWc2VsbE05TVFEUWhqbWtZUDF4NHBxQVd6aDd0RGw3LVR4M0M0aUpWMHA5ZkJUbFdubWRHeEFyTlkwVU9ZWUdKYVNTSmEzai1xbVdzSkhjM0N6SFVmZmhiLWpjMnk1Ni1jdHpOLUR5bHJXcmlzQ1NkZDdJSmNfcnUxbm9TM0pvMGZGd1ExOXloWFZBcHZOR1BPa3V4a25tSGFRVWoxamc1R3lJYkl1Mm13dw?oc=5",
