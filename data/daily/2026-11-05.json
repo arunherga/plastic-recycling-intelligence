@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T09:49:52.865992+00:00",
+  "stats": {
+    "collected": 443,
+    "after_topic_gate": 65,
+    "unique": 21,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 1,
+    "source_errors": [],
+    "source_notes": [
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 592900 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 587164 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (301 items)",
+      "rss (140 items)",
+      "government (2 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Buying Recycled Paper Notebooks? 6 Things to Check - The Better India",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVmhDV0dSSTZiSmhSZlZ1dGxpbGlqQWJGMklVMzl0cUhSN1ltRUZRUnlWc2VsbE05TVFEUWhqbWtZUDF4NHBxQVd6aDd0RGw3LVR4M0M0aUpWMHA5ZkJUbFdubWRHeEFyTlkwVU9ZWUdKYVNTSmEzai1xbVdzSkhjM0N6SFVmZmhiLWpjMnk1Ni1jdHpOLUR5bHJXcmlzQ1NkZDdJSmNfcnUxbm9TM0pvMGZGd1ExOXloWFZBcHZOR1BPa3V4a25tSGFRVWoxamc1R3lJYkl1Mm13d9IB2gFBVV95cUxNVmhDV0dSSTZiSmhSZlZ1dGxpbGlqQWJGMklVMzl0cUhSN1ltRUZRUnlWc2VsbE05TVFEUWhqbWtZUDF4NHBxQVd6aDd0RGw3LVR4M0M0aUpWMHA5ZkJUbFdubWRHeEFyTlkwVU9ZWUdKYVNTSmEzai1xbVdzSkhjM0N6SFVmZmhiLWpjMnk1Ni1jdHpOLUR5bHJXcmlzQ1NkZDdJSmNfcnUxbm9TM0pvMGZGd1ExOXloWFZBcHZOR1BPa3V4a25tSGFRVWoxamc1R3lJYkl1Mm13dw?oc=5",
+      "source": "The Better India",
+      "published_at": "2026-11-05T02:30:37+00:00",
+      "description": "Buying Recycled Paper Notebooks? 6 Things to Check The Better India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "BUYER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Buyer / procurement / supplier requirement"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "BUYER"
+      ],
+      "article_id": "783a7e39f6255ac9",
+      "normalized_title": "buying recycled paper notebooks 6 things check",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Tightens Single-Use Plastic Ban! Government Takes Major Steps to Curb Plastic Waste - tatsatchronicle.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQRzBpWThjbG5CdUhmcnh6ODRxbndob1pEelBRQUliemhCeG5sNTlSYVpuVFlER3F6dG1jVXBTY24xUXpkQWZrQjVGdjl2Z0oyTElQSGdUbUI5eTdNU1h1R1phVGtWNHBoSU1za3A3VDhwM1ItaEVGVVVJSVdZOTRqb2lCbm1mdWc5YXg4eXd1MkkxZjd3SHp1WHh3Q0ZLa285NmxMc0VmS3hQdVBzeHFkYUthMk9zTUM3VTFaNGdVZ0tuQjg2VHZpSmExZ0FIVmxheGoxZEY2UDlEd2hZOUhoQV9hVThFTzZnVW40QXhxZnRjSzVv?oc=5",
+      "source": "tatsatchronicle.com",
+      "published_at": "2026-11-05T05:48:44+00:00",
+      "description": "India Tightens Single-Use Plastic Ban! Government Takes Major Steps to Curb Plastic Waste tatsatchronicle.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "37d3f6727e695e83",
+      "normalized_title": "india tightens single use plastic ban government takes major steps curb plastic waste",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's FSSAI may allow recycled plastics in food packaging - NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNV0tkSFpNaVVmMUF4SnZBcXVndGdHN0lzSzJzNzRiMjF2QkNzbC1nQ2ZqdUVtWVA1Umk2aFBSQmU4b2VmZ0ZxT2Exb2JHQm0zQ2thSTBWU0YxbldpOW9OVGNlT19wTXhYWjl5SUFvbjNYMjhIRFZFRVhwdWx5YmhuOUluZk5HS3dzR25BS1RKdE9iLURKS1VaakpvNTZxRWY3cklfQk1R?oc=5",
+      "source": "NewsBytes",
+      "published_at": "2026-11-05T00:42:47+00:00",
+      "description": "India's FSSAI may allow recycled plastics in food packaging NewsBytes",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (17 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ea4e0886e06a31b2",
+      "normalized_title": "india s fssai may allow recycled plastics food packaging",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 16,
+      "ai_summary": ""
+    }
+  ]
+}
