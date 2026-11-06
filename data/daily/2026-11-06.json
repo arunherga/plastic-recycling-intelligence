@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T09:50:01.208644+00:00",
+  "stats": {
+    "collected": 434,
+    "after_topic_gate": 75,
+    "unique": 24,
+    "new_since_last_run": 3,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 1,
+    "source_errors": [],
+    "source_notes": [
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 590960 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 604528 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (292 items)",
+      "rss (140 items)",
+      "government (2 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Government plans guidelines for solar module waste recycling - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pmb0E5YUJ1cmVBREsyQkFmcVdhU0E1WkcwUnFUR2VjTllDLVBTSXkxSTZOdk81eFcxR1RRSU95dXh2S3RYb2ZaQVBGY0p4UV94UW5QUllBdlhTQnBRRTFUQ3VObXM3VWktSVJBOEFiaFhGam1mMktOaUNDVU95WnZpdFM4UmtWM2hBWF95RzJxNXgxQmFDa2lrcll0aHpLUUQ1YUxydGxiTk9YMWxfNkRfcVFJMlNTVVHSAboBQVVfeXFMUGNKZm9BOWFCdXJlQURLMkJBZnFXYVNBNVpHMFJxVEdlY05ZQy1QU0l5MUk2TnZPNXhXMUdUUUlPeXV4dkt0WG9mWkFQRmNKeFFfeFFuUFJZQXZYU0JwUUUxVEN1Tm1zN1VpLUlSQThBYmhYRmptZjJLTmlDQ1VPeVp2aXRTOFJrVjNoQVhfeUcycTV4MUJhQ2tpa3JZdGh6S1FENWFMcnRsYk5PWDFsXzZEX3FRSTJTU1VR?oc=5",
+      "source": "The Indian Express",
+      "published_at": "2026-11-05T15:00:46+00:00",
+      "description": "Government plans guidelines for solar module waste recycling The Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6e8072511ce6a24f",
+      "normalized_title": "government plans guidelines solar module waste recycling",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bhopal homemaker Anjita Sabhlok has turned old newspapers and plastic bottles into a way to buy food; her - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxPQzV5TGRWcTdCTVoxa210Wk5DMS0tOVBqQkNLSVo1NFp2T3czT3RCdDlqeVI4QVY0RzBlaWpoWTJhZVp6c0gxc3FIQXA5QmFRUWFBUFFjTEFTdG9sLTdsQnNFSnpqZ0wwWDRJREJkYjlhSDFqVTI5QnhfTDBYX2dwYmRmcHc1Q24xcC13Q1puZ19Hb0YyVDVrenJKLVludm04SnRKUFRiQ01KZGMwNFBPd203SUloMVlTcnFVcm9lR0tWWEp4QjJtbk1xQUNqY1lESnpKMzc5aWZhQXpRdkotZmJnVzVPV2Vxazc1WV81UWRyaWJsRXNianFtYUtsRUpjT2ViVmRtOXBlSzJyNVFuN1dRMGRSTDBYYUJTTV9kY2k5YjBYTzVCMU5VeWxSWjFCRkptaDV6LW43NXBqSmREYkFNNHgwUVlocmlRMGFqM203elF5REJuQ2lyZ1doeFdNclh1WGw5ZXBuZll3b2VNSmI2bVIweE16aWRNNjV5aUpTUEVqdHpHQngxdXljMDZiVVg5bjExWDdYSHFDZEHSAaMDQVVfeXFMTmU5QUNBNWFyVm9sLVg5RmlIYTFoQ1g3NE40amFSOUpCTEp2QmhlQ3hLSktqamFZd0FDNjNJMTFTb2dpQ0NCZE4wR3lkVmJsS3hramxFcWhKNGQwTmhnbHoyTktqdGZtQWdBa0N2cnlWWnlGNzVWSkU3RFhVYkZ3U3lGVm9VY0Zyd0NMWWx5RzJVRmlIbHJ5ZEhtT2NJcGVGOE9CdjNGcXI2dktpNndHc0ZsNXVVSnlUX2ZZUGk3dENJRzJGQnB5dVpROEFDcU5tV1dvaEJmQkdfaGgtZ0VFX1lxWlEyVGU1NDlSZDV5U1E1YkZVd3pmTWRucXhmWWgzWjZnRERVSjdISmJPOTlzWXNWbkZxdURZR1UwT2hwc2EtY3RUaXJRQVViMHloekpmby1ZblphcDg1Q3A2U2J1TDJMQnZVMnE2MHh1YmlLRlFPdzA2Q3c5NFZ6MWtDeGdxZGdSV0xDNVRkT0l3eXl1Z0l6NU9zN3VVdHc1eGtiSDdURGs5NWowRGJFSWVMdEZUcmplczBudUVaZnc1NEpJNndCZ1E?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-05T14:51:00+00:00",
+      "description": "Bhopal homemaker Anjita Sabhlok has turned old newspapers and plastic bottles into a way to buy food; her The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "BUYER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Buyer / procurement / supplier requirement",
+        "Widely reported (6 outlets)"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "BUYER"
+      ],
+      "article_id": "9a964e45d3340f4a",
+      "normalized_title": "bhopal homemaker anjita sabhlok turned old newspapers plastic bottles into way buy food her",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 5,
+      "ai_summary": ""
+    },
+    {
+      "title": "Operation Clean Sweep launches OCS India - Recycling Today",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX3BqTzN4THF5dDN1UVlUcTJnLVN5VmVsb0psLUwxM0c0ZzIwMmtxeG8tbzlZbVVLMnR2OE1WTGxpdkJxZzNRT0lPUkdqU0ZaNUVZZXlPTHYzMUlQTHltUVNnNWxzOW5VdkV5MEcxRVcyWnV5MlNEaWJXWENiZ3I5bHkzZw?oc=5",
+      "source": "Recycling Today",
+      "published_at": "2026-11-05T17:00:00+00:00",
+      "description": "Operation Clean Sweep launches OCS India Recycling Today",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4b14c0d684c44048",
+      "normalized_title": "operation clean sweep launches ocs india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    }
+  ]
+}
