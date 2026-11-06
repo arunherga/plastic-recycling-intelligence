@@ -1,27 +1,101 @@
 {
   "date": "2026-11-06",
-  "generated_at": "2026-11-06T09:50:01.208644+00:00",
+  "generated_at": "2026-11-06T14:11:12.420355+00:00",
   "stats": {
-    "collected": 434,
-    "after_topic_gate": 75,
-    "unique": 24,
+    "collected": 435,
+    "after_topic_gate": 69,
+    "unique": 6,
     "new_since_last_run": 3,
     "relevant": 2,
     "high_priority": 0,
     "opportunities": 1,
     "source_errors": [],
     "source_notes": [
-      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 590960 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 604528 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 585461 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (292 items)",
+      "google_news (293 items)",
       "rss (140 items)",
       "government (2 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India plans to allow recycled plastic for food packaging | Hindustan Times Delhi - newspaper - Magzter",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUUtTcUVCY0tfRDhUTHQtWFI3UHg4UFBrV1FnZ3J0Yk90bWRreGUxSXJVbUdBOTZQT0pHb3VlREFBZ3JZUDhRZTJldExKQUs5X1lua2FqRlNHeHNSMndsa3I2Y1FEdzdwUld0ZmIyUjA2WXY0dElTTk1ZdHNEbGdFLWRlR1lRaFctQ1NNY2lFOXY5QXBUTHhaOUFJUmZjYmRPYVhmRHdWWUNsSzlqMjU2UWw1akV0a0hYOTVCcg?oc=5",
+      "source": "Magzter",
+      "published_at": "2026-11-06T09:16:54+00:00",
+      "description": "India plans to allow recycled plastic for food packaging | Hindustan Times Delhi - newspaper Magzter",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "27e344647c252bf9",
+      "normalized_title": "india plans allow recycled plastic food packaging hindustan times delhi newspaper",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "‘Every day, someone loses a hand or a leg’: the brutal reality of India’s textile recycling industry - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTTU1X3pfa29LZUFXamV6MnhNUk9fNzZkWVAzSjBaRF95WVlEN1dKTndMcERwWVNHSGZ6OHh1Unozd3EwUVZjTjUydG1teUVYdTlTSUFMa05qWlM1TTRvQjdXUTFxTzFzT3hpRzE3UG9lVDVVVzdoN1FhVW5qbENZdGE0bzYxLU4yZ0NzNnRhbWNEVDdKSVJDSUNJTy1NXzZzdnNmeHk4SFVCQVpka0d0ZzBIN19QWk5BN2FIVGN0MTB1RDIycXZMc2NYWXlkSWh0RGlBVA?oc=5",
+      "source": "The Guardian",
+      "published_at": "2026-11-06T12:48:00+00:00",
+      "description": "‘Every day, someone loses a hand or a leg’: the brutal reality of India’s textile recycling industry The Guardian",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b5b16d112d9a5e5b",
+      "normalized_title": "every day someone loses hand leg brutal reality india s textile recycling industry",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Indian ship recycling breakthrough hits Brussels roadblock - Splash247",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaEFESUtxby1TYURxQzdPeXJsNkUtcFZXMVF2RFctSDFjX2pkY3hLTWtOODM2N0hBWWp4RWZoeVR5WlZwV09sZ2dpYS1nb09WczdnaGNUaUsxNjhmdDdoSkRFWW1wU0pPRXpjSV9YeUdlSW81TDdRUE5OTUJHY0ZvT0hRd0c5a01K?oc=5",
+      "source": "Splash247",
+      "published_at": "2026-11-06T09:56:52+00:00",
+      "description": "Indian ship recycling breakthrough hits Brussels roadblock Splash247",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "06e9fbd544b12b9a",
+      "normalized_title": "indian ship recycling breakthrough hits brussels roadblock",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Government plans guidelines for solar module waste recycling - The Indian Express",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY0pmb0E5YUJ1cmVBREsyQkFmcVdhU0E1WkcwUnFUR2VjTllDLVBTSXkxSTZOdk81eFcxR1RRSU95dXh2S3RYb2ZaQVBGY0p4UV94UW5QUllBdlhTQnBRRTFUQ3VObXM3VWktSVJBOEFiaFhGam1mMktOaUNDVU95WnZpdFM4UmtWM2hBWF95RzJxNXgxQmFDa2lrcll0aHpLUUQ1YUxydGxiTk9YMWxfNkRfcVFJMlNTVVHSAboBQVVfeXFMUGNKZm9BOWFCdXJlQURLMkJBZnFXYVNBNVpHMFJxVEdlY05ZQy1QU0l5MUk2TnZPNXhXMUdUUUlPeXV4dkt0WG9mWkFQRmNKeFFfeFFuUFJZQXZYU0JwUUUxVEN1Tm1zN1VpLUlSQThBYmhYRmptZjJLTmlDQ1VPeVp2aXRTOFJrVjNoQVhfeUcycTV4MUJhQ2tpa3JZdGh6S1FENWFMcnRsYk5PWDFsXzZEX3FRSTJTU1VR?oc=5",
