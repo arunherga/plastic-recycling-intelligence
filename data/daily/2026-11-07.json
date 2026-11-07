@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T09:12:54.053464+00:00",
+  "stats": {
+    "collected": 446,
+    "after_topic_gate": 70,
+    "unique": 26,
+    "new_since_last_run": 5,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (304 items)",
+      "rss (140 items)",
+      "government (2 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Ester Industries reports strong Q2FY27 performance with revenue growth of 25.7%",
+      "url": "https://packagingsouthasia.com/type-of-article/industry-news/ester-industries-reports-strong-q2fy27-performance-with-revenue-growth-of-25-7",
+      "source": "Packaging South Asia",
+      "published_at": "2026-11-07T05:07:37+00:00",
+      "description": "Ester Industries, a manufacturer of Polyester Films and Specialty Polymers, announced its unaudited financial results (standalone and consolidated) for the second quarter and half year ended 30th September 2026. Total standalone income was Rs 365.8 crore in Q2 FY27 compared to Rs 263.3 crore to Q2 FY26. EBITDA (including non-operating income) was Rs 28.6 crore [&#8230;]",
+      "location": [],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "99b3499c0540d8d4",
+      "normalized_title": "ester industries reports strong q2fy27 performance revenue growth 25 7",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Blow Moulded Plastic Packaging Market in India: Size, Trends and Forecast to 2035 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUld4cjdMQ2VZT1B2d3NLSml0VWk4RjZpSmtjcDc1Y29NWG9WN3liS0d5ckViamhpRFJWZnZzN05GaUN4UUdWdjB6bVVjYnRwdzRPM3BlWEJMQTJPV05ZaWM5U1QweE9UTTdaZmNod19PTTFwZHNYdHJjSzlicTlKa3ZuNWc0NVFSaTJUU2tSeGRPVzdtZDN6eGpxVUV0TnZSVnk4S0FvaHU4NjVEbTBhakJrR3plREY4?oc=5",
+      "source": "IndexBox",
+      "published_at": "2026-11-06T21:49:38+00:00",
+      "description": "Blow Moulded Plastic Packaging Market in India: Size, Trends and Forecast to 2035 IndexBox",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e7be0760ae1028a4",
+      "normalized_title": "blow moulded plastic packaging market india size trends forecast 2035",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards - gCaptain",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUmRYamRlUldRRWJMV3F1MU93TmM3ekNyNDliS2ZGMENtaGFBZzh2ZS1feXFzQkMzYnRRcy1QTlV1ZHhkMTJaaFBNbkQ5X3Vqdk9JUTZqTE9IV0kwT0NSWTdEY19oMkNFMWhQZ2tGNjB5RmhlUjdlQkVPYWRvRC1xaS1ac3pzcnFRVmVROWpWVGJlQklVakcw?oc=5",
+      "source": "gCaptain",
+      "published_at": "2026-11-06T17:03:56+00:00",
+      "description": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards gCaptain",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f15d31ce59caed70",
+      "normalized_title": "eu lawmakers push back against approval indian ship recycling yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "ENVI votes against including Indian ship recycling yards on EU list",
+      "url": "https://recyclingtoday.com/envi-votes-against-including-indian-ship-recycling-yards-on-eu-list",
+      "source": "Recycling Today",
+      "published_at": "2026-11-06T14:55:00+00:00",
+      "description": "Recycling Europe supports the decision.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "bced47513d0cbe85",
+      "normalized_title": "envi votes against including indian ship recycling yards eu list",
+      "origin": "rss:Recycling Today",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU Parliament committee opposes approval of Indian ship recycling yards - safety4sea",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVpWdzZCVGFRMFNTVVRTZ0xZa2hVUGNDa0hRQXVOVUVuNXhjaXRDczdDb3phWE1RdTNZNTYwa2JsOEc3RnJTUEViRjdsU3luMldSWENXRkllRm5tcEtUMDM2TUttWkhBamxSaEVVM250bnJNOG5VMU55TjJMY0h6a2lDQWFYMFVPVHVVTnRTdmpZLUxOS1hvdWdINA?oc=5",
+      "source": "safety4sea",
+      "published_at": "2026-11-05T11:01:01+00:00",
+      "description": "EU Parliament committee opposes approval of Indian ship recycling yards safety4sea",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "37f75ef6d35cd31f",
+      "normalized_title": "eu parliament committee opposes approval indian ship recycling yards",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
