@@ -1,26 +1,56 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T09:12:54.053464+00:00",
+  "generated_at": "2026-11-07T12:53:43.796488+00:00",
   "stats": {
-    "collected": 446,
-    "after_topic_gate": 70,
-    "unique": 26,
-    "new_since_last_run": 5,
+    "collected": 431,
+    "after_topic_gate": 61,
+    "unique": 6,
+    "new_since_last_run": 1,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
-      "google_news: query 'plastic recycling tender India': no results in the collection window"
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 587322 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (304 items)",
+      "google_news (289 items)",
       "rss (140 items)",
       "government (2 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Filatex India invests ₹13 crore in subsidiary Ecosis for recycling project - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMmJuR2tvdy1XLVpiY1BzTTIzM29qYW1rSHdHU3FDU1FycnFOVWpJZ1cwYmdVY2s2cWFFdFc2SGRBVkdhcUFkSTNtbG5EUlY5Z0lYUGtDVHVjcXZIejNLTkptYV9ZYTIzd1otcEFsMzUweDRIWk10VW9QU0RzZ0puN2JIa19vZkRsNDNpa29PVlFRX2ZUNk5PLTlOQmpjXy1yd2xmY3JibWhMMzRGWUJaS3pkUGU0Um1UbUlBbXpZTmw?oc=5",
+      "source": "scanx.trade",
+      "published_at": "2026-11-07T09:17:08+00:00",
+      "description": "Filatex India invests ₹13 crore in subsidiary Ecosis for recycling project scanx.trade",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f3bd210156f68ee5",
+      "normalized_title": "filatex india invests 13 crore subsidiary ecosis recycling project",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Ester Industries reports strong Q2FY27 performance with revenue growth of 25.7%",
       "url": "https://packagingsouthasia.com/type-of-article/industry-news/ester-industries-reports-strong-q2fy27-performance-with-revenue-growth-of-25-7",
