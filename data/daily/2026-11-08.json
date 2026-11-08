@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:27:10.072299+00:00",
+  "stats": {
+    "collected": 421,
+    "after_topic_gate": 53,
+    "unique": 23,
+    "new_since_last_run": 1,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (279 items)",
+      "rss (140 items)",
+      "government (2 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "EU committee objects to adding two Indian yards to ship recycling list - Baird Maritime",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcDJoajZJckdENE11MnBEbUZlMno2V2NLUzM2WDd5SHYteElOMzkzd2FidTRrRDlYb2lTSnNaVWRLbWZFOThhNmFhbk4yWGJvbTdkT0c2NWJDNmVzOFBpQkxQYW9kTzAwVTktOW1zbjF0ellPWVNMTDNWU2JTcHJ2RHhzRDJidjFnbjN30gGYAUFVX3lxTFBOYkZnMkdiTG5hRGRHZ0pkTXowV3p3ZVk0NUgtWGxEZWstTnl3UEdyS0ZJUjQwTmYtOElFcDgzLVhYdjBWNF9mWm55ckRwMGNGY3I0N3hqeTlCU2paWGplUEUxUWNBazN0NGJPb01qVXRLT0RWNWpZY1R1ckpYS0lHUkNtSjBHa21iR1hjOGlFeURxQy01MGdj?oc=5",
+      "source": "Baird Maritime",
+      "published_at": "2026-11-06T10:41:44+00:00",
+      "description": "EU committee objects to adding two Indian yards to ship recycling list Baird Maritime",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "508368328702b82d",
+      "normalized_title": "eu committee objects adding two indian yards ship recycling list",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
