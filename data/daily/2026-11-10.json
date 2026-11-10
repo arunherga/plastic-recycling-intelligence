@@ -1,12 +1,12 @@
 {
   "date": "2026-11-10",
-  "generated_at": "2026-11-10T10:20:19.156334+00:00",
+  "generated_at": "2026-11-10T14:47:21.109517+00:00",
   "stats": {
-    "collected": 407,
-    "after_topic_gate": 21,
-    "unique": 15,
-    "new_since_last_run": 1,
-    "relevant": 0,
+    "collected": 405,
+    "after_topic_gate": 24,
+    "unique": 3,
+    "new_since_last_run": 2,
+    "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
@@ -15,15 +15,72 @@
       "google_news: query 'plastic recycling Karnataka': no results in the collection window",
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
-      "google_news: query 'plastic recycling tender India': no results in the collection window"
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 597320 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 1 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (265 items)",
+      "google_news (264 items)",
       "rss (140 items)",
-      "government (2 items)"
+      "government (1 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India’s chemical MSMEs: growing rPET demand and PET catalyst innovation open new opportunities - Indiatimes",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZDhfVkFzQW85aUdpN3dCNHloeVZJYnlaa0hWcVkyNlhPRXBYbU5wR1dyQXF5TmhVdHBzcFc3akxDbGhXSk9Fc25JaXdRVlhiWGRiUXFWUVZfX0dvYU54bWpJdXROOTBwazQtaTZnZHpyWlF6enozeTdQV2RSaGVGSDBmdm1sNzI2elpOZG5MS0Q5U01lRE01ZmlwdC1jeUp2Skl3T3NvUnpRMG1PRnBQUldoeENmXzhFaTBsZHFGUExXbHBvNVctUmtGeWRxblJlZTdOYXVCbC1zVWg2SWFDemdUOS1NSWU1eXppa2IycEhQUDFHX1F6S0RqVFhVU3BJSHgyNm4tRXTSAYgCQVVfeXFMUGQ4X1ZBc0FvOWlHaTd3QjR5aHlWSWJ5WmtIVnFZMjZYT0VwWG1OcEdXckFxeU5oVXRwc3BXN2pMQ2xoV0pPRXNuSWl3UVZYYlhkYlFxVlFWX19Hb2FOeG1qSXV0TjkwcGs0LWk2Z2R6clpRenp6M3k3UFdkUmhlRkgwZnZtbDcyNnpaTmRuTEtEOVNNZURNNWZpcHQtY3lKdkpJd09zb1J6UTBtT0ZwUFJXaHhDZl84RWkwbGRxRlBMV2xwbzVXLVJrRnlkcW5SZWU3TmF1Qmwtc1VoNklhQ3pnVDktTUllNXl6aWtiMnBIUFAxR19RektEalRYVVNwSUh4MjZuLUV0?oc=5",
+      "source": "Indiatimes",
+      "published_at": "2026-11-10T10:15:49+00:00",
+      "description": "India’s chemical MSMEs: growing rPET demand and PET catalyst innovation open new opportunities Indiatimes",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "MARKET"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Recycled granules / pellets",
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d217236d0df1df37",
+      "normalized_title": "india s chemical msmes growing rpet demand pet catalyst innovation open opportunities",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Ecoprogetti presents automated line for recycling end-of-life PV modules - pv magazine India",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUHpFQklCY0gtTGdtRWpJcXB1RXBVU0p6UnF2RnZwTFVFWkM1VmNqalBtZHVkMGJHZWEtZnFzVFE0WnhWREQtbW5vb3djQTJxMFV5a0dxR214cXlrUU1HczdTT3VXdUF0RVdKa004RHJTcWJOejJrVTl5SGo3WDFRNTZzTVkyd2FhQ1kySl9NVU9JSlp5QWNoV2xUN3VNOE5NakJLTFhhMHpKSUZnRHo5R2E0Zmt3Z3ZqRUE?oc=5",
+      "source": "pv magazine India",
+      "published_at": "2026-11-10T11:08:05+00:00",
+      "description": "Ecoprogetti presents automated line for recycling end-of-life PV modules pv magazine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "51a0c71724ab8744",
+      "normalized_title": "ecoprogetti presents automated line recycling end life pv modules",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
     {
       "title": "EP Environment Committee opposes approval of Indian yards to recycle EU-flagged ships - EUWID Recycling and Waste Management",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSVZNVmJVOWlKb0xHMXpxTWFjVE1IOEJpODVtd256NUhoWmw5YUhtcEhTY3dKMmZhZTdQMTJHM040OHBkU3hIcGFwSUZtZ0ZxcXlUNjZLZTRNaVB3QWxWbzNvZ3pmTmhuSmZ6MU41X3lMNVNfMVl3TlNyV1U3b21sQXVVb0hDQTM3am1LQ19rQllHd19zc0RPTGIyS2hORGxzYXZLTFVzUlMyV1NHNnFFVnVIaGJ1amhTbVFkVWkxVXExdTZQX2FPc0dzcGtpVFFrMFFN?oc=5",
