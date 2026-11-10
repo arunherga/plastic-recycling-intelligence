@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T10:20:19.156334+00:00",
+  "stats": {
+    "collected": 407,
+    "after_topic_gate": 21,
+    "unique": 15,
+    "new_since_last_run": 1,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (265 items)",
+      "rss (140 items)",
+      "government (2 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "EP Environment Committee opposes approval of Indian yards to recycle EU-flagged ships - EUWID Recycling and Waste Management",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOSVZNVmJVOWlKb0xHMXpxTWFjVE1IOEJpODVtd256NUhoWmw5YUhtcEhTY3dKMmZhZTdQMTJHM040OHBkU3hIcGFwSUZtZ0ZxcXlUNjZLZTRNaVB3QWxWbzNvZ3pmTmhuSmZ6MU41X3lMNVNfMVl3TlNyV1U3b21sQXVVb0hDQTM3am1LQ19rQllHd19zc0RPTGIyS2hORGxzYXZLTFVzUlMyV1NHNnFFVnVIaGJ1amhTbVFkVWkxVXExdTZQX2FPc0dzcGtpVFFrMFFN?oc=5",
+      "source": "EUWID Recycling and Waste Management",
+      "published_at": "2026-11-06T15:00:00+00:00",
+      "description": "EP Environment Committee opposes approval of Indian yards to recycle EU-flagged ships EUWID Recycling and Waste Management",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "253c62cf81e512a8",
+      "normalized_title": "ep environment committee opposes approval indian yards recycle eu flagged ships",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
