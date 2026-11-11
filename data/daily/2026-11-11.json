@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T09:49:54.323477+00:00",
+  "stats": {
+    "collected": 392,
+    "after_topic_gate": 36,
+    "unique": 18,
+    "new_since_last_run": 8,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window"
+    ],
+    "sources_ok": [
+      "google_news (251 items)",
+      "rss (140 items)",
+      "government (1 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Toppan on growing IML demand at Loupe India 2026",
+      "url": "https://packagingsouthasia.com/type-of-packaging/labels/toppan-loupe-india",
+      "source": "Packaging South Asia",
+      "published_at": "2026-11-11T04:25:09+00:00",
+      "description": "The Chandigarh-headquartered Toppan Speciality Films (TSF), a 100% subsidiary of Toppan Inc., showcased its packaging film offerings at Loupe India. Partnering with authorized channel partner Western Packaging, the company highlighted its specialized grades of biaxially oriented polypropylene (BOPP), cast polypropylene (CPP), coating, and thermal solutions, with a major focus on in-mold labelling (IML) films. Speaking [&#8230;]",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "polypropylene"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "278c41ac04f1a12b",
+      "normalized_title": "toppan growing iml demand loupe india 2026",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Top 10 Best Battery Recycling Companies In India In 2027 - Inventiva",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGVUUlQxM2Nyai1remJ2bnpXQk8ybWdWeDZvWXhxSVFWU1JrLWdQdTR1QkU3bVVqTEpla3MybW1JNmdpOTdHVFRLVUxUWDNMVV9FVmNPc1lLSWdmTFdpai1STkpKRXJ3Wm1QRlpGTmtoVkRLVmRhZnNacnhvV09KNkxCZ2NUeE1pb1lhX3ZDR1VTQTVWNnR3?oc=5",
+      "source": "Inventiva",
+      "published_at": "2026-11-11T07:16:45+00:00",
+      "description": "Top 10 Best Battery Recycling Companies In India In 2027 Inventiva",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (11 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3ab560f87c916bd7",
+      "normalized_title": "top 10 best battery recycling companies india 2027",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 10,
+      "ai_summary": ""
+    },
+    {
+      "title": "Government bars export of lithium-ion battery waste and scrap containing black mass",
+      "url": "https://thehindu.com/business/govt-prohibits-export-of-unsorted-lithium-ion-batterywaste-scrap/article71688575.ece",
+      "source": "The Hindu — Business",
+      "published_at": "2026-11-11T08:22:50+00:00",
+      "description": "Black mass, the particulate powdered mixture recovered during the recycling of lithium-ion batteries is particularly essential for India's electronic, electric vehicle as well as renewable energy storage ecosystem",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "7665cfb331abe93a",
+      "normalized_title": "government bars export lithium ion battery waste scrap containing black mass",
+      "origin": "rss:The Hindu — Business",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans export of lithium-ion battery recycled material - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQzZ3SXA5ZVhWenlaSE5JajgyUFFuUEdYaHh6bENwelRscHZScDh5aldoMFcxbmV6M2hfV1ZqZ29VV3I2b29GdDBCS0hsSXNFbmNSVmNUVXlnZElDQ3ZBYnBGQlFDR2poM2tfX05xdlB3Z2FMMWROQ3g0SXo3RVZTdV9FUEtRdHVSWWw3dHBDXzE4YmpCcFQ2aW5jYXE4QmNPdmZNbGt6MWxGbG9XUUdZdDhOOHU1OHhqZGdqOVJnU0h5SkhXZGJF?oc=5",
+      "source": "TradingView",
+      "published_at": "2026-11-11T08:02:04+00:00",
+      "description": "India bans export of lithium-ion battery recycled material TradingView",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2d96d58c5f3dc4c6",
+      "normalized_title": "india bans export lithium ion battery recycled material",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Bans Export of Lithium-Ion Battery Waste to Boost Domestic Recycling - Lokmat Times",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOUttelg2MGZjMVd4VG45b0stMUNLQXdIQUdPSWZtakRELVBVSUQ5bUJmUDlBalB0bnE5Smh2Z2RCNTJBYS1ET2oxdktmMjV2dGN3QmhDV2JUbXBlYW5VSjE5bW9JeEJWSGJ2ZHFnNTY4UjN0RW15bDRCS0plSnJScUhvUzl2ZUpxTGVGUmZ0MHc1LWlpMWZuYXpKbF9xY010SDNiMFZKY0VBcTBiT1pyS0xxS3R1NThUNE1lVExn0gHDAUFVX3lxTFBQMHBjcG84N3cxTmpPb1pseExFT1dKVFBxOHM0VDdiQUUzLXl1bG5wVjZyREtBMDVPajc2eHVzdnFiNlZadDhvUS1temN3di1sLWh2M0szanhiWXVfUXA1emkta0wwSU5LRWF5eE0xcUNmZGdoYUdCdzlKeVhRcUZzcm1SM3E0dmd5ZUZaU2ZBLXNzVE9xX2ZhMV8taVZFUjJGWDE3RUFsM3E0NmVIVE1QaUtIUlVpektVX1dsUkNXSHVKbw?oc=5",
+      "source": "Lokmat Times",
+      "published_at": "2026-11-11T05:45:34+00:00",
+      "description": "India Bans Export of Lithium-Ion Battery Waste to Boost Domestic Recycling Lokmat Times",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3e051b82f5e13057",
+      "normalized_title": "india bans export lithium ion battery waste boost domestic recycling",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans export of unsorted battery scrap to boost recycling - NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQXN1ZzRXbzJGRkVSYTlDV0l5MkZrcGloWDFNT0tWSndlbDYxMHMyVGc2NFN4NTgyYU1lUlV6Sk5GR2hLWlhtVWdYLURmcUZHU1pnV3ctVjc1MDk0eUJxY1NQc0xfSjJzTFg1VkF0ekdmcm1kb3pobmJkRG44eG4yWHBQeWdubWlTY21mQTl6aXo3Nk16MkxYaDYtVlVhVElfNW1xSWp5NXlQbVU?oc=5",
+      "source": "NewsBytes",
+      "published_at": "2026-11-11T05:08:48+00:00",
+      "description": "India bans export of unsorted battery scrap to boost recycling NewsBytes",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c9f6e3492355bdab",
+      "normalized_title": "india bans export unsorted battery scrap boost recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "EU weighs safeguard measures as import pressure hits PET chemicals industry - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQ2FCTmJMQUQxbUhOY2NqdkY1UklGVlJlNTRaV0dMY2VTRGNiOHFvZDN2QW9fYzZFMU1FZFFsREZXbHNhNXZuRThxYTZ2LWk4dVY1RVlaNEVLUFFOSUZmbHBNX091YkVQZTFmaFpDbGY2eE5fdW04SzVjZkltYm5ycDZxTGV1VjExTHJmeVdkcE9GRGtqNnRQVjJJSzRsd3g4MmNyX3Jib2ZVSVpwWEFJR0dHcFAzTE1LUDlLMC1GOEgtMnEyQlHSAcwBQVVfeXFMTUNqcVZKQjYyMHpaeElPQ1JCQ3c5QVlEUndCZzlJNkEtanpvV3JyT1lrVWxyY1VZaEhhM3IwdDk2M3hWandKNlRTZGdhV0pEUTA3STgwYW43LS1EcENJUjNpbjdWNDFhM1lCNDJ1QUlHQ1hldXBhWnY3THBNeUhaRE90V2FmYmNjU09UUkJGUjRZUzhNb1VOakF3cTBPYzR3d3dROWZWVkFyQ21qMHdGcDBSUm5CQ0V3dFJ1eEVxRFh3ZHotbTd1Q0ZqUlFI?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-11-10T10:04:35+00:00",
+      "description": "EU weighs safeguard measures as import pressure hits PET chemicals industry Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "437784cd8ad33962",
+      "normalized_title": "eu weighs safeguard measures import pressure hits pet chemicals industry",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India's Bio-Plastics Industry - Spherical Insights",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPZXVIVjFjX3NoMlJ0ZWE4SWItd3htOWpld3VuYUwzQXctMnpPWTJvSW1wVmdtQW94TE52VTh3dUZYWmZ1NFFyaTRSY2FHYndRVzB4SG1xeF9HRHl4WlM4WFd2eEZ6RDNfWnF0bUNfY29kS1doRTNkdkZhU290Qmlzb0tuSTI2R0F2UEhNaFhvNUtlbHJ2NFcxbTBlWWcyQ19JOFlsd2N3TlcyRnNSNV94NFd6d1FpZU1kTkM5dkg4SGlXTUxEVllYOWVpdHpsZnRzeTlzOUFraVRyektHMDlZNjg4aUFCR2RMbDR2WG1nVzZ3ZEhuWDdVTlJDcFdkVm1UUFZxUTlB?oc=5",
+      "source": "Spherical Insights",
+      "published_at": "2026-11-09T08:00:00+00:00",
+      "description": "India's Bio-Plastics Industry Spherical Insights",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4d47d5ef2944c11a",
+      "normalized_title": "india s bio plastics industry",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    }
+  ]
+}
