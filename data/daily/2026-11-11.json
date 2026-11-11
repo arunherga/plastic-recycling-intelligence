@@ -1,11 +1,11 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-11T09:49:54.323477+00:00",
+  "generated_at": "2026-11-11T14:08:53.301837+00:00",
   "stats": {
-    "collected": 392,
-    "after_topic_gate": 36,
-    "unique": 18,
-    "new_since_last_run": 8,
+    "collected": 388,
+    "after_topic_gate": 38,
+    "unique": 14,
+    "new_since_last_run": 6,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -18,15 +18,160 @@
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "google_news: query 'plastic waste tender Karnataka': no results in the collection window"
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "merged 8 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (251 items)",
+      "google_news (247 items)",
       "rss (140 items)",
       "government (1 items)"
     ]
   },
   "articles": [
+    {
+      "title": "India Bans Export of Recycled Lithium-Ion Battery Material - Unique Times Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVTNWd0dYZXdJR3pnNU9zSk5DVjczWjY4VGtkZHhGSmdwaXItUjNvdlBpdGZQZXBEaDk2MlZTcUJmaUtMUW5ZN0lybU9WZ2tLdHFXdGZ4cTA4RWc2aUd3NnZ5QkFsbWV3Y1lIUHdfMmRSNmwyN2tGYkU1T2N0cHlYaEFleTlYZ2FKb3ow?oc=5",
+      "source": "Unique Times Magazine",
+      "published_at": "2026-11-11T12:14:39+00:00",
+      "description": "India Bans Export of Recycled Lithium-Ion Battery Material Unique Times Magazine",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d13b3399fb65f235",
+      "normalized_title": "india bans export recycled lithium ion battery material",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans lithium-ion battery black mass exports to strengthen domestic recycling - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdUpHSER5ZEIweUF6dnlGYnV5MHg5alptYzYwaks1VkNwdVVqSG5BV0tBa1JLdWYwMkNDSGZlRmVxbWFNZmM2YlpBNWpXekI3UVJNUjhSNGtZcTRiMnk3Tm9kdlFWNEp4RTZES0VzSnJGRWJTREUzSDdhTEYzYzFyU2dMRndRR3JHR2hLS3gyZ3Q2WHN1MFBaaGVGZHFHeXU0OExvcXpIU0JNS0ZNT1JwRjJnWVJLX05iQ1hhbEFsRzFSUzdMb3JRUkNCRElGX1A5UlE?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-11-11T12:05:50+00:00",
+      "description": "India bans lithium-ion battery black mass exports to strengthen domestic recycling The New Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "549946cf6fb1909b",
+      "normalized_title": "india bans lithium ion battery black mass exports strengthen domestic recycling",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans export of lithium-ion battery black mass for recycling - NewsBytes",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZjJrU1Z3REtSUkJlQ0pEM3ZKdzlWQUwxRDVxMWRtWlNEM0I3RkwyUURtbHRzVVhkcGxVUmhacXNXZ0ZzcF9xSHBkMUJHYWY1TnFTc3VGeTEzbG93em5EZmNKdjllQTRESmNzV0hyOHM2dHgxUHctdUFST0k2czl5QXZGVWtGaWJHNG9SYXUyOVB4d09BcUc0bnJPOFNXV0pvb0hXRkpnNklaYWo2UVMwdE9mbw?oc=5",
+      "source": "NewsBytes",
+      "published_at": "2026-11-11T11:49:58+00:00",
+      "description": "India bans export of lithium-ion battery black mass for recycling NewsBytes",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4d47b6362242c941",
+      "normalized_title": "india bans export lithium ion battery black mass recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Black Mass Export Ban: India Wants Battery Waste Recycled At Home, Say Sources - NDTV Profit",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU1VOaUFJRUFOSElia01YdllOd0VzZ3RuX0dQRlItemx2N2ZYZERuWUl2Nm1iNHhnNzRwLW45LUtQb3J5Sk9yYXRhWWRzY1I5WlZNaGE3UG1zeDhPd0hKTk81UlRLQmpvV3VBYTJOX0JJd3VLLWN1QUJRZE9SSTJYRG9RSkpMZEN0Tk9uNjRnVVBrUDQ4RGcyTjZhX1JZYlpUODkwWEcxdE5DRWRkZ0hBSVBTbkR4Q011NFBwdk9B0gHGAUFVX3lxTE9TeFVaZmdNUDYwcERDeGFHbXRpeGZMV3hGTVc4aGZSbGRodUF2QTNYRHp4SnFqU1NjYlpfZmFFSldteDdQUzdNV3hUMF9pREVpM25OR1U0YzdaVDZaaHg0OHZQV083WEMwNlI0dUVwNXlYWUlibkl5OTl1YlJxcnZuQTU2c1hFNG0xYmdrOS1vRWU1LWdpcUJTZG9RVTdNLThCUWp5Ymp1WVFjbXlBcTJSU0ZQcWcxQVh2alBIZThlSW0xT0UxQQ?oc=5",
+      "source": "NDTV Profit",
+      "published_at": "2026-11-11T11:34:52+00:00",
+      "description": "Black Mass Export Ban: India Wants Battery Waste Recycled At Home, Say Sources NDTV Profit",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c918387d7be27149",
+      "normalized_title": "black mass export ban india wants battery waste recycled home say sources",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans export of lithium-ion battery black mass to boost domestic critical mineral recycling - Moneycontrol.com",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUC1GQUpucV9FNThPc0hxcmRlWjBFa1JrUFA5M0U0djEyNUtqTnF0dWVLRVdjZlJUYXB4WktZMkRhaWJWd0Z0aHI3NTJEU3NxbEFiQmR0ci1Ea3NublRPRkN0NnFFOGw2RXhlekp6R3BQVFdwX3Q0STlKNVpsd3FybUgtN09YQUk0aG5oTkZPTE1FRzNLbG8tS2tIUEwwYlFCNjZXbGtkWk4xeGZic1VqSWNKUi00dThzWjA0TXRLLTZXdzNYeVlyS1NpeE5LWTVYSS0zOU9DQ1Qtc2I3Q0hQbDVxVDBmNWVV0gHuAUFVX3lxTE1YMDJVdFVUNzExemR1ODR6Vi1UWWw1RklCX0VDNzFLVVV3RGVhQk5lMlBSbkxpVHFuWUpXclNndExEX1ZQOGZjSndTVmNPbDRBVVhXOVM4YkNYSlRDYmh1eXRXd2xpSWlZXzJCNF8zdDVWR1R2SWU0eG1IYTd3YnRSRVFwX1VtZkNYS3BZMjBqTXJ0by1rVm5VdUNsTlpEWWswQUpvTE5aVTBIbVc1azBZUGdKb0YxQXJpWHRMR2E5SGVGR3poOVdBWXFBaUd3N09xZjJkSWZOR1E2Z1FKMXFFekNkNUY1VUROVjZkOFE?oc=5",
+      "source": "Moneycontrol.com",
+      "published_at": "2026-11-11T11:28:34+00:00",
+      "description": "India bans export of lithium-ion battery black mass to boost domestic critical mineral recycling Moneycontrol.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b45bbfd591755daa",
+      "normalized_title": "india bans export lithium ion battery black mass boost domestic critical mineral recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "IMCD to showcase 3 sustainable polymer innovations for medical devices at COMPAMED 2026 - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ19mYXhHVGZyYkVGV21pdWc3S3VtbVJCZFRYa21KaHE3bGJvdHh6UVFnY1o0TFpHUTRDOXkyZXZxTEVvYjZtQld4NmxaTTBUa0hCR2QtNlF1eFNnN3RwV2M1SkQ4NFZfR0tia29IVVpzaTdwMm1MY1VqTFlmTlRmTXJ4a1BPU0xOdmJKQk9CYzFTLTNjUE90RlF0bGhiSmhkSTB0OEszNktYejBLSlJ6eExoZGVqNXF4YnNfS3FWb0MzclRWd09oNmk2aXpVal82VkHSAdIBQVVfeXFMUGdfZmF4R1RmcmJFRldtaXVnN0t1bW1SQmRUWGttSmhxN2xib3R4elFRZ2NaNExaR1E0Qzl5MmV2cUxFb2I2bUJXeDZsWk0wVGtIQkdkLTZRdXhTZzd0cFdjNUpEODRWX0dLYmtvSFVac2k3cDJtTGNVakxZZk5UZk1yeGtQT1NMTnZiSkJPQmMxUy0zY1BPdEZRdGxoYkpoZEkwdDhLMzZLWHowS0pSenhMaGRlajVxeGJzX0txVm9DM3JUVndPaDZpNml6VWpfNlZB?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-11-10T13:00:00+00:00",
+      "description": "IMCD to showcase 3 sustainable polymer innovations for medical devices at COMPAMED 2026 Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fb148e772ea7e0ed",
+      "normalized_title": "imcd showcase 3 sustainable polymer innovations medical devices compamed 2026",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Toppan on growing IML demand at Loupe India 2026",
       "url": "https://packagingsouthasia.com/type-of-packaging/labels/toppan-loupe-india",
