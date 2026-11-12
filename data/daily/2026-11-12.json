@@ -1,11 +1,11 @@
 {
   "date": "2026-11-12",
-  "generated_at": "2026-11-12T10:14:53.243280+00:00",
+  "generated_at": "2026-11-12T15:04:30.329312+00:00",
   "stats": {
-    "collected": 399,
-    "after_topic_gate": 51,
-    "unique": 21,
-    "new_since_last_run": 6,
+    "collected": 403,
+    "after_topic_gate": 58,
+    "unique": 6,
+    "new_since_last_run": 0,
     "relevant": 0,
     "high_priority": 0,
     "opportunities": 0,
@@ -20,11 +20,10 @@
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 605742 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (258 items)",
+      "google_news (262 items)",
       "rss (140 items)",
       "government (1 items)"
     ]
