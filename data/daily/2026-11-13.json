@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T09:56:57.268072+00:00",
+  "stats": {
+    "collected": 399,
+    "after_topic_gate": 66,
+    "unique": 28,
+    "new_since_last_run": 11,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled HDPE India': no results in the collection window",
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 585771 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 584260 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 595852 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (258 items)",
+      "rss (140 items)",
+      "government (1 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Mailardevpally Fire At Plastic Scrap Godown In Hyderabad - INDToday",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmN1Q004d05LUFZhRzhMYXFuVHJzMGpnTEU0S2RySUxvZUVZbXJTLTd5bGdWb3h1MVFRRVY4NmdtSDc4UVY4bV8waVJyRWpIbW1ORlNFRVU3RXdrMVg4WWxQWHY0R252RTIycmlYNnJBR0laeXRDRkUwOHdlX0pfTkdXRVQ?oc=5",
+      "source": "INDToday",
+      "published_at": "2026-11-13T06:25:38+00:00",
+      "description": "Mailardevpally Fire At Plastic Scrap Godown In Hyderabad INDToday",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "971f2a839dff0890",
+      "normalized_title": "mailardevpally fire plastic scrap godown hyderabad",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "‘God of Cricket’ Sachin Tendulkar has invested in Hyderabad-based waste management technology startup Recykal as a strategic investor, aiming to encourage responsible waste management and recycling across India. His investment extends the company' - Instagram",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtSWl0T24tc2xORDVFaGlaUGdXQmlUNDhEc19QRHBld3hmcV9GSndhYTJDb2laejZvc3poZzFtblcyRElQTmRLVkVTSVhHQWZtbHc?oc=5",
+      "source": "Instagram",
+      "published_at": "2026-11-13T09:44:17+00:00",
+      "description": "‘God of Cricket’ Sachin Tendulkar has invested in Hyderabad-based waste management technology startup Recykal as a strategic investor, aiming to encourage responsible waste management and recycling across India. His investment extends the company' Instagram",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "INVESTMENT",
+        "TECHNOLOGY",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "investment"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dab798a82318ae59",
+      "normalized_title": "god cricket sachin tendulkar invested hyderabad based waste management technology startup recykal strategic investor aiming encourage responsible waste management recycling across india his investment extends company",
+      "origin": "google_news:plastic recycling startup India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "PepsiCo to develop infra to collect, recycle plastic in Maharashtra - ET Retail",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOdV92NlZFUlVrWmFQa2xZZWNqOXlaVnFpeml4cV8xY0lGLTlydkV6RDFlWUhvUHBnU3VoYlVOMUlNUUdlRENqYWZXZDJMRHN5enNJT2tfbkdlUTVHVWVFOXIxcFI2Q1FDUkE3d3NBdjZ4VUtTSDBOU2RpcGtNOXNsQXRkb2x1U3JMaFBnNXc3TVNzVzNwSnV1MTF4MEJ1eDQ2MkFadDFacTZqaXJPbXFzM1NFT0tUbWk2VHd2OTdCdHNqV0lxeE13TUNORmZCeWZzZ3hsQXhtYzZEdTBmRjA4QjRla1dUcDllNXlXaDlWRdIB6gFBVV95cUxPSTZCVFhoM3ctWHc1d3JQcFR0MjRjbjUtYVo5TnIzTWp1bDNZNl9jSTI1ZEpCTHB0TEI4V3h4czBMYkJ2a1plY0xkdTFNTXIzekZ5Sk5aaGMwaERZUTdyNlhPYzItMDBJa0NZS1haNzZPUUgxTmxFcXFtOW1FcWJBS3ZEbm5rdlNiRUVoRWxudW15YTdaZ3cxU1BXV1BtbG5JcFRFWWVSQktGTm0ydlQwX0JGclFEZkZ6RDlEX0NGNk5FMGVBZHk0RVMySGg1ZGVLeXM0WFNEWUNLaUs5SlZDbGNYejFiLVNXUVE?oc=5",
+      "source": "ET Retail",
+      "published_at": "2026-11-12T10:54:32+00:00",
+      "description": "PepsiCo to develop infra to collect, recycle plastic in Maharashtra ET Retail",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Nearby southern / western states",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a54b7beaedf0c50d",
+      "normalized_title": "pepsico develop infra collect recycle plastic maharashtra",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Hyderabad Sweet Units Fined ₹1 Lakh for Plastic Violations - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOelBOazg1YlVIWEFRcVN3WjFmMVFiZ1JQY2xuemhkTG1fM0FwUWFUMHRpZGZUOGpKc2tHazlQUEd2WHdMSW9NZDdjcmowVlRTaG9OVTM2T1ZMbTdZTVlPcEo3Um0xWXZ0b2JHaU8xWnpmVWl3Ulg1YWtNRjZfZEVKWTRIZVFTQTZVb3lKWVBfclVmNkZvTm5wa2o3TQ?oc=5",
+      "source": "Urban Acres",
+      "published_at": "2026-11-12T21:00:55+00:00",
+      "description": "Hyderabad Sweet Units Fined ₹1 Lakh for Plastic Violations Urban Acres",
+      "location": [
+        "Telangana"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8752c19e29153909",
+      "normalized_title": "hyderabad sweet units fined 1 lakh plastic violations",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India orders audit of electronic waste recyclers to catch fake compliance",
+      "url": "https://economictimes.indiatimes.com/industry/cons-products/electronics/india-orders-audit-of-electronic-waste-recyclers-to-catch-fake-compliance/articleshow/135796753.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-11-13T09:09:02+00:00",
+      "description": "India has ordered audits of more than 2,000 waste recyclers, including 309 electronic waste processing units, amid concerns over inflated recycling claims and forged compliance documents. The inspections will cover machinery, plant operations, electricity consumption and production records. The move is aimed at tightening oversight of the e-waste sector and ensuring companies such as Apple, Samsung and LG meet recycling obligations.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION",
+        "MACHINERY",
+        "MARKET"
+      ],
+      "keywords": [
+        "plant",
+        "machinery"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Machinery / equipment"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "17705d2142cf5c86",
+      "normalized_title": "india orders audit electronic waste recyclers catch fake compliance",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Cricket legend Sachin Tendulkar takes on new role as investor in India's recycling sector - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTm1zUFJsaDY3cGJHYWpFU1ZjQVdUZXdQZkJPRjY5dGhaSEpkUWhjc2FXOFhmMzc2ODg1djV1ZmhVUDlzVjJ3c0xxQi1vWUc0MExmUUl4RTlEYVRrczV4ZjY0WkxKZUtIZ05ELUhkX25RZmpNZHg3OE1waEtIS2s3SEF6NE9TaVQ4QVdRT1dwY1djX0hNYy0za1h4bnM2c2t3Mk5iM1Jwd01lSUJHUWRic1NzV3BlOFowclFQeTBYcm5kRFVad2UzSUctR2N3ajBK0gHjAUFVX3lxTFA2dTFyR3Z1S1VlS3NKNFlBRlpsdkF4YkJheTJlV0pNQXFWT0tHNWtCUTJfYTI3aHA1cWtuamRERm90Y1ZyWXBDakg3VGQtN05uNG5LR3NyQXduUVdRUG41RWNEZkNQUWgzWjlnWGdzZko3ekJJZlhRczRzLWN1N0ZoTUVaSnpvSUs4QUpZZ1dWbjFjZUl2UTBFbWtlMVlZZW9FZVBJbklWaVFMblNXazFUYzFVa21RZzJJdUQ2RzdSbGxUeVV2Nk9raTRxTjNONlNxV1FDY3czSUYzaHBwb0dhUlRF?oc=5",
+      "source": "Gulf News",
+      "published_at": "2026-11-13T08:47:02+00:00",
+      "description": "Cricket legend Sachin Tendulkar takes on new role as investor in India's recycling sector Gulf News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "47b9c30c3bd87caa",
+      "normalized_title": "cricket legend sachin tendulkar takes role investor india s recycling sector",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans lithium-ion black mass exports; Eco Recycling sees feedstock boost - scanx.trade",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZTdRNjQxd2ptWlNieVhKTS01TUJLVWY0dUp5ZU5oOVIwNG1mT2JOenRucGtCS0laeUFHTnBEc2s4eUh0cGVlTWNXYmpuZ2pWT1FrZk0zM1hyQXNxTy1uS3ZGdnN6bEpNNmtBR2ZBbFFKYW5nVXo5RElhaWdtTE5ISmR0aGw5ZDZjWk9jSkJ4WU1aTlJEdTlQaEJHTndlMVE1ZVp4c0NYQVBFbW14eUMxcmJJVFVuZ2xf?oc=5",
+      "source": "scanx.trade",
+      "published_at": "2026-11-13T06:18:30+00:00",
+      "description": "India bans lithium-ion black mass exports; Eco Recycling sees feedstock boost scanx.trade",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9c15ed27526c15f5",
+      "normalized_title": "india bans lithium ion black mass exports eco recycling sees feedstock boost",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans battery waste exports: A strategic move to encourage recycling & reduce dependence on China - ET Government",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOZDRpXzQ1QjJZVEhaSzFtTG9oWXc1QURzVHFma282a0kwNDJvWHhjVEI1NTZINGUxdzVrQW1hb2diT1laajZsN0FGdTc0dUtWZ1NfR3hITDBPQTB0SlFtOWJ0Q19ZMndKSlI3Nm1naXp1ZWdmWVN0cktuQzk2dHo0aHlUbzNxaTRTYUFSM2dsX0hHVVVDdjNKLWRpSGozbnRNMnRVN3BLblF2RUMwc1VXbFlkSVVEeXR5dldzRUVvbkgxeTlYemEwTXNMM1UyaUdEQzZvNHBZQ3p0bmlsbk16M095NkY1V29EWUdyWE1rOThYRHFvQ2syZkhDN0EtQjF1Wk5sT29ka9IBiwJBVV95cUxPZ19XLUpuaEFJc0dENFlraW9aTzhBa05VM01LbGtVZ1JiY2dGWEkyUjZURGxwWWZQMlVHTFJ3MWF0NHJCcW9raEhZRjFXVDljY096NGVWZl9ZeE9WNndGUnk4UzhpVUFaeFRCalV6SFdZMFdGR3I2UWI2OHR1NHd0cFp2cXpUcFdmX0dWdFRUOU9mQVBTXzdfck1zbjZTeFhXOXZFSmliTEFBVF9LZ0xPX0VOS2JnS2VpN3VVeU03bi12amU1NXNXS3Q5VlFzVFoya0ZxNUFPaDhkTVdoNkJRYWw3bV95M241aUxaZjhSb1pNR1Q5YUlnd3NZRjduZ2tZWUNPT19pcWxtYTQ?oc=5",
+      "source": "ET Government",
+      "published_at": "2026-11-13T03:01:56+00:00",
+      "description": "India bans battery waste exports: A strategic move to encourage recycling & reduce dependence on China ET Government",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2fe81ca68833a352",
+      "normalized_title": "india bans battery waste exports strategic move encourage recycling reduce dependence china",
+      "origin": "google_news:chemical recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "TGPCB Imposes ₹1 Lakh Penalty On Sweet Units For Plastic Violations - Deccan Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdkNLQVd0N3R0RTk3Mk5Lay11S2RTaXNaRFRJVmhzbVV4ZzBMOUpsV2hvQ1lPYVg0dG9IYnhHcTktM2xVbmhZNlBQazM3WWJFSXR6N2pwdW03TExIZm80SzJOTjN6aTlXTHM4elJrZ0NjSjJXUW5BZldKUm9DU1lPc0pMb2tiQ0h6THJoWkdMMXpaMzRwYUxLdW1KNTZQNnQ2WkV0TGdlVmFDb1dOMlJmbnZUVXFrNWVLbXdwQmtUMUdjWnpzdWp4R3QtTXgzemtSOXfSAdIBQVVfeXFMTnZDS0FXdDd0dEU5NzJOS2stdUtkU2lzWkRUSVZoc21VeGcwTDlKbFdob0NZT2FYNHRvSGJ4R3E5LTNsVW5oWTZQUGszN1liRUl0ejdqcHVtN0xMSGZvNEsyTk4zemk5V0xzOHpSa2dDY0oyV1FuQWZXSlJvQ1NZT3NKTG9rYkNIekxyaFpHTDF6WjM0cGFMS3VtSjU2UDZ0NlpFdExnZVZhQ29XTjJSZm52VFVxazVlS213cEJrVDFHY1p6c3VqeEd0LU14M3prUjl3?oc=5",
+      "source": "Deccan Chronicle",
+      "published_at": "2026-11-12T16:31:42+00:00",
+      "description": "TGPCB Imposes ₹1 Lakh Penalty On Sweet Units For Plastic Violations Deccan Chronicle",
+      "location": [],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "10bb8908cc781d70",
+      "normalized_title": "tgpcb imposes 1 lakh penalty sweet units plastic violations",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Prohibits Export of Specified Lithium-Ion Battery Black Mass to Strengthen Domestic Critical Mineral Recycling - www.nationpathindia.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1dxdjdlV2xBWm5sclRoQno4OHFSYmVXeW9ONURQNFpwVFdXMHloZnNEWDhjbURCZ3lmODBzeHcwQ294NFFSLXJ0Y2JBRkdjVm94cUtmQ0tMdXhpZVI2eUNRX0tMdTdpN01kRmwwWGtMa2Z3c2M3dDZveEg1SncyLVBnQmE4UjNWWG13V3hsR2xGNmFG?oc=5",
+      "source": "www.nationpathindia.com",
+      "published_at": "2026-11-11T18:47:06+00:00",
+      "description": "India Prohibits Export of Specified Lithium-Ion Battery Black Mass to Strengthen Domestic Critical Mineral Recycling www.nationpathindia.com",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a6d9822a7e693120",
+      "normalized_title": "india prohibits export specified lithium ion battery black mass strengthen domestic critical mineral recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Bans Li-ion Battery Black Mass Exports for Recycling - Rediff MoneyWiz",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeGwtbFVDcjIxVzREVW8xSUlidHkzRWtnN2pzTk9GTlJLQ3FDekpwWVhMaXIzN3F6TE1GU1YtZG9qeDh2Z00ydE1UZzlXSUxncGxBT0N3ZjAzczlUMHJUYjBYbEg2ZDNhWWFBMWNhbjI4cnhfN0x1TWpScXZFY0lBUTNiYjRNMWZDXzFtUDNfX2F6bmduYnp1WDMtdUoyc09kRFJF0gGoAUFVX3lxTE9zbGVtelVaUDJLMUtTUE53SkdOQ0xkeDlndE5SQ1NVR2dHYUVVOVhIX2pMMUZxRnc5d1JTMG9Lc094MGdJV0hfREpqamYzcmdYZWxlcWtFYjd4THdKbHoxS0Zfd2JlMzBBNzc0TFdyMk1fdVBCNVhBQUVwV0xwOUhsaU5lbzNBbmEtMFpOdUdUeGNETjhUSGNMTGRGZ0dfZld1cVhmSDh5Vg?oc=5",
+      "source": "Rediff MoneyWiz",
+      "published_at": "2026-11-11T11:52:53+00:00",
+      "description": "India Bans Li-ion Battery Black Mass Exports for Recycling Rediff MoneyWiz",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "15606e22bc5bcc43",
+      "normalized_title": "india bans li ion battery black mass exports recycling",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
