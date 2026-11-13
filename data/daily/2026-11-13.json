@@ -1,11 +1,11 @@
 {
   "date": "2026-11-13",
-  "generated_at": "2026-11-13T09:56:57.268072+00:00",
+  "generated_at": "2026-11-13T14:29:28.116579+00:00",
   "stats": {
-    "collected": 399,
-    "after_topic_gate": 66,
-    "unique": 28,
-    "new_since_last_run": 11,
+    "collected": 402,
+    "after_topic_gate": 69,
+    "unique": 12,
+    "new_since_last_run": 1,
     "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
@@ -19,18 +19,40 @@
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 585771 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 584260 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 595852 bytes, 57 links, markers: canonical, c-wiz"
+      "government: MoEFCC: no plastics-related links on the page today",
+      "merged 11 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (258 items)",
+      "google_news (262 items)",
       "rss (140 items)",
-      "government (1 items)"
+      "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Filatex India targets Q3 recycling and PFY commissioning - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZGpzMi1GUlhYOU9SY3R3RVZseDdMSUdiX1dHUUh2cVN1ZDhpX001Tk5iNUlRdE81VENhNGx6cGxaWHJtam5KRUxDdnA1ODNjZ3dFa0pIU0tXNzBRTFdvREpDc1hrUmZRdFhmcXdvbUtJUEE3LWdyQmEtWXJqcnctLTByWEtyN0hXaUFQa2JGVXJKWXFuSTNCNFVaUkVsMXpBUW1CVVUyOUdVZE1HY3otQzVVbEZaVmgxazhPNEJyTWtZZw?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-13T12:05:33+00:00",
+      "description": "Filatex India targets Q3 recycling and PFY commissioning Multibagg AI",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6e8835ebe691c9bc",
+      "normalized_title": "filatex india targets q3 recycling pfy commissioning",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Mailardevpally Fire At Plastic Scrap Godown In Hyderabad - INDToday",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNmN1Q004d05LUFZhRzhMYXFuVHJzMGpnTEU0S2RySUxvZUVZbXJTLTd5bGdWb3h1MVFRRVY4NmdtSDc4UVY4bV8waVJyRWpIbW1ORlNFRVU3RXdrMVg4WWxQWHY0R252RTIycmlYNnJBR0laeXRDRkUwOHdlX0pfTkdXRVQ?oc=5",
