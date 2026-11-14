@@ -1,35 +1,139 @@
 {
   "date": "2026-11-14",
-  "generated_at": "2026-11-14T09:23:08.791571+00:00",
+  "generated_at": "2026-11-14T13:25:36.950433+00:00",
   "stats": {
-    "collected": 401,
-    "after_topic_gate": 76,
-    "unique": 30,
+    "collected": 406,
+    "after_topic_gate": 82,
+    "unique": 8,
     "new_since_last_run": 4,
-    "relevant": 1,
+    "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
       "google_news: query 'recycled HDPE India': no results in the collection window",
       "google_news: query 'recycled LDPE India': no results in the collection window",
-      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
-      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
       "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 591851 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 587820 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: landed on news.google.com, 586378 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 586131 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 4 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (261 items)",
+      "google_news (266 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Remarkable Mosaic Records: From Plastic Waste to National Pride - India Book of Records",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdWU2ZHFDSlBmM0ctbVhpdW9wTVhSakN1bENhS2g3MWRJbS1FSVpaWkhScnFRUmYySEhvNkFBLXhpTUg1aFhuT0dyZ0RUQ29HamxBazZxMl9WaDRHY21jaFJ2OHh2ZkowV3dudkxrQVNHekhhRksxUUFIZVoyTFN1c3Y5bXdpT3cwR2RwVU56d05DR0V4NWFEQw?oc=5",
+      "source": "India Book of Records",
+      "published_at": "2026-11-14T09:06:00+00:00",
+      "description": "Remarkable Mosaic Records: From Plastic Waste to National Pride India Book of Records",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "6ca1dab153d19133",
+      "normalized_title": "remarkable mosaic records plastic waste national pride",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Reusable Packaging From PP Honeycomb Board: What a Credible CSR Claim Has to Show - India CSR",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSXB1TXM1cDNZSlZGeTBNOXVJQUxpOFpiZTB2SXFhaWZzbTlMVDFrRjdHOTljNldWYkhQbzBNWXA0M0xwaXRtdG5SSWRJTk9KNjNZc05rUjQyMXF3TlFuQkktREJUaWNsUjlDSFA5YVQ0ZzBPZU9DU3NySk9PeGZSTU9zOU51VHJUUVVOY1JXMGE?oc=5",
+      "source": "India CSR",
+      "published_at": "2026-11-14T12:03:46+00:00",
+      "description": "Reusable Packaging From PP Honeycomb Board: What a Credible CSR Claim Has to Show India CSR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pp"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "44a768ccedc2dc8a",
+      "normalized_title": "reusable packaging pp honeycomb board what credible csr claim show",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Kraft Paper Bags Instead of Plastic: What a CSR Claim Has to Prove - India CSR",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaXh5ZVRCYmtXaWt2QmJ2VHAxNlVNSkJ3UU1zTEYyX1ZmVTU1UUlfUWZFSEdrZ2lHclhCS01Udks4bjZUaVNhNGRzSTNpeWVtTDQ0M04xYmhnNVcyQmNrb3hYQ0JuUGU1SkM4Z0VWOEZvZnlzZnc4amh6Y01pbXlWdy03VXBVUmFMWDdXTEw0cw?oc=5",
+      "source": "India CSR",
+      "published_at": "2026-11-14T12:05:59+00:00",
+      "description": "Kraft Paper Bags Instead of Plastic: What a CSR Claim Has to Prove India CSR",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "630fa8a1f7c211af",
+      "normalized_title": "kraft paper bags instead plastic what csr claim prove",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans export of battery waste and black mass to boost domestic recycling - Daijiworld",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wRU1OTko4SFVJOEFvNUxIY2UtYklTcDVwcHlnZ0lhWG1OT2JTM3Rzc1M1V1htZXNfRXJPcDZtdVZBRlRFS2wxeTJrZTBVdkU2OXBZZVBwMjN0MFEwTVM5MWJTZkxYZDFoMGc?oc=5",
+      "source": "Daijiworld",
+      "published_at": "2026-11-14T03:54:17+00:00",
+      "description": "India bans export of battery waste and black mass to boost domestic recycling Daijiworld",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9460a04a34b21c2a",
+      "normalized_title": "india bans export battery waste black mass boost domestic recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Critically examine how Extended Producer Responsibility (EPR) mechanisms address plastic waste management in India. Why have technological and supply-chain bottlenecks limited its overall efficacy? – GKToday - GK Today",
       "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNLTMtUWpOVE5DMlNVemJhQzZsMUI0UHdOU0JHN216MVZURkR1aGRCNzhuQUcxQURiWU5zdThqMkl0RlQ3UmtldmVjTGwwZFRjcGJVSmlyZ2RpTEFtMXdibWVmWmtKcjZlUjFpTmhZZUdPcGFGWTZmWXFubURwQVkwcHNlQVUtXzMzY0tBNjZTeU9MZXc2MVJEcDJQZXYyWGc3bFNUVjNET1Y4dGgyU1M1WThRVjU1X0ZfWU1lbjNSRDFZcjd4eTctU1J5VTY0YWVpMWE4SmpqaW9RV3FkU2hLOGF0cWE1RWVTekJvaTVZbkRHdmlqUDhmZlRFOUVzMG5PSVJhLWpaT3FQVmFYdlRTbzlxX1BERkMzMThVMmxTU3NGUGk5LUViUUQxU1hwcWRjM1NKcFRQczc4c0pXcEZXUHBDVTlpTTN5bW1iN285ZlBEQQ?oc=5",
