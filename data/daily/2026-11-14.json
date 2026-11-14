@@ -1,0 +1,137 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T09:23:08.791571+00:00",
+  "stats": {
+    "collected": 401,
+    "after_topic_gate": 76,
+    "unique": 30,
+    "new_since_last_run": 4,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled HDPE India': no results in the collection window",
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591851 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 587820 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (261 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Critically examine how Extended Producer Responsibility (EPR) mechanisms address plastic waste management in India. Why have technological and supply-chain bottlenecks limited its overall efficacy? – GKToday - GK Today",
+      "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNLTMtUWpOVE5DMlNVemJhQzZsMUI0UHdOU0JHN216MVZURkR1aGRCNzhuQUcxQURiWU5zdThqMkl0RlQ3UmtldmVjTGwwZFRjcGJVSmlyZ2RpTEFtMXdibWVmWmtKcjZlUjFpTmhZZUdPcGFGWTZmWXFubURwQVkwcHNlQVUtXzMzY0tBNjZTeU9MZXc2MVJEcDJQZXYyWGc3bFNUVjNET1Y4dGgyU1M1WThRVjU1X0ZfWU1lbjNSRDFZcjd4eTctU1J5VTY0YWVpMWE4SmpqaW9RV3FkU2hLOGF0cWE1RWVTekJvaTVZbkRHdmlqUDhmZlRFOUVzMG5PSVJhLWpaT3FQVmFYdlRTbzlxX1BERkMzMThVMmxTU3NGUGk5LUViUUQxU1hwcWRjM1NKcFRQczc4c0pXcEZXUHBDVTlpTTN5bW1iN285ZlBEQQ?oc=5",
+      "source": "GK Today",
+      "published_at": "2026-11-13T17:30:20+00:00",
+      "description": "Critically examine how Extended Producer Responsibility (EPR) mechanisms address plastic waste management in India. Why have technological and supply-chain bottlenecks limited its overall efficacy? – GKToday GK Today",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "EPR",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "epr"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9016fe4d32d05f9b",
+      "normalized_title": "critically examine how extended producer responsibility epr mechanisms address plastic waste management india why have technological supply chain bottlenecks limited overall efficacy gktoday",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "POCL Enterprises plans Rs 1 crore each for recycling - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeDR2dlZkeUtadC13WlZwZ1VnRVNDNWlqb2JQYkNpY0NsTktqaDl4R0Q1d0ZfSFpHSVpma3U1eXh2Y1FOOW5uRE55UGdOSU1kdlNmb0xmZURXMmYtQm1fa1M0NnNDNVoxMTdKZmpyREp2X2tmTkR4UHVTcElnNzlNMTkzcFMxYmx2UG1hczFfMXFUTmNldldKYXNVUDh5ZVdXRUpLU1NpVUtsV1RwaFlva3RVcnpSQk9seHB1Vnl6cU1PNk9YdHBB?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-13T14:55:26+00:00",
+      "description": "POCL Enterprises plans Rs 1 crore each for recycling Multibagg AI",
+      "location": [],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a3295510c5aa3c8d",
+      "normalized_title": "pocl enterprises plans rs 1 crore each recycling",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Why India needs a circular battery economy, not just a recycling target - pv magazine India",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWllydFV0cFY3QUl6ai15N1FXbHJDQmhLa1RWSlo2R2toTC01cjkwUkJaUkc5bVZwZEN1cHhYRkx3c1RNZFNpOTlxOEZDOTZJeUhfOGZlUWtlQjFTUi0zNkVSQ0NSc2JuVTBTaEtldnBxYnhmU0lEZE16eG1yU1RPWEFqZVZGeXdjQlM5eEtBWFBCc3NWMF9rQmo2anBrTHAwbDA2R2lpdjlhR0RIZmpRUjhIQ3hGR3c?oc=5",
+      "source": "pv magazine India",
+      "published_at": "2026-11-13T23:03:45+00:00",
+      "description": "Why India needs a circular battery economy, not just a recycling target pv magazine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "78db0b176863bdff",
+      "normalized_title": "why india needs circular battery economy not just recycling target",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Bans Lithium-Ion Battery Black Mass Exports: What It Means For EV Battery Recycling - BW Auto World",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSVJ3MFduWmhELXZrSFJFOFp6SE43TWh0cEJEMndZV1NJN1JvUlk4cTZWQlI3N3FERXlST3ZEN2lfN3dRd0trZ21EQjVBNW5jU1pvVmpYQW1sZ2pGS3E2Sm96NVM3bUNSY1JnRGdFajRjZVZsZTI4OXNSbVUtX0FOU0xYUDhJREJqWFFKOVQ4R1Rma3prd3FYY0U1T053UktkRF9pZXRXQWgtS01XOWluWVI5Sk9HNzFuMVlsUllOc3o0OVJsY2c?oc=5",
+      "source": "BW Auto World",
+      "published_at": "2026-11-13T19:38:46+00:00",
+      "description": "India Bans Lithium-Ion Battery Black Mass Exports: What It Means For EV Battery Recycling BW Auto World",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9b2f353140dfa6ef",
+      "normalized_title": "india bans lithium ion battery black mass exports what means ev battery recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
