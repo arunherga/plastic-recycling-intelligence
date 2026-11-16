@@ -1,32 +1,215 @@
 {
   "date": "2026-11-16",
-  "generated_at": "2026-11-16T10:09:02.431275+00:00",
+  "generated_at": "2026-11-16T15:35:53.094522+00:00",
   "stats": {
-    "collected": 417,
-    "after_topic_gate": 57,
-    "unique": 26,
-    "new_since_last_run": 3,
-    "relevant": 0,
+    "collected": 430,
+    "after_topic_gate": 66,
+    "unique": 10,
+    "new_since_last_run": 7,
+    "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
-      "google_news: query 'plastic recycling Karnataka': no results in the collection window",
-      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
-      "google_news: query 'plastic recycling Bengaluru': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 587034 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 586887 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 585097 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 3 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (277 items)",
+      "google_news (290 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "UFLEX recycled 552 million PET bottles after Noida expansion - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa3RuT1pYa1dibGZFTHZaXzNFQTltWF9WOXFvZHNNUU9YVGdCOGRCZEstVXpXYmkwX0dSMnZUV0kzTThzazZNRmEzTUlQdEdhYWtySEhUUzJwclVHRjZiMzhOaTdnNlVoR0pMNjNmR204MWVYODVTNDYyQ2NjeWM3S29oaGdnS3JacnE5anltejB4aTFpQXVvNGE0VTFmX21jNGtFMURFT0k?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-16T07:32:44+00:00",
+      "description": "UFLEX recycled 552 million PET bottles after Noida expansion Multibagg AI",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "CAPACITY_EXPANSION"
+      ],
+      "keywords": [
+        "pet"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Capacity expansion",
+        "Investment / funding / acquisition",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a1d1bddd27e687b7",
+      "normalized_title": "uflex recycled 552 million pet bottles noida expansion",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "ONGC Petro additions Limited (OPaL) announces AMSP-linked incentive scheme in Polypropylene (PP) and Polyethylene (PE) for November 2026 in the domestic markets of India - Polymerupdate",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xemVNTUVLMFJKVG5UT2R0Q0Q0dzVyZEV0QXVuMXBzTjZmb0ZmN1lvWkl2aVMwaExBWmVFd1c1R3h5M2pWeFhEQ2FBellDa05WMFY5eEZMTGd5N3V6OURYUWY3T3hJeDNaN3BlWg?oc=5",
+      "source": "Polymerupdate",
+      "published_at": "2026-11-16T12:19:53+00:00",
+      "description": "ONGC Petro additions Limited (OPaL) announces AMSP-linked incentive scheme in Polypropylene (PP) and Polyethylene (PE) for November 2026 in the domestic markets of India Polymerupdate",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "pp",
+        "polypropylene",
+        "polyethylene"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4a433029f7061093",
+      "normalized_title": "ongc petro additions limited opal announces amsp linked incentive scheme polypropylene pp polyethylene pe november 2026 domestic markets india",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Bans Lithium-Ion Battery Black Mass Exports to Boost Domestic Recycling Capacity - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQdHlEdjNlZTAzVW1SSG9iRlIyQ1FJOTI0blh1MjJqb0dnVmp5UXcwT3JMSGd6SGhVd29PTWxiSnI5SUpBZ2VDLWpRY04yZ1REWS0wVEJDY3BUdXAwUEQtTDVrdXNpeUNmQUZ6a2drUHVKVFl2dHk2eEtqRlZDLV9qY2U2Ny1nU0Z1LXFITVIxVWVnN19CRG9hd1lZQUVTVHZrWFFxcGhlYkRxdFVwdUp1ZmdrNTZyV3VVNWE4NFZwU0tTcXZ5cS1Mb21Wdk1xc0ZEQlVlZlRkck9MZDdNTEtLS2VCTGE3ZHh5OXc2OF9lUEFCbnc?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-11-12T11:31:00+00:00",
+      "description": "India Bans Lithium-Ion Battery Black Mass Exports to Boost Domestic Recycling Capacity Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d3848606ca6bd468",
+      "normalized_title": "india bans lithium ion battery black mass exports boost domestic recycling capacity",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Avro India Limited (NSE:AVROIND) Q2 FY27 Results: Consolidated Revenue Rises 41% as Recycling Arm Scales Up - Kalkine India",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWFBRa0d6eVNNY0VNeFVmMURCTVZJbFl3NEUzMVptRnVqQUhLSjNvY0ptVzJaeWJGV3dBMlVPSDBuSG9xUTlWZExrXzlqanZyRzIyWlRiUE5MbmRKaWxWOFdPMmUxZWlISGc3VUMzbW9oNngySU5lRFJKSkd1X0I4VzhjQnlkZThwVmJsZzl6WlJVU0JNd3pTTWo1QzlJTHFLZnIwajJQb21BLVR0Skk4YzZxN0VsQm5sa3B2SXJZcmY4ZXBrOEs5VUhUTkxyTkRPUGNveFZpNm5wUjl3X0E?oc=5",
+      "source": "Kalkine India",
+      "published_at": "2026-11-16T11:49:00+00:00",
+      "description": "Avro India Limited (NSE:AVROIND) Q2 FY27 Results: Consolidated Revenue Rises 41% as Recycling Arm Scales Up Kalkine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "15f27154bc838aff",
+      "normalized_title": "avro india limited nse avroind q2 fy27 results consolidated revenue rises 41 recycling arm scales",
+      "origin": "google_news:recycled plastic granules India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Circulose restarts recycled fibre production under new interim CEO - FashionNetwork India",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTnp0dVFjRmRMdDhaN0xObE5rWWJ2d1lOSWRvWjNkN2JXQkh3OVp5VTJOQXZnQWhVVS1sVVZMM3FmVm5uXzY0Sk5GTVFsdXZEekRuYVhzQkRuUG5iVHBwQWJqM0p3VXQ0NktvS0V3MmFZWWk4VndlMGVhYzZxMW5JSGtFTjk0QVFLM3hOZU10MHB3WVRDUWtkVmRkVnQ0Q245SVEwdlFiUFNSVzBGX0oxTDNFX2E?oc=5",
+      "source": "FashionNetwork India",
+      "published_at": "2026-11-16T10:43:48+00:00",
+      "description": "Circulose restarts recycled fibre production under new interim CEO FashionNetwork India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "edac7841c4cf5175",
+      "normalized_title": "circulose restarts recycled fibre production under interim ceo",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Battery Recycling in India: LICO Materials’ 10 GWh Plan - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObi1BSDJyUEQ2ZktLRnQ0eUVmMEJkNDZVM18yVVMzazIxVHFiSlVORWpXb0ptRWpmTzR4T1d2d3JUTUJyU09scGpkTTI4YXBhRXMtZGppRG5TdlFZTWR2S05qX3VtWVVpMEl2X0RwdmlNZDlhUzJLZFFuMThJbjJkajZBUnhfZ045OFdWWlpla2xpODBuMmRlZw?oc=5",
+      "source": "Urban Acres",
+      "published_at": "2026-11-15T06:50:12+00:00",
+      "description": "Battery Recycling in India: LICO Materials’ 10 GWh Plan Urban Acres",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ded5983ea104e3d2",
+      "normalized_title": "battery recycling india lico materials 10 gwh plan",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India bans lithium-ion battery waste exports to boost recycling | Tap to know more | Inshorts - Inshorts",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTFNlcHNuRklLU0E5anoybThKcDlJRE9yMlVON1k3akRJQmhMMlFOX3lTMFdDbkctbnZhVG1DTVMzRmpQX2FzZEpyRXdlY3dpWjlRcmtsR1B0MUxwaEtxT3B5S3RyNkhtbFg5Mmlqa1pvbzlvdExyS2FuX0V5c25sR1RPNGVyQy1BbkZOT1NuZ2N1ZU50ZlBHQVpFa3ZnRk8xeFhiWmowZ2JyZ9IBrwFBVV95cUxNR0VIc3FPMkdhUjByNlpDTlpkQVhjb3dQSnVhZXdYVk5RdnVjQ1A2aVVIWGdzSGRVUzdZWjRNZ2ZNU0s5dVZzUVF1RWNyNW1LcE1uQkRvSFdDdnBZRmJfdUlWQ3g5RkJfMkR5Nmpidlh6UncxbHZON21fWDA5VlhwNXRnckY0amhjSTB0eUFUSW1VRzhaQ252bm9YekJ0SFNmbUlmdzB4d2k1alRyNUhn?oc=5",
+      "source": "Inshorts",
+      "published_at": "2026-11-13T11:58:38+00:00",
+      "description": "India bans lithium-ion battery waste exports to boost recycling | Tap to know more | Inshorts Inshorts",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "197b045ba29ba0ac",
+      "normalized_title": "india bans lithium ion battery waste exports boost recycling tap know more inshorts",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "SFK Group sees growing opportunities in sustainable paper packaging",
       "url": "https://packagingsouthasia.com/type-of-packaging/paper-packaging/sfk-group-paper-packaging",
