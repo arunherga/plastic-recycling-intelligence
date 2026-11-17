@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T11:05:41.282724+00:00",
+  "stats": {
+    "collected": 467,
+    "after_topic_gate": 46,
+    "unique": 23,
+    "new_since_last_run": 6,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 596499 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 586649 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 588420 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (327 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Fire at Adampur Chhawani Plastic Recycling Plant Sends Toxic Smoke Over Nearby Villages - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbS14OEx5RzJ5V2pCaFdLZHJOd3QtQzhmYXNuTndqMDRjcUozc1BVdVlGQTF4eUhCdTZXTjZ2VUI2SnNiX0tUaDYtLXk2VWtQa3FjQlItVnliWDZFV1k1VlZHTUxUd2ZsbUpqRUJ6ZkRZSThCMERhWTZ6YkNMMXkxY3lqUkdtRXNlVzdjWDB6MmNfZDk0OUZrdEpxbXZGTmhLaUI5b3VOdWx0QVBwaTMwX20xcDRnN0RGUTNBUHNqNWxLTDgxbGF0WHVOYnZnakRyTTQ2OGtyY0JqVUhxYTRMbmNPRUZ2T1pfQlYyMHc1YUF3bjTSAfgBQVVfeXFMT1BXS0h6Vy0xanhCdENacWxpZFcweHUtNU1DbFExZ1pUazBYbXp0a1NOQWJxOUNrQWRxUGI2MlA4emkwYzlBa1VLQmJRZTh4ZFVvenZvdmpaczBkZTctWHpZWHVES0d4OTg2TXFfdXJNeGxGeUYwNHg2S19ib3lNd1ZESU8tOEFpb1FYSl9zYkVQcS1lZlJkNUllUUhPUDUxdk0tMnRHcGtYY0pKWTBwajhuRU9DaEdxXzJzeWxSZ1A2bjZ0RUtYSDd4c002ZjB3T29hRHNsVGtnTU53WTlPem5mOHoxWDlOOW94LXRnYTcwa18wQ0w3c3U?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-16T19:28:00+00:00",
+      "description": "Fire at Adampur Chhawani Plastic Recycling Plant Sends Toxic Smoke Over Nearby Villages The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a4b80ca7b276bf48",
+      "normalized_title": "fire adampur chhawani plastic recycling plant sends toxic smoke nearby villages",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "Bengaluru Plastic Ban: Krishi Mela Fined ₹4,000 - Urban Acres",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSVhRNGRLVUpzNU8tdkN2MjJyM01BT2pRWEZMYUhrbEpVa3Jkek4wWDZOejZpQzR4RHFJZk1SMEJtVXVFLXdwU0gtOUk3RXZHektGclFNS0N6dzVCOXVlUktSUUM2YWFEbTRfTUl5ejBLOXVMUTBwYmJVLVhsOThleW5IWHJFektURTlHOUZtZW1BUjNaaF94bndIdEcxOUU?oc=5",
+      "source": "Urban Acres",
+      "published_at": "2026-11-17T04:27:05+00:00",
+      "description": "Bengaluru Plastic Ban: Krishi Mela Fined ₹4,000 Urban Acres",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5e39f877cceaf8ab",
+      "normalized_title": "bengaluru plastic ban krishi mela fined 4 000",
+      "origin": "google_news:plastic recycling Bengaluru",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Krishi Mela Stalls Fined Rs 4,000 for Banned Plastic, Littering at GKVK; Organisers Told to Make It Zero-Waste Event - The Bengaluru Live",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOV04yLWxuQWVCRW9Jb09GOTZvd25VazFSQ2swbWl0MU1hZHVpVlktbGtsUHVmQ3EyclhNU1BDX1BPZWZ1YXRlMGtuNkhhZGN0alhaOUtaZGhidjR2RndhRkt1cF9kN1pqRVdsVWloakRSMUdZZktoSU5TcEhMaXY4eGJHTThyMXhEdlVzSmVnVDZyUVVaQmhjNUZZRzY4WGNXdXBGR184a0U5LU1qdjZLTlEycXpFWldaNmVpYVpsZ3hrTGNUMFN5YzkyZ0RlazJTYzJKTjNvNUM4TWc?oc=5",
+      "source": "The Bengaluru Live",
+      "published_at": "2026-11-16T14:45:27+00:00",
+      "description": "Krishi Mela Stalls Fined Rs 4,000 for Banned Plastic, Littering at GKVK; Organisers Told to Make It Zero-Waste Event The Bengaluru Live",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "58e36c6edd8e8045",
+      "normalized_title": "krishi mela stalls fined rs 4 000 banned plastic littering gkvk organisers told make zero waste event",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Centre pushes civic bodies to recreate market for recycled construction material - The New Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQMHh3b3VSdW01NmVTNlY3emFsUUtjNmRjLUdyNkJaU3BPYzE1WFFiQTFCaGRwcEV1dm5MZlVLZ1dRdTJlX1lVcS00d2dncVVGcXBSbEswZUl2azNiQ21wcHNiSDVtTDJDZ1VBOEsyX3o4UGROQTdFdVA3UVBHb1lrZllpYjRFY2tBRkhCS1djWldsOFpMdF9Sc0h4S3BWTllwTTlsQURhNTJqTkoyaU5VQmwxRGFPRVVoeE5OX05aandka0cyUVhjTmYxc9IB2AFBVV95cUxNeWZ2OGNNMG1XSHN3am9jdXl0elhacTZOMG1Tb0YxOW4tUjZDcHdBSUFTNWZ6RVl2ZFNkdUw2WXpwM1d0RWN1YUlVYmthM0FERGlYOVczZ3hBaW5UWkpCMU5mSXBxbGRmaktPZGdTV05uY1V0QlE0c2dOOE5mRG9uVWhmaHlGVW9VWnpGLWJOQmhaN2M2bFlNRFFQdGVwd0FvUUw1Z3p4WGRYOEduNmF6N1RjZlFPNkxQUWNkRW56MVlYYUlQMW9hSDBvY1J4dkZjZUhOblByX08?oc=5",
+      "source": "The New Indian Express",
+      "published_at": "2026-11-17T06:20:37+00:00",
+      "description": "Centre pushes civic bodies to recreate market for recycled construction material The New Indian Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b51a538fd90ec56a",
+      "normalized_title": "centre pushes civic bodies recreate market recycled construction material",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Commentary | Ship recycling: Time to replace political perceptions with technical evidence",
+      "url": "https://recyclingtoday.com/ship-recycling-time-to-replace-political-perceptions-with-techical-evidence",
+      "source": "Recycling Today",
+      "published_at": "2026-11-16T11:08:00+00:00",
+      "description": "The debate about including two Indian ship recycling facilities on the European List should be about compliance, environmental performance and measurable improvements, not generalizations, historical perceptions or the rejection of a particular recycling method.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "eb12d11a34e82fe0",
+      "normalized_title": "commentary ship recycling time replace political perceptions technical evidence",
+      "origin": "rss:Recycling Today",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Orders Nationwide Audit of E-Waste Recyclers Over Fake Compliance Certificates - The 420.in",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBVc0p3eVhTNHZOalVOLU93Qk9zamxFeGFwZ0QyVUFjWVN0QXBJaUlzUWJyMmtHSU11Tms3a1lhTkdmMmNpdFVOSHdqYlJIblpDaFV1MzN0REpkOVFGSXdDLWVFaTZ2TVFGbE03YkFQeDQ?oc=5",
+      "source": "The 420.in",
+      "published_at": "2026-11-16T07:29:41+00:00",
+      "description": "India Orders Nationwide Audit of E-Waste Recyclers Over Fake Compliance Certificates The 420.in",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2e8b354c315180de",
+      "normalized_title": "india orders nationwide audit e waste recyclers fake compliance certificates",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
