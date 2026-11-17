@@ -1,12 +1,12 @@
 {
   "date": "2026-11-17",
-  "generated_at": "2026-11-17T11:05:41.282724+00:00",
+  "generated_at": "2026-11-17T15:54:43.481456+00:00",
   "stats": {
-    "collected": 467,
-    "after_topic_gate": 46,
-    "unique": 23,
-    "new_since_last_run": 6,
-    "relevant": 1,
+    "collected": 465,
+    "after_topic_gate": 44,
+    "unique": 9,
+    "new_since_last_run": 3,
+    "relevant": 2,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
@@ -14,18 +14,94 @@
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 596499 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 586649 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 588420 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 595728 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (327 items)",
+      "google_news (325 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Bengaluru Krishi Mela: Officials Impose ₹4,000 Fine In Crackdown On Single-Use Plastic - Asianet Newsable",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZFBIaFB0RFlvT3JfWmhLbzF6ZUpXaHpySFhEOFpJWDVvUEhZVW9aOUZuYmFJZGttZHc3Ni0zVmYzaWVYbFZxNXNRTGhBVW51LXpHcWRVcTVsRUdzSzJPcVBtYXZuMFFzQUxlN3FiNWVnQ2JyUVhFZGVaUHphSFRtUmlnTDEtaUZ0RnUyRDFMLUEydTUzNjZsT3M4RnJSamQ1cDIzRkU2aWV3QXRweDg2VGtwTm9JWEFtZTlUSE8yem1HLTlBTXNEQ01NOWFNaUF1Wk00Mm5DdktwclM2aFlTRXRkYWMwUdIB6wFBVV95cUxOY3FjNGh4VW4yYnVKSGY5MEY0cWtLX01PWDVvaUQ4Y1VsTnpzTFFMRTdZMXhNeTdxOU9uQ2ZVNHhwQi1HMXJNNnpFR0Nkel80TF93ZHlhTVNrMmZHMzRjbVpPSDNYQWd3VzkxT0t2U0RaQjBiY09fSGVvejBZRTlucmVpcnFtVEdnRTNualloaUc3VFpEVk1VOE1xclRZeWNwYktYUFlUNGljU1Vvb3RUTDBBa29lTTdDSDN5V1VIWEFwQzBoTVhLb3FWMlE1Sy1CQzhWZDh1cDBwUzZSYXJ6d1J2cVRhRnE3d2p3?oc=5",
+      "source": "Asianet Newsable",
+      "published_at": "2026-11-17T11:27:35+00:00",
+      "description": "Bengaluru Krishi Mela: Officials Impose ₹4,000 Fine In Crackdown On Single-Use Plastic Asianet Newsable",
+      "location": [
+        "Bengaluru"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Bengaluru"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0e657a8e6527bc5d",
+      "normalized_title": "bengaluru krishi mela officials impose 4 000 fine crackdown single use plastic",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "GAIL (India) Limited announces incentive scheme in Polyethylene (PE) for the month of November 2026 - Polymerupdate",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zNDJpTERTQVNIeU52Z2FwNThteEhHcGVINURYZkgxTFlqM0RrTVMzNFQ0RkNUYW1ENlg4bXY2VWd1a25qZmd0RUI5c1FpSXZkNXE0SHBOcVpLTXRLczlibEJrT1FQTW1qdG5Ydg?oc=5",
+      "source": "Polymerupdate",
+      "published_at": "2026-11-17T11:07:48+00:00",
+      "description": "GAIL (India) Limited announces incentive scheme in Polyethylene (PE) for the month of November 2026 Polymerupdate",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "polyethylene"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "4872688f352bf532",
+      "normalized_title": "gail india limited announces incentive scheme polyethylene pe month november 2026",
+      "origin": "google_news:recycled HDPE India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "From One Lakh Wrappers to a Statewide Movement: Punjab’s Young “Plastic Champions” Lead the Way - Living India News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORkF3N0VJR1A3MWI2Y0ZaZlhkRG1nckJKZzQzS1d5WGNIajNsRXJVcmlndzBRYmhSQUo2R1RkeG9fNVQwQlBqTHhCZFFzTlRJalZUYlVKYTk1TlZwMVZUcThKTVdINklRTENfanpNYS1QUDNWeTJTZVRnYzhhR3FhMWc3NjJKeXpSbHNIdmFwdjM1Qnd2YWYtSkM2V1NJZHhaSXZZZ1hoNkxGYmRqR3oteGtTWTFON3EwZm5STUcyYw?oc=5",
+      "source": "Living India News",
+      "published_at": "2026-11-17T04:42:00+00:00",
+      "description": "From One Lakh Wrappers to a Statewide Movement: Punjab’s Young “Plastic Champions” Lead the Way Living India News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c374922edf825146",
+      "normalized_title": "one lakh wrappers statewide movement punjab s young plastic champions lead way",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Fire at Adampur Chhawani Plastic Recycling Plant Sends Toxic Smoke Over Nearby Villages - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPbS14OEx5RzJ5V2pCaFdLZHJOd3QtQzhmYXNuTndqMDRjcUozc1BVdVlGQTF4eUhCdTZXTjZ2VUI2SnNiX0tUaDYtLXk2VWtQa3FjQlItVnliWDZFV1k1VlZHTUxUd2ZsbUpqRUJ6ZkRZSThCMERhWTZ6YkNMMXkxY3lqUkdtRXNlVzdjWDB6MmNfZDk0OUZrdEpxbXZGTmhLaUI5b3VOdWx0QVBwaTMwX20xcDRnN0RGUTNBUHNqNWxLTDgxbGF0WHVOYnZnakRyTTQ2OGtyY0JqVUhxYTRMbmNPRUZ2T1pfQlYyMHc1YUF3bjTSAfgBQVVfeXFMT1BXS0h6Vy0xanhCdENacWxpZFcweHUtNU1DbFExZ1pUazBYbXp0a1NOQWJxOUNrQWRxUGI2MlA4emkwYzlBa1VLQmJRZTh4ZFVvenZvdmpaczBkZTctWHpZWHVES0d4OTg2TXFfdXJNeGxGeUYwNHg2S19ib3lNd1ZESU8tOEFpb1FYSl9zYkVQcS1lZlJkNUllUUhPUDUxdk0tMnRHcGtYY0pKWTBwajhuRU9DaEdxXzJzeWxSZ1A2bjZ0RUtYSDd4c002ZjB3T29hRHNsVGtnTU53WTlPem5mOHoxWDlOOW94LXRnYTcwa18wQ0w3c3U?oc=5",
