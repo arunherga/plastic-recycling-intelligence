@@ -1,31 +1,136 @@
 {
   "date": "2026-11-18",
-  "generated_at": "2026-11-18T10:40:36.810184+00:00",
+  "generated_at": "2026-11-18T15:33:09.049298+00:00",
   "stats": {
     "collected": 498,
-    "after_topic_gate": 61,
-    "unique": 22,
-    "new_since_last_run": 6,
+    "after_topic_gate": 85,
+    "unique": 10,
+    "new_since_last_run": 4,
     "relevant": 4,
     "high_priority": 0,
     "opportunities": 4,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
     "source_notes": [
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 594024 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 591958 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 602620 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 602079 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 593045 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 6 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (358 items)",
-      "rss (140 items)",
+      "google_news (368 items)",
+      "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Ex-Smart Cities Mission head's recycling startup Recove raises Rs 56 crore in equity and debt - Indian Startup News",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNZmp0ZVJFZ1JWMHFsUjZHMFZJUFU2VDBQaHFjU0s1TkxrWUhXNFRpYXFVRnBDQjljbVhQcVhJaWxLMkRQUnlxSXB1X01HbWp4dWszT0tGUjB6LXl1Z3gzSVJRdENXTTRXMjVhYUpvOVlTWHphM0xmUm52NDY1NTFSaGRQR05BZjdhZ0F5V2t1NzZWOW5Fb193U1lTcnpPYmQ4cVZDa2dvb3ZQcFJfSEJBT0VvUFhQZFEtZ0FlcU81SkczbkcxZUlWazhybXJBbE1YeTZzZWJB0gHWAUFVX3lxTE1manRlUkVnUlYwcWxSNkcwVklQVTZUMFBocWNTSzVOTGtZSFc0VGlhcVVGcENCOWNtWFBxWElpbEsyRFBSeXFJcHVfTUdtanh1azNPS0ZSMHoteXVneDNJUlF0Q1dNNFcyNWFhSm85WVNYemEzTGZSbnY0NjU1MVJoZFBHTkFmN2FnQXlXa3U3NlY5bkVvX3dTWVNyek9iZDhxVkNrZ29vdlBwUl9IQkFPRW9QWFBkUS1nQWVxTzVKRzNuRzFlSVZrOHJtckFsTVh5NnNlYkE?oc=5",
+      "source": "Indian Startup News",
+      "published_at": "2026-11-18T11:02:23+00:00",
+      "description": "Ex-Smart Cities Mission head's recycling startup Recove raises Rs 56 crore in equity and debt Indian Startup News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (9 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8fb8fc8608249ab0",
+      "normalized_title": "ex smart cities mission head s recycling startup recove raises rs 56 crore equity debt",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 8,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plastic Ban In Mumbai: Bombay HC Raps BMC, State Over Clean-Ups Only For VIP Visits - LawChakra",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UUnRoc2dNdXpoLUNRWGRhVXlnc2duZXQ2bGw5OGc3QXJJNURnOUwwbmJHLWxHZUVZWm9UNktSV09CQ3hyc182MURWUWJ1VjEwUUQxMHMta1FMTVNCMzlEUE5jTDYzX0ZFSENmWFJlcENMV3kzMUR3blRVT24?oc=5",
+      "source": "LawChakra",
+      "published_at": "2026-11-18T10:55:28+00:00",
+      "description": "Plastic Ban In Mumbai: Bombay HC Raps BMC, State Over Clean-Ups Only For VIP Visits LawChakra",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "457970fd84d151a5",
+      "normalized_title": "plastic ban mumbai bombay hc raps bmc state clean ups only vip visits",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India seeks Italys support for European ship recycling approvals, eyes EUR 50 billion bilateral trade: Piyush Goyal - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPS194OG9BYU10WjZBSWdCUTlFRjVHOEFTTUVZbk11cV9uQmlTOUp0am5KeS1FaVJkYmF0S1Brc2F1SF9lbGtsbEl5eGQ4RUsxRV9od004dUY1YXFWMGFpblNxVE1YbUN3U3IxeGZud3k3TjdMUm1VbThweFUwZVNOZmFPcjRGNWxMa0FQelpPdVhTaW0wRmhZVExfQW5JRUczbGItdktHMmpmSjFTT1BheU1PZ2hXcVc1ZENDZm1mWmhFLVg3R3lXd1cxRTJpVUEwSVNOd2RRZTFiV1hMeHJoVDlFUjktTTFwY0NSSm9n0gHyAUFVX3lxTE1mcTFBUU85MDBRTldhTmdWVWpXQVlrWjlmeEhYbkZsRFBEUENIdTFiS1d5TVl1NDcydng3NTUzOWJ4V25oOWZyaU5sa1U2Si1lRURIZjdtQkIzbW4wQkQ4ajdHQnFPMEJzdjNmSjNDcEdXYzhId3FuZm5yRkFTRDNXTlFtUEZhQUhsdENNYVZTVmJ6cDR2VzF6Ums5c1hPVDN4d0FOSGJ2dHVpdlBRYnJ1VzgxUDM5VE45TXdSNXBHVWV0VzRFRmJiYWJxMERaWnNueG0wQ2l6cFdKQkNFSkZiemR5V3VaU05POFlvdzlsazd3?oc=5",
+      "source": "The Tribune",
+      "published_at": "2026-11-18T14:12:49+00:00",
+      "description": "India seeks Italys support for European ship recycling approvals, eyes EUR 50 billion bilateral trade: Piyush Goyal The Tribune",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fbf9d0508619c633",
+      "normalized_title": "india seeks italys support european ship recycling approvals eyes eur 50 billion bilateral trade piyush goyal",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Austria's ANDRITZ supports acid recycling at India's JSW - Fibre2Fashion",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1VsbS14UGtHOFVsMU1CTGdMN05lN0c2by1jWXZNaHdvaVFqbDh3Znd1bldqNmtkazVIcm50QUxpcU15bjJoREhUQ2o4LWIxa0tFYVF6TndTU0cwaXlsMGN6SHN6NTY2LUZqS0gtYjliRmNwaWt6TFZiWENTR09NLUd2QU5qNHNGSWMyNkxSbWQwRTRuQXRaNGJiYWNiVzE1TkEyZVBSaTlYcXZDbFdEdzdsczVSNjZ4T0NfSkpRdmpiWVZpMzFsM2RiQlFXcWc?oc=5",
+      "source": "Fibre2Fashion",
+      "published_at": "2026-11-18T09:18:35+00:00",
+      "description": "Austria's ANDRITZ supports acid recycling at India's JSW Fibre2Fashion",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8c7e20a0c2da9ac4",
+      "normalized_title": "austria s andritz supports acid recycling india s jsw",
+      "origin": "google_news:plastic recycling machinery India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
     {
       "title": "Recove raises $5.97M to scale India's plastic recycling network - Dealroom",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlp6Qi1GcDdLUWNJRUhDX2EtRU5QLWRpUm1hMVUwWmRwazl0TkhTYkFsMWR3RnBqNU12ckxUMU9YOVlaUFR4YWhrTXpBR2RscjRNTk5PVWVOMnFhbEJSb29tN19lb2xUaTBOdS0tUDRaRlVQN2tvMnYtZkdnUWppX2RhZzJ5S2c2N0dlV2NSZWFXOXZmWGhOWWdIVS0?oc=5",
