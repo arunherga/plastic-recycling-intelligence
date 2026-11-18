@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T10:40:36.810184+00:00",
+  "stats": {
+    "collected": 498,
+    "after_topic_gate": 61,
+    "unique": 22,
+    "new_since_last_run": 6,
+    "relevant": 4,
+    "high_priority": 0,
+    "opportunities": 4,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 4 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 594024 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 591958 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 602620 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (358 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Recove raises $5.97M to scale India's plastic recycling network - Dealroom",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRlp6Qi1GcDdLUWNJRUhDX2EtRU5QLWRpUm1hMVUwWmRwazl0TkhTYkFsMWR3RnBqNU12ckxUMU9YOVlaUFR4YWhrTXpBR2RscjRNTk5PVWVOMnFhbEJSb29tN19lb2xUaTBOdS0tUDRaRlVQN2tvMnYtZkdnUWppX2RhZzJ5S2c2N0dlV2NSZWFXOXZmWGhOWWdIVS0?oc=5",
+      "source": "Dealroom",
+      "published_at": "2026-11-18T05:20:13+00:00",
+      "description": "Recove raises $5.97M to scale India's plastic recycling network Dealroom",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition",
+        "Widely reported (8 outlets)"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "7f0a11b808f8c6bb",
+      "normalized_title": "recove raises 5 97m scale india s plastic recycling network",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 7,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recove Ventures Raises ₹56.25 Crore for Recycling Expansion - NewsIP",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QaVpjelhIRlh0WGdlWGYtZkdxOEg1NFUzSS0zWjlUTmVUbm1MVDVndzhBSUlnODNnQ1NtcmdjSE1nTGJ5VWNrcnR2bmpnOWpIWm8ya2V3Yw?oc=5",
+      "source": "NewsIP",
+      "published_at": "2026-11-18T06:11:42+00:00",
+      "description": "Recove Ventures Raises ₹56.25 Crore for Recycling Expansion NewsIP",
+      "location": [],
+      "category": [
+        "CAPACITY_EXPANSION",
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Capacity expansion",
+        "Investment / funding / acquisition",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "efaeeeaa72813db0",
+      "normalized_title": "recove ventures raises 56 25 crore recycling expansion",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recove Ventures raises Rs 56 crore to expand plastic recycling infrastructure - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOemNXOGRtWlY2bTlYdXhHWHI5M2JtNkExd3RYMG1iU3NxYnVzWFFvWXczRGlZbjJCd0gzZEptNW1XaVFTd1UtUXVaQTBGSDlJdm9OcXN3UkhQaUIxRVZjY1Z0cXRkMDhocURWS3FIZ05zdU92bEN4Qk1jWDA4b3cxYWdDTVJGdGlJYzltblliNHZqelFwVmZVRmpHQXJGWXZDVzB3R3FaWjVvZU5kWHh6NE5VY0ptSXpKNzY3ajZjNHU2eDZIdVZqTWxCOHd1Uy1QdHFvSXd1Vkc3Smlf0gHiAUFVX3lxTE9aQ0RzWEJrVFZJdDlYY3QtZkQ3V3VKWmp6V2haaDY0b2ZSSmJhOVBfX2dYZVVRcjNoRTFyYW1hSElEai00cV9GME9fVVR5N25pSmZFV2xhZlRhaEZWRkk0eEcxRnJySjdmemRKaHlxZVotZmVOOE5FZm5fd0J2UEt6YXJIckViUzFqLWp1c3RyUmFwU3BKamQzWEtJU2FhekwxU05mUXZ5MjlIbTYwRzRaY3lyaW1fRGk5b3ltb0pWd2VXVGhibDRKMUFqWmdEMFFyamQwcUpEUERmZ0dCRGhSYVE?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-11-18T05:44:22+00:00",
+      "description": "Recove Ventures raises Rs 56 crore to expand plastic recycling infrastructure The Economic Times",
+      "location": [],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "bcfee17245818980",
+      "normalized_title": "recove ventures raises rs 56 crore expand plastic recycling infrastructure",
+      "origin": "google_news:plastic recycling Karnataka",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recove Raises ₹56.25 Crore, Targets ₹2,000-Crore Recycling Infrastructure Expansion Across 4 States - Indianweb2.com",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQUNYajE2Z3VRMXBELWNfUHpqQ3ZrbldSREJCUUg3TTQyeGJKSVN1clRjOExGRmdBanRzR2U1a1FjdjJBWE5KQTk4d2doeHJjeTcwQW9uMHN3WnpPbEJtYzRFOHpUTkFrZG40RG5KZER3SzdhMzFaZmFMNTdQcTJJNVNJaw?oc=5",
+      "source": "Indianweb2.com",
+      "published_at": "2026-11-18T04:32:00+00:00",
+      "description": "Recove Raises ₹56.25 Crore, Targets ₹2,000-Crore Recycling Infrastructure Expansion Across 4 States Indianweb2.com",
+      "location": [],
+      "category": [
+        "CAPACITY_EXPANSION",
+        "INVESTMENT"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Capacity expansion",
+        "Investment / funding / acquisition",
+        "Widely reported (10 outlets)"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "36bdaec76b87353c",
+      "normalized_title": "recove raises 56 25 crore targets 2 000 crore recycling infrastructure expansion across 4 states",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 9,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recycled Electric Wire Manufacturing Plant Setup in India - IMARC Group",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUnFqUWY3ams0SzBXSG16ZTU5RzdWM1J6bmxFeXVWaFFhQmc4am9kLTZDT1VVWDh3MkRxejE1WHJXdUpKa09QamFPN1FCUmljaG5nemY5OHB2SHY0eU9FeUlrNmlEaVR5TGRQWEV1WkpuQUdvaUdZbVZSY3dPUkFlSGV3dnBLcHpFeV9mbUZBYnk5WjZKSlc4VWhn?oc=5",
+      "source": "IMARC Group",
+      "published_at": "2026-11-18T09:03:41+00:00",
+      "description": "Recycled Electric Wire Manufacturing Plant Setup in India IMARC Group",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a759a733a4dc8452",
+      "normalized_title": "recycled electric wire manufacturing plant setup india",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "How Is Namo eWaste Management Building a Lasting Competitive Advantage in India's Recycling Industry? - Trade Brains",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNN1d5N0hNVG9ZYkNPX3UtdjRtUjBBTVl6cmZXTkVOaDhuQmdCYmhkWE1HVm5ma0YyY0cwU2ZmUkhjX2hmb2M0TGJuZlZIN2FLeU9yVHVOMUdLUkxPYmNUbUhSZnc3ZDRxQ193ejZIM2g3NHNSQ01lREhoSml3LXVwUE5maURXUld2dG43cE0tS3ZQdS1FN2lLTTJVbkExc0xNQURGQlVGT1lKR0xwbEhQVlNuU2V3VktVY3ZFLS1ib2pYVGRLZkxqZThDX1BGWVl0eU9CaEZncWxVX1cyd0dj?oc=5",
+      "source": "Trade Brains",
+      "published_at": "2026-11-18T06:42:13+00:00",
+      "description": "How Is Namo eWaste Management Building a Lasting Competitive Advantage in India's Recycling Industry? Trade Brains",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fe3f72ae2ccd51a8",
+      "normalized_title": "how namo ewaste management building lasting competitive advantage india s recycling industry",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
