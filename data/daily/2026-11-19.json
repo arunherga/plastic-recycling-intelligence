@@ -1,22 +1,21 @@
 {
   "date": "2026-11-19",
-  "generated_at": "2026-11-19T10:44:01.688018+00:00",
+  "generated_at": "2026-11-19T15:40:13.901974+00:00",
   "stats": {
-    "collected": 504,
-    "after_topic_gate": 89,
-    "unique": 25,
-    "new_since_last_run": 5,
+    "collected": 506,
+    "after_topic_gate": 83,
+    "unique": 5,
+    "new_since_last_run": 0,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
     "source_errors": [],
     "source_notes": [
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 609997 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (364 items)",
+      "google_news (366 items)",
       "rss (140 items)",
       "government (0 items)"
     ]
