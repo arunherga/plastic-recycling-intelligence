@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T10:44:01.688018+00:00",
+  "stats": {
+    "collected": 504,
+    "after_topic_gate": 89,
+    "unique": 25,
+    "new_since_last_run": 5,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 609997 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (364 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "In 2021, Missouri tested recycled plastic on a Columbia road; one asphalt blend had about 1 reflective cr - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPZFhkRXNmc28tZU9NS0FKNUJ6dnQwVGhBaXA1Q1o2VUdqZ1lBZGFGR1RZNVFZdEJrVVFQUURmMG9Fd0l6eFhNa21RUXdPZ0NObGpBSXg3Yl82TmtWYTE0dERYdU16QkhtckJxQ2gtNllCNTNUR0tQUTZUU2c4bmcyVG1KbUhkS2ltSGd5UXFpT25aOTlFSmJaVlloV0g2eFRxT0RHbi1iMk5BeXp5NF82d3Q3czctcHJqX3NXdGtQOTItY1dLVE1ucm5ZVm1aLTlKVlB2bTlMcnJjdGhvUGE4bzN6c2stajBTeUd5Y2ZQVzFXSjlQeWpabkxoVldEbkRTVXJMWWtwM0VfYV9WM3kzWWFXTlFDVU1sQWp3ZmY3Yy1HZlBoSGJRSkZRMlg1MWhVRXowUGdrZTZRNnRtelp4bVZVT2dRMGxwaTZsZVI5ZVhPNXRYcmx6WVhaM0ZLUdIB3gJBVV95cUxPZFhkRXNmc28tZU9NS0FKNUJ6dnQwVGhBaXA1Q1o2VUdqZ1lBZGFGR1RZNVFZdEJrVVFQUURmMG9Fd0l6eFhNa21RUXdPZ0NObGpBSXg3Yl82TmtWYTE0dERYdU16QkhtckJxQ2gtNllCNTNUR0tQUTZUU2c4bmcyVG1KbUhkS2ltSGd5UXFpT25aOTlFSmJaVlloV0g2eFRxT0RHbi1iMk5BeXp5NF82d3Q3czctcHJqX3NXdGtQOTItY1dLVE1ucm5ZVm1aLTlKVlB2bTlMcnJjdGhvUGE4bzN6c2stajBTeUd5Y2ZQVzFXSjlQeWpabkxoVldEbkRTVXJMWWtwM0VfYV9WM3kzWWFXTlFDVU1sQWp3ZmY3Yy1HZlBoSGJRSkZRMlg1MWhVRXowUGdrZTZRNnRtelp4bVZVT2dRMGxwaTZsZVI5ZVhPNXRYcmx6WVhaM0ZLUQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-18T15:40:00+00:00",
+      "description": "In 2021, Missouri tested recycled plastic on a Columbia road; one asphalt blend had about 1 reflective cr The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fbba8b826c6504c8",
+      "normalized_title": "2021 missouri tested recycled plastic columbia road one asphalt blend had about 1 reflective cr",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "India Seeks Italy's Support On Ship Recycling, Eyes Euro50 Bn Trade - TradingView",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeXhiclVYaHBNcFhVeDVSWDlPeGVIXzZ1YXNUN0NZM3k0YzNyeU5tOXdTVktSdHJXUFdwajJHa01vdmNCOW51a0djSWtEal84QjQ1dGpWNU43RG93Y0kwazJhZHREZl9qdjFseVpvN05IbFVUZlY4WTE4dHN3VTNrMDFkWnpMa1gwRlo5V2czUEhxVjYteEhhdm4tcFdBaG52UEtOTHE3WU83T1NPN25TRWlpNEs2RDNDUEt1NENpVG8?oc=5",
+      "source": "TradingView",
+      "published_at": "2026-11-19T01:30:00+00:00",
+      "description": "India Seeks Italy's Support On Ship Recycling, Eyes Euro50 Bn Trade TradingView",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "0016a079c90d8cdd",
+      "normalized_title": "india seeks italy s support ship recycling eyes euro50 bn trade",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "India’s new export ban keeps battery minerals at home. 3 recycling stocks could cash in - The Financial Express",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQREdvNDcwTXhmY1dieWdJX0gzU2p0a0NqUkQ1S0QtRDdObi1MWXJKWFg4M0NWeXJzbGJob1ZjMlpGUkJIcXRWdHN3VXFucFEwWjVMbi01MWNEX2p6SGNqUlYydWRncVpYeGVKMkJGd0RLNkF1OG83UW16b0xkdkVRYXhBMVRKX284N3ZpQ1hkRVVyVEpaM01TaF9xWXBJZG1ZV2dVNVd3VWNOUFE4OWJaN05JV3FBaXRHbVRVeEJ6eTVpWEwyckZGSXdsZkx2b253SFY3RW1tT1FxbHVHWS15UlBOUdIB6gFBVV95cUxOaXpqQTZvRmRsX3FDVkpjaXpYLXBTVk92WDJYN25tYUFlZm9MVWNIV3NhNXYxVjBCakYwdGo1cXlXMmVpc25McFM5SzhkLWNSTi1RMFg1bkZkUkkyRlN2SXhRcjFwWjBQV0ZQd01Vemp1bW9HM0ZxMHd3UVE3TkN1NTE2ejBKZFg5SGpFNkp3YnM5N2syMzFBQS0yVXRIV0haWGpwVHF6cDJDajJkVmtFYmdCTjBvMHlCeURGRlM1QnU1blBSbnp2eFhsRVpJTFA3ZG95TlYtekJURXFWUzQzMW8tRWVvOElVYlE?oc=5",
+      "source": "The Financial Express",
+      "published_at": "2026-11-18T23:30:00+00:00",
+      "description": "India’s new export ban keeps battery minerals at home. 3 recycling stocks could cash in The Financial Express",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3b74f48826f83fdc",
+      "normalized_title": "india s export ban keeps battery minerals home 3 recycling stocks could cash",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Recovering Lithium Is Not Enough: India's Battery Recycling Industry Faces A Quality Challenge - Outlook Business",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjRUaG1KOTdIdk1FWW5DN09ZeWxjQnlwS1lrbkhjUHRsWGxPQ0RNRUo0WkNVdnlpUGx4cG1kbXFDMlBaTFRzRFZPWVJJZzhjRnhIczFjVFViZzRYZ29RMDN4SDdlUlNvMU94QnRMMkh3QWF4Z2tyV1J4UF9fY3lIVUl5VzF3aGR6cGU2TzlGOEpQZ3hzaW5KUTNEcGhXRkJxbkh6MVczMjZiRDdsTXdqeXhBMmVMR3ljQ0ZNcXZxUkJSV3Fwd0NYStIB1gFBVV95cUxNMl9JQVBiTkVZX3J0VFloaVZGb3ZremJpbHQ1WFB6UWt1X3pXbmgwYzdWUUVRanhZTV9rRTF0VlN4TnFLQkFoNmg2aEFIazVlZkw4TkNWMjhETHZpaDFnUFdaWDFtdkNtQnJ6YkZiR0JDT1doNlM4VnoxS0U0UWpZTHFzcE5oY1RySkRYVjI4anp2WVJJVUdTLTBPQjM0NExCUDF5bGhhQndsakkyanBjY0VyejVIMmNiNVhDWDhTN1JWZWphY3FmaF9Vemgxc21ELUltRnBR?oc=5",
+      "source": "Outlook Business",
+      "published_at": "2026-11-18T16:54:03+00:00",
+      "description": "Recovering Lithium Is Not Enough: India's Battery Recycling Industry Faces A Quality Challenge Outlook Business",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "26464e1586f167ea",
+      "normalized_title": "recovering lithium not enough india s battery recycling industry faces quality challenge",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "India seeks Italy's support for European ship recycling approvals, eyes €50 billion bilateral trade: Piyush Goyal - BusinessLine",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPbmE4UHJOZ0x6M2Z2R1poSXN4XzN4Y2haWlJPZF9pdHdkMjNMQnFJV1o4Ni03dXVxSFNodGtEYTI1dlRBQlo3czZkRVFqVE5TMXVKSWNLUlF3cjdVemkzMkpScF9PZWZyNVNJellrd2NISmE4dGluM281LWtYU19UZzVCQVNvTWlyRnNjdDYxMktGQUtEZWgtdXlXU2I0QUpPcUVoT3BDZkhydm9XaU9xbGpYalRmMTMwM0o4UmJfZDBEV2Y4WmZEX2hvQS1UTkZGV1RhX3hlWjNGdjRrODVPYmVWMXJKZENGMDdNUEplcEt6SFpNY2czR2dNWkRNXzdi0gGHAkFVX3lxTFBoeEgtamFXclkyUVZnYXU1d1NsRno1TkZtdFVQODdnOGhZYWlQUkE0UXVxMkxTWm1NUzZvUThnWk40Y1JjVTJDeFVSXzZEUXEtXzJ1STRzQTBva3IzYkRWMWlzc0ktNXZpRkxKUnNvZ2ZDVGFfR3hwR1NaS3JqU0hjVzFpbExiNC1PeV9EcVFOZnloaXpvVzMtU2dhWkllVWJOZ1VwTGhndWVCcHpSRjhPLVhWbUI2bHBmS0YwYUJ2ZlJkRTkxVDdzU015YTVkYk9EVkc5THhyTnB3eENnNkEzUE1DUVdmcW5pS3VZR2EtVHZfME9iUkFVTVRHWUNCWDViX2ZVOG5n?oc=5",
+      "source": "BusinessLine",
+      "published_at": "2026-11-18T15:21:22+00:00",
+      "description": "India seeks Italy's support for European ship recycling approvals, eyes €50 billion bilateral trade: Piyush Goyal BusinessLine",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "f063c23c4b4c2ea1",
+      "normalized_title": "india seeks italy s support european ship recycling approvals eyes 50 billion bilateral trade piyush goyal",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
