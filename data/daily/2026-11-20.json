@@ -1,29 +1,55 @@
 {
   "date": "2026-11-20",
-  "generated_at": "2026-11-20T10:27:02.979541+00:00",
+  "generated_at": "2026-11-20T15:21:25.991334+00:00",
   "stats": {
-    "collected": 512,
-    "after_topic_gate": 89,
-    "unique": 30,
-    "new_since_last_run": 10,
+    "collected": 497,
+    "after_topic_gate": 96,
+    "unique": 11,
+    "new_since_last_run": 1,
     "relevant": 3,
     "high_priority": 1,
     "opportunities": 1,
-    "source_errors": [],
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
     "source_notes": [
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 5 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 593932 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 594109 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 599537 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 10 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (372 items)",
-      "rss (140 items)",
+      "google_news (367 items)",
+      "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Saskatoon turned 10,000 pounds of discarded plastic into three giant sculptures resembling ancient rocks; - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNZWRCZVFxeUtKd2Jidk5uM05GNFVVb3hIMmpxVHk1LU4yOVhjRXJ2NHR0VHZVWXlrVXdhVEs1MHNtN2ZxNWlHNTBTYTJrM2Y2b1FoQ09iSkstTjI1UGtpVzkxNjlwY2RlU2xtczJyVTA0cXZEZEN6WG5PNlRUMmFCN0VFZV9ZcEQ4aXkydzVpcFBNWXBGNjB0enhXUm9zZmdqdzFvaURxYUstdmRDVnI2OEp3RHVERVM1bXdNdFotN0hFc21JdURMb3BvZFY2YlpGVzhYREo3emJlWnFZTTctb04ySTZvNERlb25ndHRYZ2dFNU1UMUVXeUc4U1RsN3kzMUpGUmVMNzNvcFhLSW5tUGNRVFU0VTFHNlhoWGlWVmJBMGxJT1pDNl8tZ3lmU3BWaFBkSURiYUJxS0JUSVQ2b1pIMm8xLUpfUTc5clRndnRETEsyN1JxTXQ5a3pXOG1mbWhxR0tGTl9JV0tBdTdiRtIB9gJBVV95cUxPY1BFMGtFX1NUcHJVQ0U3d1NHVFZEYm9GT2g5Q2hpWG5EaUgzY3l5Q2hHbmZKTkRIdWViTFNSTXZ3NWFJODgwdkNkeHJpcW93ZjFxVTAwZDMzeERaZlhBLUdGT2Y4bmdTOGQ3dXprMmVFSldGVDQ3TmVOZGc5dWEtYnR0UElKeFFVTlMzZTRtOEhmRlptRVk2WDdUcU9Wb0hCMVhWTFVoVUx5cmVNbEhZSWo2TFlPX0RzbzNRXzlHLW9HN2pMRHhWTlF5b0V1emRqZDV1WUhGM2NsOV9EaWRpcHBua2FDNGxrNVMwblZQalkza3FlUE5ERlNjTWl0dWV1Qzg0WWJXMjRkYXBFQVBHdUFlSlc4TFY2UkZBVkJUVHNqNndId3JVemxQREx6SlNSbElCb25iSzd5YjNxel9qUUpSdElyUUZNZGFEZ0hPMURhRlh4UTZYeElnNkpkellIekZPa2xQYTZnVUhlR1VRN29reG9yQQ?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-20T05:30:00+00:00",
+      "description": "Saskatoon turned 10,000 pounds of discarded plastic into three giant sculptures resembling ancient rocks; The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "960de4edbc5e7736",
+      "normalized_title": "saskatoon turned 10 000 pounds discarded plastic into three giant sculptures resembling ancient rocks",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
     {
       "title": "Commentary: Asia moves ahead on plastic recycling",
       "url": "https://recyclingtoday.com/india-china-asia-plastic-recycling-progress-unep-treaty",
