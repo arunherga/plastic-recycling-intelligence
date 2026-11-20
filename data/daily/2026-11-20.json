@@ -1,0 +1,296 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T10:27:02.979541+00:00",
+  "stats": {
+    "collected": 512,
+    "after_topic_gate": 89,
+    "unique": 30,
+    "new_since_last_run": 10,
+    "relevant": 3,
+    "high_priority": 1,
+    "opportunities": 1,
+    "source_errors": [],
+    "source_notes": [
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 5 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 593932 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 594109 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 599537 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (372 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Commentary: Asia moves ahead on plastic recycling",
+      "url": "https://recyclingtoday.com/india-china-asia-plastic-recycling-progress-unep-treaty",
+      "source": "Recycling Today",
+      "published_at": "2026-11-20T02:13:00+00:00",
+      "description": "India’s recycled content mandate is a clear sign that regional systems and supply chains are being established well away from negotiating tables.",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "REGULATION"
+      ],
+      "keywords": [
+        "recycled content"
+      ],
+      "relevance_score": 8,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Major regulatory change",
+        "FMCG / packaging / automotive recycled-content demand"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "MARKET_DEMAND"
+      ],
+      "article_id": "aea1037e6ba8a82c",
+      "normalized_title": "commentary asia moves ahead plastic recycling",
+      "origin": "rss:Recycling Today",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Pidg Invests $11.7 Mn In Nepra To Expand Waste Recycling Capacity In India - BW Disrupt",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN3lrSEVVMHN4cDRMdERvWDJCcHA0VDNwazlNZDhGbzhtTnltYzFaSlpac2FWZlNWSGdaMm8xdFlHSDJZRERtN2l1UHltSFN2ejRCR1V3YU84dHI2UEszU2E0VF9NXzNlaUttUUxWZ0tXa2hXQjdPNVRfYldlQUkwampfdDdPYmZ6NjVxbkZ3dXlPc1I4RXEwS3lROVF1TEFLRDRFZmV2RGl4Ry1lenlRdzhlSXk?oc=5",
+      "source": "BW Disrupt",
+      "published_at": "2026-11-20T04:57:33+00:00",
+      "description": "Pidg Invests $11.7 Mn In Nepra To Expand Waste Recycling Capacity In India BW Disrupt",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 6,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "340911f451fa187c",
+      "normalized_title": "pidg invests 11 7 mn nepra expand waste recycling capacity india",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Singapore's PIDG invests $11.7M in India’s waste recycling company NEPRA-Let’s Recycle - TNGlobal",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWDNWQ2JpeFh3TTItb0Y1bUxGMGFPR08yYVVJWEgwQ0VzMVlfSHd4amVpNkwzYWIwVFE5OURpYkFVRzhZc2VrTmNlcFhFZE1SUjN1SE1wV09hTm5aRDNXaDNKVmhfV21JRm1lWWM1VFpaTk1zSG04V2tTb0F4UjBISHdza1I3cnVEaXFGZ1l1RXktN3lSNkRwN0d1ZjdDU2JHOXdLeEFPQVZrUlJZTlZXa3gzNmtFR08tZEE?oc=5",
+      "source": "TNGlobal",
+      "published_at": "2026-11-20T08:26:15+00:00",
+      "description": "Singapore's PIDG invests $11.7M in India’s waste recycling company NEPRA-Let’s Recycle TNGlobal",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b2db605bc797bf77",
+      "normalized_title": "singapore s pidg invests 11 7m india s waste recycling company nepra let s recycle",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Delhi’s 2.74 lakh tonnes of annual e-waste to get dedicated recycling plant - The Tribune",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUEdTM3c2TkMtYklXR0VDQ09DVE9fMGhfTG1ENzJDbUFZVzZwdVlNa3ZnVmFBeGQ5bURlYlBQWUNpWmxNekdPdkRRckxURUI0MHh2NTVSdkJFdl9CdDM2dFVSTFVvZ1Ywb0dMd1k0dTdBWXdYRWNsMFFUS3NmVG5vWTR0S1k4QlVDczFBWkY0RkFwWlBUZ2xTRDZpSHhRU0FkWHVSWndtcXpNLXdJU01yR2tVaFBmd9IBugFBVV95cUxQRWtHdy1OWE9wM0xqU3dZekF5UU5NYkp3MFFRZktZRTdnLTBGZVd5THlGdFM2UE85aUluc3d5b1lhN2ZuaXhhOGYzOWExWlhhRkpoQk9QRllZTGlxMHhZUkF6RUtMd1N1VXBkWDFxLXk3a3JRdlVYZnFmdlZvOGRZYThwcDBUcldmckNCd0hrblpQM0s5cTFOSlVmNTFYOWdYMHVuYXFtRFJNc25GSk1KVk8wdVk4ODQ1dXc?oc=5",
+      "source": "The Tribune",
+      "published_at": "2026-11-20T09:40:34+00:00",
+      "description": "Delhi’s 2.74 lakh tonnes of annual e-waste to get dedicated recycling plant The Tribune",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "NEW_PLANT"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2447a1fab34e04aa",
+      "normalized_title": "delhi s 2 74 lakh tonnes annual e waste get dedicated recycling plant",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "VMC turns plastic waste into useful products - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc2xjSjdkVHQxay1NR2Z6bE1nbl80LWpLNlp0c0JYX0h5YUdzeWlpcTNiOEV6MEVxalNlWG5ReGphTmxkNDc1Q2E0UlUxMW1kRll3MVlINGt5Q3FOYjhOTHdxZ1BBY2N4VmhBUHBPQXktYURpTzJqR3FqR0FuNTVZUVpxY0FJTlJFZG00NU9KVUZ5YU5CRDVVMVdmTWl6dGpkU3dZMUlkWk9KRE430gGsAUFVX3lxTE1zbGNKN2RUdDFrLU1HZnpsTWduXzQtaks2WnRzQlhfSHlhR3N5aWlxM2I4RXowRXFqU2VYblF4amFObGQ0NzVDYTRSVTExbWRGWXcxWUg0a3lDcU5iOE5Md3FnUEFjY3hWaEFQcE9BeS1hRGlPMmpHcWpHQW41NVlRWnFjQUlOUkVkbTQ1T0pVRnlhTkJENVUxV2ZNaXp0amRTd1kxSWRaT0pETjc?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-11-19T22:07:59+00:00",
+      "description": "VMC turns plastic waste into useful products The Hans India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "87041e2441806ff2",
+      "normalized_title": "vmc turns plastic waste into useful products",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Sabic plans Vadodara expansion to tap India’s appetite for specialty polymer - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQeTJHclVtSlBJckFGUVF4X3dNaWt4M3RuS2JiaWV5alI0b3lrQUw0ZnlBVXdhSTJvTzBzM1REendWcmIzYUVaUF9yM1N3cmhVM2ZaeE9paUo5VW1qQ1MzOTdmdjhXNml5aEFiSmFzNTFKWkZ1d0tRcEFnUWc2ZlgwTWk2M0tGcENLeUV6T0ZxNHppYXRUclJaTUdndm9oOUQ5ZmhQWVFCUFZJN3ViUjZKMElYbldIZ2xMOVg3TVFWOEhpZ0ZYRDdlQ2J2RFJQbzg0XzFyMTBVOUdtNnZQTkxyRS1Xbi1jUXNkaTJwTkVxS1JpS25xcGcxSG9oV3N0VlFaUXfSAYcCQVVfeXFMTms0bV9qRlNHZFMwRjh4YUFJaU5YZEZrMnM3cld0Y0NkUXZEYW9VVEpWbTdvNTJCb3hXRWM1TUptMklNR2x0dmVKcEV4QWdwQ0VMUXMxOHNYZGt0djNJcjF1a1ZKN01rdjd2WGJ2NEdHOFQ3aUJHNmpFNkJYZ1RXVXQ5NU5maWd6QWtzQVJUYVAzTXFxYVVfX1R4clJWQUI5RTR1QU1aVms3Wm9JQ3djZFZhRmhpWXVHekxrTXduUTJIajQ4SE1tZVZfa3NoY3NZOVBselVmQWZmZlRWWVk1UHl6WkpxTmFfbTNaeHRyYnlBZjYyQTIxem1FZnM3UXE1ZXJaNU56THM?oc=5",
+      "source": "The Economic Times",
+      "published_at": "2026-11-20T09:55:48+00:00",
+      "description": "Sabic plans Vadodara expansion to tap India’s appetite for specialty polymer The Economic Times",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "CAPACITY_EXPANSION"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Capacity expansion"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a903360bc0f110ea",
+      "normalized_title": "sabic plans vadodara expansion tap india s appetite specialty polymer",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Saskatoon turned 10,000 pounds of discarded plastic into three giant sculptures resembling ancient rocks; they now stand in two parks and at the city’s Material Recovery Centre - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNZWRCZVFxeUtKd2Jidk5uM05GNFVVb3hIMmpxVHk1LU4yOVhjRXJ2NHR0VHZVWXlrVXdhVEs1MHNtN2ZxNWlHNTBTYTJrM2Y2b1FoQ09iSkstTjI1UGtpVzkxNjlwY2RlU2xtczJyVTA0cXZEZEN6WG5PNlRUMmFCN0VFZV9ZcEQ4aXkydzVpcFBNWXBGNjB0enhXUm9zZmdqdzFvaURxYUstdmRDVnI2OEp3RHVERVM1bXdNdFotN0hFc21JdURMb3BvZFY2YlpGVzhYREo3emJlWnFZTTctb04ySTZvNERlb25ndHRYZ2dFNU1UMUVXeUc4U1RsN3kzMUpGUmVMNzNvcFhLSW5tUGNRVFU0VTFHNlhoWGlWVmJBMGxJT1pDNl8tZ3lmU3BWaFBkSURiYUJxS0JUSVQ2b1pIMm8xLUpfUTc5clRndnRETEsyN1JxTXQ5a3pXOG1mbWhxR0tGTl9JV0tBdTdiRg?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-20T05:30:00+00:00",
+      "description": "Saskatoon turned 10,000 pounds of discarded plastic into three giant sculptures resembling ancient rocks; they now stand in two parks and at the city’s Material Recovery Centre The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "28a6c2a4749852fc",
+      "normalized_title": "saskatoon turned 10 000 pounds discarded plastic into three giant sculptures resembling ancient rocks they now stand two parks city s material recovery centre",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "MMCM issues world’s first carbon credits from vehicle recycling - Manufacturing Today India",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9meVJHRkxWUEJGWHp2MkZWeDc2eVh2M2swQTM3NGRER0V1eUJuVVd0YTV2SzBNYllvYTJ5T0ZSdkpYV3pDMXNZdnI3amczNURDa0hWVVJEZEl3VVlmS0dzMGdkOTlpWktBX1FmSjlmVTFKaV8zOS00UkgwdnU?oc=5",
+      "source": "Manufacturing Today India",
+      "published_at": "2026-11-19T07:57:30+00:00",
+      "description": "MMCM issues world’s first carbon credits from vehicle recycling Manufacturing Today India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "38399567d934f9ab",
+      "normalized_title": "mmcm issues world s first carbon credits vehicle recycling",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "[India Looks to Expand Ship Recycling and European Scrap Trade] - Shanghai Metals Market",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOaVJjemZ3dTRUVE9NbDVSUUN1ZmN5OEpyS3BpWUVhRFFMdDRCbW1NTHp6X181akZHaDEzdVVIbkViX1ZZSElGc3V5djE0ZWRKSXAwUTZ4ejJnQkw3UERwVkl2b3NKNTlrWDd2QWhGbkhiaXZPNkxsZG91aVpBbW1ucnhGRGlpdjJKSU16MHdYbFZfMU5TVGEwNUdELXFJMkJ3cXg2c2FiUXV1TVVXR3FlWDQxZHEycTVlQUUzZWdLRHBXMVFZOWdpOUEwWlVrUzVMdFE?oc=5",
+      "source": "Shanghai Metals Market",
+      "published_at": "2026-11-19T05:36:00+00:00",
+      "description": "[India Looks to Expand Ship Recycling and European Scrap Trade] Shanghai Metals Market",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "MARKET"
+      ],
+      "keywords": [
+        "scrap"
+      ],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "848a3a56ce7de718",
+      "normalized_title": "india looks expand ship recycling european scrap trade",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Solar recycling 2.0 - pv magazine India",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBWjJLNzhQb2lkQnUxN1ZPOHAxbGIwdV9nWWt3U3V4QUI2cEQyUTR6VU1YQlRPZHhyN2t2M3RpdGxWeFlxdU4wMnBtNEo5SkhmVVVIV0pmWnduaUhiNlpySW9zWXJxellDSFlPQzExTkpnblE?oc=5",
+      "source": "pv magazine India",
+      "published_at": "2026-11-18T12:29:45+00:00",
+      "description": "Solar recycling 2.0 pv magazine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "3f5c78dc93bf4ceb",
+      "normalized_title": "solar recycling 2 0",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
