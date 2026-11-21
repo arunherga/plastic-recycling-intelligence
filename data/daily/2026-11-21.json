@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T10:10:27.118046+00:00",
+  "stats": {
+    "collected": 494,
+    "after_topic_gate": 112,
+    "unique": 27,
+    "new_since_last_run": 3,
+    "relevant": 2,
+    "high_priority": 0,
+    "opportunities": 1,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 600511 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 595050 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 601425 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (354 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Admin boosts rural plastic waste management, recycling - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNDlpYWEyclVvTXdraWR5cXpBcnZSTU9WUy1MSW9sMGFmZC1mM09ucVJVcXRhY2ZKa3hsdTA5RGcyLUdjbmdERkZnRkxNQ21yX1FaZWZsazBmUUEyQVlIeDFxUkVoT0dKajM3V3JvVksxYkNwUERDc1dGTTVpamU2QzFYbHptUDhWb1JEOGFJOGVnUHc0WWNPcmtWNXZUTURwaW5rVTVKYUo5bUVTMG9ZaW1fSWVMd1JNbnNrb3hZUmxRblZFQW5HMUFYNNIBywFBVV95cUxPNDlpYWEyclVvTXdraWR5cXpBcnZSTU9WUy1MSW9sMGFmZC1mM09ucVJVcXRhY2ZKa3hsdTA5RGcyLUdjbmdERkZnRkxNQ21yX1FaZWZsazBmUUEyQVlIeDFxUkVoT0dKajM3V3JvVksxYkNwUERDc1dGTTVpamU2QzFYbHptUDhWb1JEOGFJOGVnUHc0WWNPcmtWNXZUTURwaW5rVTVKYUo5bUVTMG9ZaW1fSWVMd1JNbnNrb3hZUmxRblZFQW5HMUFYNA?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-20T20:45:00+00:00",
+      "description": "Admin boosts rural plastic waste management, recycling The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "fa54b5e670b891fd",
+      "normalized_title": "admin boosts rural plastic waste management recycling",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Daily round-up: Indian polymer prices ease further; NEPRA expands recycling capacity with fresh funding - BigMint",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNU1VhNGJCbWNrMlNRYW5QOURqU2NTQVhLRkRhY3RTT1R4eXhlb2tJRHYtNmxRM3ItSm9DMDc0bHl6MTk2ZGMzbk51NFpEQWQzcnREbFNvV3AwbjRpM2FYX0p4UU1hdTNCeTBGdmMta0pDSFg0Z2I2OUJLSkljR2JpQVEtcGwwTkFjTVpORUg2R2RKeXZ4QzF6UUFJd2V6dFB5MEd5blphMkRiZkhxZ0VDWHNINzlOZ0lnc0J4eGt6RFlCV3BIWkM1X0VlNXFRRUxsS1lzZmZTWXlMazgxc0hyag?oc=5",
+      "source": "BigMint",
+      "published_at": "2026-11-20T13:34:23+00:00",
+      "description": "Daily round-up: Indian polymer prices ease further; NEPRA expands recycling capacity with fresh funding BigMint",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "PRICE",
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "capacity"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Price / market data"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "INVESTMENT"
+      ],
+      "article_id": "1d43f6ab98b8a0b7",
+      "normalized_title": "daily round indian polymer prices ease further nepra expands recycling capacity fresh funding",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Ahmedabad recycler NEPRA raises Rs 110 crore from PIDG, its first waste-sector equity bet in Asia - Indian Startup News",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPRVJGc2o1dVh1M1pjaHpsLUt6RExrXzNzNi1TTnJ4RmppVlJmb1c4eUQyTHhZZ2FDQ1RNS3JlM2VqVGJBNGFuWmVxWXl6MTZqak5KZmw4YUNVS1pyeGFDSnItcGRKN2FLT0VGbDc4cno2eEw2Ti1tZkJxZ3diaC1IZUM3X25IbW5LRmlhX21RN3RwM1VPSk9laUxTVjFxb2JnMTBYdGo2Q08wWEs0ZHZEZDdEZThqZmkxczZQTTVJdDJMYjZNMGxjeUJJb2VzR1FwNTNZZVluRm0zUFHSAdsBQVVfeXFMT0VSRnNqNXVYdTNaY2h6bC1LekRMa18zczYtU05yeEZqaVZSZm9XOHlEMkx4WWdhQ0NUTUtyZTNlalRiQTRhblplcVl5ejE2ampOSmZsOGFDVUtacnhhQ0pyLXBkSjdhS09FRmw3OHJ6NnhMNk4tbWZCcWd3YmgtSGVDN19uSG1uS0ZpYV9tUTd0cDNVT0pPZWlMU1YxcW9iZzEwWHRqNkNPMFhLNGR2RGQ3RGU4amZpMXM2UE01SXQyTGI2TTBsY3lCSW9lc0dRcDUzWWVZbkZtM1BR?oc=5",
+      "source": "Indian Startup News",
+      "published_at": "2026-11-21T09:09:22+00:00",
+      "description": "Ahmedabad recycler NEPRA raises Rs 110 crore from PIDG, its first waste-sector equity bet in Asia Indian Startup News",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "INVESTMENT",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (11 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "9073edd9cf3699ea",
+      "normalized_title": "ahmedabad recycler nepra raises rs 110 crore pidg first waste sector equity bet asia",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 10,
+      "ai_summary": ""
+    }
+  ]
+}
