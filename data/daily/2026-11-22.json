@@ -1,33 +1,28 @@
 {
   "date": "2026-11-22",
-  "generated_at": "2026-11-22T10:15:27.063797+00:00",
+  "generated_at": "2026-11-22T14:29:20.204863+00:00",
   "stats": {
-    "collected": 447,
-    "after_topic_gate": 83,
-    "unique": 23,
-    "new_since_last_run": 5,
+    "collected": 458,
+    "after_topic_gate": 91,
+    "unique": 5,
+    "new_since_last_run": 0,
     "relevant": 3,
     "high_priority": 0,
     "opportunities": 0,
-    "source_errors": [
-      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
-    ],
+    "source_errors": [],
     "source_notes": [
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB plastic waste': no results in the collection window",
       "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'CPCB EPR certificate': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
-      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
-      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 602843 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 605176 bytes, 57 links, markers: canonical, c-wiz",
-      "url resolution: landed on news.google.com, 602427 bytes, 57 links, markers: canonical, c-wiz"
+      "merged 5 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (317 items)",
-      "rss (130 items)",
+      "google_news (318 items)",
+      "rss (140 items)",
       "government (0 items)"
     ]
   },
