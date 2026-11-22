@@ -1,0 +1,168 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T10:15:27.063797+00:00",
+  "stats": {
+    "collected": 447,
+    "after_topic_gate": 83,
+    "unique": 23,
+    "new_since_last_run": 5,
+    "relevant": 3,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 3 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 602843 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 605176 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 602427 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (317 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Vijayawada civic body turns 13,000 kg of plastic waste into 150 public-use benches - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRzdMVmdTVkh6TkpWZTZQVzJTdVpNai04QS1EUEMwM2p5bGJnRHZNU0wzOEt2SVAzNEhNQThPSkJwWGQ4VUVSUXZlWXJmUEtwR2NJaVZEaWltOGhmVGNxUmp1dWhYXzlLbkp3dU1OTHA5UzFrZzg3dmFpLWFENGpfWm9PWWlMR0hKRVBBaGg2al9DbkRfVlRjUGFsb05md3Y3Z1A5R3dLcW5jczg3MzIxSmIxTUN2Qm4weVFGRGQ4VENZOElDdVNPcmh1aG9rM3N4YVotaFpWSEh3M1BFYUQzMjdtZV9KYlBPcVZEVC1mLULSAfYBQVVfeXFMTWtxejdaRlVQMm9xNThUSl9CUzZPZEZyTkZjQ3gzN3B4RmlVVlVVZk9FeFJPdFJuVldXMVhYU3dUcEQ2ZmVxMGs0emZHdmFwbHZPUERUVzlJYzkwTU1JLTUzSkl1WWlneFg2aFB0bVUzS0JLeGhTZ0xmbkdNMVEyUjZhbWduNDFRdDRIeGhkN0hyXzNfcFAtbG1Kb1RjOTR3TmZuRHJTLUpaQ0c5ZDhySHJOYVI5ZjBIc3NENnF1LWtPZUNvNXJkeXJXUWJqcGJxTUZvXzJxNnJsR2k3SWVoSzV3dE9KOU9DNjJhakYtc2ZIZWh4V3RB?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-21T17:37:00+00:00",
+      "description": "Vijayawada civic body turns 13,000 kg of plastic waste into 150 public-use benches The Times of India",
+      "location": [
+        "Andhra Pradesh"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 7,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Municipal / waste-management contract",
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dcac8055c1c10288",
+      "normalized_title": "vijayawada civic body turns 13 000 kg plastic waste into 150 public use benches",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    },
+    {
+      "title": "Tom Brady's sports investment delivers an unexpected environmental victory with 19,500kg of plastic waste - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOUXpZV1NXN3FLUzhwVWlFU3h5RGwtdTdZbkQyRmZZdmRWX3dFUlBjMm5FZDNTQW01U1dFZkZnNi10QXVzTV81Q0NZVW5MdFdtRUhRN1pZLUdJWDJaUDBwU1BpUFdUcklUdkhfNW9kRkZoeVdPems0S1BvQ2QyZEktWjIwbGJsZnRFWjRMRWMxRlV1aVJDX05ONDhnU3Y3d3c1OGN3SDlrWHFHSkw2RzZ6MHBKckUwV2RPUnFDZ0FzY2Y3R3M2aVRYcHUxanY3d2kycVdiRW82MDNZckdBUzlLOXh5Z29sYTBBVG1TU3dYUHhsTDZxaXVpaUhFR1p0Y0RlcUtPSkE0SzhMRkJuYkJ0WDlCSXRRRDhW0gGeAkFVX3lxTE9KQ0V0a3ZIM0p5X3dGUWRrN2tnZGVjWkhraUNqeHVUOEdNTzhzNW1KWkh2VzVzdVRnMndneXNlc2RfcTEzT05hZEw5cFZFbkJqZTdfbFBDQjFuT29jdnJhSkJVajJrdTVrcXRJc082ZERpNjFpd3NYa1VRQjljZDBIZ0hYc2VwR05XbGJHSEY3S0t0anFVQ19hZkxfOTU0RWVfb1luR1R2QTNORGlrNlVoaEVNSjFpM2FlSmhyZHVHUXR4YkluaURXdG56RGJFcUNXd25UaWVnYXFGZ2MxYk1Ia1gzTkE0LVhTUTkxLXFsYldrU1JyZXBFSjdEY09CdWo5NklqRjl6ejd3LVI0NWgtR1RHMEtvNVVkcm5pamc?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-21T22:56:00+00:00",
+      "description": "Tom Brady's sports investment delivers an unexpected environmental victory with 19,500kg of plastic waste The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "INVESTMENT"
+      ],
+      "keywords": [
+        "investment"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2bfdbd43cf1accfa",
+      "normalized_title": "tom brady s sports investment delivers unexpected environmental victory 19 500kg plastic waste",
+      "origin": "google_news:plastic scrap India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "PureCycle and WM strike multi-year deal for 25 million pounds of recycled plastic feedstock annually - Indian Chemical News",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPLThFbjU1ODZKWWIweWhrWkZfUHgyU2hKMGR4dTRMLURKbl8wMVRQb0FkZ1hwX01rUzkydmdCUTlIR0VlM1A0Q24wZDNpVVdiNGtCaVZUNmJDYkVvYUJRM2hvRXlpOUJ4SUZrUVVWRGJLSl9XVHE5akhQM29oci13eXU5OXBhaGZDQWxRMVI1TFp4b09jYUZaYjVMMTZacW9iQzBZalp3c2VCcGthQkRpWTUybFlxamcyZ1prbG83V2lWMF81ams4UWlpZGZyTGtIRENmZ1VnR3JWYlRBMnVfM243UEpkX2E1bjR5Z9IB7AFBVV95cUxPLThFbjU1ODZKWWIweWhrWkZfUHgyU2hKMGR4dTRMLURKbl8wMVRQb0FkZ1hwX01rUzkydmdCUTlIR0VlM1A0Q24wZDNpVVdiNGtCaVZUNmJDYkVvYUJRM2hvRXlpOUJ4SUZrUVVWRGJLSl9XVHE5akhQM29oci13eXU5OXBhaGZDQWxRMVI1TFp4b09jYUZaYjVMMTZacW9iQzBZalp3c2VCcGthQkRpWTUybFlxamcyZ1prbG83V2lWMF81ams4UWlpZGZyTGtIRENmZ1VnR3JWYlRBMnVfM243UEpkX2E1bjR5Zw?oc=5",
+      "source": "Indian Chemical News",
+      "published_at": "2026-11-21T13:00:00+00:00",
+      "description": "PureCycle and WM strike multi-year deal for 25 million pounds of recycled plastic feedstock annually Indian Chemical News",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a99612818bde6bbe",
+      "normalized_title": "purecycle wm strike multi year deal 25 million pounds recycled plastic feedstock annually",
+      "origin": "google_news:plastic recycling investment India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Battery Black Mass: India's Recycling Push - Vajiram & Ravi",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5fd2oxUnNWY3Y5VFBmSlVZbDN1MFc3Z2hxZmZlOTh0WWxoVGhqU21seUhOUWNJMmlDMnJiQjA0RkhVVXhPay1ycnFjRGxNdFBaZG41VENVRTVLQ3VMOU9kd1ZCY29UWEl4Q0ZENjMwQQ?oc=5",
+      "source": "Vajiram & Ravi",
+      "published_at": "2026-11-22T07:20:05+00:00",
+      "description": "Battery Black Mass: India's Recycling Push Vajiram & Ravi",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "51ddc765943b7b2d",
+      "normalized_title": "battery black mass india s recycling push",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Battery Recycling: Turning e-waste into an opportunity - Motown India",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQc1lJOG4ydFE0dlVXd1JyVVJfTzJMSFJJLUxMdGQzRUVKYkw1dWQzNjI2cmRFeEEwRENQdUptbkg3ekZWd2l6ZTdHVWhLNUpMSFQ4X0ExSXpVdk9uNWlEcGd1UnM3MGVFdG9fYXk2MUZXWnE2NGMta1ZwRF8xQVFnWFROb21YVFM2Tm5FbmdTY0ZNUzVEYmFINkg4MkxYcHhnS3RBOWJnTjBPUmcxNlhzektNMGlocW56aXFpNDdJSE5wSTJjWllPZDZWTmU2cEZjQ20tRmlwNkYteG5U?oc=5",
+      "source": "Motown India",
+      "published_at": "2026-11-21T16:07:33+00:00",
+      "description": "Battery Recycling: Turning e-waste into an opportunity Motown India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a1a965cb3133cc81",
+      "normalized_title": "battery recycling turning e waste into opportunity",
+      "origin": "google_news:chemical recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
