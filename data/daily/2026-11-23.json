@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:13:04.402059+00:00",
+  "stats": {
+    "collected": 475,
+    "after_topic_gate": 71,
+    "unique": 20,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB plastic waste': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "google_news: query 'plastic pyrolysis India': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 2 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 611310 bytes, 57 links, markers: canonical, c-wiz",
+      "url resolution: landed on news.google.com, 599238 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (335 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Meet 16-year-old Anisha Dhoot, student from Oregon, who combined seaweed fertiliser, plastic-waste biocha - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPU0dseDZXWGtTNWlEZ2NmeGVCaE9kUUM0MXd1MUxhbWh3Q2FGWm9TZExzZ1ViYm92ODZ1cm9hQTJ6bUYwM0RDdGlPZDZBM1lBRWlKSVY5X2MwRmxfZW5SUTdDSUQxQnBZeFZ4MDRyWFI1aDNtdEVpS2pPaE5wOHg0TGplTkN3SnB2X0liekEyNGd4cVFQQ3JNUE9YMG90TklIQ3IzbkxFSUkyaVJXYlVBN291SW54aXJnbFVEeERHNXlsZjlhSFhrTWhBd19TU2NqcnpsU3pDYm1XbGlLNDhBaUpxUlFjWXpxbzJCNjVCd2JyZlFmQzduM1hRajZwY0VZaWU1WF9lcXdWQnIzWE5wS1NpWVd5NFNIdnhSdFpUbnZNRHRYanJfQkltQkFoelEyeUdJeDhOZ3dOT0lhem5BZm9FVWVVMGxlRWRqWVE0UFFZRzhuTGxKa2xSU3h5Q2JYZDdiWTFqUVR5cjJhWVVVcTAzcVNKeXJzYXF6dm5PUXrSAYYDQVVfeXFMTWItY0FIS2RmdTZFZ1M3NUtZQjZ4TnZiQ0NIN3ZUNTRROUZXaDFUd3E3WE9rajlTMDBuS2U2RVFXcGtrRjlaX0hSdHBNal9HakZpQlhOcjJILUZuQzhHdlpyeVJoTklNdkhmWDBLdmZzWEVXbThxd2VmdTF2WExpdDNYNmlHVVNXNThpSXhGV0tRZ0VzaXBHRWhRbFlOdGtqdWJmbVFBMDZ1WWVOcG1GTGNlbTNBcE5jbEptWVkzZlJEMW5JZjFfNnRtTVlYb1lCWXI3QzJ3UmRTWFFiZGx0X0FCRndobjNOeF9ZZVNhUFI4WWg1cFJuVXpsT2VlUTg3MGVIbHkyZ2dWU1k0b1lOUXVpT1pncXRJR091dGx1eEVkSXBCWU44ZFFrUTZuWjF3SkstY2F6aFlJbkJzRDBTSmJaU2tybThsM2NFTDJiemRCUWotbWdfOUtfQ21GeWF2Z05aYnVfOXhibHBleDRrSU1OUS01WDRON0h4VWozWWgydkg5OWt3?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-22T19:30:00+00:00",
+      "description": "Meet 16-year-old Anisha Dhoot, student from Oregon, who combined seaweed fertiliser, plastic-waste biocha The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Widely reported (5 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d94cf58acffa67e8",
+      "normalized_title": "meet 16 year old anisha dhoot student oregon who combined seaweed fertiliser plastic waste biocha",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 4,
+      "ai_summary": ""
+    },
+    {
+      "title": "Mathrubhumi-Orkla Love Plastic project launched by Kerala CM - Mathrubhumi English",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOEFadHAtS0Yxc2Y4WjQ5ajZKYnk0QV9CUXZmeG5nVVNCZFRMMnZlS090ZTJYYXBjVDZBQWdNek5GcHp0eS1uWHlSSUc2d2hOTUNCZExTY0ZxbnpfS2pjd2JzWi0yMkduSnZyRVctWm4wSlFDZ2ZMZXNoc3BMWm5SVGpZMThUV2d1a1dJMS1lWEdNQ0tKdDJlLVd2OVFua3RCLTNSVGVZLVgzaWpfMXE0YkFn0gG3AUFVX3lxTE0zRm1KOHdaVzI4WEZ5dmtzZnNDdm01TzNQMTNMUmZOa0VJR0xVWEkweDNkOHZubHJaWXVPMlZ5UUQ1VjEwdXljUGxiQ1JOangxZTNiMXUwaUtId2N6SjJPM1JtcGQ1aHBhYXZzNXRfR2ZVaW40bjhzaE9FV2htSDRyQmZNRUc4X0NsdXJWWkFlNzk3UGpvekZaNUoxWFlPSklnMlIwbUdRYWJNbEgyR3A3MFVFUmQ5SQ?oc=5",
+      "source": "Mathrubhumi English",
+      "published_at": "2026-11-23T07:41:46+00:00",
+      "description": "Mathrubhumi-Orkla Love Plastic project launched by Kerala CM Mathrubhumi English",
+      "location": [
+        "Kerala"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "791601acbcf664bc",
+      "normalized_title": "mathrubhumi orkla love plastic project launched kerala cm",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "75% of India's paper is recycled, but 45–50% of wastepaper is recovered - PrintWeek",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRjNZMWRHZVNsci05QVhXY0dmdl9nRUE0SDM4MTFtYUZZRHZXMTM0aHFJRHlsbElrck0zQjF0R1ZoMW45TnR2UHVmUm1SaTNzZVk3eHJPdmVfbG84cldBOWNuMnkyMzFnaEN5RmdxYkJKaElLX1lYYXowdUcyeXNYb2E4cF9oZjB3T09SYll3bC0xQjlCOENEaGxjdFpZMDdudC03b2g5U0hnU1o5VGZFNjZZOEM3RmRTcEE?oc=5",
+      "source": "PrintWeek",
+      "published_at": "2026-11-23T06:34:01+00:00",
+      "description": "75% of India's paper is recycled, but 45–50% of wastepaper is recovered PrintWeek",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "442f2486ebeadb96",
+      "normalized_title": "75 india s paper recycled but 45 50 wastepaper recovered",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
