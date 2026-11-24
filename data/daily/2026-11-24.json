@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T12:54:59.210065+00:00",
+  "stats": {
+    "collected": 517,
+    "after_topic_gate": 54,
+    "unique": 21,
+    "new_since_last_run": 4,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [],
+    "source_notes": [
+      "google_news: query 'recycled LDPE India': no results in the collection window",
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'CPCB plastic waste': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'CPCB EPR certificate': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "google_news: query 'plastic pyrolysis India': no results in the collection window",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 595305 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (377 items)",
+      "rss (140 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Kshitij Polyline Limited (NSE:KSHITIJPOL) Plans AED 25 Million UAE Recycling Plant - Kalkine India",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOZ19rQUlnUzRfVDFoQ0hpOXdtUnRUaFpSS2VHQjVEd3drRDlzdldKTEl2SXpHOWJmT2ZMUGp0RkxSLWJDSEM5QTI1OW9STjRTdTJDc3VrdmpBcFVGSmd0SlVfSHZNUWc5Z3FBeFF4NDZ4Mk5qSmtmRk0tN0RVdm1mcnp5akxQblRzLWdxZjl2LXlid0NoeVp4ek83ck5vV2xkSkR1MWFkSEJPblpja3l2Mk4wdEtCdlhBcmxtMVRJNmpTQWMwQXhzSU5uYTgxNkJCdnJhR2NhcVRna0ZBVDdiN3RzbTE0R1pQR1E?oc=5",
+      "source": "Kalkine India",
+      "published_at": "2026-11-24T07:42:00+00:00",
+      "description": "Kshitij Polyline Limited (NSE:KSHITIJPOL) Plans AED 25 Million UAE Recycling Plant Kalkine India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "NEW_PLANT",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Core topic: plastic recycling",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "1ae82c020830e6b4",
+      "normalized_title": "kshitij polyline limited nse kshitijpol plans aed 25 million uae recycling plant",
+      "origin": "google_news:plastic recycling plant India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    },
+    {
+      "title": "Adani signs 3-year copper supply deal with Attero: Report",
+      "url": "https://economictimes.indiatimes.com/industry/indl-goods/svs/metals-mining/adani-signs-3-year-copper-supply-deal-with-attero-report/articleshow/136125951.cms",
+      "source": "Economic Times — Industry",
+      "published_at": "2026-11-24T09:40:10+00:00",
+      "description": "Adani has entered a three-year agreement with Attero worth about $1 billion for copper anode supply. This collaboration aims to decrease the smelter's reliance on copper imports by approximately 5%. The deal, undisclosed until recently, supports the expansion of the Kutch Copper facility in Gujarat. Attero will produce copper anode by recycling metals from electronic waste and batteries.",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "CAPACITY_EXPANSION",
+        "MARKET",
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Capacity expansion"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a82641ef213724b5",
+      "normalized_title": "adani signs 3 year copper supply deal attero report",
+      "origin": "rss:Economic Times — Industry",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plexconnect 2026 Mumbai",
+      "url": "https://packagingsouthasia.com/consumables/polymers/plexconnect",
+      "source": "Packaging South Asia",
+      "published_at": "2026-11-24T05:49:32+00:00",
+      "description": "The plastics ecosystem came together under one roof as the Plastics Export Promotion Council (Plexconcil) hosted Plexconnect 2026 – an industry conference on &#8216;India’s future in polymers, innovation and export growth&#8217; on 17 November at The Lalit, Mumbai. Led by VK Taparia, chairman, Plexconcil, and Sribash Dasmohapatra, executive director, Plexconcil, the Plexconnect conference brought government [&#8230;]",
+      "location": [
+        "Maharashtra"
+      ],
+      "category": [
+        "TECHNOLOGY",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 2,
+      "score_reasons": [
+        "Nearby southern / western states"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "cc9037716c2787c9",
+      "normalized_title": "plexconnect 2026 mumbai",
+      "origin": "rss:Packaging South Asia",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Adani's $1 billion copper deal with Attero: Can recycled metal reduce India's import dependence? - Business Today",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOcUJ5Rnhma281VXlHdTA4UHVhdVcxc0dXM292dHNtSWpmMmFXOG9iMDB0d0hwN3ZqRnNwUUVqVWE0OThQaGdWMC1KbHhhNWhBNGFoUHZQMDF3VWszTWRSNG1tRjltNlFpRTlkaHRfOWdSUGxxYUVmLW1PZmZtSUpwWUItVVRUR3hWTGRmV2dLRkROOE4yRUJneGZZbWU1M0IyRTdYNXE4MldweXVJdWFTdEVCVnA3VFc3cjZOZmdfTUx3WW1EZDc4Qjk4Z29WWDFMS25OZmp5aFkySTRzQjZIRFJ6LXFQZkY5VVdkOUNSSHdKVmc?oc=5",
+      "source": "Business Today",
+      "published_at": "2026-11-24T12:33:58+00:00",
+      "description": "Adani's $1 billion copper deal with Attero: Can recycled metal reduce India's import dependence? Business Today",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "99d23897af6972d8",
+      "normalized_title": "adani s 1 billion copper deal attero can recycled metal reduce india s import dependence",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
