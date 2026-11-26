@@ -1,0 +1,112 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T11:28:17.091204+00:00",
+  "stats": {
+    "collected": 486,
+    "after_topic_gate": 58,
+    "unique": 18,
+    "new_since_last_run": 3,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 1,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 593845 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (356 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Nike signed a deal to buy recycled polyester from textile waste once a planned India plant opens. - Stock Titan",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWFZ2NTE5dVVGUUE4MkNMRUM3a3RSU2N3YWdwd2NWdGVPclF3Nkxvc0VzYzA5bl9uY3FOT0NELXhWVjluTkZiWmhoTGVpdWlGcmZSSWc3QXFvem1Bek0wZktMQ2hRR3pDbFUzZjFSdVpDMHd3bFYzSEEweEVVZnhLdzQtNjBGanBXQkMtYXNYTWlnendPdEhPR21mRFhtU2lWUG1yOENPNGwtcEt2MWtzZWVmNG9tR3M?oc=5",
+      "source": "Stock Titan",
+      "published_at": "2026-11-25T21:00:00+00:00",
+      "description": "Nike signed a deal to buy recycled polyester from textile waste once a planned India plant opens. Stock Titan",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "BUYER"
+      ],
+      "keywords": [
+        "plant"
+      ],
+      "relevance_score": 4,
+      "score_reasons": [
+        "Buyer / procurement / supplier requirement"
+      ],
+      "business_opportunity": true,
+      "opportunity_type": [
+        "BUYER"
+      ],
+      "article_id": "0bc0710a4ef11d59",
+      "normalized_title": "nike signed deal buy recycled polyester textile waste once planned india plant opens",
+      "origin": "google_news:recycled PET India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Artist spreads awareness about recycling through his art - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNREJnMHdMMV93ZHVMR2hfTEV5cHVvS2xWRjRMT211NGFodGtBUVdITjFJUm9SQTlmc3BFNHNQUXZiVTFPUXBPZXZhNGpIa20tVk1KWFZvNkZycEhZbkpWN2h5UEpSRmR0WXhWaWpUN0JsWmVSZS1pWlp5WXJoRlM5N3B6SS1iSnYtSTJxM3kwb3NLc3Jad3o2WFZrMWh6aVlWQVNPZnprbklxQjg?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-11-26T00:38:45+00:00",
+      "description": "Artist spreads awareness about recycling through his art The Hans India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "5e27f06913898e0f",
+      "normalized_title": "artist spreads awareness about recycling through his art",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Delhi plans deposit return scheme for plastic bottles, tobacco packaging - India Today",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObU4wdzZKQTB6YklGM0gySXQ4bnN0cEV2SHRoSWV2WXZuMTVFb0xUanNGc3cxTXJ4YWl1NFhBUlEyOWVCSDhzR3czbmN4X1cySVpYRUhxS1o0REpiNzdKMXN1MWJwdDJDeThrb2gyel93TV9GY2xZdU9VSEY4SWdGSjFxYmpad1EwY090Z2Z2U0hFbkd0b091anctQkRYM0ZwWjhKZ2d4dHFIc1pSMmh4VUp1dnNBT2hEd25zZVFFVkZ1REgzSlBJNzh4OXXSAdIBQVVfeXFMTk1SWTJ3azhyZXBjdnc0ZmZ0eU9ubFdnZUdUenZOSDhoaHVSYkx2TF84NENtNW4xUmQ4Q3FZaWtvR1UtaDRlRTkzVDU1RkZMdDJFVHR6YWVNQ095X2V2aXdWVHhOQXpGRXBUb1FHMGM5UGp0ZHdlanZOdVlDTldtUEgyRTg1NlJCNFNBUW5vVm9nazZGTWpHY3dpaVF2UW9nakJCS1pvUEhVa01TTEUxMjdOZEcyX2NTeW5hMEROOW15Q3dUZUZoMDA5bHFNSFk3U3Nn?oc=5",
+      "source": "India Today",
+      "published_at": "2026-11-25T21:19:40+00:00",
+      "description": "Delhi plans deposit return scheme for plastic bottles, tobacco packaging India Today",
+      "location": [
+        "Delhi NCR"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "e5c7eed8ad52957a",
+      "normalized_title": "delhi plans deposit return scheme plastic bottles tobacco packaging",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 2,
+      "ai_summary": ""
+    }
+  ]
+}
