@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T11:23:18.267139+00:00",
+  "stats": {
+    "collected": 464,
+    "after_topic_gate": 47,
+    "unique": 15,
+    "new_since_last_run": 2,
+    "relevant": 1,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591192 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (334 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Petrochemical News - Indian Oil plans to nearly triple PP copolymer capacity to 1 million mt/year by 2028 - Polymerupdate",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCZkxTVlQ1REhfaE02aG4wS3RCYmNnclJ1azdIeXB2U3FuWkRDa2UtVk43WWJuVkZSN0FwVGdwRFpmZElHa1ozQ3p4aHVMVUhNbTZNWDlHcC13ZWJzZW5R?oc=5",
+      "source": "Polymerupdate",
+      "published_at": "2026-11-27T11:14:41+00:00",
+      "description": "Petrochemical News - Indian Oil plans to nearly triple PP copolymer capacity to 1 million mt/year by 2028 Polymerupdate",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [
+        "pp",
+        "capacity"
+      ],
+      "relevance_score": 5,
+      "score_reasons": [
+        "Target polymers (HDPE / PP / LDPE / PET)",
+        "Investment / funding / acquisition"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "d2c30e42eaf8ae61",
+      "normalized_title": "petrochemical news indian oil plans nearly triple pp copolymer capacity 1 million mt year 2028",
+      "origin": "google_news:recycled PP India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "A Brazilian mechanic turned a roomful of plastic bottles and milk cartons into a solar water heater; the - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPYlc0UGpvbW5mNUZNZnFJYnoxbmNZOGNvZWNMYXgtT2w5cFZvZ1Nob3dXOWVGX0E1dG1WR3pwOTZhNGJ5QTdLMWlXVDd5M2FtT2h1YjZGRktNMmI0Ulg3Wi01cW0yZXNfQnJOaWhXUzFfaDEzVU9rYnlaLXRZTmZMTDR1LXBqRUZtaW5vVHlHQXY2NFBZQ1Y5a2kydE5EOGJ5TkNUOXhJVlR0UGVnTUowRmlTNFNkN2pyQVJJeVFDRkNWVEN2c3BCcnVMSXlBdmh0cGtqTGhEeEpjdnMzQnVYeUhob2ZnWkRlYUJ3c1pIVFU5ZzlhTWEzeXR6ZExwTEZKMXhPSXNrVHY4QUw0R1BnQUxhTlVVWm5oLWJjSDBZdGhJNkRlOU5aNDJ3UWl0dnpYQnFncmJIQmxXbzIyVXhV0gHEAkFVX3lxTE5oSUlhZGxyU3hOU1VtY1daMHU2RWotZHE3WmI1WmU4QTNjS1ZFWmdVUnZMaXMwemNhRHRGc3VfWU5SSGZfM3pNeWZtQ1RBLWp5bEJzcTk4U0JUb0VUQnBsT0prbjJ3VDlGaENQU1BkcDQzZFRFYjhKQVNFYTFlUjNHWG94TWkyVEVpdkhybkR2ZGxEeXdTb1pPZl9lOGlnOHhZT0Q3Rko0MXpKekJyNmQxQXIxdUV5NGVKdmUyMDNQMHVBUEpoWTdQZHNxbXhSY3pJeTlLeGo0SlpHNDVzbEVXMFVfS1N3RWxWOTBtZ1NvQVViS2hLbDZ4YjVuRzc2c3JQTXdTYjRsY2o5WUlDazRLMFdTVV93bnc1UEVySGwxS1dCMkJzS2Z6eWhaLXdndXNQNndxeVBCOGlHV3QwVlJJR1hiYg?oc=5",
+      "source": "The Times of India",
+      "published_at": "2026-11-27T09:00:00+00:00",
+      "description": "A Brazilian mechanic turned a roomful of plastic bottles and milk cartons into a solar water heater; the The Times of India",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (4 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "2dabcf3921989fd6",
+      "normalized_title": "brazilian mechanic turned roomful plastic bottles milk cartons into solar water heater",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 3,
+      "ai_summary": ""
+    }
+  ]
+}
