@@ -1,11 +1,11 @@
 {
   "date": "2026-11-27",
-  "generated_at": "2026-11-27T11:23:18.267139+00:00",
+  "generated_at": "2026-11-27T16:32:51.625624+00:00",
   "stats": {
-    "collected": 464,
-    "after_topic_gate": 47,
-    "unique": 15,
-    "new_since_last_run": 2,
+    "collected": 488,
+    "after_topic_gate": 54,
+    "unique": 6,
+    "new_since_last_run": 4,
     "relevant": 1,
     "high_priority": 0,
     "opportunities": 0,
@@ -15,21 +15,120 @@
     "source_notes": [
       "google_news: query 'plastic recycling Mangalore': no results in the collection window",
       "google_news: query 'plastic recycling Udupi': no results in the collection window",
-      "google_news: query 'MoEFCC plastic waste': no results in the collection window",
       "google_news: query 'plastic recycling tender India': no results in the collection window",
       "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
       "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
       "government: MoEFCC: no plastics-related links on the page today",
       "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
-      "url resolution: landed on news.google.com, 591192 bytes, 57 links, markers: canonical, c-wiz"
+      "url resolution: landed on news.google.com, 593552 bytes, 57 links, markers: canonical, c-wiz",
+      "merged 2 article(s) already reported earlier today; a re-run adds to the day's report rather than replacing it"
     ],
     "sources_ok": [
-      "google_news (334 items)",
+      "google_news (358 items)",
       "rss (130 items)",
       "government (0 items)"
     ]
   },
   "articles": [
+    {
+      "title": "Avro India recycling contributes Rs 11.6 crore in H1 FY27 - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSU10VGluWVROaDh2TzZTT1lfQXhEN0tWRWlUMXhLQUNwMTZhX01aOVQteHJWTnl2VTZwVXBpVXFwdTI2elJkTVgzeDdOamJFdU5kLURQQnJVajYzWHNjWEJnNkZjM3NTc1dLa2xhNUFNR0s2dFdET29Tc29OSGVLMGdYcUE4OXZaMUNwWTRKbEZTMFJtOFd4TGVvRjlWekcxRnotUGVlMkxWdG5tRnc?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-27T12:23:12+00:00",
+      "description": "Avro India recycling contributes Rs 11.6 crore in H1 FY27 Multibagg AI",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Investment / funding / acquisition",
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ce0d28a8bd6b45c0",
+      "normalized_title": "avro india recycling contributes rs 11 6 crore h1 fy27",
+      "origin": "google_news:plastic recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gujarat leads with 62 registered compostable plastic manufacturers, accounts for 16 pc of total - The Hans India",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXR5elpKWW8xUnZIeGZKVEUxQkdwbVNpVF9hdHFDZTE4OE93aWhDS2IwTmFMN0QxUjUySEpkOXJ0M1pBbDZYOWwtMC1JVHNVcG5UMnZoYmIzN3NDY2N5WEs5WVB1azNCcl9icFQ2c2I4YzJFMnEyNkg0UWZzaldpVlZjb1JXelFkWVJxa0tTc21wUnZ5NU1uc3dhczBiYkFIbENUajJaa3FYVlp6WHY2VEx2bHJsVTc1eUF5clFhSG1kOEYwOEx5YTNBd3BZdHJFU1NCT29acUl4UVYtaVHSAeMBQVVfeXFMUDlXRExET1Z1ZExsX0lpUUt5Z2lDSzUxNVdPZ082aW5HaHR6dHc1TGY2MUNmc25rSDFkUklMb1ZCV2pmeWRFdDI3MGNaSVBPZUdQeTdXSzhCWDZzOGtkUHk1eXI5N2YySDBjOWt4WGtsS25ZaFJDeElfUldIcUszUDNxUFZGS0tlUnNjOWd0bmJlMmRKZDQ1ZWNMMDhMaGFaRl8yVUFNS2xxWXN6bXZlU29NMm9laGlZRGFnUklDZVppc3c5elFybzRrRElpY2pWUjFOelI0aHJ1QkQ4a25uYkJjOTQ?oc=5",
+      "source": "The Hans India",
+      "published_at": "2026-11-27T15:58:53+00:00",
+      "description": "Gujarat leads with 62 registered compostable plastic manufacturers, accounts for 16 pc of total The Hans India",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8e937067a8a83edf",
+      "normalized_title": "gujarat leads 62 registered compostable plastic manufacturers accounts 16 pc total",
+      "origin": "google_news:CPCB plastic waste",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gujarat Leads India in Compostable Plastic Manufacturing with 62 Certified Units - Gujarat Samachar",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNT21iVkVFQWRaVUs1bUFHaVdRWEQ2enNVTnJiY2ZkVGlTdXBaS01hTVNPbFM3R1lwUmtKUkVjMC1uOXFPdlUybUh1bmRtdkxUcTEtWnVvQ2VJanBBaEVpNTZjWE1TMUkxYUlzWV84X0F3b2pDS0hXazJDMnNmbmNDQkswbUh5UDlTM1R1SFRSaG00VXZ2OTNTN3RWZnBrMkg2WndaMTlzcjFzdjkwSzhoZE1tM2cxaTZTZy0zY2kxOTcxYXh4RVptNnpEaXM2N1lJQnpvd0tmUEc?oc=5",
+      "source": "Gujarat Samachar",
+      "published_at": "2026-11-27T13:48:34+00:00",
+      "description": "Gujarat Leads India in Compostable Plastic Manufacturing with 62 Certified Units Gujarat Samachar",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "a5859e14fd067436",
+      "normalized_title": "gujarat leads india compostable plastic manufacturing 62 certified units",
+      "origin": "google_news:CPCB plastic waste",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Avro India Limited Recycling Revenue Rises 102.6% in Q2 FY27 - Multibagg AI",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdkkwM2VXUV9zSXlhSENsZmtfdU94R25SUGRGWlVRYUhSZUdoY3RrUGJSQ0Z5dVRUMVZlN2d2UExHbmRocXphcUllQll3WVg1VGgtUDZsNW45WU1LSUZ3MHdEekhGRFB2T1ZwUDhreHZkOTdQYUFJY0tOOWt4SndIMVlib2RNMElnMjZpbnJzY2g2OGFzdEhuV2VIMnlhVmxGeVFGTGw5eTVibWR5bDdTRw?oc=5",
+      "source": "Multibagg AI",
+      "published_at": "2026-11-27T12:25:58+00:00",
+      "description": "Avro India Limited Recycling Revenue Rises 102.6% in Q2 FY27 Multibagg AI",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "COMPANY_NEWS"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "c41d8f970c3de4fa",
+      "normalized_title": "avro india limited recycling revenue rises 102 6 q2 fy27",
+      "origin": "google_news:recycled polymer India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
     {
       "title": "Petrochemical News - Indian Oil plans to nearly triple PP copolymer capacity to 1 million mt/year by 2028 - Polymerupdate",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCZkxTVlQ1REhfaE02aG4wS3RCYmNnclJ1azdIeXB2U3FuWkRDa2UtVk43WWJuVkZSN0FwVGdwRFpmZElHa1ozQ3p4aHVMVUhNbTZNWDlHcC13ZWJzZW5R?oc=5",
