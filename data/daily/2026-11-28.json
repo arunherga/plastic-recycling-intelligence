@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T10:50:55.054886+00:00",
+  "stats": {
+    "collected": 428,
+    "after_topic_gate": 57,
+    "unique": 19,
+    "new_since_last_run": 4,
+    "relevant": 0,
+    "high_priority": 0,
+    "opportunities": 0,
+    "source_errors": [
+      "rss: Packaging South Asia: HTTP request failed for https://packagingsouthasia.com/feed/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/feed/"
+    ],
+    "source_notes": [
+      "google_news: query 'plastic recycling Mangalore': no results in the collection window",
+      "google_news: query 'plastic recycling Udupi': no results in the collection window",
+      "google_news: query 'plastic recycling tender India': no results in the collection window",
+      "google_news: query 'plastic waste tender Karnataka': no results in the collection window",
+      "rss: Packaging South Asia: feed discovery failed (HTTP request failed for https://packagingsouthasia.com/: 403 Client Error: Forbidden for url: https://packagingsouthasia.com/)",
+      "government: MoEFCC: no plastics-related links on the page today",
+      "url resolution: 0 of 1 aggregator links resolved to the publisher's own address",
+      "url resolution: landed on news.google.com, 591509 bytes, 57 links, markers: canonical, c-wiz"
+    ],
+    "sources_ok": [
+      "google_news (298 items)",
+      "rss (130 items)",
+      "government (0 items)"
+    ]
+  },
+  "articles": [
+    {
+      "title": "Gujarat High Court Dismisses Customs Appeal in Plastic Waste Rules Export Case — Supreme Court Precedent on Non-Applicability of Plastic Waste Rules to Gutkha Exports Upheld. The Court held that the Plastic Waste (Management and Handling) Rules, - Lawtext",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oUTlna29PRnZJcW5iYl92ME85WXRXQ3BCblJST01kWW4yelFxSUc3QnNXWUR6RGkzSDdzNTlzZXVJTExMRDJPbmlxLWR4dEhTVXk3OGk2X29kNHBIXzVfRGgtTnN3Zw?oc=5",
+      "source": "Lawtext",
+      "published_at": "2026-11-26T22:11:01+00:00",
+      "description": "Gujarat High Court Dismisses Customs Appeal in Plastic Waste Rules Export Case — Supreme Court Precedent on Non-Applicability of Plastic Waste Rules to Gutkha Exports Upheld. The Court held that the Plastic Waste (Management and Handling) Rules, Lawtext",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "REGULATION",
+        "MARKET"
+      ],
+      "keywords": [],
+      "relevance_score": 3,
+      "score_reasons": [
+        "Core topic: plastic recycling"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "dc9871d0cef4ac64",
+      "normalized_title": "gujarat high court dismisses customs appeal plastic waste rules export case supreme court precedent non applicability plastic waste rules gutkha exports upheld court held plastic waste management handling rules",
+      "origin": "google_news:Plastic Waste Management Rules",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gujarat Tops India with 62 Registered Compostable Plastic Manufacturers - The Blunt Times",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYmJRVzdhb1Bmenhlekw0NXZhUEUtS1NnUjNBSWRoX3B2OU1ET3QyZlIzTk13SWFCNTQ3c3lXUkF5VVl2M3VINlVJTVRXOHd0LVVVblhuRm9MMWJFeEZvSmF4Nnd4VkJUdkQ3N3FkRFRmdWI0SEdTZ05ORFNoVXI1TXdkUW5yNDNPUzYzOTJMMzlVQjlfaTdxNWlFSlhWR0cwTmdxN0Fn?oc=5",
+      "source": "The Blunt Times",
+      "published_at": "2026-11-28T08:25:59+00:00",
+      "description": "Gujarat Tops India with 62 Registered Compostable Plastic Manufacturers The Blunt Times",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 1,
+      "score_reasons": [
+        "Widely reported (7 outlets)"
+      ],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "8161da61e3d076aa",
+      "normalized_title": "gujarat tops india 62 registered compostable plastic manufacturers",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 6,
+      "ai_summary": ""
+    },
+    {
+      "title": "Plast Pack 2026 Witnesses Massive Footfall as Thousands Explore Latest Plastic Industry Technologies - India's News.Net",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNVFrRS1YQllGLWMyM29RV1NvZDF0OWg1UXF4aHIydFpzczBJWFk0QVVMYk82LTY1ZTFiX3k5RHpKU1EtY2N5bzduYTJfd0xjTkN1X1YzTExxdWZ6VVEwS2dvZkdhSFpjQ1dRSVp4MmJMTUhqVXFoUHpPOHp1U1AyN2pJVFBKbVdGMjJXWFdlYWV6LUowcHNqck96OUQyX2JkdmtkT3dxQ1JMZFdBVGhwR1FNNGFlWEktcFFFbkEzaUI5dEhzdjhmdUJqQnpuTDY2UW1iWV85dF9NQQ?oc=5",
+      "source": "India's News.Net",
+      "published_at": "2026-11-28T10:35:41+00:00",
+      "description": "Plast Pack 2026 Witnesses Massive Footfall as Thousands Explore Latest Plastic Industry Technologies India's News.Net",
+      "location": [
+        "India (national)"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "b96378c9a8eaa954",
+      "normalized_title": "plast pack 2026 witnesses massive footfall thousands explore latest plastic industry technologies",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 1,
+      "ai_summary": ""
+    },
+    {
+      "title": "Gujarat Tops India in Compostable Plastics Manufacturing with 62 Units - DeshGujarat",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRV9kYjZBUUtQSEZ0VnE0RGxPemZvMzZBRWw5eDJjdU9DRURYbVkxNDVVeWpvbGFmWlE5SzVsY01VVllvYnJmTmtoYWh1QkFyWE9iQlAwbEpDY2pFWWFsdy12ZFAybkpXN2h5SFByNWF2cnVRUjhJXzFZNHgzUTZGSmJRcnhYZnNJVXdISVZOTDFyT3JVeFNQTmZhaHRLaF9mSFBtSmE5b04yQQ?oc=5",
+      "source": "DeshGujarat",
+      "published_at": "2026-11-27T13:06:33+00:00",
+      "description": "Gujarat Tops India in Compostable Plastics Manufacturing with 62 Units DeshGujarat",
+      "location": [
+        "Gujarat"
+      ],
+      "category": [
+        "OTHER"
+      ],
+      "keywords": [],
+      "relevance_score": 0,
+      "score_reasons": [],
+      "business_opportunity": false,
+      "opportunity_type": [],
+      "article_id": "ce2d4f73737aaf2f",
+      "normalized_title": "gujarat tops india compostable plastics manufacturing 62 units",
+      "origin": "google_news:plastic waste recycling India",
+      "duplicate_of": null,
+      "duplicate_count": 0,
+      "ai_summary": ""
+    }
+  ]
+}
